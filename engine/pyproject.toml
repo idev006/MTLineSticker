@@ -1,6 +1,11 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "line-sticker-pipeline"
-version = "0.1.0"
+name = "mt-line-sticker-studio"
+version = "0.2.0"
+description = "Desktop production engine for preparing static LINE sticker assets from bordered contact sheets"
 requires-python = ">=3.11"
 dependencies = [
   "opencv-python>=4.10",
@@ -13,11 +18,16 @@ desktop = ["PySide6>=6.8"]
 ai = ["onnxruntime>=1.20"]
 ocr = ["pytesseract>=0.3.13", "paddleocr>=3.0"]
 test = ["pytest>=8.0"]
-
-[tool.pytest.ini_options]
-pythonpath = ["."]
-testpaths = ["tests"]
+build = ["PyInstaller>=6.0"]
+all = ["PySide6>=6.8", "onnxruntime>=1.20", "pytesseract>=0.3.13", "pytest>=8.0", "PyInstaller>=6.0"]
 
 [project.scripts]
-line-sticker-pipeline = "line_sticker_pipeline.cli:main"
-line-sticker-desktop = "line_sticker_pipeline.ui:main"
+mt-line-sticker = "line_sticker_pipeline.cli:main"
+mt-line-sticker-desktop = "line_sticker_pipeline.ui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
