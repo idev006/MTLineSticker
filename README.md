@@ -7,7 +7,7 @@ Repository SSOT for the LINE sticker project focused on Thai administrative poli
 - Product: Set 01, 40 static LINE stickers
 - Content status: Caption Candidate v0.9
 - Character status: Paper-Tear Mascot v0.5, not yet Master Locked
-- Engine status: Python RC baseline stored in `engine/`
+- Engine status: Python engine + PySide6 desktop source stored under `engine/`
 - Production rule: technical PASS is not sufficient; Visual QA remains a mandatory release gate
 
 ## SSOT map
@@ -19,20 +19,24 @@ Repository SSOT for the LINE sticker project focused on Thai administrative poli
 - `docs/character/17_CHARACTER_BIBLE_v0.5_PAPER_TEAR.md`
 - `docs/character/18_CHARACTER_PROP_SHEET_PRODUCTION_BRIEF_v0.5.md`
 - `docs/production/07_PRODUCTION_PIPELINE.md`
+- `docs/production/12_ENGINE_IMPLEMENTATION_BASELINE.md`
+- `docs/production/13_DESKTOP_UI_UX_BASELINE.md`
 - `docs/marketing/08_GO_TO_MARKET.md`
 - `docs/qa/09_QA_CHECKLIST.md`
 - `docs/10_ROADMAP.md`
 - `docs/11_DECISION_LOG.md`
 - `engine/README.md`
-- `engine/MTLineSticker-engine-python-source.zip`
 
 ## Python production engine
-The repository now also stores the Python engine project used for bordered contact-sheet processing. The source snapshot includes OpenCV/NumPy/Pillow processing, LINE technical validation, folder scanning, parallel workers, SQLite job state, locking, package generation, CLI, PySide6 shell source, tests, and engine documentation.
+The canonical source is now directly versioned under `engine/src/line_sticker_pipeline/`, with packaging in `engine/pyproject.toml` and Windows helper scripts in `engine/tools/`.
 
-See `engine/README.md` and `engine/MTLineSticker-engine-python-source.zip`.
+Implemented capabilities include bordered contact-sheet processing, conservative background removal, LINE technical validation, folder scanning, configurable spawn-based parallel workers, SQLite job state, locking, transactional output, package generation, CLI, and a PySide6 desktop shell with scan/queue/progress/cancel/preview/log workflow.
 
 ## Design principle
 **Workflow-first + Distinctiveness-first.** Captions come from real work situations; the character must be recognisable without relying on uniform, text or props alone.
 
 ## Engineering principle
 **Document-driven + Engine-first + Visual-QA-gated.** Project decisions and implementation must follow versioned documents; uncertain or visually defective outputs must not silently become PASS.
+
+## Desktop release status
+Desktop source is implemented, but native Windows runtime/UAT and clean-machine executable validation remain mandatory before calling the Windows binary a Production Release.
