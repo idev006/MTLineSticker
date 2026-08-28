@@ -11,12 +11,16 @@ from PIL import Image
 
 @dataclass
 class EngineConfig:
+    output_mode: str = 'frame_crop'
     output_width: int = 370
     output_height: int = 320
     inner_border_crop: int = 8
     bg_tolerance: int = 42
     bg_softness: int = 18
-    fit_margin: int = 10
+    fit_margin: int = 20
+    edge_spill_tolerance: int = 150
+    edge_spill_radius: int = 8
+    final_edge_cleanup_radius: int = 4
 
 
 class StickerEngine:
@@ -59,7 +63,7 @@ class StickerEngine:
     def process_sheet(self, sheet_path: str | Path, output_dir: str | Path, start_index: int = 1) -> Dict[str, Any]:
         output_dir = Path(output_dir)
         output_dir.mkdir(parents=True, exist_ok=True)
-        image = cv2.imread(str(sheet_path), cv2.IMREAD_COLOR)
+        image = read_color_image(sheet_path)
         if image is None:
             raise ValueError(f'cannot read image: {sheet_path}')
         rects = self.detect_frames(image)
@@ -68,19 +72,29 @@ class StickerEngine:
 
         items = []
         idx = start_index
-        numbered_sheet = self._sheet_has_frame_numbers(image, rects)
+        numbered_sheet = self._sheet_has_frame_numbers(image, rects) if self.config.output_mode == 'line_sticker' else False
         for order, (x, y, w, h) in enumerate(rects, start=1):
-            crop = image[y:y+h, x:x+w].copy()
-            rgba = self.extract_sticker_rgba(crop, remove_frame_number=numbered_sheet)
-            fitted = self.fit_to_canvas(rgba, self.config.output_width, self.config.output_height, self.config.fit_margin)
+            crop_x,crop_y,crop_w,crop_h = inset_rect(x,y,w,h,self.config.inner_border_crop,image.shape[1],image.shape[0])
+            crop = image[crop_y:crop_y+crop_h, crop_x:crop_x+crop_w].copy()
             out_name = f'{idx:02d}.png'
             out_path = output_dir / out_name
-            Image.fromarray(fitted, mode='RGBA').save(out_path, dpi=(72, 72), optimize=True)
+            if self.config.output_mode == 'frame_crop':
+                output = cv2.cvtColor(crop, cv2.COLOR_BGR2RGB)
+                Image.fromarray(output, mode='RGB').save(out_path, dpi=(72, 72), optimize=True)
+                output_size = [int(crop_w), int(crop_h)]
+            elif self.config.output_mode == 'line_sticker':
+                rgba = self.extract_sticker_rgba(crop, remove_frame_number=numbered_sheet)
+                output = self.fit_to_canvas(rgba, self.config.output_width, self.config.output_height, self.config.fit_margin, source_bg=estimate_bg_color(cv2.cvtColor(crop, cv2.COLOR_BGR2RGB)))
+                Image.fromarray(output, mode='RGBA').save(out_path, dpi=(72, 72), optimize=True)
+                output_size = [self.config.output_width, self.config.output_height]
+            else:
+                raise ValueError(f'unknown output mode: {self.config.output_mode}')
             items.append({
                 'index': idx, 'frame_order': order,
                 'frame_rect': [int(x), int(y), int(w), int(h)],
+                'crop_rect': [int(crop_x), int(crop_y), int(crop_w), int(crop_h)],
                 'output_file': out_name,
-                'output_size': [self.config.output_width, self.config.output_height],
+                'output_size': output_size,
                 'file_size_bytes': out_path.stat().st_size,
                 'sha256': sha256_file(out_path),
             })
@@ -89,6 +103,7 @@ class StickerEngine:
         sheet_report = {
             'sheet': Path(sheet_path).name,
             'sheet_size': list(Image.open(sheet_path).size),
+            'output_mode': self.config.output_mode,
             'frames_detected': len(rects), 'stickers_exported': len(items), 'stickers': items,
         }
         (output_dir / 'sheet_report.json').write_text(json.dumps(sheet_report, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -135,9 +150,10 @@ class StickerEngine:
         low = max(1.0, float(self.config.bg_tolerance - self.config.bg_softness))
         soft = np.clip((dist - low) / max(1.0, high - low), 0.0, 1.0)
         alpha[outside > 0] = np.round(soft[outside > 0] * 255.0).astype(np.uint8)
+        alpha = suppress_edge_spill(alpha, dist, self.config.edge_spill_tolerance, self.config.edge_spill_radius, rgb, bg)
 
         rgb_clean = rgb.copy()
-        rgb_clean[alpha == 0] = 0
+        rgb_clean[alpha <= 2] = 0
 
         ys, xs = np.where(alpha > 2)
         if not len(xs):
@@ -163,13 +179,17 @@ class StickerEngine:
         rgb[:min(36,h), :min(55,w)] = bg
         return rgb
 
-    def fit_to_canvas(self, rgba: np.ndarray, out_w: int, out_h: int, margin: int) -> np.ndarray:
+    def fit_to_canvas(self, rgba: np.ndarray, out_w: int, out_h: int, margin: int, source_bg: np.ndarray | None = None) -> np.ndarray:
         h, w = rgba.shape[:2]
         if h <= 0 or w <= 0:
             raise ValueError('empty RGBA sticker')
+        if margin < 0 or out_w <= margin * 2 or out_h <= margin * 2:
+            raise ValueError('invalid output canvas margin')
         scale = min((out_w - 2*margin)/w, (out_h - 2*margin)/h)
         new_w = max(2, int(round(w*scale))); new_h = max(2, int(round(h*scale)))
         resized = resize_rgba_premultiplied(rgba, (new_w, new_h))
+        if source_bg is not None:
+            resized = final_edge_cleanup(resized, source_bg, self.config.final_edge_cleanup_radius)
         canvas = np.zeros((out_h, out_w, 4), dtype=np.uint8)
         x=(out_w-new_w)//2; y=(out_h-new_h)//2
         canvas[y:y+new_h, x:x+new_w] = resized
@@ -215,6 +235,17 @@ def dedupe_rects(rects: List[Tuple[int, int, int, int]]) -> List[Tuple[int, int,
     return kept
 
 
+def inset_rect(x: int, y: int, w: int, h: int, inset: int, max_w: int, max_h: int) -> tuple[int,int,int,int]:
+    inset=max(0,int(inset))
+    x0=min(max_w,max(0,int(x)+inset))
+    y0=min(max_h,max(0,int(y)+inset))
+    x1=max(0,min(max_w,int(x)+int(w)-inset))
+    y1=max(0,min(max_h,int(y)+int(h)-inset))
+    if x1 <= x0 or y1 <= y0:
+        raise ValueError('frame too small after border crop')
+    return x0,y0,x1-x0,y1-y0
+
+
 def estimate_bg_color(rgb: np.ndarray) -> np.ndarray:
     h,w,_=rgb.shape; size=max(8,min(h,w)//12); border=max(6,min(h,w)//40)
     samples=[rgb[:size,:size],rgb[:size,-size:],rgb[-size:,:size],rgb[-size:,-size:],
@@ -226,6 +257,59 @@ def estimate_bg_color(rgb: np.ndarray) -> np.ndarray:
 def color_distance(rgb: np.ndarray, bg: np.ndarray) -> np.ndarray:
     diff=rgb.astype(np.int32)-bg.reshape(1,1,3).astype(np.int32)
     return np.sqrt((diff*diff).sum(axis=2))
+
+
+def suppress_edge_spill(alpha: np.ndarray, dist: np.ndarray, tolerance: int, radius: int, rgb: np.ndarray | None = None, bg: np.ndarray | None = None) -> np.ndarray:
+    if radius <= 0 or tolerance <= 0:
+        return alpha
+    transparent = (alpha <= 8).astype(np.uint8)
+    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (radius * 2 + 1, radius * 2 + 1))
+    edge_band = cv2.dilate(transparent, kernel, iterations=1).astype(bool) & (alpha > 8)
+    spill = edge_band & (dist <= float(tolerance))
+    chroma_spill = np.zeros_like(edge_band, dtype=bool)
+    if rgb is not None and bg is not None:
+        rgb_i=rgb.astype(np.int16)
+        bg_i=bg.astype(np.int16)
+        green_blue_bias=((rgb_i[...,1]-rgb_i[...,0]) > max(18, int((bg_i[1]-bg_i[0]) * 0.20))) & ((rgb_i[...,2]-rgb_i[...,0]) > max(8, int((bg_i[2]-bg_i[0]) * 0.15)))
+        chroma_spill = edge_band & green_blue_bias & (dist <= float(tolerance + 36))
+        spill = spill | chroma_spill
+    if not np.any(spill):
+        return alpha
+    cleaned = alpha.copy()
+    spill_alpha = np.square(np.clip(dist[spill] / max(1.0, float(tolerance)), 0.0, 1.0)) * 255.0
+    cleaned[spill] = np.minimum(cleaned[spill], np.round(spill_alpha).astype(np.uint8))
+    cleaned[(edge_band & (dist <= float(tolerance) * 0.50))] = 0
+    cleaned[chroma_spill] = 0
+    return cleaned
+
+
+def final_edge_cleanup(rgba: np.ndarray, bg: np.ndarray, radius: int) -> np.ndarray:
+    if radius <= 0 or rgba.size == 0:
+        return rgba
+    out=rgba.copy()
+    alpha=out[...,3]
+    transparent=(alpha <= 8).astype(np.uint8)
+    kernel=cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(radius*2+1,radius*2+1))
+    edge_band=cv2.dilate(transparent,kernel,iterations=1).astype(bool) & (alpha > 8)
+    rgb=out[...,:3].astype(np.int16)
+    bg_i=bg.astype(np.int16)
+    dist=color_distance(out[...,:3],bg)
+    green_blue_bias=((rgb[...,1]-rgb[...,0]) > max(16, int((bg_i[1]-bg_i[0]) * 0.16))) & ((rgb[...,2]-rgb[...,0]) > max(6, int((bg_i[2]-bg_i[0]) * 0.12)))
+    spill=edge_band & green_blue_bias & (dist <= 220.0)
+    near_bg=edge_band & (dist <= 70.0)
+    out[spill | near_bg,3]=0
+    out[out[...,3] <= 2,:3]=0
+    return out
+
+
+def read_color_image(path: str | Path) -> np.ndarray | None:
+    path=Path(path)
+    if not path.is_file():
+        return None
+    data=np.fromfile(path,dtype=np.uint8)
+    if data.size == 0:
+        return None
+    return cv2.imdecode(data,cv2.IMREAD_COLOR)
 
 
 def sha256_file(path: Path) -> str:

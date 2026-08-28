@@ -22,33 +22,6 @@ from .parallel import ProcessingCancelled
 APP_NAME='MT LINE Sticker Studio'
 ORG_NAME='MTDEV'
 
-STYLE='''
-QMainWindow,QWidget{background:#f5f7fb;color:#162033;font-size:13px}
-QFrame#Header{background:#18263d;border-radius:14px}
-QLabel#Title{color:white;font-size:24px;font-weight:700}
-QLabel#Subtitle{color:#b9c8df}
-QGroupBox{background:white;border:1px solid #dde4ee;border-radius:12px;margin-top:10px;padding:14px;font-weight:600}
-QGroupBox::title{subcontrol-origin:margin;left:14px;padding:0 6px}
-QLineEdit,QSpinBox{background:white;border:1px solid #cfd8e6;border-radius:7px;padding:8px;min-height:20px}
-QPushButton{background:#e9eef6;border:0;border-radius:8px;padding:9px 13px;font-weight:600}
-QPushButton:hover{background:#dce5f1}
-QPushButton#Primary{background:#2474e5;color:white}
-QPushButton#Primary:hover{background:#1766d0}
-QPushButton#Danger{background:#fff0f0;color:#b42318}
-QPushButton:disabled{color:#9aa6b5;background:#edf0f4}
-QProgressBar{border:0;background:#e5ebf3;border-radius:6px;height:12px;text-align:center}
-QProgressBar::chunk{background:#2474e5;border-radius:6px}
-QTabWidget::pane{border:1px solid #dde4ee;background:white;border-radius:10px}
-QTabBar::tab{padding:10px 16px;background:#e9eef6;margin-right:2px}
-QTabBar::tab:selected{background:white;color:#1766d0;font-weight:600}
-QTableWidget{background:white;border:0;gridline-color:#edf1f5;selection-background-color:#e7f0ff}
-QHeaderView::section{background:#f6f8fb;border:0;border-bottom:1px solid #dde4ee;padding:8px;font-weight:600}
-QPlainTextEdit{background:#101827;color:#d5e1f2;border:0;border-radius:8px;padding:8px;font-family:Consolas,monospace}
-QListWidget{background:white;border:0}
-QLabel#MetricValue{font-size:24px;font-weight:700;color:#162033}
-QLabel#MetricName{color:#718096}
-'''
-
 class PipelineWorker(QObject):
     progress=Signal(str,float,str); finished=Signal(dict); failed=Signal(str); cancelled=Signal()
     def __init__(self,input_dir:str,output_dir:str,workers:int,recursive:bool,auto_package:bool):
@@ -71,8 +44,8 @@ class PipelineWorker(QObject):
 
 class MetricCard(QFrame):
     def __init__(self,name:str,value:str='—'):
-        super().__init__(); self.setStyleSheet('QFrame{background:white;border:1px solid #dde4ee;border-radius:10px;padding:8px}')
-        l=QVBoxLayout(self); l.setContentsMargins(12,8,12,8)
+        super().__init__(); self.setFrameShape(QFrame.StyledPanel)
+        l=QVBoxLayout(self); l.setContentsMargins(16,12,16,12); l.setSpacing(4)
         self.value=QLabel(value); self.value.setObjectName('MetricValue'); name_label=QLabel(name); name_label.setObjectName('MetricName')
         l.addWidget(self.value); l.addWidget(name_label)
 
@@ -83,37 +56,40 @@ class MainWindow(QMainWindow):
         self._build(); self._restore_settings(); self.setAcceptDrops(True)
 
     def _build(self):
-        root=QWidget(); self.setCentralWidget(root); outer=QVBoxLayout(root); outer.setContentsMargins(18,18,18,18); outer.setSpacing(12)
-        header=QFrame(); header.setObjectName('Header'); hl=QHBoxLayout(header); hl.setContentsMargins(20,14,20,14)
-        txt=QVBoxLayout(); title=QLabel('MT LINE Sticker Studio'); title.setObjectName('Title'); sub=QLabel('Contact sheet → transparent stickers → LINE technical preflight → package'); sub.setObjectName('Subtitle')
-        txt.addWidget(title); txt.addWidget(sub); hl.addLayout(txt); hl.addStretch(); self.header_status=QLabel('READY'); self.header_status.setStyleSheet('color:#a8e6bf;font-weight:700'); hl.addWidget(self.header_status); outer.addWidget(header)
+        root=QWidget(); self.setCentralWidget(root); outer=QVBoxLayout(root); outer.setContentsMargins(18,16,18,14); outer.setSpacing(12)
+        header=QFrame(); header.setFrameShape(QFrame.StyledPanel); hl=QHBoxLayout(header); hl.setContentsMargins(20,15,20,15); hl.setSpacing(14)
+        txt=QVBoxLayout(); title=QLabel('MT LINE Sticker Studio'); title.setObjectName('Title'); sub=QLabel('Contact sheet → frame crops. LINE cleanup/package is a later step.'); sub.setObjectName('Subtitle')
+        txt.setSpacing(3); txt.addWidget(title); txt.addWidget(sub); hl.addLayout(txt); hl.addStretch(); self.header_status=QLabel('READY'); hl.addWidget(self.header_status); outer.addWidget(header)
 
-        setup=QGroupBox('งานและการประมวลผล'); sg=QGridLayout(setup)
+        setup=QGroupBox('งานและการประมวลผล'); sg=QGridLayout(setup); sg.setContentsMargins(18,20,18,16); sg.setHorizontalSpacing(10); sg.setVerticalSpacing(10)
         self.inp=QLineEdit(); self.inp.setPlaceholderText('เลือกโฟลเดอร์ที่มี contact-sheet images')
         self.out=QLineEdit(); self.out.setPlaceholderText('เลือกโฟลเดอร์ผลลัพธ์')
-        sg.addWidget(QLabel('Input folder'),0,0); sg.addWidget(self.inp,0,1); binp=QPushButton('เลือก…'); binp.clicked.connect(lambda:self._browse(self.inp)); sg.addWidget(binp,0,2)
-        sg.addWidget(QLabel('Output folder'),1,0); sg.addWidget(self.out,1,1); bout=QPushButton('เลือก…'); bout.clicked.connect(lambda:self._browse(self.out)); sg.addWidget(bout,1,2)
+        in_label=QLabel('Input folder'); in_label.setObjectName('FieldLabel'); out_label=QLabel('Output folder'); out_label.setObjectName('FieldLabel')
+        sg.addWidget(in_label,0,0); sg.addWidget(self.inp,0,1); binp=QPushButton('เลือก...'); binp.setFixedWidth(86); binp.clicked.connect(lambda:self._browse(self.inp)); sg.addWidget(binp,0,2)
+        sg.addWidget(out_label,1,0); sg.addWidget(self.out,1,1); bout=QPushButton('เลือก...'); bout.setFixedWidth(86); bout.clicked.connect(lambda:self._browse(self.out)); sg.addWidget(bout,1,2)
         opt=QHBoxLayout(); self.workers=QSpinBox(); self.workers.setRange(1,32); self.workers.setValue(max(1,min(4,(os.cpu_count() or 2)-1)))
-        self.recursive=QCheckBox('ค้นหาในโฟลเดอร์ย่อย'); self.package=QCheckBox('สร้าง LINE package อัตโนมัติ'); self.package.setChecked(True)
-        opt.addWidget(QLabel('Workers')); opt.addWidget(self.workers); opt.addSpacing(16); opt.addWidget(self.recursive); opt.addWidget(self.package); opt.addStretch(); sg.addLayout(opt,2,1,1,2)
+        self.recursive=QCheckBox('ค้นหาในโฟลเดอร์ย่อย'); self.package=QCheckBox('สร้าง LINE package อัตโนมัติในโหมด LINE'); self.package.setChecked(False)
+        workers_label=QLabel('Workers'); workers_label.setObjectName('FieldLabel'); self.workers.setFixedWidth(88)
+        opt.setSpacing(12); opt.addWidget(workers_label); opt.addWidget(self.workers); opt.addSpacing(8); opt.addWidget(self.recursive); opt.addWidget(self.package); opt.addStretch(); sg.addLayout(opt,2,1,1,2)
         buttons=QHBoxLayout(); self.scan_btn=QPushButton('สแกน'); self.start_btn=QPushButton('เริ่มประมวลผล'); self.start_btn.setObjectName('Primary'); self.cancel_btn=QPushButton('ยกเลิก'); self.cancel_btn.setObjectName('Danger'); self.cancel_btn.setEnabled(False)
         self.open_btn=QPushButton('เปิดโฟลเดอร์ผลลัพธ์'); self.open_btn.setEnabled(False)
         self.scan_btn.clicked.connect(self.scan); self.start_btn.clicked.connect(self.start_processing); self.cancel_btn.clicked.connect(self.cancel_processing); self.open_btn.clicked.connect(self.open_output)
+        buttons.setSpacing(8)
         for b in (self.scan_btn,self.start_btn,self.cancel_btn,self.open_btn): buttons.addWidget(b)
         buttons.addStretch(); sg.addLayout(buttons,3,1,1,2); outer.addWidget(setup)
 
-        metrics=QHBoxLayout(); self.m_files=MetricCard('Input files','0'); self.m_stickers=MetricCard('Stickers','0'); self.m_fail=MetricCard('Technical failures','0'); self.m_workers=MetricCard('Effective workers','—')
+        metrics=QHBoxLayout(); metrics.setSpacing(12); self.m_files=MetricCard('Input files','0'); self.m_stickers=MetricCard('Stickers','0'); self.m_fail=MetricCard('Technical failures','0'); self.m_workers=MetricCard('Effective workers','—')
         for m in (self.m_files,self.m_stickers,self.m_fail,self.m_workers): metrics.addWidget(m)
         outer.addLayout(metrics)
-        self.status=QLabel('พร้อมใช้งาน'); self.progress=QProgressBar(); self.progress.setRange(0,1000); outer.addWidget(self.status); outer.addWidget(self.progress)
+        self.status=QLabel('พร้อมใช้งาน'); self.status.setObjectName('SectionStatus'); self.progress=QProgressBar(); self.progress.setRange(0,1000); outer.addWidget(self.status); outer.addWidget(self.progress)
 
         self.tabs=QTabWidget(); outer.addWidget(self.tabs,1)
-        jobs=QWidget(); jl=QVBoxLayout(jobs); self.table=QTableWidget(0,5); self.table.setHorizontalHeaderLabels(['ไฟล์','สถานะ','ขั้นตอน','Progress','หมายเหตุ']); self.table.setSelectionBehavior(QAbstractItemView.SelectRows); self.table.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        jobs=QWidget(); jl=QVBoxLayout(jobs); jl.setContentsMargins(10,10,10,10); self.table=QTableWidget(0,5); self.table.setHorizontalHeaderLabels(['ไฟล์','สถานะ','ขั้นตอน','Progress','หมายเหตุ']); self.table.setSelectionBehavior(QAbstractItemView.SelectRows); self.table.setEditTriggers(QAbstractItemView.NoEditTriggers); self.table.setAlternatingRowColors(True); self.table.verticalHeader().setVisible(False); self.table.setShowGrid(False)
         self.table.horizontalHeader().setSectionResizeMode(0,QHeaderView.Stretch); self.table.horizontalHeader().setSectionResizeMode(4,QHeaderView.Stretch)
-        jl.addWidget(self.table); self.tabs.addTab(jobs,'งาน')
-        previews=QWidget(); pl=QVBoxLayout(previews); note=QLabel('Visual QA: ตรวจบนพื้นโปร่งใส/สว่าง/เข้มก่อนอนุมัติส่ง LINE'); note.setStyleSheet('color:#7a4d00;background:#fff8e7;padding:8px;border-radius:7px'); pl.addWidget(note)
+        self.table.verticalHeader().setDefaultSectionSize(34); jl.addWidget(self.table); self.tabs.addTab(jobs,'งาน')
+        previews=QWidget(); pl=QVBoxLayout(previews); pl.setContentsMargins(10,10,10,10); pl.setSpacing(10); note=QLabel('Visual QA: ตรวจบนพื้นโปร่งใส/สว่าง/เข้มก่อนอนุมัติส่ง LINE'); note.setFrameShape(QFrame.StyledPanel); pl.addWidget(note)
         self.preview=QListWidget(); self.preview.setViewMode(QListWidget.IconMode); self.preview.setResizeMode(QListWidget.Adjust); self.preview.setIconSize(QSize(185,160)); self.preview.setSpacing(8); self.preview.setMovement(QListWidget.Static); pl.addWidget(self.preview,1); self.tabs.addTab(previews,'Preview / Visual QA')
-        logs=QWidget(); ll=QVBoxLayout(logs); self.log=QPlainTextEdit(); self.log.setReadOnly(True); ll.addWidget(self.log); self.tabs.addTab(logs,'Log')
+        logs=QWidget(); ll=QVBoxLayout(logs); ll.setContentsMargins(10,10,10,10); self.log=QPlainTextEdit(); self.log.setReadOnly(True); ll.addWidget(self.log); self.tabs.addTab(logs,'Log')
 
     def _browse(self,edit:QLineEdit):
         d=QFileDialog.getExistingDirectory(self,'เลือกโฟลเดอร์',edit.text() or str(Path.home()))
@@ -135,7 +111,7 @@ class MainWindow(QMainWindow):
                 r=self.table.rowCount(); self.table.insertRow(r); dup=bool(item['duplicate']); unique += 0 if dup else 1
                 values=[item['path'].name,'DUPLICATE' if dup else 'READY','SCAN','0%','SHA-256 duplicate' if dup else 'พร้อมประมวลผล']
                 for c,v in enumerate(values): self.table.setItem(r,c,QTableWidgetItem(str(v)))
-            self.m_files.value.setText(str(unique)); self.status.setText(f'พบ {unique} ไฟล์ที่พร้อมประมวลผล'); self._log('SCAN',f'{unique} unique file(s), {len(rows)-unique} duplicate(s)')
+            self.m_files.value.setText(str(unique)); self.status.setText(f'พบ {unique} ไฟล์ที่พร้อมตัดเฟรม'); self._log('SCAN',f'{unique} unique file(s), {len(rows)-unique} duplicate(s)')
         except Exception as e: QMessageBox.critical(self,'Scan failed',str(e))
 
     def start_processing(self):
@@ -160,7 +136,22 @@ class MainWindow(QMainWindow):
 
     @Slot(dict)
     def on_finished(self,r):
-        self.last_report=r; self.header_status.setText('PASS'); self.status.setText(f"เสร็จสมบูรณ์ — {r['stickers']} stickers"); self.progress.setValue(1000); self.m_files.value.setText(str(r['input_images'])); self.m_stickers.value.setText(str(r['stickers'])); self.m_fail.value.setText(str(r['technical_failures'])); self.m_workers.value.setText(str(r['workers_effective'])); self.open_btn.setEnabled(True); self._load_preview(); self._load_job_rows(r.get('jobs',[])); self.tabs.setCurrentIndex(1); QMessageBox.information(self,'เสร็จสมบูรณ์',f"สร้าง {r['stickers']} stickers แล้ว\nTechnical preflight: PASS\nกรุณาตรวจ Visual QA ก่อนส่ง LINE")
+        self.last_report=r; blockers=r.get('package_blockers') or []; visual=(r.get('visual_qa') or {}).get('status','SKIPPED')
+        output_mode=r.get('output_mode','frame_crop'); output_label='frames' if output_mode=='frame_crop' else 'stickers'
+        self.header_status.setText('DONE' if output_mode=='frame_crop' else ('PASS' if not blockers else 'REVIEW'))
+        self.status.setText(f"เสร็จสมบูรณ์ — {r.get('outputs',r['stickers'])} {output_label}")
+        self.progress.setValue(1000); self.m_files.value.setText(str(r['input_images'])); self.m_stickers.value.setText(str(r['stickers'])); self.m_fail.value.setText(str(r['technical_failures'])); self.m_workers.value.setText(str(r['workers_effective'])); self.open_btn.setEnabled(True); self._load_preview(); self._load_job_rows(r.get('jobs',[])); self.tabs.setCurrentIndex(1)
+        msg=f"สร้าง {r.get('outputs',r['stickers'])} {output_label} แล้ว"
+        if output_mode=='line_sticker':
+            msg += f"\nTechnical preflight: PASS\nVisual QA: {visual}"
+        else:
+            msg += "\nโหมดนี้ตัดเฟรมเท่านั้น: ไม่ remove background, ไม่ resize, ไม่สร้าง LINE package"
+        if blockers:
+            msg += "\nPackage blocked:\n- " + "\n- ".join(blockers)
+        else:
+            msg += "\nPackage: READY"
+        msg += "\n\nกรุณาตรวจผลลัพธ์ก่อนนำไปขั้นตอน LINE cleanup/package"
+        QMessageBox.information(self,'เสร็จสมบูรณ์',msg)
 
     @Slot(str)
     def on_failed(self,msg): self.header_status.setText('FAIL'); self.status.setText('ประมวลผลไม่สำเร็จ'); self._log('ERROR',msg); QMessageBox.critical(self,'Processing failed',msg)
@@ -172,7 +163,8 @@ class MainWindow(QMainWindow):
         if not running and self.header_status.text() not in ('PASS','FAIL','CANCELLED'): self.header_status.setText('READY')
 
     def _load_preview(self):
-        self.preview.clear(); folder=Path(self.out.text())/'stickers'
+        self.preview.clear(); folder=Path(self.out.text())/'frames'
+        if not folder.exists(): folder=Path(self.out.text())/'stickers'
         for p in sorted(folder.glob('*.png')):
             pix=QPixmap(str(p)); item=QListWidgetItem(QIcon(pix),p.stem); item.setData(Qt.UserRole,str(p)); item.setToolTip(str(p)); self.preview.addItem(item)
 
@@ -202,7 +194,7 @@ class MainWindow(QMainWindow):
 
 
 def main():
-    app=QApplication(sys.argv); app.setApplicationName(APP_NAME); app.setOrganizationName(ORG_NAME); app.setStyleSheet(STYLE)
+    app=QApplication(sys.argv); app.setApplicationName(APP_NAME); app.setOrganizationName(ORG_NAME)
     win=MainWindow(); win.show(); return app.exec()
 
 if __name__=='__main__': raise SystemExit(main())

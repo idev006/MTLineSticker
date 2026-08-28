@@ -11,6 +11,7 @@ from .jobdb import JobStore
 from .locking import FileLock
 from .validator import StaticStickerValidator
 from .packaging import LineStaticPackageBuilder
+from .visualqa import VisualQaInspector
 
 
 @dataclass
@@ -18,6 +19,7 @@ class PipelineOptions:
     workers: int = 2
     recursive: bool = False
     package_when_valid_count: bool = True
+    require_visual_qa_pass_for_package: bool = True
 
 
 class ProductionPipeline:
@@ -56,42 +58,61 @@ class ProductionPipeline:
                 results=runner.run([x['path'] for x in unique],work/'processed',progress=cb,should_cancel=cancelled)
                 check_cancel()
 
-                sticker_paths=[]
+                output_paths=[]
                 for result in results:
                     sheet_dir=work/'processed'/Path(result['sheet']).stem
                     src=next(x['path'] for x in unique if x['path'].name==result['sheet'])
                     jid=jobs[str(src)]
-                    for item in result['stickers']: sticker_paths.append(sheet_dir/item['output_file'])
-                    store.transition(jid,'PASSED','TECHNICAL_QA',90)
+                    for item in result['stickers']: output_paths.append(sheet_dir/item['output_file'])
+                    store.transition(jid,'PASSED','FRAME_EXPORT' if self.config.output_mode == 'frame_crop' else 'TECHNICAL_QA',90)
 
-                if progress: progress('QA',90,f'Validating {len(sticker_paths)} sticker(s)')
-                failed=[v for v in StaticStickerValidator().validate_many(sticker_paths) if not v.passed]
-                if failed:
-                    for jid in jobs.values(): store.transition(jid,'FAILED','TECHNICAL_QA',90,error='technical validation failed')
-                    raise RuntimeError(f'{len(failed)} sticker(s) failed technical validation')
-                check_cancel()
+                technical_failures=0
+                if self.config.output_mode == 'line_sticker':
+                    if progress: progress('QA',90,f'Validating {len(output_paths)} sticker(s)')
+                    failed=[v for v in StaticStickerValidator().validate_many(output_paths) if not v.passed]
+                    technical_failures=len(failed)
+                    if failed:
+                        for jid in jobs.values(): store.transition(jid,'FAILED','TECHNICAL_QA',90,error='technical validation failed')
+                        raise RuntimeError(f'{len(failed)} sticker(s) failed technical validation')
+                    check_cancel()
 
                 if progress: progress('EXPORT',94,'Committing final sticker files')
-                final_stickers=output_dir/'stickers'; temp_final=work/'final_stickers.tmp'
+                output_folder_name='frames' if self.config.output_mode == 'frame_crop' else 'stickers'
+                final_outputs=output_dir/output_folder_name; temp_final=work/'final_outputs.tmp'
                 if temp_final.exists(): shutil.rmtree(temp_final)
                 temp_final.mkdir(parents=True)
-                for idx,p in enumerate(sticker_paths,1): shutil.copy2(p,temp_final/f'{idx:02d}.png')
-                if final_stickers.exists(): shutil.rmtree(final_stickers)
-                temp_final.replace(final_stickers)
+                for idx,p in enumerate(output_paths,1): shutil.copy2(p,temp_final/f'{idx:02d}.png')
+                if final_outputs.exists(): shutil.rmtree(final_outputs)
+                temp_final.replace(final_outputs)
+
+                final_paths=sorted(final_outputs.glob('*.png'))
+                visual_qa=None
+                package_blockers=[]
+                if self.config.output_mode == 'line_sticker':
+                    if progress: progress('VISUAL_QA',96,'Building visual QA report')
+                    visual_qa=VisualQaInspector().inspect_many(final_paths,output_dir)
+                    if self.options.require_visual_qa_pass_for_package and visual_qa['status'] != 'PASS':
+                        package_blockers.append('visual_qa_review_required')
+                    if len(final_paths) not in (8,16,24,32,40):
+                        package_blockers.append(f'invalid_sticker_count:{len(final_paths)}')
+                else:
+                    package_blockers.append('frame_crop_mode_not_line_ready')
 
                 package=None
-                if self.options.package_when_valid_count and len(sticker_paths) in (8,16,24,32,40):
+                if self.options.package_when_valid_count and not package_blockers:
                     if progress: progress('PACKAGE',97,'Building LINE submission package')
                     package_dir=output_dir/'package'; package_dir.mkdir(exist_ok=True)
-                    package=LineStaticPackageBuilder().build(sorted(final_stickers.glob('*.png')),package_dir)
+                    package=LineStaticPackageBuilder().build(final_paths,package_dir)
 
                 for jid in jobs.values(): store.transition(jid,'COMPLETED','DONE',100)
                 report={'input_images':len(unique),'duplicate_images':sum(1 for x in scanned if x['duplicate']),
-                        'stickers':len(sticker_paths),'workers_requested':self.options.workers,
-                        'workers_effective':runner.effective_workers,'technical_failures':0,
+                        'output_mode':self.config.output_mode,'output_folder':output_folder_name,
+                        'stickers':len(output_paths),'outputs':len(output_paths),'workers_requested':self.options.workers,
+                        'workers_effective':runner.effective_workers,'technical_failures':technical_failures,
+                        'visual_qa':visual_qa,'package_blockers':package_blockers,
                         'package':package,'jobs':store.jobs()}
                 (output_dir/'production_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-                if progress: progress('DONE',100,f'Completed: {len(sticker_paths)} stickers')
+                if progress: progress('DONE',100,f'Completed: {len(output_paths)} {output_folder_name}')
                 return report
         except ProcessingCancelled:
             for jid in jobs.values():
