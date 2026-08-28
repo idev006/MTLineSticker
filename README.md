@@ -7,7 +7,8 @@ Repository SSOT for the LINE sticker project focused on Thai administrative poli
 - Product: Set 01, 40 static LINE stickers
 - Content status: Caption Candidate v0.9
 - Character status: Paper-Tear Mascot v0.5, not yet Master Locked
-- Production gate: Do **not** produce the full 40-sticker set until Character Master Sheet + Prop Sheet + Material Guide pass recognition/readability tests
+- Engine status: Python RC baseline stored in `engine/`
+- Production rule: technical PASS is not sufficient; Visual QA remains a mandatory release gate
 
 ## SSOT map
 - `docs/00_PROJECT_CHARTER.md`
@@ -22,6 +23,16 @@ Repository SSOT for the LINE sticker project focused on Thai administrative poli
 - `docs/qa/09_QA_CHECKLIST.md`
 - `docs/10_ROADMAP.md`
 - `docs/11_DECISION_LOG.md`
+- `engine/README.md`
+- `engine/MTLineSticker-engine-python-source.zip`
+
+## Python production engine
+The repository now also stores the Python engine project used for bordered contact-sheet processing. The source snapshot includes OpenCV/NumPy/Pillow processing, LINE technical validation, folder scanning, parallel workers, SQLite job state, locking, package generation, CLI, PySide6 shell source, tests, and engine documentation.
+
+See `engine/README.md` and `engine/MTLineSticker-engine-python-source.zip`.
 
 ## Design principle
 **Workflow-first + Distinctiveness-first.** Captions come from real work situations; the character must be recognisable without relying on uniform, text or props alone.
+
+## Engineering principle
+**Document-driven + Engine-first + Visual-QA-gated.** Project decisions and implementation must follow versioned documents; uncertain or visually defective outputs must not silently become PASS.
