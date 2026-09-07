@@ -1,0 +1,6 @@
+sticker_id,caption,domain,receiver,expression,pose,prop,status
+SET001-STK001,รับทราบครับ,acknowledge,supervisor,acknowledge,salute,READY folder,approved-caption
+SET001-STK002,ครับผม,acknowledge,supervisor,polite,neutral,,approved-caption
+SET001-STK003,ได้ครับ,acknowledge,any,friendly,thumbs-up,,approved-caption
+SET001-STK004,จัดให้ครับ,accept-task,any,confident,ready-action,,approved-caption
+SET001-STK005,รับเรื่องครับ,accept-task,any,deadpan,hold-folder,READY folder,approved-caption

@@ -1,0 +1,6 @@
+set_id,set_name,character,audience,theme,sticker_count,status,version,release_date
+SET-001-EVERYDAY-ADMIN,Everyday Admin,phi-prom,Thai police administrative staff,everyday work chat,40,CHARACTER_MAPPING,v0.9,
+SET-002-MEETING,Meeting,phi-prom,Thai police administrative staff,meeting workflow,40,IDEA,v0.1,
+SET-003-FOLLOWUP,Follow-up,phi-prom,Thai police administrative staff,follow-up and deadlines,40,IDEA,v0.1,
+SET-004-DOCUMENT,Document,phi-prom,Thai police administrative staff,document workflow,40,IDEA,v0.1,
+SET-005-OFFICE-LIFE,Office Life,phi-prom,Thai police administrative staff,relatable office life,40,IDEA,v0.1,
