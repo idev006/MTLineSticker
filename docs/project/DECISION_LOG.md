@@ -1,5 +1,17 @@
 # Decision Log
 
+## 2026-09-12 — Communication-first corrective framework upgrade
+- SET-006 Hero round 1 exposed a process defect: visually attractive outputs could still drift into chibi/infographic/scene illustration and fail as LINE communication assets.
+- Root cause: character lock existed, but the project framework did not make communication intent, chat use case, 1-second readability, individual-master production and Golden Reference control explicit enough.
+- Corrective action: CPDF upgraded to v1.1; Sticker Communication Standard and QA Standard upgraded; SET-006 Hero/QA/Visual/Production documents revised.
+- New mandatory rule: **one sticker = one primary communication intent** with exact caption, sender intent, likely chat situation, expression/action, minimum useful prop and active character reference defined before generation.
+- New mandatory test: **1-second communication test** at chat-preview scale.
+- New production rule: approved **individual sticker masters are SSOT**; multi-panel/contact sheets are QA artifacts and must not substitute for individual production approval.
+- New typography rule: AI-rendered Thai is candidate-level only until verified; deterministic typography is required when exact wording cannot be guaranteed.
+- Character correction rule: unapproved adult-to-chibi conversion is a blocking defect.
+- Owner approved H01 / “ล้างจานอยู่ครับ” as SET-006 Hero Golden Reference. H02–H06 must now be produced sequentially as standalone stickers and pass QA individually before the full Hero Gate can pass.
+- Full 40-sticker production remains blocked until Hero Fit Gate = PASS.
+
 ## 2026-08-27 — Caption review v0.9
 - Set 01 remains focused on Thai police administrative/work-support personnel and everyday work communication.
 - The 40-caption list was re-reviewed for workflow relevance, redundancy, practical frequency, clarity, emotional value, brand distinctiveness, and safety.
