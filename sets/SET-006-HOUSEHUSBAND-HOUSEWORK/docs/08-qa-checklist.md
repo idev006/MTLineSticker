@@ -1,78 +1,93 @@
 # 08 — QA Checklist
 
-## A. Communication QA — every frame
-- [ ] exact communication intent is defined
-- [ ] likely chat use case is obvious
-- [ ] image supports the caption rather than merely decorating it
-- [ ] pose/expression/action communicates the meaning before reading the caption
-- [ ] one primary message only; no competing story
-- [ ] still understandable at chat/thumbnail size
+**Version:** 1.1  
+**Applies to:** SET-006-HOUSEHUSBAND-HOUSEWORK
 
-## B. Character QA — every frame
-- [ ] matches the approved Character Sheet reference
-- [ ] adult proportions; NOT chibi
-- [ ] clean-shaven
-- [ ] very short police/military-inspired haircut + sharp neat hairline
-- [ ] same facial proportions and adult identity
-- [ ] same athletic body language
-- [ ] navy shirt unless an approved task adaptation is required
-- [ ] black shorts
+## A. Character Fit QA — every frame
+- [ ] approved Character Sheet is active during generation/review
+- [ ] H01 Golden Reference is used as the rendering/communication anchor
+- [ ] clean-shaven adult male identity preserved
+- [ ] police/military very-short haircut + sharp hairline preserved
+- [ ] same facial proportions / same adult age language
+- [ ] athletic adult body language; no unapproved chibi proportions
+- [ ] navy shirt unless approved task adaptation
+- [ ] black shorts when visible
 - [ ] orange shoes when visible
-- [ ] black tactical watch on LEFT wrist
-- [ ] crossbody bag only when context permits and does not interfere with the action
+- [ ] black tactical watch on left wrist
+- [ ] crossbody bag used only when it supports, or at least does not obstruct, the action
 
-## C. Caption QA
-- [ ] Thai spelling correct 100%
-- [ ] caption exactly matches Production Sheet
-- [ ] readable at small size
+## B. Communication Fit QA
+- [ ] one primary intent only
+- [ ] intended chat situation is written and obvious
+- [ ] image strengthens the caption rather than decorating it
+- [ ] expression + gesture/action communicate quickly
+- [ ] passes **1-second test** at chat-preview scale
+- [ ] key prop clarifies the action
+- [ ] props/scenery do not overwhelm character or caption
+- [ ] candidate reads as a sendable sticker, not a poster/infographic/scene illustration
+
+## C. Caption / Typography QA
+- [ ] exact approved Thai wording
+- [ ] Thai spelling and diacritics correct 100%
+- [ ] caption matches Production Sheet
+- [ ] readable after reduction to LINE delivery size
 - [ ] no accidental duplicate wording
-- [ ] natural Thai for the intended chat situation
-- [ ] not derogatory / humiliating
+- [ ] no derogatory / humiliating tone inconsistent with brand
+- [ ] AI-rendered Thai is not considered final until exact wording is verified
+- [ ] use deterministic text layer when exact generation typography cannot be guaranteed
 
-## D. Composition QA
-- [ ] content inside frame/safe area
-- [ ] no important crop
-- [ ] face + primary gesture are visually dominant
-- [ ] props simplified to the minimum needed
-- [ ] no scene-like background that slows comprehension
-- [ ] no frame-to-frame bleed on review sheet
+## D. Composition / Small-size QA
+- [ ] content inside safe area
+- [ ] no important crop of head, face, hands, action, caption or essential prop
 - [ ] silhouette readable
+- [ ] face/expression remains readable at chat size
+- [ ] action remains readable at chat size
+- [ ] no unnecessary micro-props or scene clutter
+- [ ] decorative effects do not create ambiguous cutout edges
 
 ## E. Technical QA
-- [ ] PNG
-- [ ] RGBA / real transparent background for final sticker asset
+- [ ] individual master PNG exists
+- [ ] RGBA / real transparent background
 - [ ] master retained at high resolution
 - [ ] final LINE export compliant with current official requirements
-- [ ] dimensions even-numbered
-- [ ] file size within current LINE limit
-- [ ] review borders/numbers are not present in final sticker asset
+- [ ] dimensions even-numbered when required
+- [ ] file size within platform limit
+- [ ] review-sheet border/number absent from final individual asset
+- [ ] naming / manifest / ID correct
 
-## F. Commercial / Product QA
-- [ ] use case obvious
-- [ ] sticker adds practical communication or emotional value
+## F. Production-source QA
+- [ ] individual sticker master is SSOT
+- [ ] review sheet is assembled from approved individual masters
+- [ ] no AI-generated multi-panel sheet is used directly as final slicing source unless exact geometry and per-frame QA are deterministically guaranteed
+- [ ] every frame has its own acceptance record
+
+## G. Commercial / Portfolio QA
+- [ ] use case is practical and likely to be sent
 - [ ] at least 2 brand pillars visible where appropriate
-- [ ] no obvious near-duplicate pose within adjacent 5 stickers
-- [ ] set maintains enough visual/semantic variety
-
-## G. Generation Preflight — before every AI image pass
-- [ ] approved Character Sheet is active as reference
-- [ ] exact caption is locked
-- [ ] communication intent is written
-- [ ] expression and gesture are specified
-- [ ] required prop is specified; unnecessary props forbidden
-- [ ] output explicitly requested as LINE sticker asset, not illustration/poster/infographic
-- [ ] forbidden traits include chibi proportions and hairstyle redesign
+- [ ] no obvious near-duplicate pose/message within adjacent stickers
+- [ ] sticker adds communication or emotional value
+- [ ] housework theme remains distinct from Set 1
+- [ ] set retains enough visual/action variety
 
 ## H. Gate blockers
-Any of these = BLOCK / REJECT:
-- wrong character face/hair/body identity
-- chibi or childlike redesign
-- message/use case unclear
-- image does not support caption
-- poster/infographic/scene produced instead of sticker art
-- non-transparent final background
+Any of these = BLOCK:
+- wrong character face/hair/age/proportion
+- unapproved chibi conversion
+- unclear communication intent
+- image and caption disagree
+- fails 1-second test
 - incorrect Thai text
+- poor small-size readability
 - content cropped
-- poor chat-size readability
+- non-transparent final background
 - LINE technical noncompliance
-- secondary character inconsistency affecting continuity
+- contact-sheet artifacts in final asset
+- secondary-character inconsistency affecting continuity
+
+## I. Hero-specific rule
+H02–H06 must be produced and accepted as **standalone individual Hero masters**. A combined six-Hero review sheet alone cannot satisfy Hero Fit Gate evidence.
+
+See:
+- `reviews/HERO-FIT-GATE.md`
+- `../../../../docs/project/CHARACTER_PRODUCT_DEVELOPMENT_FRAMEWORK.md`
+- `../../../../docs/standards/STICKER_COMMUNICATION_STANDARD.md`
