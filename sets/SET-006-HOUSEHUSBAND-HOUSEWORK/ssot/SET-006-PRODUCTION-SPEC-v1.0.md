@@ -1,95 +1,161 @@
-# SET-006 Production Spec v1.1
+# SET-006 Production Spec v1.2
 
-## Production principle
-Every deliverable is a **LINE communication asset**. Artwork must be designed from the approved caption/use case outward; do not treat the task as creating a standalone illustration.
+**Status:** Active production specification  
+**Supersedes:** v1.1 working rules  
+**Set:** SET-006-HOUSEHUSBAND-HOUSEWORK
 
-Mandatory references:
-- approved “พ่อบ้านสายวินัย” Character Sheet
-- `docs/standards/STICKER_COMMUNICATION_STANDARD.md`
-- `docs/standards/LINE_STICKER_SPEC.md`
-- SET-006 Visual Style Application and QA Checklist
+## 1. Core production principle
+SET-006 is a LINE sticker communication product. Every sticker must be produced from a communication brief and approved as an individual sticker master before it is treated as production-ready.
 
-## Per-sticker communication brief — required before generation
-Each sticker must record:
+## 2. Per-sticker preflight — mandatory before generation
+Each sticker must define:
+- sticker ID
 - exact caption
 - sender intent
 - likely chat situation
-- primary expression
-- primary gesture/action
-- required prop(s), if any
-- forbidden visual traits / failure conditions
+- emotion/tone
+- primary visual cue / gesture/action
+- required prop, if any
+- forbidden distractions
+- approved Character Sheet reference
+- H01 Golden Reference for rendering/communication consistency
 
-No candidate should be generated without this brief.
+No generation should begin when these fields are undefined.
 
-## Character lock
-- adult male, approx. 30–40
-- clean-shaven
-- very short police/military-inspired haircut with neat sharp hairline
-- athletic adult proportions; NO chibi/childlike redesign
-- navy T-shirt
-- black shorts
-- vivid orange shoes when visible
-- black tactical watch on LEFT wrist
-- black crossbody bag only when it does not obstruct the action
-- sunglasses optional
+## 3. Individual master — production SSOT
+The source of truth is **one approved PNG per sticker**.
 
-Character mismatch = reject candidate before other aesthetic review.
+Working master requirements:
+- 512×512 px internal master canvas
+- RGBA / real transparency in approved production master
+- no black review frame
+- no review number
+- no contact-sheet annotation
+- no scene background unless specifically approved and still compatible with sticker readability
+- content kept inside safe area
+- typography exact and proofread
 
-## Review sheet
+Naming:
+- `SET006-001.png` … `SET006-040.png`
+
+## 4. Hero Golden Reference
+H01 / #01 “ล้างจานอยู่ครับ” approved by the owner is the SET-006 Hero Golden Reference.
+
+It anchors:
+- adult face/proportions,
+- very-short military/police-inspired haircut,
+- navy shirt,
+- black shorts where visible,
+- orange-shoe signature where visible,
+- black tactical watch on left wrist,
+- restrained use of black crossbody bag,
+- bold Thai caption hierarchy,
+- simplified sticker-first housework storytelling.
+
+The Golden Reference does not replace the Character Sheet; both must be used together.
+
+## 5. Review/contact sheets
+Review sheets are QA artifacts only.
+
+Planned full-set review architecture:
 - 4 sheets
 - 10 stickers per sheet
-- grid 2 rows × 5 columns
+- 2 rows × 5 columns
 - logical master frame: 512×512 px
-- review sheet logical size: 2560×1024 px
-- transparent background
-- black frame lines allowed **only for review sheet**
-- frame number allowed **only for review sheet**
-- artwork must not cross frame boundaries
-- safe padding target: 20 px at 512 master scale
+- logical review sheet size: 2560×1024 px
+- black frame lines and frame numbers allowed only for review sheets
+- no artwork may cross frame boundaries
 
-Review sheets are QA/contact sheets and are not the source of truth for final upload assets. Individual sticker masters are the production SSOT.
+Preferred creation method:
+`approved individual masters -> deterministic assembly -> review sheet`
 
-## Individual master
-- one PNG per sticker
-- transparent RGBA
-- 512×512 master canvas (internal production master)
-- no black square frame in final art
-- no review number in final art
-- face/expression + main action/gesture must remain readable after reduction
-- props limited to those that improve communication speed
+Do **not** use an AI-generated multi-panel sheet as the authoritative source for final slicing when geometry, transparency, typography, or per-frame QA cannot be guaranteed.
 
-## LINE export
-Before submission, export each sticker to a size compliant with the latest official LINE static-sticker guideline. Current working square target: **320×320 px transparent PNG**, subject to current official maximum limits and rules.
+## 6. Safe area
+Internal 512 master target:
+- minimum controlled safe padding target: 20 px
+- preserve additional breathing room when action/typography allows
 
-Re-check official requirements on submission day, including allowed quantity, dimensions, file size, PNG/transparency, RGB, even dimensions, margin guidance and review policy.
+Before LINE export, verify effective trimmed margin against the latest official guideline; current project baseline recognizes LINE's recommendation of around 10 px between trimmed content and image edge.
 
-## Naming
-- `SET006-001.png` … `SET006-040.png`
-- `SET006-main.png`
-- `SET006-tab.png`
-- Review sheets: `SET006-sheet-01-review.png` etc.
+## 7. Small-size / 1-second test
+Every approved master must be reviewed after reduction to near-delivery/chat-preview scale.
 
-## Typography
-Final Thai text must be proofread 100%. AI-rendered Thai text is a candidate only until spelling and wording are deterministically verified.
+PASS requires:
+- face/expression still readable,
+- action/gesture obvious,
+- caption hierarchy readable,
+- intended message understood in about one second,
+- key prop recognizable without scene study.
 
-## Acceptance blockers
-Reject a candidate when any of these occurs:
-- wrong character identity / hair / face / proportions
-- chibi redesign
-- communication intent unclear
-- image merely decorates caption rather than supporting it
-- poster/infographic/environmental scene instead of sticker art
-- caption typo/wrong wording
-- poor thumbnail readability
-- important crop/safe-area violation
-- final background not truly transparent
+## 8. Typography
+Final Thai text must be exact and proofread 100%.
+
+AI-rendered Thai is candidate-level only until exactness is verified. If exact generation text cannot be guaranteed, apply the caption through a deterministic typography layer.
+
+## 9. LINE export
+Before submission, verify the latest official LINE Creators Market requirements. Official rules override this document if changed.
+
+Current working baseline:
+- sticker PNG, transparent background
+- maximum 370×320 px
+- working square export target may be 320×320 when composition suits it
+- even-numbered width/height
+- RGB, at least 72 dpi
+- ≤1 MB per sticker
+- Main image 240×240
+- Chat thumbnail 96×74
+
+Do not upscale a weak source merely to hit a target size.
+
+## 10. Hero production gate
+Sequence:
+1. H01 — approved / Golden Reference
+2. H02 standalone master -> QA -> approval
+3. H03 standalone master -> QA -> approval
+4. H04 standalone master -> QA -> approval
+5. H05 standalone master -> QA -> approval
+6. H06 standalone master -> QA -> approval
+7. deterministic Hero review sheet from accepted masters
+8. six-Hero consistency audit
+9. owner Hero Fit Gate approval
+10. only then unlock full 40 production
+
+A combined Hero sheet cannot substitute for accepted individual masters.
+
+## 11. Full production
+After Hero Fit Gate PASS:
+- produce individual stickers in controlled batches
+- run frame-level QA before marking approved
+- assemble review sheets from accepted masters
+- correct only failed frames instead of unnecessarily regenerating passed frames
+
+## 12. Asset retention
+Retain:
+- approved Character Sheet
+- H01 Golden Reference
+- all approved 512 masters
+- final LINE PNGs
+- deterministic review sheets
+- Main image and tab icon
+- QA/gate reports
+- revision history
+
+## 13. Blocking defects
+Any of the following blocks production acceptance:
+- character drift
+- unapproved chibi conversion
+- unclear chat intent
+- scene/illustration complexity that weakens sticker communication
+- wrong Thai text
+- failure of 1-second/small-size test
+- important crop
+- missing real alpha transparency
+- review artifacts in final image
 - current LINE technical noncompliance
 
-## Asset retention
-Retain:
-- 512 master PNG for each sticker
-- final LINE PNG
-- communication brief / caption mapping
-- review sheet
-- approved Hero references
-- QA report and gate result
+See:
+- `../../../docs/project/CHARACTER_PRODUCT_DEVELOPMENT_FRAMEWORK.md`
+- `../../../docs/standards/STICKER_COMMUNICATION_STANDARD.md`
+- `../docs/08-qa-checklist.md`
+- `../reviews/HERO-FIT-GATE.md`
