@@ -15,6 +15,14 @@ SSOT repository for a multi-set LINE sticker product family.
 
 Product model: Brand → Characters → Sticker Sets → Individual Stickers
 
-Current sets: SET-001-EVERYDAY-ADMIN (active), SET-002-MEETING, SET-003-FOLLOWUP, SET-004-DOCUMENT, SET-005-OFFICE-LIFE (planned).
+Current sets:
+- SET-001-EVERYDAY-ADMIN (active)
+- SET-002-MEETING (planned)
+- SET-003-FOLLOWUP (planned)
+- SET-004-DOCUMENT (planned)
+- SET-005-OFFICE-LIFE (planned)
+- SET-006-HOUSEHUSBAND-HOUSEWORK (documentation complete / ready for hero production)
 
-Primary character: Phi Prom (พี่พร้อม), torn-paper administrative police mascot.
+Primary existing character family: Phi Prom (พี่พร้อม), torn-paper administrative police mascot.
+
+Additional character IP in development: พ่อบ้านสายวินัย / Disciplined Househusband.
