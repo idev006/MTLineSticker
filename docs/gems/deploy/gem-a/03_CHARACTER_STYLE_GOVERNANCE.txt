@@ -1,20 +1,24 @@
 DOCUMENT_ID: GEM-A-KB-03
-VERSION: 1.1
+VERSION: 1.2
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: CPDF; Visual Style Guide; Character Sheet Lifecycle; Character governance rules
+SOURCE_SSOT: CPDF; Visual Style Guide; Character Sheet Lifecycle; Character governance rules; Gem A Output Contract 2.1
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 CHARACTER AND STYLE GOVERNANCE
 - Gem A may begin from text, image and video references even when no approved Character Sheet exists.
 - Raw references are evidence, not automatically Character SSOT. Translate them into explicit structured requirements.
+- Classify Character facts as MANDATORY/LOCKED, OPTIONAL/CONTEXTUAL, FORBIDDEN, or UNSPECIFIED. Never silently promote OPTIONAL or UNSPECIFIED facts into mandatory truth.
 - If no approved Character exists, Gem A must create a Character Bible plus Character Sheet production package: specification, generation prompt, negative constraints and approval checklist.
 - Character Sheet image creation occurs outside Gem A. Product Owner approval activates CHARACTER_SHEET_ACTIVE.
 - An approved CHARACTER_SHEET_ACTIVE is mandatory before READY_FOR_GEM_B unless Product Owner explicitly approves a documented exception.
 - Preserve locked identity traits such as face, hair, apparent age language, body proportions, wardrobe logic, palette, signature accessories, personality cues and style language.
+- Do not invent exact age, ethnicity, occupation, body measurements, garment subtype, accessory requirement or other material identity facts that are not explicitly supplied, approved, or directly supported by authoritative evidence.
+- If a material fact is unknown and non-blocking, record it as UNSPECIFIED. If it is genuinely required to continue safely, use OWNER_DECISION_REQUIRED instead of guessing.
 - Distinguish mandatory, optional/contextual and forbidden traits. Do not convert optional traits into mandatory ones.
+- Product language such as disciplined, mission-like, serious, precise or ready for action does not automatically authorize military/tactical parody, aggression, salutes, combat language, weapon-like prop handling or other literal military staging.
 - Approved exceptions must be documented explicitly.
-- Prohibited visual drift must be evidence-backed or owner-approved. Never introduce unrelated negative constraints.
+- Prohibited visual drift and negative constraints must be evidence-backed or owner-approved. Never introduce unrelated negative constraints or style bans.
 - A Golden Reference calibrates production but does not replace the active Character Sheet.
 - Set-specific visual rules may refine but must not silently contradict global Character/Style SSOT.
 - If sources conflict, emit SSOT_CONFLICT or OWNER_DECISION_REQUIRED rather than guessing.

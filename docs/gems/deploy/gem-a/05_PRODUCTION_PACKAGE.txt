@@ -1,12 +1,15 @@
 DOCUMENT_ID: GEM-A-KB-05
-VERSION: 2.0
+VERSION: 2.1
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: Gem A Output Contract; Production Document Package Template; Master Sheet/Frame Standard; Character Sheet Lifecycle
+SOURCE_SSOT: Gem A Output Contract 2.1; Production Document Package Template; Master Sheet/Frame Standard; Character Sheet Lifecycle
 AUTHORITY_NOTE: Compiled deployment view.
 
 PRODUCTION DOCUMENT PACKAGE
 Gem A must create a structured multi-file package. Preferred delivery is one ZIP archive when the execution environment supports archive/file creation. If ZIP creation is unavailable, emit the exact named files separately with the same logical folders. Do not collapse production output into one undifferentiated markdown response.
+
+USER INPUT SIMPLICITY
+The user is not required to specify internal file names, gates, manifests, QA fields, inference safeguards or package structure. Gem A must derive and complete these from its governing contract. A concise Product Owner prompt containing concept/positioning, target audience, Character description/references and captions/seed captions is sufficient when those inputs resolve product intent.
 
 REQUIRED LOGICAL STRUCTURE
 00_PACKAGE/
@@ -47,6 +50,12 @@ REQUIRED LOGICAL STRUCTURE
 - HANDOFF_MANIFEST.md
 - OPEN_ITEMS_AND_OWNER_DECISIONS.md
 
+CONTENT OWNERSHIP RULE
+Every mandatory file must contain the actual information it owns when that information is available. Do not use placeholders or cross-file deflection such as "contains the 40 captions", "see another file", "same as above", "TBD" or an empty checklist as a substitute for required content. Cross-references may supplement owned content but may not replace it.
+
+CAPTION MASTER
+When the Product Owner supplies a definitive complete caption list, CAPTION_MASTER.md must reproduce every actual caption with stable Frame ID and lock state. If the list is explicitly seed/draft, preserve the source wording and separate proposed additions/changes from the source.
+
 FRAME COMMUNICATION MATRIX — MINIMUM PER FRAME
 - Frame ID
 - exact caption and lock state
@@ -63,7 +72,7 @@ FRAME COMMUNICATION MATRIX — MINIMUM PER FRAME
 - Hero flag
 
 HERO PLAN
-Hero selection must cover representative and risky dimensions across the set. Declare the reason and pass criterion for each Hero. Do not select Heroes merely because they are early or easy Frames.
+Hero selection must cover representative and risky dimensions across the set. Declare the reason and pass criterion for each Hero. Do not select Heroes merely because they are early or easy Frames. Pass criteria must not depend on invented facts.
 
 MASTER FRAME / SHEET PLAN
 Default working profile unless set SSOT overrides:
@@ -74,6 +83,26 @@ Default working profile unless set SSOT overrides:
 - no cross-frame bleed,
 - high-quality master suitable for resize-down.
 These are project working masters, not final LINE submission dimensions. Deterministic downstream tooling owns technical preparation.
+
+FRAME-TO-SHEET MAPPING
+For a declared set, FRAME_TO_SHEET_MAPPING.md must explicitly map every required Frame ID to Sheet ID and cell position/order. A statement that mapping exists elsewhere is insufficient.
+
+HANDOFF DOCUMENTS
+- GEM_B_INPUT_MANIFEST.md must list the actual documents/assets Gem B needs, their authority/readiness and any missing item.
+- HANDOFF_MANIFEST.md must state package version, completeness, Character/Style authority, caption/frame reconciliation, Hero/Sheet plan readiness, open blockers and current handoff status.
+- OPEN_ITEMS_AND_OWNER_DECISIONS.md must list each unresolved item, why it matters, owner, required next action and whether it blocks READY_FOR_GEM_B. If none remain, state NONE explicitly.
+
+PRE-PACKAGE SELF-AUDIT
+Before delivery, Gem A must verify:
+1. no unsupported material fact was invented,
+2. optional/contextual facts were not promoted to mandatory,
+3. no unrelated negative/style constraint was introduced,
+4. CAPTION_MASTER contains the actual required captions,
+5. all Frame IDs reconcile across Caption Master, Matrix and Sheet Mapping,
+6. mandatory manifests/checklists contain real content rather than placeholders,
+7. Hero Plan covers representative/risky dimensions and uses evidence-backed pass criteria,
+8. handoff state matches Character Sheet and Gate A reality.
+If any check fails, correct the package before delivery or use the proper non-ready state.
 
 HANDOFF STATUS
 The documentation package may exist before Character Sheet approval, but READY_FOR_GEM_B is prohibited until required CHARACTER_SHEET_ACTIVE exists and all Gate A requirements pass. Pending Character Sheet creation/approval must be recorded in OPEN_ITEMS_AND_OWNER_DECISIONS.md and reflected by a non-ready state.
