@@ -1,154 +1,98 @@
 # Gem Instruction Architecture
 
-**Version:** 1.1  
-**Status:** Active design standard for specialist Gemini Gem instructions
+**Version:** 1.2  
+**Status:** Active design standard for specialist Gemini Gems
 
 ## Purpose
-Convert the project Framework into reusable specialist Gem instructions without collapsing all responsibilities into one oversized prompt.
+Implement the sticker-production architecture as specialist Gems without turning a single Gem Instruction into an oversized prompt.
 
-The architecture follows a modular blackbox model: each specialist receives a defined input contract, performs its own controlled work, passes its own Exit Gate, and hands off only validated output.
+## Core model
+A deployed Gem has four layers:
+1. **Instruction = Orchestrator** — role, mission, loading order, Blackbox routing, stop conditions, gates and output routing.
+2. **Knowledge Pack = Specialist Knowledge Base** — compiled, role-specific rules derived from repository SSOT.
+3. **Repository SSOT = Project Truth** — authoritative framework, standards and set documents.
+4. **Runtime Project Context** — current Character/Product/Production Package/Golden Reference.
 
-## Core design
-Use multiple specialist Gems connected by explicit contracts.
+The Instruction must stay compact. Detailed domain rules belong in attached knowledge files.
 
+## Specialist Gems
 ### Gem A — Sticker Product Architect
-Receives an initial product concept and produces the complete Production Document Package.
-
-Implementation-ready instruction:
-- `docs/gems/GEM-A-STICKER-PRODUCT-ARCHITECT-INSTRUCTION.md`
+Input: concept / owner constraints / inherited IP context.  
+Output: validated Production Document Package with status `READY_FOR_GEM_B`.
 
 ### Gem B — Sticker Visual Producer
-Receives only an approved Production Document Package and produces high-resolution sticker Master Frames / Master Sticker Sheets.
-
-Implementation-ready instruction:
-- `docs/gems/GEM-B-STICKER-VISUAL-PRODUCER-INSTRUCTION.md`
+Input: approved Production Document Package + visual references.  
+Output: validated high-resolution Master Frames / Master Sticker Sheets for downstream technical processing.
 
 ### Existing Program / Engine
-Receives approved visual masters and performs deterministic technical processing according to the existing software implementation.
+Receives approved visual masters and performs deterministic processing according to the existing software implementation. Gem/documentation work does not authorize software changes.
 
-Documentation/Gem work must not modify that software unless the Product Owner explicitly opens a separate software-development task.
+## Blackbox contract
+Every specialist uses:
+`Input Contract -> Definition of Ready -> Internal Blackbox -> Internal QA -> Exit Gate -> Output Contract -> Handoff`
 
-## Standard handoff package
-Gem A hands Gem B the standard Production Document Package defined in:
-- `docs/gems/PRODUCTION-DOCUMENT-PACKAGE-TEMPLATE.md`
+A downstream specialist must not repair defects owned by an upstream specialist.
 
-The package exists to remove guesswork between specialist stages.
+## Instruction responsibilities
+Every Gem Instruction must define only the control plane:
+- ROLE and MISSION,
+- AUTHORITY BOUNDARY,
+- SSOT / knowledge precedence,
+- REQUIRED KNOWLEDGE MANIFEST,
+- INPUT CONTRACT and Definition of Ready,
+- BLACKBOX checkpoints,
+- STOP / RETURN / ESCALATION states,
+- Exit Gate / Definition of Done,
+- Output Contract / Handoff status.
 
-## Instruction anatomy for every Gem
-Each Gem instruction should contain these sections in this order:
-1. **ROLE** — specialist identity.
-2. **MISSION** — single primary outcome.
-3. **AUTHORITY BOUNDARY** — what the Gem may and may not change.
-4. **SSOT PRIORITY** — precedence of references.
-5. **INPUT CONTRACT** — required inputs.
-6. **DEFINITION OF READY** — when work may start.
-7. **BLACKBOX PROCESS** — internal workflow checkpoints.
-8. **MANDATORY RULES** — non-negotiable controls.
-9. **AUTO-REJECT CONDITIONS** — failures that must stop progress.
-10. **EXIT GATE / DEFINITION OF DONE** — conditions for handoff.
-11. **OUTPUT CONTRACT** — exact artifacts to emit.
-12. **RETURN / ESCALATION RULES** — how to handle upstream defects or ambiguity.
+Detailed caption rules, visual rules, frame geometry, QA checklists and examples should live in Knowledge Packs unless essential to orchestration.
 
-## Gem A operating principle
-Gem A is a product architect, not a sticker artist.
+## Knowledge-file budget
+Platform constraint recorded by Product Owner: maximum **10 attached knowledge files per Gem**.
 
-It should develop:
-- Product Brief,
-- audience / JTBD / communication territory,
-- Character / Style requirement or inheritance,
-- caption architecture,
-- frame-by-frame communication briefs,
-- Hero selection and Gate plan,
-- Master Sticker Sheet / Frame plan,
-- QA criteria,
-- Production Document Package.
+Deployment policy:
+- target **5 fixed knowledge files**,
+- reserve **5 slots for runtime/project-specific knowledge**,
+- compile related SSOT documents into role-specific knowledge bundles,
+- do not mirror repository files 1:1 into Gem attachments.
 
-It must not claim production readiness while required fields are unresolved.
+See `docs/gems/GEM_KNOWLEDGE_PACKAGING_STANDARD.md`.
 
-## Gem B operating principle
-Gem B is a visual production specialist, not a product strategist.
+## Knowledge loading policy
+At runtime the Orchestrator must:
+1. identify current stage,
+2. load mandatory fixed knowledge,
+3. load relevant runtime/project context,
+4. validate DoR,
+5. execute the Blackbox,
+6. apply Exit Gate,
+7. hand off only validated output.
 
-It must:
-- use locked references,
-- create sticker communication assets rather than decorative illustrations,
-- preserve Character identity,
-- create Frames / Sheets using declared geometry,
-- keep content uncluttered and legible,
-- maintain high-resolution masters for downstream reduction,
-- self-QA before handoff.
+## SSOT priority
+1. latest explicit Product Owner decision,
+2. active Framework / standards,
+3. Character / Style SSOT,
+4. set Product / Production SSOT,
+5. approved handoff package,
+6. compiled knowledge pack,
+7. working notes.
 
-It must not silently rewrite captions or upstream product decisions.
+A compiled knowledge file never outranks its source SSOT.
 
-## Standard auto-reject examples
-- required SSOT missing,
-- wrong Character identity,
-- unapproved character redesign,
-- wrong or altered caption,
-- unclear communication intent,
-- scene/decoration overwhelms message,
-- Frame boundary violation,
-- incorrect Sheet geometry,
-- insufficient evidence for Exit Gate.
-
-## Quality-at-source rule
-Every specialist owns the quality of its own output.
-
-Downstream stages must not be used as repair stations for upstream defects.
-
-Examples:
-- concept/caption/document defects return to Gem A,
-- Character/composition/visual defects return to Gem B,
-- deterministic technical defects belong to the existing Program/Engine stage.
-
-## Machine-readable companion
-Where practical, every Production Document Package should include a structured contract that can be parsed by another Gem or program.
-
-Example fields:
-
-```text
-SET_ID
-PRODUCT_NAME
-VERSION
-TOTAL_FRAMES
-MASTER_FRAME_SIZE
-SHEET_GRID
-CHARACTER_SSOT
-STYLE_SSOT
-HERO_FRAMES
-FRAME_001:
-  caption
-  intent
-  chat_situation
-  expression
-  gesture
-  props
-  camera
-  composition
-  forbidden
-...
-QA_RULES
-OUTPUT_REQUIREMENTS
-HANDOFF_STATUS
-```
-
-The human-readable documents remain authoritative unless the project later designates a formal machine-readable SSOT.
+## Quality at source
+- product/caption/document defects -> Gem A,
+- Character/composition/visual defects -> Gem B,
+- deterministic technical defects -> existing Program/Engine.
 
 ## Software boundary
-The Gem architecture governs planning, visual production behavior, QA and handoff documentation.
+Gem architecture and documentation must not modify Python application code, `engine/`, `scripts/`, validators, packagers, desktop implementation or deterministic processing logic unless the Product Owner explicitly opens a separate software-development task.
 
-It does **not** authorize modification of:
-- Python application code,
-- `engine/`,
-- `scripts/`,
-- validators,
-- packagers,
-- desktop application implementation,
-- existing deterministic processing logic.
+## Deployment artifacts
+Implementation-ready deployment packs live under:
+- `docs/gems/deploy/gem-a/`
+- `docs/gems/deploy/gem-b/`
 
-Those are controlled software assets and require a separate explicit development task from the Product Owner.
-
-## Portability rule
-Instructions should describe roles, contracts, gates, quality standards and outputs rather than model-specific tricks. This allows the same architecture to be implemented with Gemini Gems, ChatGPT, other AI systems, or human specialists.
+Each deployment folder contains an `INSTRUCTION.txt`, a `KNOWLEDGE_MANIFEST.md`, and no more than five fixed `.txt` knowledge files by default.
 
 ## Related standards
 - `docs/project/CHARACTER_PRODUCT_DEVELOPMENT_FRAMEWORK.md`
@@ -157,5 +101,5 @@ Instructions should describe roles, contracts, gates, quality standards and outp
 - `docs/project/QUALITY_GATE_STANDARD.md`
 - `docs/standards/MASTER_SHEET_FRAME_STANDARD.md`
 - `docs/standards/STICKER_COMMUNICATION_STANDARD.md`
-- `docs/standards/LINE_STICKER_SPEC.md`
-- `docs/gems/README.md`
+- `docs/gems/GEM_KNOWLEDGE_PACKAGING_STANDARD.md`
+- `docs/gems/PRODUCTION-DOCUMENT-PACKAGE-TEMPLATE.md`

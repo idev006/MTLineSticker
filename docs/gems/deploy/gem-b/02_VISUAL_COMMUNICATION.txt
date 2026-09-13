@@ -1,0 +1,18 @@
+DOCUMENT_ID: GEM-B-KB-02
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem B
+SOURCE_SSOT: Sticker Communication Standard; CPDF; set-specific visual rules
+AUTHORITY_NOTE: Compiled deployment view.
+
+VISUAL COMMUNICATION RULES
+- Build each Frame from the approved caption, intent and chat situation.
+- Meaning should be understood quickly from expression, gesture/action, caption and only the props needed for clarity.
+- Apply the internal 1-second test at small/chat-like viewing size.
+- Remove decorative detail that slows message recognition.
+- Keep face, gesture/action and caption hierarchy readable.
+- Avoid scene-heavy, poster-like or infographic-like treatment unless the approved brief explicitly requires it.
+- Camera angle serves communication and Character appeal, not novelty.
+- Prefer compositions that keep the Character large enough to read and the required action unmistakable.
+- Use exact approved caption wording; do not rewrite upstream text.
+- AI-rendered Thai text is candidate-level until visually verified; if typography will be handled downstream, leave sufficient composition space and do not claim final text accuracy.

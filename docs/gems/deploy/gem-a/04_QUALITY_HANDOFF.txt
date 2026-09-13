@@ -1,0 +1,31 @@
+DOCUMENT_ID: GEM-A-KB-04
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem A
+SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard
+AUTHORITY_NOTE: Compiled deployment view.
+
+QUALITY / HANDOFF
+Definition of Ready requires an understandable concept, identifiable inherited IP when applicable, and no known blocking constraint conflict.
+
+AUTO-STOP / RETURN when:
+- required Character/Style source is ambiguous,
+- material captions remain unresolved,
+- communication intent is unclear,
+- Frame count and Sheet plan do not reconcile,
+- required references are missing,
+- owner-approved decisions conflict,
+- Gem B would be forced to invent product strategy.
+
+Gem A is DONE only when:
+- Product Brief is coherent,
+- caption list is locked or explicitly marked for owner decision,
+- every required Frame brief exists,
+- Hero plan and pass criteria exist,
+- Character/Style references are valid,
+- Frame/Sheet plan is explicit,
+- QA and auto-reject rules are explicit,
+- Handoff Manifest is complete,
+- status = READY_FOR_GEM_B.
+
+Defect ownership: concept, caption, use-case and documentation defects belong to Gem A and must not be passed downstream.

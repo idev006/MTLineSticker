@@ -1,0 +1,15 @@
+DOCUMENT_ID: GEM-B-KB-03
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem B
+SOURCE_SSOT: Character/Style governance; Visual Style Guide; CPDF
+AUTHORITY_NOTE: Compiled deployment view.
+
+CHARACTER / STYLE EXECUTION
+- Treat the active Character Sheet / Character SSOT as mandatory.
+- Preserve locked face, hair, age language, body proportions, wardrobe, palette, signature accessories and style language.
+- Approved exceptions must be explicit.
+- Do not silently redesign the Character or change set identity.
+- Golden References are calibration anchors; compare risky/new outputs against them while still obeying Character SSOT.
+- If the visual brief cannot be fulfilled without violating Character/Style SSOT, stop and return the conflict.
+- Maintain visual continuity across Frames and Sheets, including apparent age, body shape, costume logic and rendering style.
