@@ -1,0 +1,15 @@
+DOCUMENT_ID: GEM-A-KB-03
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem A
+SOURCE_SSOT: CPDF; Visual Style Guide; Character governance rules
+AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
+
+CHARACTER AND STYLE GOVERNANCE
+- An approved Character Sheet is a mandatory reference.
+- Preserve locked identity traits such as face, hair, age language, body proportions, wardrobe, palette, signature accessories and style language.
+- Approved exceptions must be documented explicitly.
+- Prohibited visual drift must be documented explicitly.
+- A Golden Reference calibrates production but does not replace the Character Sheet.
+- If no approved Character exists, create a requirement/specification and mark the lock as unresolved; do not claim Character SSOT is complete.
+- Set-specific visual rules may refine but must not silently contradict global Character/Style SSOT.
