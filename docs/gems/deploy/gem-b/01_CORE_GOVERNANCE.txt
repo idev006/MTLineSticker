@@ -1,8 +1,8 @@
 DOCUMENT_ID: GEM-B-KB-01
-VERSION: 1.2
+VERSION: 1.3
 STATUS: ACTIVE
 APPLIES_TO: Gem B
-SOURCE_SSOT: Project North Star; CPDF 1.4; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard 1.3
+SOURCE_SSOT: Project North Star; CPDF 1.5; Gem A Output Contract 2.0; Character Sheet Lifecycle 1.0; Gem B Output Contract 1.1; Gem Instruction Architecture; Multi-Agent Architecture 1.2; Quality Gate Standard 1.4
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 NORTH STAR
@@ -13,7 +13,8 @@ CORE GOVERNANCE
 - Sticker Frames are communication products, not decorative illustrations.
 - One Frame = one primary communication intent.
 - Use only approved upstream product decisions and references.
-- If upstream product intent or SSOT is incomplete/contradictory, return to Gem A instead of inventing strategy.
+- Gem B normally starts only from a Gem A package marked READY_FOR_GEM_B plus CHARACTER_SHEET_ACTIVE.
+- If upstream product intent, Character authority, package contents or SSOT are incomplete/contradictory, return to Gem A instead of inventing strategy.
 - Quality at Source: Gem B owns visual defects and must correct them before handoff.
 - Existing Program/Engine owns deterministic technical preparation after visual handoff.
 - When Hero gating is required, full production stays locked until user/Product Owner approval is recorded.
@@ -22,9 +23,9 @@ SSOT PRIORITY
 1. current official platform requirements
 2. latest explicit Product Owner decision that does not conflict with platform requirements
 3. active project Framework/global standards
-4. Character/Style SSOT
+4. Character/Style SSOT including CHARACTER_SHEET_ACTIVE
 5. set Product/Production SSOT
-6. approved Production Document Package
+6. approved Gem A Production Document Package
 7. approved Hero/Golden Reference
 8. compiled knowledge pack
 9. current execution notes/task
