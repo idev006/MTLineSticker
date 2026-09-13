@@ -1,5 +1,18 @@
 # Decision Log
 
+## 2026-09-13 — CPDF 1.2 modular specialist / Blackbox architecture
+- The project formally adopts an end-to-end production model from concept to individual LINE submission-ready sticker files.
+- The workflow is split into specialist components with explicit quality boundaries rather than one all-purpose AI.
+- Gem A = Sticker Product Architect. It owns concept development, product meaning, Character/Style requirements, caption/use-case architecture, Hero planning, Frame briefs, Sticker Sheet planning, QA criteria, and the Production Document Package.
+- Gem B = Sticker Visual Producer. It owns high-resolution visual Master Frames / Master Sticker Sheets and must follow locked upstream SSOT without silently redefining strategy, captions, or Character identity.
+- The repository Program/Engine owns deterministic technical work such as Sheet splitting, resize/normalize, approved alpha/background processing, validation, naming, manifest generation, export, and packaging.
+- Every specialist component is treated as a Blackbox with Input Contract, Definition of Ready, authority boundary, internal QA, Exit Gate / Definition of Done, Output Contract, and defect return path.
+- New quality rule: **Quality at Source**. Each stage must correct defects it owns before handoff; downstream stages are not repair stages for upstream defects.
+- New handoff rule: only artifacts with passed Exit Gate and `READY_FOR_HANDOFF` status are trusted downstream inputs.
+- New Frame/Sheet rule: default high-resolution working profile is 512×512 px per Frame, 5×2 Grid, 10 Frames per Master Sticker Sheet, unless set-specific SSOT overrides it.
+- Master Sticker Sheets are upstream production/review assets. Final LINE submission preparation remains a downstream deterministic process that produces individual files.
+- The framework is intentionally designed for future implementation as multiple specialist Gemini Gems connected by structured handoff packages.
+
 ## 2026-09-12 — Communication-first corrective framework upgrade
 - SET-006 Hero round 1 exposed a process defect: visually attractive outputs could still drift into chibi/infographic/scene illustration and fail as LINE communication assets.
 - Root cause: character lock existed, but the project framework did not make communication intent, chat use case, 1-second readability, individual-master production and Golden Reference control explicit enough.
