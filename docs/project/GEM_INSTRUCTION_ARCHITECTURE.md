@@ -1,10 +1,12 @@
 # Gem Instruction Architecture
 
-**Version:** 1.0  
-**Status:** Design standard for specialist Gemini Gem instructions
+**Version:** 1.1  
+**Status:** Active design standard for specialist Gemini Gem instructions
 
 ## Purpose
 Convert the project Framework into reusable specialist Gem instructions without collapsing all responsibilities into one oversized prompt.
+
+The architecture follows a modular blackbox model: each specialist receives a defined input contract, performs its own controlled work, passes its own Exit Gate, and hands off only validated output.
 
 ## Core design
 Use multiple specialist Gems connected by explicit contracts.
@@ -12,11 +14,25 @@ Use multiple specialist Gems connected by explicit contracts.
 ### Gem A — Sticker Product Architect
 Receives an initial product concept and produces the complete Production Document Package.
 
+Implementation-ready instruction:
+- `docs/gems/GEM-A-STICKER-PRODUCT-ARCHITECT-INSTRUCTION.md`
+
 ### Gem B — Sticker Visual Producer
 Receives only an approved Production Document Package and produces high-resolution sticker Master Frames / Master Sticker Sheets.
 
-### Program / Engine
-Receives approved visual masters and performs deterministic technical processing.
+Implementation-ready instruction:
+- `docs/gems/GEM-B-STICKER-VISUAL-PRODUCER-INSTRUCTION.md`
+
+### Existing Program / Engine
+Receives approved visual masters and performs deterministic technical processing according to the existing software implementation.
+
+Documentation/Gem work must not modify that software unless the Product Owner explicitly opens a separate software-development task.
+
+## Standard handoff package
+Gem A hands Gem B the standard Production Document Package defined in:
+- `docs/gems/PRODUCTION-DOCUMENT-PACKAGE-TEMPLATE.md`
+
+The package exists to remove guesswork between specialist stages.
 
 ## Instruction anatomy for every Gem
 Each Gem instruction should contain these sections in this order:
@@ -74,6 +90,16 @@ It must not silently rewrite captions or upstream product decisions.
 - incorrect Sheet geometry,
 - insufficient evidence for Exit Gate.
 
+## Quality-at-source rule
+Every specialist owns the quality of its own output.
+
+Downstream stages must not be used as repair stations for upstream defects.
+
+Examples:
+- concept/caption/document defects return to Gem A,
+- Character/composition/visual defects return to Gem B,
+- deterministic technical defects belong to the existing Program/Engine stage.
+
 ## Machine-readable companion
 Where practical, every Production Document Package should include a structured contract that can be parsed by another Gem or program.
 
@@ -102,9 +128,34 @@ FRAME_001:
 ...
 QA_RULES
 OUTPUT_REQUIREMENTS
+HANDOFF_STATUS
 ```
 
 The human-readable documents remain authoritative unless the project later designates a formal machine-readable SSOT.
 
+## Software boundary
+The Gem architecture governs planning, visual production behavior, QA and handoff documentation.
+
+It does **not** authorize modification of:
+- Python application code,
+- `engine/`,
+- `scripts/`,
+- validators,
+- packagers,
+- desktop application implementation,
+- existing deterministic processing logic.
+
+Those are controlled software assets and require a separate explicit development task from the Product Owner.
+
 ## Portability rule
-Instructions should describe roles, contracts, and standards rather than model-specific tricks. This lets the same architecture be implemented with Gemini Gems, ChatGPT, other AI systems, or human specialists.
+Instructions should describe roles, contracts, gates, quality standards and outputs rather than model-specific tricks. This allows the same architecture to be implemented with Gemini Gems, ChatGPT, other AI systems, or human specialists.
+
+## Related standards
+- `docs/project/CHARACTER_PRODUCT_DEVELOPMENT_FRAMEWORK.md`
+- `docs/project/MULTI_AGENT_STICKER_PRODUCTION_ARCHITECTURE.md`
+- `docs/project/HANDOFF_CONTRACT_STANDARD.md`
+- `docs/project/QUALITY_GATE_STANDARD.md`
+- `docs/standards/MASTER_SHEET_FRAME_STANDARD.md`
+- `docs/standards/STICKER_COMMUNICATION_STANDARD.md`
+- `docs/standards/LINE_STICKER_SPEC.md`
+- `docs/gems/README.md`
