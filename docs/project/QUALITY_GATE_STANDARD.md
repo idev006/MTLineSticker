@@ -1,10 +1,19 @@
 # Quality Gate & Defect Ownership Standard
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Active
 
 ## Principle
 Every stage owns the quality of the work it creates. A downstream stage is not a repair shop for upstream defects.
+
+## Canonical interface states
+Use destination-specific readiness states as the literal handoff values:
+- Gem A → Gem B: `READY_FOR_GEM_B`
+- Gem B → Program/Engine: `READY_FOR_ENGINE`
+- Program/Engine → Final Human QA: `READY_FOR_FINAL_QA`
+- Final Human QA → submission: `LINE_SUBMISSION_READY`
+
+`READY_FOR_HANDOFF` is a generic architectural concept only; it is not emitted when a destination-specific state exists.
 
 ## Gate model
 ### Gate A — Product / Documentation Readiness
@@ -13,14 +22,14 @@ Owner: Gem A — Sticker Product Architect
 PASS requires:
 - concept and product intent are clear,
 - target users / JTBD / communication territory are defined,
-- Character / Style SSOT is available,
+- Character / Style SSOT is available or an explicit owner-approved exception exists,
 - caption list and frame intent are locked,
-- Hero plan exists,
+- Hero plan exists when required,
 - Master Sheet / Frame plan exists,
 - QA and handoff criteria are complete,
 - no unresolved blocking decision remains.
 
-Output state: `READY_FOR_VISUAL_PRODUCTION`.
+Output state: `READY_FOR_GEM_B`.
 
 ### Gate B — Visual / Master Asset Readiness
 Owner: Gem B — Sticker Visual Producer
@@ -33,15 +42,16 @@ PASS requires:
 - no clutter that slows understanding,
 - required Master Sheet / Frame geometry,
 - sufficient source quality for resize-down,
-- no frame bleed,
-- all blocking visual defects closed.
+- no cross-frame bleed,
+- all blocking visual defects closed,
+- manifest/mapping required by the downstream contract is complete.
 
 Output state: `READY_FOR_ENGINE`.
 
 ### Gate C — Technical Submission Readiness
 Owner: deterministic Program / Engine
 
-PASS requires technical checks defined by current project and platform rules, including expected file set, format, dimensions, alpha/background behavior, naming, manifest, and package integrity.
+PASS requires technical checks defined by current project and platform rules, including expected individual file set, format, dimensions, alpha/background behavior, naming, manifest, and package integrity.
 
 Output state: `READY_FOR_FINAL_QA`.
 
@@ -53,6 +63,7 @@ PASS requires:
 - no missing/wrong sticker,
 - no obvious text/content error,
 - technical package report is acceptable,
+- required submission assets are present,
 - final submission package is approved.
 
 Output state: `LINE_SUBMISSION_READY`.
@@ -60,25 +71,24 @@ Output state: `LINE_SUBMISSION_READY`.
 ## Definition of Ready / Definition of Done
 Every specialist Blackbox must maintain both.
 
-**Definition of Ready** answers: “Is this stage allowed to start?”
-
+**Definition of Ready** answers: “Is this stage allowed to start?”  
 **Definition of Done** answers: “Is this stage allowed to hand off?”
 
 No stage may replace either definition with subjective confidence.
 
 ## Defect classes
 - **P0 Blocker** — prevents stage completion or creates invalid product/submission.
-- **P1 Major** — materially harms communication, character identity, usability, or technical correctness.
+- **P1 Major** — materially harms communication, Character identity, usability, or technical correctness.
 - **P2 Minor** — noticeable but non-blocking quality issue; must be recorded and dispositioned.
 - **P3 Observation** — improvement note for later iteration.
 
 ## Defect ownership
-The stage that creates the defect owns correction unless the evidence proves the root cause is upstream.
+The stage that creates the defect owns correction unless evidence proves the root cause is upstream.
 
 Examples:
 - weak concept / redundant caption / wrong use case → Gem A
-- wrong character / wrong pose / clutter / poor frame composition → Gem B
-- bad split / resize / naming / technical validation → Engine
+- wrong Character / wrong pose / clutter / poor frame composition → Gem B
+- bad split / resize / naming / technical validation → Program/Engine
 - ambiguous acceptance or commercial trade-off → Product Owner
 
 ## Return path
