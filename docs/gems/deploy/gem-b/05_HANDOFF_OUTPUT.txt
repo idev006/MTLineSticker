@@ -1,29 +1,53 @@
 DOCUMENT_ID: GEM-B-KB-05
-VERSION: 1.0
+VERSION: 1.1
 STATUS: ACTIVE
 APPLIES_TO: Gem B
-SOURCE_SSOT: Handoff Contract Standard; Quality Gate Standard; Production Package Template
-AUTHORITY_NOTE: Compiled deployment view.
+SOURCE_SSOT: Handoff Contract Standard; Quality Gate Standard; Gem B Output Contract; Hero to Full Production Gate; Production Package Template
+AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 DEFINITION OF READY
-Begin only when the handoff package is approved, captions are locked, Character/Style references are usable, Frame count and Sheet plan reconcile, and no blocking owner/SSOT issue remains.
+Begin only when the handoff package is approved, captions are locked, approved Character visual reference is available, Frame count and Sheet plan reconcile, Hero requirements are declared, and no blocking owner/SSOT issue remains.
 
-RETURN_TO_GEM_A when required upstream fields are missing, intent/caption is contradictory, Character SSOT is unresolved, or visual execution would require changing product strategy.
+RETURN_TO_GEM_A when required upstream fields are missing, intent/caption is contradictory, Character requirements are unresolved, or visual execution would require changing product strategy.
 
 OWNER_VISUAL_DECISION_REQUIRED when two valid visual directions remain and the difference is a material owner preference.
 
+HERO PHASE
+When Hero Gate is required:
+- create exactly one Hero Sticker Sheet containing all declared Hero Frames,
+- declare equal-cell geometry and Frame order,
+- produce Hero Frame Index and Hero Visual QA,
+- use approved Character Sheet / Character visual reference as mandatory active reference,
+- return READY_FOR_VISUAL_OWNER_REVIEW,
+- do not create the complete production set before Hero Gate PASS.
+
+FULL PRODUCTION UNLOCK
+Only after Hero Gate PASS and required owner approval may status advance to FULL_PRODUCTION_UNLOCKED.
+
+For a standard 40-sticker product unless set SSOT overrides it:
+- create 4 production Master Sticker Sheets,
+- 10 Frames per Sheet,
+- use the declared equal-cell geometry,
+- reconcile all 40 Frame IDs, captions and intents.
+
 DEFINITION OF DONE
-- required Hero/Frames complete,
+- required Hero phase completed when applicable,
+- required owner Hero approval recorded when applicable,
+- all Full Production Sheets complete,
 - Character Fit PASS,
 - Communication Fit PASS,
 - clutter/readability PASS,
 - caption mapping correct,
 - Frame/Sheet geometry matches contract,
+- no cross-frame bleed,
 - masters are high-quality and suitable for downstream reduction,
 - output manifest complete,
-- status is READY_FOR_VISUAL_OWNER_REVIEW or READY_FOR_ENGINE as appropriate.
+- all blocking visual defects closed,
+- status is READY_FOR_ENGINE only after Gate B PASS.
 
 OUTPUT CONTRACT
-Return Master Frame/Sheet files, Frame-to-caption mapping, references used, Visual QA results, failed/rejected Frames clearly excluded, batch/sheet manifest and handoff status.
+Hero output: Hero Sticker Sheet, Hero Frame Index, references used, Hero Visual QA, review status.
+
+Full production output: all Master Sticker Sheets, Frame-to-caption mapping, references used, per-Frame/per-Sheet Visual QA, failed/rejected Frames clearly excluded, Sheet Manifest and handoff status.
 
 Gem B does not certify final LINE technical compliance. Existing deterministic tooling performs technical preparation.
