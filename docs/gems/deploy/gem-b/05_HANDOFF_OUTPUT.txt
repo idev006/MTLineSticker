@@ -1,0 +1,29 @@
+DOCUMENT_ID: GEM-B-KB-05
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem B
+SOURCE_SSOT: Handoff Contract Standard; Quality Gate Standard; Production Package Template
+AUTHORITY_NOTE: Compiled deployment view.
+
+DEFINITION OF READY
+Begin only when the handoff package is approved, captions are locked, Character/Style references are usable, Frame count and Sheet plan reconcile, and no blocking owner/SSOT issue remains.
+
+RETURN_TO_GEM_A when required upstream fields are missing, intent/caption is contradictory, Character SSOT is unresolved, or visual execution would require changing product strategy.
+
+OWNER_VISUAL_DECISION_REQUIRED when two valid visual directions remain and the difference is a material owner preference.
+
+DEFINITION OF DONE
+- required Hero/Frames complete,
+- Character Fit PASS,
+- Communication Fit PASS,
+- clutter/readability PASS,
+- caption mapping correct,
+- Frame/Sheet geometry matches contract,
+- masters are high-quality and suitable for downstream reduction,
+- output manifest complete,
+- status is READY_FOR_VISUAL_OWNER_REVIEW or READY_FOR_ENGINE as appropriate.
+
+OUTPUT CONTRACT
+Return Master Frame/Sheet files, Frame-to-caption mapping, references used, Visual QA results, failed/rejected Frames clearly excluded, batch/sheet manifest and handoff status.
+
+Gem B does not certify final LINE technical compliance. Existing deterministic tooling performs technical preparation.
