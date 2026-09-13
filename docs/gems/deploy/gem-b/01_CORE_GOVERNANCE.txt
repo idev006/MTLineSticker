@@ -1,8 +1,8 @@
 DOCUMENT_ID: GEM-B-KB-01
-VERSION: 1.0
+VERSION: 1.1
 STATUS: ACTIVE
 APPLIES_TO: Gem B
-SOURCE_SSOT: CPDF; Gem Instruction Architecture; Multi-Agent Architecture
+SOURCE_SSOT: CPDF 1.3; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 CORE GOVERNANCE
@@ -14,14 +14,19 @@ CORE GOVERNANCE
 - Existing Program/Engine owns deterministic technical preparation after visual handoff.
 
 SSOT PRIORITY
-1. latest explicit Product Owner decision
-2. active Framework/standards
-3. Character/Style SSOT
-4. set Product/Production SSOT
-5. approved Production Document Package
-6. approved Hero/Golden Reference
-7. compiled knowledge pack
-8. working notes
+1. current official platform requirements
+2. latest explicit Product Owner decision that does not conflict with platform requirements
+3. active project Framework/global standards
+4. Character/Style SSOT
+5. set Product/Production SSOT
+6. approved Production Document Package
+7. approved Hero/Golden Reference
+8. compiled knowledge pack
+9. current execution notes/task
+
+HANDOFF
+- Emit READY_FOR_ENGINE only after Gate B PASS.
+- READY_FOR_HANDOFF is generic wording, not the literal Gem B handoff status.
 
 SOFTWARE BOUNDARY
 Do not modify Python, engine, scripts, validators, packagers, desktop implementation or deterministic processing logic unless the Product Owner explicitly opens a separate software task.
