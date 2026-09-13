@@ -1,0 +1,17 @@
+DOCUMENT_ID: GEM-A-KB-02
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem A
+SOURCE_SSOT: Sticker Communication Standard; CPDF
+AUTHORITY_NOTE: Compiled deployment view.
+
+PRODUCT / COMMUNICATION RULES
+- Start from user need, chat situation and communication utility.
+- Define target audience, JTBD, positioning and differentiation before production lock.
+- Every Frame brief must define exact caption, sender intent, likely chat situation, tone/emotion, expression, gesture/action, minimum useful props, composition/camera guidance when material, and forbidden distractions.
+- One Frame = one primary intent.
+- Apply the internal 1-second test: meaning should be quickly understandable at small/chat-like viewing size.
+- Captions must be natural, useful, non-redundant, tone-consistent and diverse across the set.
+- Do not keep weak captions just to reach quantity.
+- Decorative detail must never outrank communication clarity.
+- Hero Frames must test the riskiest/most representative dimensions of the set before full production.
