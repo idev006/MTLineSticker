@@ -1,6 +1,6 @@
 # Quality Gate & Defect Ownership Standard
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Status:** Active
 
 ## Principle
@@ -28,13 +28,21 @@ Owner: Gem A — Sticker Product Architect
 PASS requires:
 - concept and product intent are clear,
 - target users / JTBD / communication territory are defined,
-- Character / Style SSOT is available or an explicit owner-approved exception exists,
-- caption list and frame intent are locked,
-- Hero plan exists when required,
+- structured Gem A Production Document Package is complete,
+- Character Bible and Character Sheet specification/generation/approval documents are complete,
+- required approved Character Sheet exists and is recorded as `CHARACTER_SHEET_ACTIVE`, unless the Product Owner explicitly approves a documented exception,
+- Character / Style SSOT is coherent,
+- caption list and frame intent are locked or explicitly dispositioned,
+- Hero plan exists when required and covers representative/risky dimensions,
 - Master Sheet / Frame plan exists,
 - QA and handoff criteria are complete,
+- package/handoff manifests reconcile,
 - no unresolved blocking decision remains,
 - the package is coherent enough that Gem B can execute without inventing product strategy.
+
+Raw source images/video alone do not satisfy the Character Sheet requirement. A Character Sheet specification or prompt alone does not satisfy it either.
+
+If Character Sheet creation/approval or another owner decision is pending, Gem A must remain in a non-ready state such as `OWNER_DECISION_REQUIRED` or `BLOCKED` as appropriate. It must not emit `READY_FOR_GEM_B` prematurely.
 
 Output state: `READY_FOR_GEM_B`.
 
@@ -44,10 +52,12 @@ Owner: Gem B for artifact quality; Product Owner for approval when required.
 The Hero Gate is a scale-up gate inside visual production. It is required whenever the Production Document Package declares a Hero phase.
 
 PASS requires:
+- Gem A package entered Gem B with `READY_FOR_GEM_B`,
+- `CHARACTER_SHEET_ACTIVE` is the primary Character visual reference unless a documented exception exists,
 - one Hero Sticker Sheet contains all declared Hero Frames,
 - Hero Frame mapping and geometry are explicit,
-- approved Character Sheet / Character visual reference is used,
 - Character fidelity is acceptable across all Heroes,
+- mandatory/optional/forbidden Character traits are respected,
 - approved visual/style direction is coherent,
 - each Hero communicates its intended message clearly,
 - caption-image mapping is correct,
@@ -68,8 +78,8 @@ Owner: Gem B — Sticker Visual Producer
 PASS requires:
 - required Hero Gate has passed when applicable,
 - all required Full Production Master Sticker Sheets exist,
-- Character fidelity,
-- communication clarity,
+- Character fidelity against `CHARACTER_SHEET_ACTIVE`,
+- communication clarity against the Frame Communication Matrix,
 - caption-image fit,
 - composition and small-size readability,
 - no clutter that slows understanding,
@@ -123,6 +133,7 @@ The stage that creates the defect owns correction unless evidence proves the roo
 
 Examples:
 - weak concept / redundant caption / wrong use case → Gem A
+- unsupported Character invention / unrelated negative constraint / premature READY_FOR_GEM_B → Gem A
 - wrong Character / wrong pose / clutter / poor frame composition → Gem B
 - premature full production before Hero approval → Gem B process defect
 - bad split / resize / naming / technical validation → Program/Engine
