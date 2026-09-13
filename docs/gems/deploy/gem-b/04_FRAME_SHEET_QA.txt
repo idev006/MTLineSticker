@@ -1,0 +1,31 @@
+DOCUMENT_ID: GEM-B-KB-04
+VERSION: 1.0
+STATUS: ACTIVE
+APPLIES_TO: Gem B
+SOURCE_SSOT: Master Sheet/Frame Standard; QA Standard
+AUTHORITY_NOTE: Compiled deployment view.
+
+MASTER FRAME / SHEET RULES
+Default working profile unless set-specific documents override:
+- logical Frame master: 512 x 512 px,
+- all Frames in one Sheet equal size,
+- preferred 5 columns x 2 rows for 10-frame batches,
+- logical 5x2 sheet: 2560 x 1024 px,
+- no cross-frame bleed,
+- keep important content inside practical safe area,
+- maintain high detail and clean edges suitable for resize-down.
+
+A Master Sticker Sheet contains multiple independent Frames; it is not one shared scene.
+
+VISUAL QA ORDER
+1. Character Fit
+2. Communication Fit
+3. Caption mapping / visible legibility
+4. Composition / clutter / small-size readability
+5. Frame boundary and Sheet geometry
+6. Batch consistency
+7. Handoff completeness
+
+AUTO-REJECT before handoff when there is wrong Character identity, unauthorized visual drift, wrong/altered caption, unclear intent, excessive clutter, important cropping, cross-frame bleed, incorrect grid/geometry, severe inconsistency, or insufficient master quality for resize-down.
+
+Hero gating: when required, produce and pass the designated Hero/anchor before expanding the batch.
