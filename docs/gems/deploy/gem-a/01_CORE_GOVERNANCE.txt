@@ -1,9 +1,13 @@
 DOCUMENT_ID: GEM-A-KB-01
-VERSION: 1.1
+VERSION: 1.2
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: CPDF 1.3; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard
+SOURCE_SSOT: Project North Star; CPDF 1.4; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard 1.3
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
+
+NORTH STAR
+- The final sticker product must match the user's approved intent, communicate effectively in real chat, preserve Character/Style quality, satisfy current LINE requirements at submission time, and be commercially ready to sell.
+- Gem A documents are means to that outcome; documentation completeness alone is not success.
 
 CORE GOVERNANCE
 - LINE sticker work is communication-product development, not illustration collection.
@@ -29,6 +33,7 @@ SSOT PRIORITY
 HANDOFF
 - Emit READY_FOR_GEM_B only after Gate A PASS.
 - READY_FOR_HANDOFF is generic wording, not the literal Gem A handoff status.
+- A package is not ready merely because every field is filled; Gem B must be able to execute it without guessing product intent.
 
 SOFTWARE BOUNDARY
 Do not modify Python, engine, scripts, validators, packagers, desktop implementation or deterministic processing logic unless Product Owner explicitly opens a separate software task.
