@@ -1,6 +1,6 @@
 # Character Product Development Framework (CPDF)
 
-**Version:** 1.4  
+**Version:** 1.5  
 **Status:** Active project framework  
 **Purpose:** Govern end-to-end development of character-based LINE sticker products from concept to submission-ready individual files.
 
@@ -14,15 +14,16 @@ Quality combines communication clarity, user usefulness, Character consistency, 
 Process artifacts, Gems, Gates and reports are means to that outcome, not ends in themselves.
 
 ## 2. End-to-end flow
-`IDEA → PRODUCT BRIEF → CHARACTER/STYLE SSOT → CAPTION/USE-CASE ARCHITECTURE → HERO PLAN → HERO GATE → FRAME BRIEFS → MASTER FRAMES/SHEETS → VISUAL GATE → PROGRAM/ENGINE → INDIVIDUAL TECHNICAL FILES → FINAL HUMAN QA → LINE SUBMISSION READY`
+`USER INTENT + TEXT/IMAGE/VIDEO REFERENCES → GEM A DOCUMENT PACKAGE → CHARACTER SHEET CREATION OUTSIDE GEM A → PRODUCT OWNER CHARACTER SHEET APPROVAL → CHARACTER_SHEET_ACTIVE → GATE A / READY_FOR_GEM_B → GEM B HERO PRODUCTION → HERO OWNER REVIEW → FULL_PRODUCTION_UNLOCKED → FULL MASTER SHEETS → GATE B / READY_FOR_ENGINE → PROGRAM/ENGINE → INDIVIDUAL TECHNICAL FILES → FINAL HUMAN QA → LINE_SUBMISSION_READY`
 
 A downstream stage must not begin while a blocking upstream Gate is unresolved.
 
 ## 3. Specialist architecture
-- **Gem A — Sticker Product Architect:** owns concept, product meaning, caption/use-case architecture, Character/Style requirements, Hero plan, Frame briefs, Sheet plan, QA criteria, and the Production Document Package.
-- **Gem B — Sticker Visual Producer:** owns high-resolution visual Master Frame / Master Sticker Sheet production from locked documents.
+- **Gem A — Sticker Product Architect:** owns concept, product meaning, caption/use-case architecture, Character Bible, Character Sheet specification/generation prompt/approval checklist, Hero plan, Frame briefs, Sheet plan, QA criteria, and the structured Production Document Package.
+- **Character Sheet creation step:** occurs outside Gem A using the approved Gem A Character package and relevant references. Product Owner approval activates `CHARACTER_SHEET_ACTIVE`.
+- **Gem B — Sticker Visual Producer:** owns high-resolution Hero and Full Production Master Sticker Sheets from the approved Gem A package plus `CHARACTER_SHEET_ACTIVE`.
 - **Program / Engine:** owns deterministic splitting, approved alpha/background processing, resize/normalize, naming, technical validation, manifest, export and packaging.
-- **Product Owner / Human QA:** owns material decisions and final acceptance.
+- **Product Owner / Human QA:** owns material decisions, Character Sheet approval, Hero approval when required, and final acceptance.
 
 No specialist may silently take over another specialist's responsibility.
 
@@ -41,7 +42,7 @@ Internal methods may evolve, but contracts and ownership boundaries must remain 
 ## 5. Quality at Source
 Each stage completes and verifies its own work before handoff. Downstream stages are not repair stations for upstream defects.
 
-Examples: weak caption → Gem A; Character drift/clutter → Gem B; invalid split/dimensions/package → Program/Engine.
+Examples: weak caption or unsupported Character requirement → Gem A; Character drift/clutter → Gem B; invalid split/dimensions/package → Program/Engine.
 
 ## 6. Canonical handoff states
 Use destination-specific states:
@@ -54,8 +55,10 @@ Use destination-specific states:
 
 `READY_FOR_HANDOFF` is a generic concept only.
 
+Gem A may prepare its package before Character Sheet approval, but it must remain non-ready until the required approved Character Sheet exists. Use an existing state such as `OWNER_DECISION_REQUIRED` or `BLOCKED` as appropriate rather than inventing a new cross-stage status.
+
 ## 7. Communication-first Frame design
-Every Frame requires: exact caption, sender intent, likely chat situation, tone, expression, gesture/action, minimum useful props, camera/composition guidance when material, forbidden drift, and Character reference.
+Every Frame requires: exact caption and lock state, sender intent, likely chat situation, tone, expression, gesture/action, minimum useful props, camera/composition guidance when material, Character constraints, forbidden distractions, 1-second expectation and Hero flag.
 
 **One Frame = one primary communication intent.**
 
@@ -63,12 +66,25 @@ Every Frame requires: exact caption, sender intent, likely chat situation, tone,
 At chat-preview scale, the primary intent should be understandable quickly from expression, action, caption and key prop. Scene density, tiny characters, weak hierarchy or unclear use case = FAIL.
 
 ## 9. Character governance
-Approved Character Sheets are mandatory active references. Locked identity traits must be preserved. A Golden Reference may calibrate later production but never replaces the Character Sheet.
+Gem A may start from text/image/video references, but raw references do not automatically become Character SSOT.
 
-## 10. Hero Gate
-Full-set production is blocked until representative Hero Frames pass when Hero gating is required. Hero output exists to let the user/Product Owner confirm the visual direction before scale-up. If an anchor Hero fails, correct it before expanding the affected batch.
+Gem A must translate evidence into a Character Bible and Character Sheet production package. Character Sheet image creation occurs outside Gem A. Product Owner approval activates `CHARACTER_SHEET_ACTIVE`.
 
-## 11. Frame / Master Sticker Sheet model
+`CHARACTER_SHEET_ACTIVE` is the mandatory primary Character visual reference for Gem B unless a documented Product Owner exception explicitly states otherwise. A Golden Reference may calibrate later production but never silently replaces the active Character Sheet.
+
+Mandatory, optional/contextual and forbidden traits must be distinguished explicitly. Unrelated negative constraints or unsupported visual traits must not be invented.
+
+## 10. Gem A package contract
+Gem A output is a structured multi-file Production Document Package governed by `docs/project/GEM_A_OUTPUT_CONTRACT.md`.
+
+Preferred delivery is a ZIP archive preserving the required folder/file structure when the execution environment supports archive creation. If it does not, the exact named files must be emitted separately; one long undifferentiated markdown response is not the production-standard package.
+
+## 11. Hero Gate
+Full-set production is blocked until representative Hero Frames pass when Hero gating is required. Hero output exists to let the Product Owner confirm visual direction before scale-up. If an anchor Hero fails, correct it before expanding the affected batch.
+
+Hero selection must test representative and risky dimensions of the set, not merely the first or easiest Frames.
+
+## 12. Frame / Master Sticker Sheet model
 **Frame** = one sticker production unit.  
 **Master Sticker Sheet** = one high-resolution image containing multiple equal-size Frames in a deterministic Grid.
 
@@ -80,35 +96,37 @@ Default working profile unless set SSOT overrides it:
 
 The master is intentionally larger than final LINE output for high-quality resize-down. Cells must be equal, ordered, documented, independently readable, and free of cross-frame bleed.
 
-## 12. Stage-specific SSOT
+## 13. Stage-specific SSOT
 The project has different authoritative artifacts by lifecycle stage:
 - **Planning SSOT:** active Framework + set Product/Production documents.
-- **Visual SSOT:** approved Master Frame / Master Sticker Sheet package plus mapping and Visual QA evidence.
+- **Character visual SSOT:** approved `CHARACTER_SHEET_ACTIVE` plus its version/approval record.
+- **Visual production SSOT:** approved Master Frame / Master Sticker Sheet package plus mapping and Visual QA evidence.
 - **Technical SSOT:** Program/Engine-produced individual submission files plus manifest/validation evidence.
 
 A later-stage SSOT does not authorize changes to locked upstream meaning or Character identity.
 
-## 13. Responsibility boundary
-AI/Designer owns meaning, Character fidelity, composition, communication clarity and master visual quality. Program/Engine owns deterministic technical preparation. Technical PASS never substitutes for Visual QA PASS.
+## 14. Responsibility boundary
+Gem A owns product/document architecture and Character specification. Character Sheet image creation is an external controlled step. Gem B owns visual execution and visual QA. Program/Engine owns deterministic technical preparation. Technical PASS never substitutes for Visual QA PASS.
 
-## 14. Gate model
-1. Gate A — Product / Documentation Readiness
-2. Hero Gate — Visual Direction Approval when required
-3. Gate B — Visual / Master Asset Readiness
-4. Gate C — Technical Submission Readiness
-5. Gate D — Final Human Acceptance
+## 15. Gate model
+1. Character Sheet approval checkpoint — creates `CHARACTER_SHEET_ACTIVE`
+2. Gate A — Product / Documentation Readiness
+3. Hero Gate — Visual Direction Approval when required
+4. Gate B — Visual / Master Asset Readiness
+5. Gate C — Technical Submission Readiness
+6. Gate D — Final Human Acceptance
 
-See `docs/project/QUALITY_GATE_STANDARD.md`, `docs/project/HERO_TO_FULL_PRODUCTION_GATE.md`, and `docs/project/HANDOFF_STATUS_ADDENDUM.md`.
+See `docs/project/QUALITY_GATE_STANDARD.md`, `docs/project/CHARACTER_SHEET_LIFECYCLE.md`, `docs/project/GEM_A_OUTPUT_CONTRACT.md`, `docs/project/HERO_TO_FULL_PRODUCTION_GATE.md`, and `docs/project/HANDOFF_STATUS_ADDENDUM.md`.
 
-## 15. Typography
+## 16. Typography
 AI-rendered Thai text is candidate-level until verified exactly. Final wording must be proofread 100%. Deterministic typography may be used when exact text cannot be guaranteed by generation.
 
-## 16. Authority / SSOT precedence
+## 17. Authority / SSOT precedence
 When instructions conflict, use this order:
 1. current official platform requirements,
 2. latest explicit Product Owner decision that does not conflict with platform requirements,
 3. active CPDF / global standards,
-4. Character / Style SSOT,
+4. Character / Style SSOT including `CHARACTER_SHEET_ACTIVE`,
 5. Product / Set SSOT,
 6. approved handoff package,
 7. compiled Gem knowledge pack,
@@ -116,29 +134,31 @@ When instructions conflict, use this order:
 
 A lower layer may specialize a higher layer but must not contradict it.
 
-## 17. Corrective learning
+## 18. Corrective learning
 When a Gate failure exposes a systemic weakness: reject the artifact, record root cause, fix the owning stage, update the Framework/standard when needed, update set documents, then re-enter at the correct Gate.
 
-## 18. Traceability
+## 19. Traceability
 Every final sticker should trace backward through:
-`final individual file → manifest/validation → Master Frame or Sheet cell → Frame ID → Frame brief → caption/use case → Product Brief → Character/Style SSOT`.
+`final individual file → manifest/validation → Master Frame or Sheet cell → Frame ID → Frame brief → caption/use case → Product Brief → Character Bible → CHARACTER_SHEET_ACTIVE / Character SSOT`.
 
-## 19. Gem deployment architecture
+## 20. Gem deployment architecture
 Gem Instructions are orchestrators, not full knowledge stores. Stable specialist rules are compiled from repository SSOT into Knowledge Packs. Runtime project context is attached separately within the platform attachment budget.
 
 Repository SSOT remains authoritative over compiled Knowledge Packs.
 
-## 20. North-Star test for process changes
+## 21. North-Star test for process changes
 Before adding a new mandatory document, rule, Gem behavior or production step, ask whether it measurably improves the chance that the user receives the sticker product they actually want, that the stickers communicate well, and that the final package can be submitted and sold on LINE.
 
 If not, simplify it, remove it, or keep it optional.
 
-## 21. Software boundary
+## 22. Software boundary
 Framework, Gem, Knowledge Pack and documentation work must not modify the existing Python application, `engine/`, `scripts/`, validators, packagers or deterministic processing logic unless the Product Owner explicitly opens a separate software-development task.
 
-## 22. Related standards
+## 23. Related standards
 - `docs/project/PROJECT_NORTH_STAR_AND_SUCCESS_CRITERIA.md`
 - `docs/project/MULTI_AGENT_STICKER_PRODUCTION_ARCHITECTURE.md`
+- `docs/project/GEM_A_OUTPUT_CONTRACT.md`
+- `docs/project/CHARACTER_SHEET_LIFECYCLE.md`
 - `docs/project/HANDOFF_CONTRACT_STANDARD.md`
 - `docs/project/HANDOFF_STATUS_ADDENDUM.md`
 - `docs/project/QUALITY_GATE_STANDARD.md`
