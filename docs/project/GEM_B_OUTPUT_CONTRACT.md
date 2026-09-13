@@ -1,11 +1,26 @@
 # Gem B Output Contract
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Active  
 **Applies to:** Gem B — Sticker Visual Producer
 
 ## Purpose
-Define the minimum visual outputs Gem B must produce for sticker sets, including a controlled Hero review phase before full-set production.
+Define the minimum input preflight and visual outputs Gem B must produce, including controlled Hero review before full-set production.
+
+## Input preflight
+Gem B must not start visual production merely because files were supplied.
+
+Minimum normal input requires:
+- Gem A package status `READY_FOR_GEM_B`,
+- complete structured Gem A Production Document Package or its extracted equivalent,
+- approved `CHARACTER_SHEET_ACTIVE`,
+- approved Style SSOT when separate,
+- Golden Reference when applicable,
+- no unresolved blocking open item.
+
+Gem B must validate Package/Handoff manifests, Character authority, caption/frame mapping, Hero Plan, Sheet Plan and QA/auto-reject rules before production.
+
+Raw source images/video, a Character Sheet generation prompt, or an unapproved Character Sheet candidate do not replace `CHARACTER_SHEET_ACTIVE` unless an explicit Product Owner exception is documented.
 
 ## Core rule
 Gem B does not jump directly from approved documents to full-set production when a Hero Gate is required.
@@ -20,18 +35,21 @@ When the Production Document Package requires a Hero Gate, Gem B must first prod
 Minimum Hero Output Package:
 - `HERO_STICKER_SHEET` — one sheet containing every required Hero Frame,
 - `HERO_FRAME_INDEX` — Frame ID, caption, intent and sheet position for every Hero,
-- `CHARACTER_REFERENCE_USED` — approved Character Sheet / Character SSOT reference,
+- `CHARACTER_REFERENCE_USED` — exact `CHARACTER_SHEET_ACTIVE` identity/version,
 - `GOLDEN_REFERENCE_USED` — when applicable,
 - `HERO_VISUAL_QA` — Character fit, communication fit, composition, readability and caption mapping result,
 - `HERO_REVIEW_STATUS` — `READY_FOR_VISUAL_OWNER_REVIEW`, `BLOCKED`, or `RETURN_TO_GEM_A`.
 
 The Hero Sheet must contain all Hero Frames declared by Gem A. Its geometry must be explicit and every cell must be equal-size with no cross-frame bleed.
 
+Hero selection is defined upstream by Gem A and should test representative and risky dimensions of the set rather than merely early/easy Frames.
+
 ## Hero Review objective
 The Hero Sheet exists so the Product Owner can validate the visual direction before scale-up, including:
-- Character identity and resemblance,
+- Character identity and resemblance against `CHARACTER_SHEET_ACTIVE`,
 - rendering/style direction,
 - expression and pose language,
+- mandatory/optional Character trait handling,
 - communication clarity,
 - caption-image fit,
 - typography treatment,
@@ -63,8 +81,8 @@ Default profile unless set SSOT overrides it:
 ## Full-set acceptance
 Gem B may emit `READY_FOR_ENGINE` only when:
 - every required Frame exists,
-- all 40 Frame IDs reconcile with the approved Production Document Package,
-- Character fidelity passes across the set,
+- all Frame IDs reconcile with the approved Production Document Package,
+- Character fidelity passes against the active Character Sheet across the set,
 - captions and intents map correctly,
 - no blocking visual defect remains,
 - all required Sheets have valid declared geometry,
@@ -74,7 +92,7 @@ Gem B may emit `READY_FOR_ENGINE` only when:
 ## Failure and return rules
 If a visual defect belongs to Gem B, Gem B corrects it before handoff.
 
-If Gem B discovers an upstream defect such as conflicting captions, missing Frame intent, unresolved Character requirement or strategy ambiguity, it returns the work to Gem A with evidence and does not invent a replacement decision.
+If Gem B discovers an upstream defect such as premature `READY_FOR_GEM_B`, conflicting captions, missing Frame intent, unresolved Character authority, unsupported Character constraints or strategy ambiguity, it returns the work to Gem A with evidence and does not invent a replacement decision.
 
 ## Output authority boundary
 Gem B owns visual master quality only. It does not certify final LINE platform compliance and does not modify the existing Python application, engine, scripts, validators, packagers or deterministic processing logic.
