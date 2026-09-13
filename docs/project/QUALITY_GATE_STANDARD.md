@@ -1,10 +1,14 @@
 # Quality Gate & Defect Ownership Standard
 
-**Version:** 1.2  
+**Version:** 1.3  
 **Status:** Active
 
 ## Principle
 Every stage owns the quality of the work it creates. A downstream stage is not a repair shop for upstream defects.
+
+All Gates exist to protect the Project North Star defined in `docs/project/PROJECT_NORTH_STAR_AND_SUCCESS_CRITERIA.md`: the final product must match approved user intent, communicate effectively, preserve Character/Style quality, satisfy current LINE requirements, and be commercially ready to sell.
+
+Passing a local Gate never compensates for failure against the North Star.
 
 ## Canonical interface states
 Use destination-specific readiness states as the literal handoff values:
@@ -29,7 +33,8 @@ PASS requires:
 - Hero plan exists when required,
 - Master Sheet / Frame plan exists,
 - QA and handoff criteria are complete,
-- no unresolved blocking decision remains.
+- no unresolved blocking decision remains,
+- the package is coherent enough that Gem B can execute without inventing product strategy.
 
 Output state: `READY_FOR_GEM_B`.
 
@@ -74,14 +79,14 @@ PASS requires:
 - all blocking visual defects closed,
 - manifest/mapping required by the downstream contract is complete.
 
-For a standard 40-sticker set unless set SSOT overrides it, expected Full Production output is 4 Sheets x 10 Frames.
+For a standard 40-sticker set unless set SSOT overrides it, expected Full Production output is 4 Sheets × 10 Frames.
 
 Output state: `READY_FOR_ENGINE`.
 
 ### Gate C — Technical Submission Readiness
 Owner: deterministic Program / Engine
 
-PASS requires technical checks defined by current project and platform rules, including expected individual file set, format, dimensions, alpha/background behavior, naming, manifest, and package integrity.
+PASS requires technical checks defined by current project and platform rules, including expected individual file set, format, dimensions, alpha/background behavior, naming, manifest, package integrity, and the current official LINE requirements applicable at submission time.
 
 Output state: `READY_FOR_FINAL_QA`.
 
@@ -94,7 +99,8 @@ PASS requires:
 - no obvious text/content error,
 - technical package report is acceptable,
 - required submission assets are present,
-- final submission package is approved.
+- no unresolved P0/P1 defect remains,
+- final submission package is approved for real submission and sale.
 
 Output state: `LINE_SUBMISSION_READY`.
 
@@ -108,7 +114,7 @@ No stage may replace either definition with subjective confidence.
 
 ## Defect classes
 - **P0 Blocker** — prevents stage completion or creates invalid product/submission.
-- **P1 Major** — materially harms communication, Character identity, usability, or technical correctness.
+- **P1 Major** — materially harms communication, Character identity, usability, commercial readiness, or technical correctness.
 - **P2 Minor** — noticeable but non-blocking quality issue; must be recorded and dispositioned.
 - **P3 Observation** — improvement note for later iteration.
 

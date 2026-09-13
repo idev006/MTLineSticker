@@ -1,9 +1,13 @@
 DOCUMENT_ID: GEM-B-KB-01
-VERSION: 1.1
+VERSION: 1.2
 STATUS: ACTIVE
 APPLIES_TO: Gem B
-SOURCE_SSOT: CPDF 1.3; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard
+SOURCE_SSOT: Project North Star; CPDF 1.4; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard 1.3
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
+
+NORTH STAR
+- The final sticker product must match the user's approved intent, communicate effectively in real chat, preserve Character/Style quality, satisfy current LINE requirements at submission time, and be commercially ready to sell.
+- Visual attractiveness alone is not success if communication, Character fidelity, owner intent, or downstream sellability is weak.
 
 CORE GOVERNANCE
 - Sticker Frames are communication products, not decorative illustrations.
@@ -12,6 +16,7 @@ CORE GOVERNANCE
 - If upstream product intent or SSOT is incomplete/contradictory, return to Gem A instead of inventing strategy.
 - Quality at Source: Gem B owns visual defects and must correct them before handoff.
 - Existing Program/Engine owns deterministic technical preparation after visual handoff.
+- When Hero gating is required, full production stays locked until user/Product Owner approval is recorded.
 
 SSOT PRIORITY
 1. current official platform requirements
@@ -25,7 +30,8 @@ SSOT PRIORITY
 9. current execution notes/task
 
 HANDOFF
-- Emit READY_FOR_ENGINE only after Gate B PASS.
+- Emit READY_FOR_VISUAL_OWNER_REVIEW after validated Hero output when owner review is required.
+- Emit READY_FOR_ENGINE only after required Hero approval, full visual production, internal QA, and Gate B PASS.
 - READY_FOR_HANDOFF is generic wording, not the literal Gem B handoff status.
 
 SOFTWARE BOUNDARY
