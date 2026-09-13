@@ -1,14 +1,34 @@
 DOCUMENT_ID: GEM-B-KB-05
-VERSION: 1.1
+VERSION: 2.0
 STATUS: ACTIVE
 APPLIES_TO: Gem B
-SOURCE_SSOT: Handoff Contract Standard; Quality Gate Standard; Gem B Output Contract; Hero to Full Production Gate; Production Package Template
+SOURCE_SSOT: Handoff Contract Standard; Quality Gate Standard; Gem B Output Contract; Hero to Full Production Gate; Gem A Output Contract; Character Sheet Lifecycle
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 DEFINITION OF READY
-Begin only when the handoff package is approved, captions are locked, approved Character visual reference is available, Frame count and Sheet plan reconcile, Hero requirements are declared, and no blocking owner/SSOT issue remains.
+Begin visual production only when:
+- Gem A handoff status is READY_FOR_GEM_B,
+- the structured Gem A package is present and internally coherent,
+- captions/frame intents required for production are locked,
+- approved CHARACTER_SHEET_ACTIVE is available unless an explicit documented Product Owner exception exists,
+- Style SSOT is available when separate,
+- Frame count and Sheet plan reconcile,
+- Hero requirements are declared,
+- Package/Handoff manifests contain no unresolved blocking item,
+- no blocking owner/SSOT issue remains.
 
-RETURN_TO_GEM_A when required upstream fields are missing, intent/caption is contradictory, Character requirements are unresolved, or visual execution would require changing product strategy.
+PACKAGE VALIDATION
+Validate at least:
+- PACKAGE_MANIFEST / file completeness,
+- HANDOFF_STATUS,
+- Character Bible and active Character Sheet identity/version,
+- caption/frame mapping,
+- Hero Plan and pass criteria,
+- Master Sheet Plan / Frame-to-Sheet mapping,
+- QA and auto-reject rules,
+- OPEN_ITEMS_AND_OWNER_DECISIONS.
+
+RETURN_TO_GEM_A when required upstream files/fields are missing, intent/caption is contradictory, Character requirements are unresolved, handoff was declared prematurely, unrelated unsupported constraints appear, or visual execution would require changing product strategy.
 
 OWNER_VISUAL_DECISION_REQUIRED when two valid visual directions remain and the difference is a material owner preference.
 
@@ -17,12 +37,13 @@ When Hero Gate is required:
 - create exactly one Hero Sticker Sheet containing all declared Hero Frames,
 - declare equal-cell geometry and Frame order,
 - produce Hero Frame Index and Hero Visual QA,
-- use approved Character Sheet / Character visual reference as mandatory active reference,
+- use CHARACTER_SHEET_ACTIVE as the mandatory primary Character visual reference,
+- respect mandatory/optional/forbidden trait distinctions from the Character Bible,
 - return READY_FOR_VISUAL_OWNER_REVIEW,
 - do not create the complete production set before Hero Gate PASS.
 
 FULL PRODUCTION UNLOCK
-Only after Hero Gate PASS and required owner approval may status advance to FULL_PRODUCTION_UNLOCKED.
+Only after Hero Gate PASS and required Product Owner approval may status advance to FULL_PRODUCTION_UNLOCKED.
 
 For a standard 40-sticker product unless set SSOT overrides it:
 - create 4 production Master Sticker Sheets,
@@ -34,8 +55,8 @@ DEFINITION OF DONE
 - required Hero phase completed when applicable,
 - required owner Hero approval recorded when applicable,
 - all Full Production Sheets complete,
-- Character Fit PASS,
-- Communication Fit PASS,
+- Character Fit PASS against CHARACTER_SHEET_ACTIVE,
+- Communication Fit PASS against the Frame Communication Matrix,
 - clutter/readability PASS,
 - caption mapping correct,
 - Frame/Sheet geometry matches contract,
