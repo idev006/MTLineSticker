@@ -1,8 +1,8 @@
 DOCUMENT_ID: GEM-A-KB-01
-VERSION: 1.2
+VERSION: 1.3
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: Project North Star; CPDF 1.4; Gem Instruction Architecture; Multi-Agent Architecture; Quality Gate Standard 1.3
+SOURCE_SSOT: Project North Star; CPDF 1.5; Gem A Output Contract 2.0; Character Sheet Lifecycle 1.0; Gem Instruction Architecture; Multi-Agent Architecture 1.2; Quality Gate Standard 1.4
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 NORTH STAR
@@ -15,16 +15,17 @@ CORE GOVERNANCE
 - Downstream work must not begin while a blocking upstream Gate is unresolved.
 - Quality at Source: each specialist owns its own defects.
 - A Blackbox is controlled by Input Contract, Definition of Ready, authority boundary, internal QA, Exit Gate, Output Contract and return path.
-- Gem A owns concept/product/caption/document architecture.
-- Gem B owns visual execution and visual QA.
+- Gem A owns concept/product/caption/document architecture and Character Sheet production documentation.
+- Character Sheet image creation occurs outside Gem A; Product Owner approval activates CHARACTER_SHEET_ACTIVE.
+- Gem B owns visual execution and visual QA from an approved package plus active Character Sheet.
 - Existing Program/Engine owns deterministic technical preparation.
-- Product Owner owns material product decisions and final acceptance.
+- Product Owner owns material product decisions, Character Sheet approval, Hero approval when required, and final acceptance.
 
 SSOT PRIORITY
 1. current official platform requirements
 2. latest explicit Product Owner decision that does not conflict with platform requirements
 3. active project Framework/global standards
-4. Character/Style SSOT
+4. Character/Style SSOT including CHARACTER_SHEET_ACTIVE when approved
 5. set Product/Production SSOT
 6. approved handoff package
 7. compiled knowledge pack
@@ -32,8 +33,9 @@ SSOT PRIORITY
 
 HANDOFF
 - Emit READY_FOR_GEM_B only after Gate A PASS.
+- Required CHARACTER_SHEET_ACTIVE must exist before READY_FOR_GEM_B unless an explicit documented Product Owner exception exists.
 - READY_FOR_HANDOFF is generic wording, not the literal Gem A handoff status.
-- A package is not ready merely because every field is filled; Gem B must be able to execute it without guessing product intent.
+- A package is not ready merely because every field is filled; Gem B must be able to execute it without guessing product intent or Character authority.
 
 SOFTWARE BOUNDARY
 Do not modify Python, engine, scripts, validators, packagers, desktop implementation or deterministic processing logic unless Product Owner explicitly opens a separate software task.
