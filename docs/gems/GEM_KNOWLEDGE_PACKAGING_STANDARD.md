@@ -1,6 +1,6 @@
 # Gemini Gem Knowledge Packaging Standard
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** Active  
 **Scope:** Packaging repository SSOT into Gemini Gem instructions and attached knowledge files.
 
@@ -14,6 +14,8 @@ Use four layers:
 4. **Runtime Project Context** — current Character/Product/Production Package/Golden Reference material.
 
 Repository SSOT remains authoritative. Knowledge Packs are deployment views optimized for AI use.
+
+`KNOWLEDGE_MANIFEST.md` is an installer/deployment control file and is not normally uploaded as Gem knowledge. `INSTRUCTION.txt` belongs in the Gem Instructions field, not the knowledge attachment budget.
 
 ## 2. Knowledge-file budget
 Deployment constraint recorded by Product Owner: **maximum 10 attached knowledge files per Gem**.
@@ -33,6 +35,7 @@ Stable specialist knowledge reused across products: governance, communication, C
 
 ### Runtime/project knowledge
 Changes by sticker set, for example:
+- Product Owner requirement/caption package,
 - Character Sheet / Character SSOT,
 - Style SSOT when separate,
 - approved Production Document Package,
@@ -79,8 +82,15 @@ Priority:
 
 If compiled knowledge conflicts with source SSOT, source SSOT wins and the Knowledge Pack must be corrected before the next deployment baseline.
 
-## 7. Version and freshness policy
-A Knowledge Manifest must record the version of every fixed file. Before deployment, confirm that its `SOURCE_SSOT` versions are still active. Do not mix superseded and active compiled rules in one Gem.
+## 7. Manifest / version policy
+A Knowledge Manifest must record:
+- every fixed attachment filename,
+- its active compiled version,
+- installer note that the manifest itself is not a required knowledge attachment,
+- runtime slot guidance,
+- loading order.
+
+Before deployment, confirm every fixed file's `SOURCE_SSOT` versions are still active. Do not mix superseded and active compiled rules in one Gem.
 
 ## 8. Quality-at-source rule
 Each Gem is responsible for its own output quality. A downstream Gem must not be used to repair upstream defects.
@@ -92,6 +102,7 @@ Gem instructions and knowledge packaging must not modify existing Python softwar
 Recommended deployment naming:
 - `INSTRUCTION.txt`
 - `01_...txt` through `05_...txt` for fixed knowledge
+- `KNOWLEDGE_MANIFEST.md` for installer/deployment control only
 - runtime files use clear set-specific names, e.g. `SET-006-PRODUCTION-PACKAGE.txt`
 
 ## 11. Deployment acceptance
@@ -100,6 +111,7 @@ A Gem deployment is ready only when:
 - fixed knowledge is normally <= 5 files,
 - runtime capacity remains available,
 - mandatory knowledge is present,
+- manifest versions match active fixed files,
 - source SSOT references and versions are traceable,
 - role boundary and destination-specific handoff states are explicit,
 - no contradictory or superseded rule remains,
