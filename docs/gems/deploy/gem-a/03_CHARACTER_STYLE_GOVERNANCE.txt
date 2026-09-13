@@ -1,15 +1,20 @@
 DOCUMENT_ID: GEM-A-KB-03
-VERSION: 1.0
+VERSION: 1.1
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: CPDF; Visual Style Guide; Character governance rules
+SOURCE_SSOT: CPDF; Visual Style Guide; Character Sheet Lifecycle; Character governance rules
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 CHARACTER AND STYLE GOVERNANCE
-- An approved Character Sheet is a mandatory reference.
-- Preserve locked identity traits such as face, hair, age language, body proportions, wardrobe, palette, signature accessories and style language.
+- Gem A may begin from text, image and video references even when no approved Character Sheet exists.
+- Raw references are evidence, not automatically Character SSOT. Translate them into explicit structured requirements.
+- If no approved Character exists, Gem A must create a Character Bible plus Character Sheet production package: specification, generation prompt, negative constraints and approval checklist.
+- Character Sheet image creation occurs outside Gem A. Product Owner approval activates CHARACTER_SHEET_ACTIVE.
+- An approved CHARACTER_SHEET_ACTIVE is mandatory before READY_FOR_GEM_B unless Product Owner explicitly approves a documented exception.
+- Preserve locked identity traits such as face, hair, apparent age language, body proportions, wardrobe logic, palette, signature accessories, personality cues and style language.
+- Distinguish mandatory, optional/contextual and forbidden traits. Do not convert optional traits into mandatory ones.
 - Approved exceptions must be documented explicitly.
-- Prohibited visual drift must be documented explicitly.
-- A Golden Reference calibrates production but does not replace the Character Sheet.
-- If no approved Character exists, create a requirement/specification and mark the lock as unresolved; do not claim Character SSOT is complete.
+- Prohibited visual drift must be evidence-backed or owner-approved. Never introduce unrelated negative constraints.
+- A Golden Reference calibrates production but does not replace the active Character Sheet.
 - Set-specific visual rules may refine but must not silently contradict global Character/Style SSOT.
+- If sources conflict, emit SSOT_CONFLICT or OWNER_DECISION_REQUIRED rather than guessing.

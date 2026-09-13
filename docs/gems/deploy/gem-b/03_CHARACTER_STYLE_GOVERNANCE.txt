@@ -1,15 +1,18 @@
 DOCUMENT_ID: GEM-B-KB-03
-VERSION: 1.0
+VERSION: 1.1
 STATUS: ACTIVE
 APPLIES_TO: Gem B
-SOURCE_SSOT: Character/Style governance; Visual Style Guide; CPDF
-AUTHORITY_NOTE: Compiled deployment view.
+SOURCE_SSOT: Character Sheet Lifecycle; Character/Style governance; Visual Style Guide; CPDF
+AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 CHARACTER / STYLE EXECUTION
-- Treat the active Character Sheet / Character SSOT as mandatory.
-- Preserve locked face, hair, age language, body proportions, wardrobe, palette, signature accessories and style language.
+- Treat `CHARACTER_SHEET_ACTIVE` as the mandatory primary Character visual reference unless a documented Product Owner exception explicitly allows otherwise.
+- Raw image/video references, a Character Sheet prompt, or an unapproved Character Sheet candidate do not replace CHARACTER_SHEET_ACTIVE.
+- Preserve locked face, hair, apparent age language, body proportions, wardrobe logic, palette, signature accessories and style language.
+- Respect mandatory vs optional/contextual vs forbidden trait classifications from the Character Bible. Do not make optional accessories mandatory or invent unsupported costume details.
 - Approved exceptions must be explicit.
 - Do not silently redesign the Character or change set identity.
 - Golden References are calibration anchors; compare risky/new outputs against them while still obeying Character SSOT.
 - If the visual brief cannot be fulfilled without violating Character/Style SSOT, stop and return the conflict.
-- Maintain visual continuity across Frames and Sheets, including apparent age, body shape, costume logic and rendering style.
+- Maintain visual continuity across Frames and Sheets, including apparent age, face, body shape, costume logic, accessory placement and rendering style.
+- If the active Character Sheet version changes, stop and confirm the production package/reference set has adopted the new version before continuing.

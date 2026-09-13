@@ -1,19 +1,79 @@
 DOCUMENT_ID: GEM-A-KB-05
-VERSION: 1.0
+VERSION: 2.0
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: Production Document Package Template; Master Sheet/Frame Standard
+SOURCE_SSOT: Gem A Output Contract; Production Document Package Template; Master Sheet/Frame Standard; Character Sheet Lifecycle
 AUTHORITY_NOTE: Compiled deployment view.
 
-PRODUCTION DOCUMENT PACKAGE CONTENT
-- Package header: SET_ID, PRODUCT_NAME, VERSION, HANDOFF_STATUS, TOTAL_FRAMES.
-- Product concept: promise, primary use context, audience, JTBD, differentiation.
-- Character/Style section: references, locked traits, exceptions, prohibited drift.
-- Caption architecture: approved captions, intent, category, lock status.
-- Frame Communication Matrix: caption, sender intent, chat situation, emotion, expression, action, minimum props, camera/composition guidance, references, forbidden traits, 1-second expectation, Hero flag.
-- Hero Plan: Hero IDs, anchor, sequential-gate requirement, pass conditions.
-- Master Frame/Sheet plan: default working Frame 512x512; equal-size Frames; preferred 5x2 sheet for 10-frame batches; logical 2560x1024; no cross-frame bleed; high-quality master suitable for resize-down.
-- Visual production rules and set-specific auto-reject conditions.
-- Responsibility matrix and Handoff Manifest.
+PRODUCTION DOCUMENT PACKAGE
+Gem A must create a structured multi-file package. Preferred delivery is one ZIP archive when the execution environment supports archive/file creation. If ZIP creation is unavailable, emit the exact named files separately with the same logical folders. Do not collapse production output into one undifferentiated markdown response.
 
-Gem A must not claim that the master dimensions above are final LINE submission dimensions. Deterministic downstream tooling owns technical preparation.
+REQUIRED LOGICAL STRUCTURE
+00_PACKAGE/
+- README.md
+- PACKAGE_MANIFEST.md
+- HANDOFF_STATUS.md
+
+01_PRODUCT/
+- PRODUCT_BRIEF.md
+- TARGET_AUDIENCE_JTBD.md
+- PRODUCT_POSITIONING.md
+
+02_CHARACTER/
+- CHARACTER_BIBLE.md
+- CHARACTER_SHEET_SPECIFICATION.md
+- CHARACTER_SHEET_GENERATION_PROMPT.md
+- CHARACTER_SHEET_NEGATIVE_CONSTRAINTS.md
+- CHARACTER_SHEET_APPROVAL_CHECKLIST.md
+
+03_COMMUNICATION/
+- CAPTION_ARCHITECTURE.md
+- CAPTION_MASTER.md
+- FRAME_COMMUNICATION_MATRIX.md
+
+04_VISUAL_PRODUCTION/
+- HERO_PLAN.md
+- MASTER_SHEET_PLAN.md
+- VISUAL_DIRECTION.md
+- FRAME_TO_SHEET_MAPPING.md
+
+05_QA/
+- QA_RULES.md
+- AUTO_REJECT_RULES.md
+- GATE_A_CHECKLIST.md
+
+06_HANDOFF/
+- GEM_B_INPUT_MANIFEST.md
+- HANDOFF_MANIFEST.md
+- OPEN_ITEMS_AND_OWNER_DECISIONS.md
+
+FRAME COMMUNICATION MATRIX — MINIMUM PER FRAME
+- Frame ID
+- exact caption and lock state
+- sender intent
+- likely chat situation
+- tone/emotion
+- expression
+- pose/action
+- minimum props
+- camera/composition guidance when material
+- Character constraints
+- forbidden distractions
+- 1-second communication expectation
+- Hero flag
+
+HERO PLAN
+Hero selection must cover representative and risky dimensions across the set. Declare the reason and pass criterion for each Hero. Do not select Heroes merely because they are early or easy Frames.
+
+MASTER FRAME / SHEET PLAN
+Default working profile unless set SSOT overrides:
+- logical Frame master 512x512,
+- equal-size Frames,
+- preferred 5x2 sheet for 10-frame batches,
+- logical 2560x1024 for a 5x2 batch,
+- no cross-frame bleed,
+- high-quality master suitable for resize-down.
+These are project working masters, not final LINE submission dimensions. Deterministic downstream tooling owns technical preparation.
+
+HANDOFF STATUS
+The documentation package may exist before Character Sheet approval, but READY_FOR_GEM_B is prohibited until required CHARACTER_SHEET_ACTIVE exists and all Gate A requirements pass. Pending Character Sheet creation/approval must be recorded in OPEN_ITEMS_AND_OWNER_DECISIONS.md and reflected by a non-ready state.

@@ -1,31 +1,45 @@
 DOCUMENT_ID: GEM-A-KB-04
-VERSION: 1.0
+VERSION: 1.1
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard
+SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard; Gem A Output Contract; Character Sheet Lifecycle
 AUTHORITY_NOTE: Compiled deployment view.
 
 QUALITY / HANDOFF
 Definition of Ready requires an understandable concept, identifiable inherited IP when applicable, and no known blocking constraint conflict.
 
 AUTO-STOP / RETURN when:
-- required Character/Style source is ambiguous,
-- material captions remain unresolved,
+- user intent is materially unclear,
+- required Character/Style source is ambiguous or contradictory,
+- captions that must be owner-locked remain unresolved,
 - communication intent is unclear,
 - Frame count and Sheet plan do not reconcile,
 - required references are missing,
 - owner-approved decisions conflict,
+- unsupported traits would need to be invented,
 - Gem B would be forced to invent product strategy.
+
+PACKAGE COMPLETENESS
+Gem A must create the multi-file package defined by GEM_A_OUTPUT_CONTRACT, including the Character Bible and Character Sheet generation/approval documents. A single long markdown response is not a production-complete package.
+
+CHARACTER GATE
+A completed Character Sheet specification does not equal an approved Character Sheet. Raw image/video references do not equal CHARACTER_SHEET_ACTIVE.
+
+If Character Sheet creation or Product Owner approval is still pending, Gem A must NOT emit READY_FOR_GEM_B. Use OWNER_DECISION_REQUIRED or BLOCKED as appropriate and record the exact missing artifact/decision and next action.
 
 Gem A is DONE only when:
 - Product Brief is coherent,
 - caption list is locked or explicitly marked for owner decision,
 - every required Frame brief exists,
+- Character Bible is coherent,
+- Character Sheet specification/prompt/negative constraints/approval checklist exist,
+- required Character Sheet has been approved and recorded as CHARACTER_SHEET_ACTIVE unless an explicit documented Product Owner exception exists,
 - Hero plan and pass criteria exist,
 - Character/Style references are valid,
 - Frame/Sheet plan is explicit,
 - QA and auto-reject rules are explicit,
-- Handoff Manifest is complete,
+- Package Manifest and Handoff Manifest are complete,
+- no blocking open item remains,
 - status = READY_FOR_GEM_B.
 
-Defect ownership: concept, caption, use-case and documentation defects belong to Gem A and must not be passed downstream.
+Defect ownership: concept, caption, use-case, unsupported invention, Character documentation and package/handoff defects belong to Gem A and must not be passed downstream.
