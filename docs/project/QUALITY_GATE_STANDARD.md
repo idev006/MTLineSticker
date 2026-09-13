@@ -1,6 +1,6 @@
 # Quality Gate & Defect Ownership Standard
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** Active
 
 ## Principle
@@ -9,6 +9,8 @@ Every stage owns the quality of the work it creates. A downstream stage is not a
 ## Canonical interface states
 Use destination-specific readiness states as the literal handoff values:
 - Gem A → Gem B: `READY_FOR_GEM_B`
+- Gem B Hero review → Product Owner: `READY_FOR_VISUAL_OWNER_REVIEW`
+- Hero approval → Gem B full production: `FULL_PRODUCTION_UNLOCKED`
 - Gem B → Program/Engine: `READY_FOR_ENGINE`
 - Program/Engine → Final Human QA: `READY_FOR_FINAL_QA`
 - Final Human QA → submission: `LINE_SUBMISSION_READY`
@@ -31,10 +33,36 @@ PASS requires:
 
 Output state: `READY_FOR_GEM_B`.
 
+### Hero Gate — Visual Direction Approval
+Owner: Gem B for artifact quality; Product Owner for approval when required.
+
+The Hero Gate is a scale-up gate inside visual production. It is required whenever the Production Document Package declares a Hero phase.
+
+PASS requires:
+- one Hero Sticker Sheet contains all declared Hero Frames,
+- Hero Frame mapping and geometry are explicit,
+- approved Character Sheet / Character visual reference is used,
+- Character fidelity is acceptable across all Heroes,
+- approved visual/style direction is coherent,
+- each Hero communicates its intended message clearly,
+- caption-image mapping is correct,
+- no blocking Hero visual defect remains,
+- owner approval is recorded when the package requires it.
+
+Hero Gate outcomes:
+- `PASS` → `FULL_PRODUCTION_UNLOCKED`
+- `CORRECTION_REQUIRED` → correct failed Hero Frames and re-enter Hero Gate
+- `RETURN_TO_GEM_A` → upstream product/document defect
+- `BLOCKED` → full production prohibited
+
+A required Hero Gate may not be bypassed.
+
 ### Gate B — Visual / Master Asset Readiness
 Owner: Gem B — Sticker Visual Producer
 
 PASS requires:
+- required Hero Gate has passed when applicable,
+- all required Full Production Master Sticker Sheets exist,
 - Character fidelity,
 - communication clarity,
 - caption-image fit,
@@ -45,6 +73,8 @@ PASS requires:
 - no cross-frame bleed,
 - all blocking visual defects closed,
 - manifest/mapping required by the downstream contract is complete.
+
+For a standard 40-sticker set unless set SSOT overrides it, expected Full Production output is 4 Sheets x 10 Frames.
 
 Output state: `READY_FOR_ENGINE`.
 
@@ -88,6 +118,7 @@ The stage that creates the defect owns correction unless evidence proves the roo
 Examples:
 - weak concept / redundant caption / wrong use case → Gem A
 - wrong Character / wrong pose / clutter / poor frame composition → Gem B
+- premature full production before Hero approval → Gem B process defect
 - bad split / resize / naming / technical validation → Program/Engine
 - ambiguous acceptance or commercial trade-off → Product Owner
 
