@@ -1,11 +1,17 @@
 # Character Product Development Framework (CPDF)
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Status:** Active project framework  
 **Purpose:** Govern end-to-end development of character-based LINE sticker products from concept to submission-ready individual files.
 
-## 1. Core principle
-A LINE sticker is a communication product. Quality combines communication clarity, user usefulness, Character consistency, small-size readability, master quality, platform compliance, visual distinctiveness, commercial relevance, and controlled handoff quality.
+## 1. North Star and core principle
+The governing outcome is defined in `docs/project/PROJECT_NORTH_STAR_AND_SUCCESS_CRITERIA.md`.
+
+A LINE sticker is a communication product. The system exists to produce sticker products that match the user's approved intent, communicate effectively in real chat, preserve Character/Style quality, satisfy current LINE Creators Market requirements at submission time, and are commercially ready to sell.
+
+Quality combines communication clarity, user usefulness, Character consistency, small-size readability, master quality, platform compliance, visual distinctiveness, commercial relevance, and controlled handoff quality.
+
+Process artifacts, Gems, Gates and reports are means to that outcome, not ends in themselves.
 
 ## 2. End-to-end flow
 `IDEA → PRODUCT BRIEF → CHARACTER/STYLE SSOT → CAPTION/USE-CASE ARCHITECTURE → HERO PLAN → HERO GATE → FRAME BRIEFS → MASTER FRAMES/SHEETS → VISUAL GATE → PROGRAM/ENGINE → INDIVIDUAL TECHNICAL FILES → FINAL HUMAN QA → LINE SUBMISSION READY`
@@ -40,6 +46,8 @@ Examples: weak caption → Gem A; Character drift/clutter → Gem B; invalid spl
 ## 6. Canonical handoff states
 Use destination-specific states:
 - Gem A → Gem B: `READY_FOR_GEM_B`
+- Gem B Hero review → Product Owner: `READY_FOR_VISUAL_OWNER_REVIEW`
+- Hero approval → Gem B full production: `FULL_PRODUCTION_UNLOCKED`
 - Gem B → Program/Engine: `READY_FOR_ENGINE`
 - Program/Engine → Final Human QA: `READY_FOR_FINAL_QA`
 - Final Human QA → submission: `LINE_SUBMISSION_READY`
@@ -58,7 +66,7 @@ At chat-preview scale, the primary intent should be understandable quickly from 
 Approved Character Sheets are mandatory active references. Locked identity traits must be preserved. A Golden Reference may calibrate later production but never replaces the Character Sheet.
 
 ## 10. Hero Gate
-Full-set production is blocked until representative Hero Frames pass when Hero gating is required. If an anchor Hero fails, correct it before expanding the affected batch.
+Full-set production is blocked until representative Hero Frames pass when Hero gating is required. Hero output exists to let the user/Product Owner confirm the visual direction before scale-up. If an anchor Hero fails, correct it before expanding the affected batch.
 
 ## 11. Frame / Master Sticker Sheet model
 **Frame** = one sticker production unit.  
@@ -85,11 +93,12 @@ AI/Designer owns meaning, Character fidelity, composition, communication clarity
 
 ## 14. Gate model
 1. Gate A — Product / Documentation Readiness
-2. Gate B — Visual / Master Asset Readiness
-3. Gate C — Technical Submission Readiness
-4. Gate D — Final Human Acceptance
+2. Hero Gate — Visual Direction Approval when required
+3. Gate B — Visual / Master Asset Readiness
+4. Gate C — Technical Submission Readiness
+5. Gate D — Final Human Acceptance
 
-See `docs/project/QUALITY_GATE_STANDARD.md` and `docs/project/HANDOFF_STATUS_ADDENDUM.md`.
+See `docs/project/QUALITY_GATE_STANDARD.md`, `docs/project/HERO_TO_FULL_PRODUCTION_GATE.md`, and `docs/project/HANDOFF_STATUS_ADDENDUM.md`.
 
 ## 15. Typography
 AI-rendered Thai text is candidate-level until verified exactly. Final wording must be proofread 100%. Deterministic typography may be used when exact text cannot be guaranteed by generation.
@@ -119,14 +128,22 @@ Gem Instructions are orchestrators, not full knowledge stores. Stable specialist
 
 Repository SSOT remains authoritative over compiled Knowledge Packs.
 
-## 20. Software boundary
+## 20. North-Star test for process changes
+Before adding a new mandatory document, rule, Gem behavior or production step, ask whether it measurably improves the chance that the user receives the sticker product they actually want, that the stickers communicate well, and that the final package can be submitted and sold on LINE.
+
+If not, simplify it, remove it, or keep it optional.
+
+## 21. Software boundary
 Framework, Gem, Knowledge Pack and documentation work must not modify the existing Python application, `engine/`, `scripts/`, validators, packagers or deterministic processing logic unless the Product Owner explicitly opens a separate software-development task.
 
-## 21. Related standards
+## 22. Related standards
+- `docs/project/PROJECT_NORTH_STAR_AND_SUCCESS_CRITERIA.md`
 - `docs/project/MULTI_AGENT_STICKER_PRODUCTION_ARCHITECTURE.md`
 - `docs/project/HANDOFF_CONTRACT_STANDARD.md`
 - `docs/project/HANDOFF_STATUS_ADDENDUM.md`
 - `docs/project/QUALITY_GATE_STANDARD.md`
+- `docs/project/HERO_TO_FULL_PRODUCTION_GATE.md`
+- `docs/project/GEM_B_OUTPUT_CONTRACT.md`
 - `docs/project/GEM_INSTRUCTION_ARCHITECTURE.md`
 - `docs/gems/GEM_KNOWLEDGE_PACKAGING_STANDARD.md`
 - `docs/standards/STICKER_COMMUNICATION_STANDARD.md`
