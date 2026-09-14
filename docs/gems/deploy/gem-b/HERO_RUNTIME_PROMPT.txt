@@ -1,0 +1,17 @@
+The attached ZIP is the current Production Document Package.
+
+Use archive / Code Interpreter / Data Analysis capability to extract it first.
+Do not use Knowledge Search alone to infer ZIP contents and do not use prior-chat set-specific facts.
+
+Also use the attached `CHARACTER_SHEET_ACTIVE` as the primary Character Visual SSOT.
+
+Please guide me through this step:
+1. show a short current-step / input-status summary,
+2. extract the ZIP and report required files found/missing,
+3. validate `READY_FOR_GEM_B`,
+4. if valid, create only the Hero scope declared by the current package,
+5. run Hero visual QA,
+6. stop at `READY_FOR_VISUAL_OWNER_REVIEW`,
+7. tell me exactly whether to reply `approve hero` or how to request a revision.
+
+Do not create Full Production until I explicitly approve the Hero.

@@ -1,254 +1,197 @@
 # COPY-PASTE Prompt Library — MTLineSticker
 
-**Version:** 1.0  
-**Status:** Active
+**Version:** 1.1  
+**Status:** Active  
+**Principle:** attach the listed files, copy the prompt, and let the specialist guide the next step.
 
-This file is intentionally practical. Copy the prompt for the stage you are in, replace the bracketed fields, attach the listed files, and run it.
+If unsure where you are, send `show roadmap` or read [`START_HERE.md`](START_HERE.md).
 
 ---
 
-## Prompt A — Start a new set in Gem A
+## A — Start a new set in Gem A
 
 Attach:
-- current reference images,
+- current Character/person references,
 - captions if already available.
 
 ```text
-ช่วยสร้าง Production Document Package สำหรับ LINE Sticker 1 ชุด
+Create a Production Document Package for one LINE sticker set.
 
-กลุ่มเป้าหมาย:
-[ใส่กลุ่มเป้าหมาย]
+Target audience:
+[enter audience]
 
-เป้าหมาย:
-ต้องการสติกเกอร์ที่ใช้ได้จริงในแชตประจำวัน สื่อสารชัด ใช้งานบ่อย มีเอกลักษณ์ และมีศักยภาพขายได้จริงใน LINE Creators Market
+Goal:
+Create a sticker set that is useful in real chats, quickly understood, repeatedly usable, distinctive, and commercially credible.
 
-Product Concept:
-[ใส่ concept]
+Product concept:
+[enter concept]
 
-Character Source:
-ใช้ภาพอ้างอิงที่แนบเป็น visual evidence หลักของตัวละคร
-
-Character Requirements / Owner Locks:
-[ใส่ข้อกำหนดสำคัญ]
+Character / Owner Locks:
+[enter required traits]
 
 Captions:
-[วาง F01-F40 หรือระบุว่าให้ Gem A ช่วยเสนอ]
+[paste captions or ask Gem A to propose them]
 
-ให้วิเคราะห์ target audience, JTBD, positioning, differentiation, commercial potential และสร้าง Production Document Package ตาม governance ของ Gem A
-
-ห้าม invent ข้อมูลที่ไม่มีหลักฐาน
-ถ้ายังไม่มี approved Character Sheet ห้าม READY_FOR_GEM_B
-ถ้ารองรับ ขอผลลัพธ์เป็น ZIP package
+Use only current input, current attachments and active SSOT as source truth.
+Guide me step by step. Ask only for decisions actually needed to continue.
+At the end, tell me the current state, what files were produced, and give me a copy-paste prompt for the next stage.
 ```
 
 ---
 
-## Prompt B — Create Character Sheet Candidate
+## B — Create Character Sheet Candidate
 
 Attach:
-- entire `02_CHARACTER/`,
-- exact approved current reference images.
+- complete current `02_CHARACTER/`,
+- exact approved current references.
 
 ```text
-คุณคือ Senior Character Designer / Visual Development Artist / LINE Sticker Production Designer
+Create one Character Sheet Candidate only.
+Do not create Hero or Full Production.
 
-ฉันแนบ `02_CHARACTER/` ทั้งโฟลเดอร์ และภาพ reference ที่ยืนยันแล้ว
+Read every file in 02_CHARACTER/ and use it as the production specification.
+Use attached references as current visual evidence.
+Owner-locked requirements override conflicting raw-reference details.
 
-สร้าง Character Sheet Candidate เพียง 1 ชุด
-ห้ามสร้าง Hero Sticker หรือ Full Production
+Test front, 3/4, side, rear/rear-3/4, face/hair close-up, full-body proportions, expressions, poses/actions, wardrobe/accessory states and cross-view consistency.
 
-ก่อนสร้าง:
-1. อ่านทุกไฟล์ใน `02_CHARACTER/`
-2. CHARACTER_BIBLE.md = Character requirements
-3. CHARACTER_SHEET_SPECIFICATION.md = sheet structure
-4. CHARACTER_SHEET_GENERATION_PROMPT.md = primary generation prompt
-5. CHARACTER_SHEET_NEGATIVE_CONSTRAINTS.md = forbidden / rejection rules
-6. CHARACTER_SHEET_APPROVAL_CHECKLIST.md = self-QA
-7. reference images = visual evidence
+The Character Sheet visual style should already be close to the intended final sticker style.
+Do not defer a major style transformation to Gem B.
 
-Owner-locked documented requirements override conflicting raw references.
-ห้าม invent unsupported age, ethnicity, nationality, profession, rank หรือ identity facts
-
-ต้องทดสอบ front, 3/4, side, rear/rear-3/4, face/hair close-up, full-body proportion, expressions, poses/actions, wardrobe/accessory states และ cross-view consistency
-
-Visual style ของ Character Sheet ต้องใกล้เคียง final sticker style ที่ต้องการแล้ว
-ห้ามหวังให้ Gem B มาแก้ style ทีหลัง
-
-Output state:
+Output:
 READY_FOR_CHARACTER_OWNER_REVIEW
 
-ห้ามประกาศ CHARACTER_SHEET_ACTIVE เอง
+Do not self-declare CHARACTER_SHEET_ACTIVE.
 ```
 
 ---
 
-## Prompt C — Revise Character Sheet style
-
-Use when identity is acceptable but the sheet is too realistic, too serious, too young, too muscular, etc.
+## C — Revise Character Sheet
 
 ```text
-ปรับ Character Sheet Candidate นี้ โดยคง identity และ owner locks เดิมทั้งหมด
+Revise this Character Sheet Candidate while preserving the approved identity and owner locks.
 
-แก้เฉพาะประเด็นต่อไปนี้:
-[ใส่รายการ เช่น]
-- ให้เป็น Soft Anime / Modern Cartoon LINE Sticker Style มากขึ้น
-- ไม่ photorealistic
-- ไม่ดูจริงจังเกินไป
-- ลุคผู้ใหญ่ประมาณช่วงอายุ 40 ตาม owner direction
-- รูปร่างสมส่วน ไม่ผอม ไม่บึกบึน
-- ด้านข้างและด้านหลังผมสั้นเกรียนมากคล้ายโกน
-- hairline ด้านหน้าคม สะอาด
-- clean outline
-- simplified shading
-- sticker-friendly expression and silhouette
+Change only:
+[list requested changes]
 
-ห้ามเปลี่ยน Character identity, wardrobe logic, mandatory accessories หรือข้อกำหนดอื่นที่ไม่ได้ขอแก้
-
-ผลลัพธ์ยังเป็น Character Sheet Candidate
-สถานะ READY_FOR_CHARACTER_OWNER_REVIEW
+Do not change unrelated traits.
+The result remains a Character Sheet Candidate.
+Output:
+READY_FOR_CHARACTER_OWNER_REVIEW
 ```
 
 ---
 
-## Prompt D — Gem B Hero Production
+## D — Gem B Hero Production
 
 Attach:
-- current Production Document Package ZIP,
-- `CHARACTER_SHEET_ACTIVE`,
-- current approved references,
-- optional style/golden reference or owner notes.
+1. current Production Document Package ZIP,
+2. `CHARACTER_SHEET_ACTIVE`,
+3. current approved style/golden/reference assets only when needed.
 
 ```text
-คุณคือ GEM-B — Sticker Visual Producer ของโครงการ MTLineSticker
+The attached ZIP is the current Production Document Package.
 
-ฉันแนบ:
-1. current Production Document Package
-2. CHARACTER_SHEET_ACTIVE
-3. current approved reference images
-4. optional style/golden reference or owner notes
+Use archive / Code Interpreter / Data Analysis capability to extract it first.
+Do not use Knowledge Search alone to infer ZIP contents.
+Do not use prior-chat set-specific facts to reconstruct Hero IDs, captions or readiness.
 
-Authority:
-- Production Package = Product / Communication / QA / Production SSOT
-- CHARACTER_SHEET_ACTIVE = Character Visual SSOT
-- raw references = secondary fidelity evidence
+Use CHARACTER_SHEET_ACTIVE as the primary Character Visual SSOT.
 
-เป้าหมายรอบนี้:
-สร้างเฉพาะ Hero Sticker Set ตาม HERO_PLAN.md
-ห้ามสร้าง Full Production 40 stickers
+Please guide me through this step:
+1. show a short current-step / input-status summary,
+2. extract the ZIP and report required files found/missing,
+3. validate READY_FOR_GEM_B,
+4. if valid, create only the Hero scope declared by the current package,
+5. run Hero visual QA,
+6. stop at READY_FOR_VISUAL_OWNER_REVIEW,
+7. tell me exactly whether to reply `approve hero` or how to request a revision.
 
-ก่อนสร้าง:
-- อ่าน HERO_PLAN.md
-- อ่าน Hero entries ใน FRAME_COMMUNICATION_MATRIX.md
-- อ่าน VISUAL_DIRECTION.md
-- อ่าน QA_RULES.md และ AUTO_REJECT_RULES.md
-- ตรวจ active Character Sheet
+Do not create Full Production until I explicitly approve Hero.
+```
 
-ทุก Hero ต้อง:
-- ใช้ exact caption
-- ภาษาไทยถูกต้อง
-- รักษา identity / haircut / proportions / wardrobe / accessories
-- รักษา visual style ของ Character Sheet
-- expression / pose / silhouette อ่านง่ายในแชต
-- ห้าม invent product strategy หรือ Character facts
-- ห้ามสร้าง non-Hero frames
+---
 
-Final state:
+## E — Revise failed Hero only
+
+```text
+Revise only these Hero Frames:
+[Frame IDs]
+
+Defects:
+[defect per frame]
+
+Use the same current Production Package and CHARACTER_SHEET_ACTIVE.
+Do not change locked captions, Character identity or the whole-set style.
+Run QA on the revised frames.
+Keep status READY_FOR_VISUAL_OWNER_REVIEW until owner approval.
+```
+
+---
+
+## F — Approve Hero
+
+Use only after the Product Owner has reviewed the Hero set.
+
+```text
+approve hero
+```
+
+Expected transition:
+
+```text
 READY_FOR_VISUAL_OWNER_REVIEW
-
-ห้าม FULL_PRODUCTION_UNLOCKED เอง
+→ FULL_PRODUCTION_UNLOCKED
 ```
+
+Gem B should confirm the approval and show the next production step before continuing.
 
 ---
 
-## Prompt E — Revise failed Hero only
+## G — Full Production
 
 ```text
-แก้เฉพาะ Hero Frames ต่อไปนี้:
-[ใส่ Frame IDs]
+continue
 
-ใช้ Production Package และ CHARACTER_SHEET_ACTIVE เดิมเป็น SSOT
-ห้ามแก้ caption ที่ locked
-ห้าม redesign Character
-ห้ามเปลี่ยน style ทั้งชุด
-
-Defects ที่ต้องแก้:
-[ใส่ defect ต่อ frame เช่น identity drift / Thai typo / wrong watch wrist / weak expression / visual clutter]
-
-หลังแก้ให้ทำ self-QA เฉพาะ frame ที่แก้และรายงาน PASS / RISK / REJECT
-สถานะยังคง READY_FOR_VISUAL_OWNER_REVIEW จนกว่า Product Owner จะ approve
+FULL_PRODUCTION_UNLOCKED has been approved by the Product Owner.
+Proceed with controlled Full Production using the current Production Package, CHARACTER_SHEET_ACTIVE and approved Hero direction.
+Follow FRAME_TO_SHEET_MAPPING and MASTER_SHEET_PLAN.
+Keep exact captions and visual continuity.
+QA every batch before moving on.
 ```
 
 ---
 
-## Prompt F — Full Production after Hero approval
-
-Use only after the Product Owner explicitly records `FULL_PRODUCTION_UNLOCKED`.
+## H — Continue next batch only
 
 ```text
-Product Owner อนุมัติ Hero Set แล้ว
-Current state: FULL_PRODUCTION_UNLOCKED
+continue next batch only
 
-ให้ GEM-B ดำเนิน Full Production ตาม Production Document Package, CHARACTER_SHEET_ACTIVE และ approved Hero direction
-
-กฎ:
-- exact captions only
-- follow FRAME_TO_SHEET_MAPPING
-- follow MASTER_SHEET_PLAN
-- keep Character and style consistent across all batches
-- optional accessories only when frame brief supports them
-- QA each batch before moving to the next
-- failed frames must be corrected at source
-
-เมื่อ Full Production ผ่าน visual QA และ mapping reconciliation แล้ว ส่งสถานะ READY_FOR_ENGINE
+Use the same active SSOT.
+Create only the next declared batch/sheet.
+QA caption mapping, Character identity, style, proportions, accessories, composition and sheet consistency before delivery.
 ```
 
 ---
 
-## Prompt G — Continue next batch only
+## I — Audit before continuing
 
 ```text
-ดำเนินการเฉพาะ batch ถัดไปตาม MASTER_SHEET_PLAN
-
-ใช้ SSOT เดิมทั้งหมด:
-- Production Document Package
-- CHARACTER_SHEET_ACTIVE
-- approved Hero visual direction
-
-ห้ามเปลี่ยน Character/style/captions
-หลังสร้าง batch นี้ ให้ QA caption, identity, proportions, accessories, composition, safe area และ consistency ก่อนจบงาน
+Audit the current Production Package before downstream use.
+Check actual N/N Caption Master, Frame Communication Matrix, Frame-to-Sheet Mapping, missing/duplicate/mismatch, commercial evidence, Character Sheet documentation, current-source discipline, reference-authority conflicts, Hero readiness and handoff state.
+Summarize PASS / RISK / BLOCKER.
+If something stops progress, give the shortest recovery action and a copy-paste continue command.
 ```
 
 ---
 
-## Prompt H — Ask AI to audit a package before use
+## J — Character Sheet approval record
 
-```text
-ตรวจ Production Document Package นี้ก่อนนำไปใช้ downstream
-
-ตรวจอย่างน้อย:
-- Caption Master actual N/N
-- Frame Communication Matrix actual N/N
-- Frame-to-Sheet Mapping actual N/N
-- missing / duplicate / mismatch
-- commercial scorecard evidence
-- Character Sheet documentation completeness
-- unsupported invention / context contamination
-- reference authority conflicts
-- Hero Plan readiness
-- handoff status correctness
-
-สรุปเป็น PASS / RISK / BLOCKER และระบุ next action ที่ต้องทำ
-```
-
----
-
-## Prompt I — Owner approval record for Character Sheet
-
-Use only when the Product Owner has personally approved the candidate.
+Use only after the Product Owner has personally approved the candidate.
 
 ```text
 Product Owner Decision:
-Character Sheet Candidate นี้ได้รับอนุมัติให้เป็น Character Visual SSOT สำหรับชุดนี้
+This Character Sheet Candidate is approved as the Character Visual SSOT.
 
 Asset ID:
 CHAR-SSOT-[ID]_v[VERSION]
@@ -256,42 +199,42 @@ CHAR-SSOT-[ID]_v[VERSION]
 State:
 CHARACTER_SHEET_ACTIVE
 
-Effective from:
-[date/version]
-
-Any future visual production must follow this active Character Sheet unless a newer owner-approved version replaces it.
+Future visual production must follow this version until a newer owner-approved version replaces it.
 ```
 
 ---
 
-## Prompt J — Owner approval record for Hero
+# Quick selector
+
+| Situation | Prompt |
+|---|---|
+| New set | A |
+| Create Character Sheet | B |
+| Fix Character Sheet | C |
+| Character approved, create Hero | D |
+| Fix Hero | E |
+| Approve Hero | F |
+| Full Production | G |
+| One next batch | H |
+| Audit | I |
+| Approve Character Sheet | J |
+
+## Simple navigation commands
+
+Both specialist Gems should understand:
 
 ```text
-Product Owner Decision:
-Hero Sticker Set นี้ได้รับอนุมัติ
-
-State transition:
-READY_FOR_VISUAL_OWNER_REVIEW
-→ FULL_PRODUCTION_UNLOCKED
-
-Gem B may proceed to controlled Full Production according to the active Production Package, CHARACTER_SHEET_ACTIVE, approved Hero direction and QA rules.
+status
+next
+continue
+show roadmap
+what do you need from me?
+what is blocking?
 ```
 
----
+Gem B additionally:
 
-# Which prompt do I use?
-
-| Current situation | Use prompt |
-|---|---|
-| New idea / new set | A |
-| Need Character Sheet | B |
-| Character Sheet style wrong | C |
-| Character active, need Hero | D |
-| Some Hero frames failed | E |
-| Hero approved, create all stickers | F |
-| Continue one production batch | G |
-| Need audit before continuing | H |
-| Approve Character Sheet | I |
-| Approve Hero and unlock full production | J |
-
-If unsure, check [`START_HERE.md`](START_HERE.md) first.
+```text
+approve hero
+revise hero
+```
