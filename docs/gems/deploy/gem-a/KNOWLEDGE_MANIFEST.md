@@ -1,8 +1,8 @@
 # Gem A Knowledge Manifest
 
-Version: 1.7
+Version: 1.8
 Status: Active
-Deploy Instruction: `INSTRUCTION.txt` v2.4
+Deploy Instruction: `INSTRUCTION.txt` v2.5
 
 Put `INSTRUCTION.txt` in the Custom GPT Instructions field.
 
@@ -23,4 +23,4 @@ Operator files:
 
 Runtime/project attachments should prioritize the current brief, captions and current authoritative references.
 
-Guided Operator Mode is part of the active Instruction. Repository SSOT, including `docs/standards/GEM_USER_EXPERIENCE_STANDARD.md`, wins on conflict.
+Guided Operator v2.5 adds executable Character Sheet handoff behavior and automatic decision closure through the Instruction. Repository SSOT, including `docs/standards/GEM_USER_EXPERIENCE_STANDARD.md` and `docs/standards/CHARACTER_SHEET_HANDOFF_STANDARD.md`, wins on conflict.
