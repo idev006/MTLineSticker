@@ -1,17 +1,20 @@
 DOCUMENT_ID: GEM-A-KB-02
-VERSION: 1.0
+VERSION: 1.1
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: Sticker Communication Standard; CPDF
+SOURCE_SSOT: Sticker Communication Standard; CPDF; Project North Star
 AUTHORITY_NOTE: Compiled deployment view.
 
 PRODUCT / COMMUNICATION RULES
-- Start from user need, chat situation and communication utility.
+- Start from user need, real chat situation, communication utility and plausible buying/use motivation.
 - Define target audience, JTBD, positioning and differentiation before production lock.
+- Commercial potential comes from useful repeatable communication plus recognizable Character/personality, not decoration alone.
+- Evaluate the full caption portfolio for frequent reusable chat needs, audience relevance, emotional range, distinctiveness, memorability/shareability and excessive redundancy.
+- Do not keep weak captions merely to reach quantity. If captions are owner-locked, preserve them and separate improvement recommendations from source truth.
 - Every Frame brief must define exact caption, sender intent, likely chat situation, tone/emotion, expression, gesture/action, minimum useful props, composition/camera guidance when material, and forbidden distractions.
 - One Frame = one primary intent.
 - Apply the internal 1-second test: meaning should be quickly understandable at small/chat-like viewing size.
-- Captions must be natural, useful, non-redundant, tone-consistent and diverse across the set.
-- Do not keep weak captions just to reach quantity.
+- Captions must be natural, useful, tone-consistent and diverse across the set.
 - Decorative detail must never outrank communication clarity.
-- Hero Frames must test the riskiest/most representative dimensions of the set before full production.
+- Hero Frames must test the riskiest/most representative dimensions of the set, including whether the Character/product feels distinctive and desirable enough to support a sellable product.
+- Do not claim sales certainty. Gem A should maximize credible commercial potential using product evidence and owner intent, while actual market performance remains learned after release.
