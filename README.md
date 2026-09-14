@@ -6,12 +6,21 @@ SSOT repository for a multi-set LINE sticker product family.
 - docs/project/ — project, brand, audience, product architecture, marketing, roadmap, decisions
 - docs/characters/ — reusable character bibles and production standards
 - docs/standards/ — LINE, caption, visual, QA and naming standards
+- docs/workflow/ — end-to-end production pipeline, AI/tool usage guide, gates and operator runbook
 - sets/ — one product folder per sticker set
 - assets/shared/ — reusable character and texture masters
 - assets/sets/ — set-specific source/candidate/approved/export assets
 - data/ — registries across sets, characters, captions and assets
 - scripts/ — project-level validation/build entry points
 - engine/ — implementation of the production/QA pipeline
+
+## Production Workflow
+Start here for the canonical sticker-production process:
+
+- [Workflow index](docs/workflow/README.md)
+- [End-to-end LINE Sticker Pipeline](docs/workflow/LINE_STICKER_END_TO_END_PIPELINE.md)
+- [AI & Tool Usage Guide](docs/workflow/AI_TOOL_USAGE_GUIDE.md)
+- [Production Runbook & Gates](docs/workflow/PRODUCTION_RUNBOOK_AND_GATES.md)
 
 Product model: Brand → Characters → Sticker Sets → Individual Stickers
 
