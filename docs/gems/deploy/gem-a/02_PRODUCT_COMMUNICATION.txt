@@ -1,5 +1,5 @@
 DOCUMENT_ID: GEM-A-KB-02
-VERSION: 1.2
+VERSION: 1.3
 STATUS: ACTIVE
 APPLIES_TO: Gem A
 SOURCE_SSOT: Sticker Communication Standard; CPDF; Project North Star
@@ -20,21 +20,38 @@ PRODUCT / COMMUNICATION RULES
 - Do not claim sales certainty. Gem A should maximize credible commercial potential using product evidence and owner intent, while actual market performance remains learned after release.
 
 COMMERCIAL SCORECARD — REQUIRED
-PRODUCT_POSITIONING.md must contain evidence-based commercial analysis, not a vague label such as "interesting" or "high potential" alone. Evaluate at minimum:
+PRODUCT_POSITIONING.md and COMMERCIAL_SCORECARD.md must contain evidence-based commercial analysis, not vague labels alone. Evaluate at minimum:
 1. Audience clarity — who is most likely to buy/use and why.
-2. Repeat-use utility — estimate how many captions are high-, medium-, and low-frequency in realistic chat use, with rationale.
+2. Repeat-use utility — score every caption using the rubric below and report High/Medium/Low counts with Frame IDs.
 3. Coverage — whether the set spans enough recurring situations without becoming generic.
 4. Differentiation — why a buyer would choose this set over generic alternatives.
 5. Signature territory — which captions/behaviors are strongly owned by this Character/concept.
-6. Purchase hooks — the 3–7 strongest reasons/frames likely to attract attention, memory, sharing, or purchase.
+6. Purchase hooks — rank the 3–7 strongest frames using the hook rubric below.
 7. Redundancy/cannibalization risk — captions that compete for the same job and how they differ.
-8. Emotional range — whether the set covers practical, warm, humorous, supportive and relationship use appropriately for the target.
-9. Character-market fit — whether the Character personality reinforces the intended audience and product promise.
+8. Emotional range — practical, warm, humorous, supportive and relationship coverage for the target.
+9. Character-market fit — whether Character personality reinforces audience and product promise.
 10. Commercial risks — weak/generic captions, narrow use cases, visual monotony, unclear audience, or concept drift.
-11. Recommended action — KEEP / IMPROVE / OWNER-DECISION, while preserving LOCKED source captions unless the owner explicitly unlocks them.
+11. Recommended action — KEEP / IMPROVE / OWNER-DECISION, while preserving LOCKED captions unless explicitly unlocked.
+
+REPEAT-USE CALIBRATION
+Score each caption 0–5 on three dimensions, with one-sentence rationale:
+- Frequency: how often the underlying communication need plausibly occurs.
+- Breadth: how many realistic chat contexts/relationships can use it without sounding forced.
+- Naturalness: how naturally a target user would actually send the wording.
+RepeatUseScore = average(Frequency, Breadth, Naturalness).
+Classify: High >=4.0; Medium 2.5–3.9; Low <2.5.
+Do not equate household specificity with high frequency without evidence; do not downgrade broad utility merely because wording is simple.
+
+PORTFOLIO BALANCE MODEL
+Classify every Frame primarily as one of: UTILITY_ANCHOR, RELATIONSHIP_EMOTIONAL, SIGNATURE_CONCEPT, HUMOR_MEMORABLE. Report counts and percentages.
+Use these only as diagnostic guide rails for a broad 40-frame consumer set, not rigid quotas: Utility 40–55%, Relationship/Emotional 15–30%, Signature Concept 15–30%, Humor/Memorable 10–20%. A set may deviate when the concept justifies it, but explain the trade-off.
+A strong portfolio needs both frequent-use value and distinctive reasons to buy.
+
+PURCHASE-HOOK RUBRIC
+For candidate purchase hooks score 0–5 on: instant clarity, character distinctiveness, emotional pull, visual potential, shareability/memorability, and product-representativeness. Rank candidates by evidence; do not select solely for novelty or easy artwork. At least one top hook should demonstrate utility and at least one should demonstrate concept/signature value.
 
 PORTFOLIO DISCIPLINE
-- Distinguish utility anchors, relationship/emotional frames, signature concept frames, and memorable/humor frames.
-- Avoid optimizing only for novelty; a sellable set needs both frequent-use utility and distinctive reasons to buy.
-- Avoid optimizing only for generic utility; if every caption can belong to any sticker set, commercial differentiation is weak.
+- Avoid optimizing only for novelty; novelty without repeat use weakens value.
+- Avoid optimizing only for generic utility; if every caption could belong to any sticker set, differentiation is weak.
 - Commercial scoring is diagnostic, not permission to silently rewrite owner-locked captions.
+- Recommendations must separate source truth from proposed improvement.
