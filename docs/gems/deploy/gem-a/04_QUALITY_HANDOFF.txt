@@ -1,5 +1,5 @@
 DOCUMENT_ID: GEM-A-KB-04
-VERSION: 1.3
+VERSION: 1.4
 STATUS: ACTIVE
 APPLIES_TO: Gem A
 SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard; Gem A Output Contract 2.2; Character Sheet Lifecycle; Project North Star
@@ -19,6 +19,9 @@ AUTO-STOP / RETURN when:
 - unsupported traits would need to be invented,
 - current-task provenance for a material set-specific rule cannot be established,
 - Gem B would be forced to invent product strategy.
+
+REFERENCE SET VALIDATION
+When the Product Owner states an expected reference count or identifies a specific reference set, compare that declaration with the actual current attachments. If expected and observed counts differ, do not silently choose which references are primary, supplemental, or excluded. Record REFERENCE_COUNT_CONFLICT with expected count, observed count, file/reference identifiers, and required Product Owner decision. If the conflict does not affect document drafting, the package may continue in OWNER_DECISION_REQUIRED, but no disputed reference may be promoted to authoritative Character SSOT without owner confirmation.
 
 PACKAGE COMPLETENESS
 Gem A must create the multi-file package defined by GEM_A_OUTPUT_CONTRACT, including the Character Bible and Character Sheet generation/approval documents. A single long markdown response is not a production-complete package.
@@ -44,7 +47,8 @@ SOURCE-SCOPE VALIDATION
 Before PASS, inspect material set-specific facts and negative constraints. They must trace to CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT, or FIXED_GOVERNANCE. Unrelated prior context or stale examples are contamination and must be removed. Unknown non-blocking facts remain UNSPECIFIED.
 
 COMMERCIAL QUALITY VALIDATION
-Before package delivery, confirm that Product Positioning contains an evidence-backed commercial scorecard covering audience clarity, repeat-use utility distribution, differentiation, signature territory, purchase hooks, redundancy risk, emotional range, Character-market fit, commercial risks and recommended action. A vague statement such as "commercial potential: interesting/high" is not sufficient.
+Before package delivery, confirm that Product Positioning/Commercial Scorecard contains evidence-backed analysis covering audience clarity, calibrated repeat-use scoring, portfolio balance, differentiation, signature territory, ranked purchase hooks, redundancy risk, emotional range, Character-market fit, commercial risks and recommended action.
+Repeat-use categories must be derived from the declared scoring rubric, not intuition labels alone. Portfolio category counts/percentages must be reported. Purchase hooks must show rubric evidence.
 Commercial analysis must never claim guaranteed sales and must never silently rewrite locked captions. Weak locked captions may be flagged with separate recommendations for Product Owner decision.
 
 CHARACTER SHEET SPEC VALIDATION
@@ -58,11 +62,13 @@ If Character Sheet creation or Product Owner approval is still pending, Gem A mu
 Gem A is DONE only when:
 - Product Brief is coherent,
 - Product Positioning includes evidence-backed commercial analysis,
+- Commercial Scorecard includes calibrated repeat-use, portfolio-balance and purchase-hook evidence,
 - caption list is locked or explicitly marked for owner decision,
 - every required Frame brief exists as a concrete entry,
 - Character Bible is coherent and source-disciplined,
 - Character Sheet specification/prompt/negative constraints/approval checklist exist and meet minimum coverage,
 - required Character Sheet has been approved and recorded as CHARACTER_SHEET_ACTIVE unless an explicit documented Product Owner exception exists,
+- any reference-count conflict has been resolved or explicitly remains a blocking owner decision,
 - Hero plan and pass criteria exist,
 - Character/Style references are valid,
 - Frame/Sheet plan is explicit and saturated N/N,
@@ -75,4 +81,4 @@ Gem A is DONE only when:
 PRE-PACKAGE AUDIT EVIDENCE
 A PASS claim must be supported by actual package content. Never accept a self-declared "40/40", "complete", "commercially strong", or "PASS" if the corresponding evidence is absent. Reconciliation prose is evidence only when it matches populated artifacts.
 
-Defect ownership: concept, caption, use-case, weak commercial architecture, unsupported invention, context contamination, false completeness, Character documentation and package/handoff defects belong to Gem A and must not be passed downstream.
+Defect ownership: concept, caption, use-case, weak commercial architecture, unsupported invention, context contamination, false completeness, unresolved reference authority, Character documentation and package/handoff defects belong to Gem A and must not be passed downstream.
