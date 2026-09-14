@@ -1,33 +1,35 @@
 # Gem B Knowledge Manifest
 
-**Manifest version:** 1.1  
-**Fixed attachment budget:** 5 files.  
-**Reserved runtime capacity:** 5 files.  
-**Platform maximum recorded by Product Owner:** 10 files.
+**Manifest version:** 1.2
+**Status:** Active
+**Deploy Instruction:** `INSTRUCTION.txt` v2.2
+**Fixed Knowledge:** 5 files
 
-> Installer note: `KNOWLEDGE_MANIFEST.md` itself is deployment guidance and is **not** a required Gem knowledge attachment. Put `INSTRUCTION.txt` in the Gem Instructions field, then attach the five fixed knowledge files below.
+Put `INSTRUCTION.txt` in the Custom GPT Instructions field.
 
-## Attach these 5 fixed files
-1. `01_CORE_GOVERNANCE.txt` — v1.3
-2. `02_VISUAL_COMMUNICATION.txt` — v1.0
-3. `03_CHARACTER_STYLE_GOVERNANCE.txt` — v1.1
-4. `04_FRAME_SHEET_QA.txt` — v1.0
-5. `05_HANDOFF_OUTPUT.txt` — v2.0
+Attach these five fixed Knowledge files:
+1. `01_CORE_GOVERNANCE.txt` v1.3
+2. `02_VISUAL_COMMUNICATION.txt` v1.0
+3. `03_CHARACTER_STYLE_GOVERNANCE.txt` v1.1
+4. `04_FRAME_SHEET_QA.txt` v1.0
+5. `05_HANDOFF_OUTPUT.txt` v2.0
 
-## Runtime/project slots — attach only when relevant
-Normally prioritize:
-- approved Gem A Production Document Package (ZIP if supported, otherwise extracted named files),
-- approved `CHARACTER_SHEET_ACTIVE`,
-- current Style SSOT when separate,
-- approved Hero/Golden Reference when applicable,
-- set-specific correction/owner-decision package if needed.
+Do NOT attach this manifest, README, setup checklist, runtime prompt or changelog as Knowledge.
 
-Do not exceed 10 total knowledge attachments. Do not waste runtime slots on standards already compiled into the fixed pack.
+Required/strongly recommended Custom GPT capabilities:
+- Code Interpreter / Data Analysis or equivalent archive/file access
+- Image Generation
 
-## Loading order
-Fixed pack -> Gem A Production Package -> CHARACTER_SHEET_ACTIVE / Style -> Golden Reference/other runtime context -> DoR/package validation -> Visual Blackbox -> Hero Gate -> Full Production -> Exit Gate -> handoff.
+Normal runtime priority:
+1. current approved Gem A Production Package,
+2. `CHARACTER_SHEET_ACTIVE`,
+3. separate active Style/Golden Reference when applicable,
+4. current approved references/Owner Notes only when useful.
 
-## Readiness note
-Raw reference images/video and a Character Sheet specification are not substitutes for `CHARACTER_SHEET_ACTIVE`. Gem B must not begin Hero production on a premature Gem A handoff.
+Operator files:
+- `README_FIRST.md`
+- `SETUP_CHECKLIST.md`
+- `HERO_RUNTIME_PROMPT.txt`
+- `CHANGELOG.md`
 
-Repository SSOT outranks compiled deployment files on conflict.
+Guided Operator Mode and ZIP runtime handling are part of the active Instruction. Repository SSOT, including `docs/standards/GEM_USER_EXPERIENCE_STANDARD.md`, wins on conflict.

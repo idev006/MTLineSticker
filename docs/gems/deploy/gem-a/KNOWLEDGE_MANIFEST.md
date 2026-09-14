@@ -1,9 +1,10 @@
 # Gem A Knowledge Manifest
 
-Version: 1.6
+Version: 1.7
 Status: Active
+Deploy Instruction: `INSTRUCTION.txt` v2.4
 
-Use `INSTRUCTION.txt` in the Gem Instructions field. Keep it below the platform limit.
+Put `INSTRUCTION.txt` in the Custom GPT Instructions field.
 
 Attach these five fixed Knowledge files:
 1. `01_CORE_GOVERNANCE.txt` v1.3
@@ -12,12 +13,14 @@ Attach these five fixed Knowledge files:
 4. `04_QUALITY_HANDOFF.txt` v1.4
 5. `05_PRODUCTION_PACKAGE.txt` v2.4
 
-`KNOWLEDGE_MANIFEST.md` is installer guidance and is not itself a required Knowledge attachment.
+Do NOT attach this manifest, README, setup checklist, runtime prompt or changelog as Knowledge.
 
-Runtime/project attachments should prioritize the current brief, captions, active Character/Style references, and current set-specific references.
+Operator files:
+- `README_FIRST.md`
+- `SETUP_CHECKLIST.md`
+- `START_RUNTIME_PROMPT.txt`
+- `CHANGELOG.md`
 
-Gem A owns internal package structure, QA, commercial evaluation, evidence discipline, cardinality checks and handoff logic. The user prompt may remain concise.
+Runtime/project attachments should prioritize the current brief, captions and current authoritative references.
 
-North Star: maximize the credible chance that the sticker set is useful, distinctive, memorable, repeatedly usable in real chats and commercially attractive enough to buy, without claiming guaranteed sales.
-
-Repository SSOT wins on conflict.
+Guided Operator Mode is part of the active Instruction. Repository SSOT, including `docs/standards/GEM_USER_EXPERIENCE_STANDARD.md`, wins on conflict.
