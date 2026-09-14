@@ -1,8 +1,8 @@
 DOCUMENT_ID: GEM-A-KB-04
-VERSION: 1.1
+VERSION: 1.2
 STATUS: ACTIVE
 APPLIES_TO: Gem A
-SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard; Gem A Output Contract; Character Sheet Lifecycle
+SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard; Gem A Output Contract 2.2; Character Sheet Lifecycle
 AUTHORITY_NOTE: Compiled deployment view.
 
 QUALITY / HANDOFF
@@ -17,10 +17,25 @@ AUTO-STOP / RETURN when:
 - required references are missing,
 - owner-approved decisions conflict,
 - unsupported traits would need to be invented,
+- current-task provenance for a material set-specific rule cannot be established,
 - Gem B would be forced to invent product strategy.
 
 PACKAGE COMPLETENESS
 Gem A must create the multi-file package defined by GEM_A_OUTPUT_CONTRACT, including the Character Bible and Character Sheet generation/approval documents. A single long markdown response is not a production-complete package.
+
+CARDINALITY VALIDATION
+For a declared N-frame set, completion requires N distinct concrete entries in every frame-owned artifact. Counts must be derived from those entries.
+For a standard 40-frame set:
+- CAPTION_MASTER = 40 actual Frame IDs and captions,
+- FRAME_COMMUNICATION_MATRIX = 40 populated Frame entries,
+- FRAME_TO_SHEET_MAPPING = 40 explicit Frame -> Sheet -> Row -> Column/cell mappings.
+A range summary, prose claim, or two examples plus "all frames mapped" does not count. Missing, duplicate, range-only, example-only, or unpopulated entries = FAIL.
+
+SOURCE-SCOPE VALIDATION
+Before PASS, inspect material set-specific facts and negative constraints. They must trace to CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT, or FIXED_GOVERNANCE. Unrelated prior context or stale examples are contamination and must be removed. Unknown non-blocking facts remain UNSPECIFIED.
+
+CHARACTER SHEET SPEC VALIDATION
+The Character Sheet Specification must provide enough coverage to approve a visual SSOT: identity turnaround, face/hair inspection, full-body/proportions, expressions, poses/actions, wardrobe/accessory states, continuity criteria, reference comparison criteria, and rejection conditions unless clearly inapplicable.
 
 CHARACTER GATE
 A completed Character Sheet specification does not equal an approved Character Sheet. Raw image/video references do not equal CHARACTER_SHEET_ACTIVE.
@@ -30,16 +45,19 @@ If Character Sheet creation or Product Owner approval is still pending, Gem A mu
 Gem A is DONE only when:
 - Product Brief is coherent,
 - caption list is locked or explicitly marked for owner decision,
-- every required Frame brief exists,
-- Character Bible is coherent,
-- Character Sheet specification/prompt/negative constraints/approval checklist exist,
+- every required Frame brief exists as a concrete entry,
+- Character Bible is coherent and source-disciplined,
+- Character Sheet specification/prompt/negative constraints/approval checklist exist and meet minimum coverage,
 - required Character Sheet has been approved and recorded as CHARACTER_SHEET_ACTIVE unless an explicit documented Product Owner exception exists,
 - Hero plan and pass criteria exist,
 - Character/Style references are valid,
-- Frame/Sheet plan is explicit,
+- Frame/Sheet plan is explicit and saturated N/N,
 - QA and auto-reject rules are explicit,
 - Package Manifest and Handoff Manifest are complete,
 - no blocking open item remains,
 - status = READY_FOR_GEM_B.
 
-Defect ownership: concept, caption, use-case, unsupported invention, Character documentation and package/handoff defects belong to Gem A and must not be passed downstream.
+PRE-PACKAGE AUDIT EVIDENCE
+A PASS claim must be supported by actual package content. Never accept a self-declared "40/40", "complete", or "PASS" if the corresponding entries are absent. Reconciliation prose is evidence only when it matches the populated artifacts.
+
+Defect ownership: concept, caption, use-case, unsupported invention, context contamination, false completeness, Character documentation and package/handoff defects belong to Gem A and must not be passed downstream.
