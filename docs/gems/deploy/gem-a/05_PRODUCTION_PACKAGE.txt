@@ -1,132 +1,59 @@
 DOCUMENT_ID: GEM-A-KB-05
-VERSION: 2.4
+VERSION: 2.5
 STATUS: ACTIVE
 APPLIES_TO: Gem A
 SOURCE_SSOT: Gem A Output Contract 2.2; Production Document Package Template; Master Sheet/Frame Standard; Character Sheet Lifecycle; Project North Star
 AUTHORITY_NOTE: Compiled deployment view.
 
 PRODUCTION DOCUMENT PACKAGE
-Gem A must create a structured multi-file package. Preferred delivery is one ZIP archive when the execution environment supports archive/file creation. If ZIP creation is unavailable, emit the exact named files separately with the same logical folders. Do not collapse production output into one undifferentiated markdown response.
+Create a structured multi-file package; prefer ZIP when file creation is supported. Do not collapse production output into one undifferentiated response.
 
 USER INPUT SIMPLICITY
-The user is not required to specify internal file names, gates, manifests, QA fields, inference safeguards or package structure. Gem A must derive and complete these from its governing contract. A concise Product Owner prompt containing concept/positioning, target audience, Character description/references and captions/seed captions is sufficient when those inputs resolve product intent.
-
-CURRENT-TASK SOURCE BOUNDARY
-Before generating set-specific requirements, constrain evidence to CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT and FIXED_GOVERNANCE. Do not import unrelated prior-chat traits, old set constraints, stale examples, demographic assumptions or negative/style bans. Unsupported material facts remain UNSPECIFIED unless they genuinely block production.
+The user need not specify internal files, gates, manifests, QA fields or inference safeguards. A concise owner prompt with concept, audience, Character description/references and captions/seed captions is sufficient when product intent is resolved.
 
 REQUIRED LOGICAL STRUCTURE
-00_PACKAGE/
-- README.md
-- PACKAGE_MANIFEST.md
-- HANDOFF_STATUS.md
+00_PACKAGE/ README.md, PACKAGE_MANIFEST.md, HANDOFF_STATUS.md
+01_PRODUCT/ PRODUCT_BRIEF.md, TARGET_AUDIENCE_JTBD.md, PRODUCT_POSITIONING.md, COMMERCIAL_SCORECARD.md
+02_CHARACTER/ CHARACTER_BIBLE.md, GLOBAL_CHARACTER_LOCKS.md, CHARACTER_SHEET_SPECIFICATION.md, CHARACTER_SHEET_GENERATION_PROMPT.md, CHARACTER_SHEET_NEGATIVE_CONSTRAINTS.md, CHARACTER_SHEET_APPROVAL_CHECKLIST.md, CHARACTER_SHEET_RUNTIME_HANDOFF.md, CHARACTER_SHEET_RUNTIME_PROMPT.txt
+03_COMMUNICATION/ CAPTION_ARCHITECTURE.md, CAPTION_MASTER.md, FRAME_COMMUNICATION_MATRIX.md
+04_VISUAL_PRODUCTION/ HERO_PLAN.md, MASTER_SHEET_PLAN.md, VISUAL_DIRECTION.md, FRAME_TO_SHEET_MAPPING.md
+05_QA/ QA_RULES.md, AUTO_REJECT_RULES.md, GATE_A_CHECKLIST.md, PRE_PACKAGE_SELF_AUDIT.md
+06_HANDOFF/ GEM_B_INPUT_MANIFEST.md, GEM_B_RUNTIME_HANDOFF.md when ready, HANDOFF_MANIFEST.md, OPEN_ITEMS_AND_OWNER_DECISIONS.md
+07_REFERENCES/ REFERENCE_INDEX.md plus current reference assets included/linked according to capability
 
-01_PRODUCT/
-- PRODUCT_BRIEF.md
-- TARGET_AUDIENCE_JTBD.md
-- PRODUCT_POSITIONING.md
-- COMMERCIAL_SCORECARD.md
-
-02_CHARACTER/
-- CHARACTER_BIBLE.md
-- CHARACTER_SHEET_SPECIFICATION.md
-- CHARACTER_SHEET_GENERATION_PROMPT.md
-- CHARACTER_SHEET_NEGATIVE_CONSTRAINTS.md
-- CHARACTER_SHEET_APPROVAL_CHECKLIST.md
-
-03_COMMUNICATION/
-- CAPTION_ARCHITECTURE.md
-- CAPTION_MASTER.md
-- FRAME_COMMUNICATION_MATRIX.md
-
-04_VISUAL_PRODUCTION/
-- HERO_PLAN.md
-- MASTER_SHEET_PLAN.md
-- VISUAL_DIRECTION.md
-- FRAME_TO_SHEET_MAPPING.md
-
-05_QA/
-- QA_RULES.md
-- AUTO_REJECT_RULES.md
-- GATE_A_CHECKLIST.md
-- PRE_PACKAGE_SELF_AUDIT.md
-
-06_HANDOFF/
-- GEM_B_INPUT_MANIFEST.md
-- HANDOFF_MANIFEST.md
-- OPEN_ITEMS_AND_OWNER_DECISIONS.md
-
-CONTENT OWNERSHIP RULE
-Every mandatory file must contain the actual information it owns when that information is available. Do not use placeholders or cross-file deflection such as "contains the 40 captions", "see another file", "same as above", "TBD", "representative examples" or an empty checklist as a substitute for required content. Cross-references may supplement owned content but may not replace it.
+CONTENT OWNERSHIP
+Mandatory files contain their actual owned content when available. No TBD, “same as above”, range-only, representative-example or cross-file deflection as a substitute for required content.
 
 COMMERCIAL SCORECARD
-COMMERCIAL_SCORECARD.md is required because commercial readiness is a North Star outcome, not a marketing afterthought. It must contain:
-- primary buyer/user segment and buying/use motivation,
-- per-caption Frequency/Breadth/Naturalness scores (0–5) and RepeatUseScore,
-- High/Medium/Low repeat-use counts and Frame IDs using the fixed thresholds,
-- portfolio category counts and percentages for UTILITY_ANCHOR, RELATIONSHIP_EMOTIONAL, SIGNATURE_CONCEPT, HUMOR_MEMORABLE,
-- coverage of recurring chat jobs,
-- differentiation versus generic sticker alternatives,
-- signature communication territory,
-- ranked 3–7 purchase hooks with evidence from the fixed hook rubric,
-- redundancy/cannibalization risks,
-- emotional-range coverage,
-- Character-market fit,
-- commercial risks,
-- owner-preserving recommendations.
-Scores/judgments require rationale. Diagnostic guide rails are not hard quotas. Do not claim guaranteed sales. Locked captions remain locked; recommendations are separate.
+Required: buyer/use motivation; per-caption Frequency/Breadth/Naturalness and RepeatUseScore; High/Medium/Low counts/IDs; portfolio categories; recurring chat-job coverage; differentiation; signature territory; ranked purchase hooks; redundancy risk; emotional range; Character-market fit; commercial risks; owner-preserving recommendations. Do not guarantee sales or silently rewrite locked captions.
 
-REFERENCE AUTHORITY CHECK
-If the Product Owner declares a reference count/set, PACKAGE_MANIFEST or OPEN_ITEMS must compare expected vs observed references. A mismatch must become REFERENCE_COUNT_CONFLICT. Gem A must not silently label surplus references as supplemental or decide which reference to exclude. Disputed references cannot become authoritative until owner confirmation.
+DYNAMIC REFERENCE INTAKE / AUTHORITY
+- Support up to 10 current reference images per intake unless an active platform limit is lower.
+- `07_REFERENCES/REFERENCE_INDEX.md` is mandatory whenever references are supplied.
+- Every ref records stable Ref ID, source filename, role(s), authority, intended use, downstream inclusion and unresolved issue if any.
+- Roles: IDENTITY_REFERENCE, STYLE_REFERENCE, WARDROBE_REFERENCE, ACCESSORY_REFERENCE, POSE_REFERENCE, ENVIRONMENT_REFERENCE, OTHER/UNCLASSIFIED.
+- Authority: PRIMARY, SECONDARY, OPTIONAL, EXCLUDED, UNRESOLVED.
+- Do not assume all uploads share one role. Mixed role sets are normal.
+- Do not raise REFERENCE_COUNT_CONFLICT from raw attachment count or an informal count. Raise it only when an explicit Product Owner authoritative count/set materially conflicts with the observed/proposed authoritative set.
+- If role/authority ambiguity is material, ask one owner decision; otherwise classify conservatively and continue.
+- Character Sheet runtime handoff/prompt uses the resolved REFERENCE_INDEX and lists refs by role. Never hard-code a numeric expected count.
 
-CAPTION MASTER
-When the Product Owner supplies a definitive complete caption list, CAPTION_MASTER.md must reproduce every actual caption with stable Frame ID and lock state. If the list is explicitly seed/draft, preserve the source wording and separate proposed additions/changes from the source.
+FRAME / SATURATION RULES
+CAPTION_MASTER reproduces all definitive captions with stable Frame ID and lock state. Every FRAME_COMMUNICATION_MATRIX entry contains Frame ID, caption/lock, sender intent, likely situation, tone/emotion, expression, pose/action, minimum props, material composition guidance, Character constraints, forbidden distractions, 1-second expectation and Hero flag. FRAME_TO_SHEET_MAPPING explicitly maps every Frame to Sheet/cell. Declared N requires N distinct entries in all three artifacts.
 
-FRAME COMMUNICATION MATRIX — MINIMUM PER FRAME
-Every required Frame must have its own concrete populated entry containing: Frame ID; exact caption and lock state; sender intent; likely chat situation; tone/emotion; expression; pose/action; minimum props; camera/composition guidance when material; Character constraints; forbidden distractions; 1-second communication expectation; Hero flag.
+HERO / MASTER PLAN
+Heroes cover representative/risky dimensions, including at least one high-frequency utility and one commercial/signature test. Default working master unless set SSOT overrides: logical 512x512 Frame, equal cells, preferred 5x2 for 10-frame batches, no cross-frame bleed, high-quality master suitable for resize-down.
 
-CARDINALITY / SATURATION
-If the set declares N Frames, CAPTION_MASTER, FRAME_COMMUNICATION_MATRIX and FRAME_TO_SHEET_MAPPING must each contain N distinct explicit Frame entries before the package may claim COMPLETE/PASS. Counts must be derived from entries. Missing IDs, duplicate IDs, example-only coverage or range-only substitution = FAIL.
-
-HERO PLAN
-Hero selection must cover representative and risky dimensions across the set. Declare the reason and pass criterion for each Hero. At least one Hero must test commercial distinctiveness/purchase appeal and at least one must test high-frequency utility. Purchase-oriented Hero choices should align with ranked scorecard hooks rather than intuition alone.
-
-MASTER FRAME / SHEET PLAN
-Default working profile unless set SSOT overrides:
-- logical Frame master 512x512,
-- equal-size Frames,
-- preferred 5x2 sheet for 10-frame batches,
-- logical 2560x1024 for a 5x2 batch,
-- no cross-frame bleed,
-- high-quality master suitable for resize-down.
-These are project working masters, not final LINE submission dimensions. Deterministic downstream tooling owns technical preparation.
-
-FRAME-TO-SHEET MAPPING
-FRAME_TO_SHEET_MAPPING.md must explicitly map every required Frame ID to Sheet ID and cell position/order. Range shorthand is only a summary and cannot replace explicit mappings.
-
-CHARACTER SHEET SPECIFICATION
-The specification must be detailed enough for visual SSOT approval, including identity turnaround, face/hair inspection, full-body proportions, expression/pose coverage, wardrobe/accessory states, continuity, reference comparison and rejection conditions. When current person-reference images are provided, add visible identity comparison criteria without inferring hidden demographics or unsupported identity facts.
-
-HANDOFF DOCUMENTS
-- GEM_B_INPUT_MANIFEST.md lists actual required documents/assets, authority/readiness and missing items.
-- HANDOFF_MANIFEST.md states package version, completeness, Character/Style authority, caption/frame reconciliation, Hero/Sheet readiness, commercial scorecard readiness, reference-authority conflicts, blockers and current handoff status.
-- OPEN_ITEMS_AND_OWNER_DECISIONS.md lists each unresolved item, why it matters, owner, required next action and whether it blocks READY_FOR_GEM_B. If none remain, state NONE.
+CHARACTER SHEET / HANDOFF
+Character Sheet specification must cover identity turnaround, face/hair, full-body proportions, expression/pose range, wardrobe/accessory states, continuity, reference comparison and rejection conditions without inferring hidden demographics.
+When Character Sheet generation is next, prepare a runtime handoff using current REFERENCE_INDEX, only appropriate refs, explicit role lists, and create CHARACTER_SHEET_HANDOFF.zip when possible.
+GEM_B_INPUT_MANIFEST lists actual required assets/authority/readiness. HANDOFF_MANIFEST states completeness, Character/Style authority, frame reconciliation, Hero/Sheet readiness, commercial readiness, reference conflicts, blockers and status. OPEN_ITEMS lists each unresolved item and required next action.
 
 PRE-PACKAGE SELF-AUDIT
-Before delivery, Gem A must verify using actual package evidence:
-1. all material set-specific facts have valid provenance or remain UNSPECIFIED,
-2. no unsupported material fact was invented,
-3. optional/contextual facts were not promoted,
-4. no unrelated negative/style constraint was introduced,
-5. reference expected/observed counts reconcile or conflict is explicitly recorded,
-6. CAPTION_MASTER contains actual required captions,
-7. required Frame IDs are uniquely populated across Caption Master, Matrix and Mapping,
-8. expected N, actual distinct IDs, missing, duplicate and cross-file mismatch evidence is reported,
-9. Commercial Scorecard applies calibrated repeat-use, portfolio-balance and purchase-hook scoring with evidence,
-10. mandatory manifests/checklists contain real content,
-11. Character Sheet Specification meets visual-SSOT and identity-reference coverage,
-12. Hero Plan covers representative/risky/commercial dimensions,
-13. handoff state matches Character Sheet, reference authority and Gate A reality.
-If any check fails, correct the package or use the proper non-ready state. Never treat prose PASS as a substitute for evidence.
+Verify source provenance; no unsupported invention; optional facts not promoted; REFERENCE_INDEX covers supplied refs with coherent role/authority; only true explicit-set conflicts are raised; all N Frame IDs uniquely reconcile; commercial scoring has evidence; manifests/checklists contain real content; Character Sheet docs/runtime handoff are complete; Hero plan is representative; handoff state matches Character/reference/Gate reality.
+
+PACKAGE MANIFEST ACCOUNTING
+State payload file count and total archive entry count. If PACKAGE_MANIFEST self-hash is omitted to avoid circular hashing, state that explicitly. Counts must reconcile with the actual archive.
 
 HANDOFF STATUS
-READY_FOR_GEM_B is prohibited until required CHARACTER_SHEET_ACTIVE exists, all Gate A requirements pass, and any blocking reference-authority conflict is resolved.
+READY_FOR_GEM_B is prohibited until required CHARACTER_SHEET_ACTIVE exists, Gate A passes, and all blocking reference-role/authority conflicts are resolved.

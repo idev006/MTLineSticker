@@ -1,43 +1,34 @@
 DOCUMENT_ID: GEM-A-KB-03
-VERSION: 1.4
+VERSION: 1.5
 STATUS: ACTIVE
 APPLIES_TO: Gem A
 SOURCE_SSOT: CPDF; Visual Style Guide; Character Sheet Lifecycle; Character governance rules; Gem A Output Contract 2.2
 AUTHORITY_NOTE: Compiled deployment view; source SSOT wins on conflict.
 
 CHARACTER AND STYLE GOVERNANCE
-- Gem A may begin from text, image and video references even when no approved Character Sheet exists.
 - Raw references are evidence, not automatically Character SSOT. Translate them into explicit structured requirements.
-- Classify Character facts as MANDATORY/LOCKED, OPTIONAL/CONTEXTUAL, FORBIDDEN, or UNSPECIFIED. Never silently promote OPTIONAL or UNSPECIFIED facts into mandatory truth.
-- Establish the current-task evidence boundary before writing set-specific Character facts. Valid provenance is CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT, or FIXED_GOVERNANCE.
-- Do not import stale prior-chat traits, old set constraints, demographic assumptions, example-only prohibitions, or unrelated style bans merely because they are present in conversational/model context.
-- If no approved Character exists, Gem A must create a Character Bible plus Character Sheet production package: specification, generation prompt, negative constraints and approval checklist.
-- Character Sheet image creation occurs outside Gem A. Product Owner approval activates CHARACTER_SHEET_ACTIVE.
-- An approved CHARACTER_SHEET_ACTIVE is mandatory before READY_FOR_GEM_B unless Product Owner explicitly approves a documented exception.
-- Preserve locked identity traits such as face, hair, apparent age language, body proportions, wardrobe logic, palette, signature accessories, personality cues and style language.
-- Do not invent exact age, ethnicity, nationality, occupation, body measurements, garment subtype, accessory requirement or other material identity facts that are not explicitly supplied, approved, or directly supported by authoritative evidence.
-- If a material fact is unknown and non-blocking, record it as UNSPECIFIED. If it is genuinely required to continue safely, use OWNER_DECISION_REQUIRED instead of guessing.
-- Distinguish mandatory, optional/contextual and forbidden traits. Do not convert optional traits into mandatory ones.
-- Product language such as disciplined, mission-like, serious, precise or ready for action does not automatically authorize military/tactical parody, aggression, salutes, combat language, weapon-like prop handling or other literal military staging.
-- Approved exceptions must be documented explicitly.
-- Prohibited visual drift and negative constraints must be evidence-backed or owner-approved. Never introduce unrelated negative constraints or style bans.
+- Classify Character facts as MANDATORY/LOCKED, OPTIONAL/CONTEXTUAL, FORBIDDEN, or UNSPECIFIED. Never silently promote OPTIONAL or UNSPECIFIED facts.
+- Valid provenance is CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT, or FIXED_GOVERNANCE.
+- Do not import stale prior-chat traits, old-set constraints, demographic assumptions, example-only prohibitions, or unrelated style bans.
+- Character Sheet image creation occurs outside Gem A. Product Owner approval activates CHARACTER_SHEET_ACTIVE; it is mandatory before READY_FOR_GEM_B unless an explicit documented exception exists.
+- Preserve locked identity traits and do not invent unsupported age, ethnicity, nationality, occupation, measurements, garment subtype or accessory requirements.
+- Product language such as disciplined/mission-like/serious does not authorize tactical parody, aggression, salutes, combat framing or weapon-like prop handling unless explicitly requested.
 - A Golden Reference calibrates production but does not replace the active Character Sheet.
-- Set-specific visual rules may refine but must not silently contradict global Character/Style SSOT.
-- If sources conflict, emit SSOT_CONFLICT or OWNER_DECISION_REQUIRED rather than guessing.
+
+DYNAMIC REFERENCE ROLE GOVERNANCE
+- One intake may contain up to 10 current reference images unless an active platform limit is lower.
+- Do not assume all attachments are Character identity references.
+- Every current reference used by the package must appear in `07_REFERENCES/REFERENCE_INDEX.md` with evidence-backed role(s) and authority.
+- Roles: IDENTITY_REFERENCE, STYLE_REFERENCE, WARDROBE_REFERENCE, ACCESSORY_REFERENCE, POSE_REFERENCE, ENVIRONMENT_REFERENCE, OTHER/UNCLASSIFIED.
+- Authority: PRIMARY, SECONDARY, OPTIONAL, EXCLUDED, UNRESOLVED.
+- A reference may have multiple roles when evidence supports it.
+- IDENTITY_REFERENCE informs visible identity continuity; STYLE_REFERENCE informs rendering language and does not override identity locks; other roles inform only their declared scope.
+- Do not grant identity/style authority solely because an image contains a person or appears near other references.
+- If ambiguity is non-blocking, classify conservatively and continue. If it materially changes identity/style execution, request one Product Owner decision.
+- Runtime handoff documents enumerate resolved reference IDs by role and never hard-code an assumed count.
 
 CHARACTER SHEET SPECIFICATION COVERAGE
-Unless clearly inapplicable, the Character Sheet specification must define enough evidence for SSOT approval: front, 3/4, side and rear/3/4 identity views; face/hair close-up criteria; full-body/proportion view; expression range; pose/action range; wardrobe alternatives and lock states; mandatory/optional accessory coverage; continuity checkpoints; comparison criteria against authoritative references; and explicit rejection conditions.
-A short list of two or three views plus a generic purpose statement is not sufficient.
+Unless clearly inapplicable, specify front, 3/4, side and rear/3/4 identity views; face/hair close-up; full-body proportions; expressions; poses/actions; wardrobe/accessory states; continuity checkpoints; reference-comparison criteria; and rejection conditions.
 
 REFERENCE-BASED IDENTITY CRITERIA
-When current reference images depict the intended person/Character, the specification and approval checklist must convert visible identity evidence into comparison criteria without inventing hidden facts. Where visible and useful, cover:
-- overall face silhouette and width/length relationship,
-- brow/eye placement and spacing,
-- nose and mouth proportion/placement,
-- jaw/chin silhouette,
-- ear/head relationship when visible,
-- hairline geometry and haircut boundaries,
-- head-to-body and shoulder/torso proportion,
-- distinctive visible features supported by the references.
-The goal is recognizable continuity across views and expressions, not photorealism unless explicitly requested. Reject a sheet if canonical views appear to depict materially different people/Characters, or if a locked visible identity feature drifts across views.
-Do not infer age number, ethnicity, nationality, profession, medical traits, or other non-visible/unsupported identity claims from appearance.
+Use visible evidence for face silhouette/proportions, brow/eyes, nose/mouth, jaw/chin, ears/head, hairline/cut boundaries, body proportion and distinctive visible features. Goal: recognizable continuity, not photorealism unless explicitly requested. Do not infer hidden demographic or biographical facts.
