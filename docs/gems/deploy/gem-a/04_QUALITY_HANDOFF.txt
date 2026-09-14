@@ -1,84 +1,35 @@
 DOCUMENT_ID: GEM-A-KB-04
-VERSION: 1.4
+VERSION: 1.5
 STATUS: ACTIVE
 APPLIES_TO: Gem A
 SOURCE_SSOT: Quality Gate Standard; Handoff Contract Standard; Gem A Output Contract 2.2; Character Sheet Lifecycle; Project North Star
 AUTHORITY_NOTE: Compiled deployment view.
 
 QUALITY / HANDOFF
-Definition of Ready requires an understandable concept, identifiable inherited IP when applicable, and no known blocking constraint conflict.
+Definition of Ready requires an understandable concept and no known blocking constraint conflict.
 
-AUTO-STOP / RETURN when:
-- user intent is materially unclear,
-- required Character/Style source is ambiguous or contradictory,
-- captions that must be owner-locked remain unresolved,
-- communication intent is unclear,
-- Frame count and Sheet plan do not reconcile,
-- required references are missing,
-- owner-approved decisions conflict,
-- unsupported traits would need to be invented,
-- current-task provenance for a material set-specific rule cannot be established,
-- Gem B would be forced to invent product strategy.
+AUTO-STOP / RETURN when user intent, Character/Style authority, locked captions, communication intent, Frame/Sheet reconciliation or material source provenance is unresolved; when unsupported traits would need invention; or when Gem B would be forced to invent product strategy.
 
-REFERENCE SET VALIDATION
-When the Product Owner states an expected reference count or identifies a specific reference set, compare that declaration with the actual current attachments. If expected and observed counts differ, do not silently choose which references are primary, supplemental, or excluded. Record REFERENCE_COUNT_CONFLICT with expected count, observed count, file/reference identifiers, and required Product Owner decision. If the conflict does not affect document drafting, the package may continue in OWNER_DECISION_REQUIRED, but no disputed reference may be promoted to authoritative Character SSOT without owner confirmation.
+REFERENCE INTAKE / AUTHORITY VALIDATION
+- Accept up to 10 current reference images per intake unless an active platform limit is lower.
+- Validate by ROLE and AUTHORITY, not raw attachment count alone.
+- `REFERENCE_INDEX.md` lists every current reference used by the package, role(s), authority and intended use.
+- Do NOT raise REFERENCE_COUNT_CONFLICT merely because more images are attached than an informal statement, or because identity, style, wardrobe, accessory or pose references coexist.
+- Raise REFERENCE_COUNT_CONFLICT only when the Product Owner explicitly declared an authoritative count/set and the actual/proposed authoritative set materially differs.
+- For a real conflict, report declared set/count, observed candidates, disputed IDs and the single owner decision needed. Do not silently promote/exclude disputed refs.
+- Non-material ambiguity may remain conservative/UNRESOLVED; material ambiguity affecting identity/style requires OWNER_DECISION_REQUIRED.
+- After resolution, update REFERENCE_INDEX, manifests, open items and runtime handoff automatically.
 
-PACKAGE COMPLETENESS
-Gem A must create the multi-file package defined by GEM_A_OUTPUT_CONTRACT, including the Character Bible and Character Sheet generation/approval documents. A single long markdown response is not a production-complete package.
+PACKAGE COMPLETENESS / CARDINALITY
+Gem A creates the multi-file package, not one long response. For declared N, CAPTION_MASTER, FRAME_COMMUNICATION_MATRIX and FRAME_TO_SHEET_MAPPING each require N concrete distinct entries. Standard 40 requires 40 actual captions, 40 populated frame briefs and 40 explicit mappings. Missing, duplicate, range-only or example-only = FAIL.
+PRE_PACKAGE_SELF_AUDIT reports expected count, actual distinct IDs, missing IDs, duplicates and cross-file mismatches.
 
-CARDINALITY VALIDATION
-For a declared N-frame set, completion requires N distinct concrete entries in every frame-owned artifact. Counts must be derived from those entries.
-For a standard 40-frame set:
-- CAPTION_MASTER = 40 actual Frame IDs and captions,
-- FRAME_COMMUNICATION_MATRIX = 40 populated Frame entries,
-- FRAME_TO_SHEET_MAPPING = 40 explicit Frame -> Sheet -> Row -> Column/cell mappings.
-A range summary, prose claim, or two examples plus "all frames mapped" does not count. Missing, duplicate, range-only, example-only, or unpopulated entries = FAIL.
-
-RECONCILIATION EVIDENCE FORMAT
-PRE_PACKAGE_SELF_AUDIT must report measurable evidence rather than PASS labels alone. For every frame-owned artifact, report at minimum:
-- expected count N,
-- actual distinct Frame IDs,
-- missing IDs count/list,
-- duplicate IDs count/list,
-- cross-file mismatch count/list.
-For a valid 40-frame set, the ideal evidence reads 40 distinct / missing 0 / duplicate 0 / mismatch 0. A prose "40/40 PASS" without derived evidence is insufficient.
-
-SOURCE-SCOPE VALIDATION
-Before PASS, inspect material set-specific facts and negative constraints. They must trace to CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT, or FIXED_GOVERNANCE. Unrelated prior context or stale examples are contamination and must be removed. Unknown non-blocking facts remain UNSPECIFIED.
-
-COMMERCIAL QUALITY VALIDATION
-Before package delivery, confirm that Product Positioning/Commercial Scorecard contains evidence-backed analysis covering audience clarity, calibrated repeat-use scoring, portfolio balance, differentiation, signature territory, ranked purchase hooks, redundancy risk, emotional range, Character-market fit, commercial risks and recommended action.
-Repeat-use categories must be derived from the declared scoring rubric, not intuition labels alone. Portfolio category counts/percentages must be reported. Purchase hooks must show rubric evidence.
-Commercial analysis must never claim guaranteed sales and must never silently rewrite locked captions. Weak locked captions may be flagged with separate recommendations for Product Owner decision.
-
-CHARACTER SHEET SPEC VALIDATION
-The Character Sheet Specification must provide enough coverage to approve a visual SSOT: identity turnaround, face/hair inspection, full-body/proportions, expressions, poses/actions, wardrobe/accessory states, continuity criteria, reference comparison criteria, and rejection conditions unless clearly inapplicable.
-When person-reference images exist, the specification/checklist must include visible identity comparison criteria sufficient to detect cross-view identity drift without inventing demographic facts.
+SOURCE / COMMERCIAL QUALITY
+Material set-specific facts and negative constraints must trace to CURRENT_USER, CURRENT_ATTACHMENT, ACTIVE_SSOT or FIXED_GOVERNANCE; unknown non-blocking facts remain UNSPECIFIED. Commercial analysis must remain evidence-backed, preserve locked captions and never guarantee sales.
 
 CHARACTER GATE
-A completed Character Sheet specification does not equal an approved Character Sheet. Raw image/video references do not equal CHARACTER_SHEET_ACTIVE.
-If Character Sheet creation or Product Owner approval is still pending, Gem A must NOT emit READY_FOR_GEM_B. Use OWNER_DECISION_REQUIRED or BLOCKED as appropriate and record the exact missing artifact/decision and next action.
+A completed Character Sheet specification or raw references do not equal CHARACTER_SHEET_ACTIVE. If creation/approval is pending, never emit READY_FOR_GEM_B. Use OWNER_DECISION_REQUIRED or BLOCKED with exact missing decision/artifact and next action.
 
-Gem A is DONE only when:
-- Product Brief is coherent,
-- Product Positioning includes evidence-backed commercial analysis,
-- Commercial Scorecard includes calibrated repeat-use, portfolio-balance and purchase-hook evidence,
-- caption list is locked or explicitly marked for owner decision,
-- every required Frame brief exists as a concrete entry,
-- Character Bible is coherent and source-disciplined,
-- Character Sheet specification/prompt/negative constraints/approval checklist exist and meet minimum coverage,
-- required Character Sheet has been approved and recorded as CHARACTER_SHEET_ACTIVE unless an explicit documented Product Owner exception exists,
-- any reference-count conflict has been resolved or explicitly remains a blocking owner decision,
-- Hero plan and pass criteria exist,
-- Character/Style references are valid,
-- Frame/Sheet plan is explicit and saturated N/N,
-- reconciliation evidence reports actual/missing/duplicate/mismatch counts,
-- QA and auto-reject rules are explicit,
-- Package Manifest and Handoff Manifest are complete,
-- no blocking open item remains,
-- status = READY_FOR_GEM_B.
+DONE requires coherent Product Brief/Positioning/Commercial Scorecard, caption state, all frame briefs, Character Bible + Character Sheet documents/runtime handoff, approved CHARACTER_SHEET_ACTIVE unless documented exception, resolved material reference-role/authority conflict, Hero plan, valid Character/Style refs, N/N Sheet mapping, reconciliation evidence, QA/auto-reject rules, complete manifests, no blocking open item, and status READY_FOR_GEM_B.
 
-PRE-PACKAGE AUDIT EVIDENCE
-A PASS claim must be supported by actual package content. Never accept a self-declared "40/40", "complete", "commercially strong", or "PASS" if the corresponding evidence is absent. Reconciliation prose is evidence only when it matches populated artifacts.
-
-Defect ownership: concept, caption, use-case, weak commercial architecture, unsupported invention, context contamination, false completeness, unresolved reference authority, Character documentation and package/handoff defects belong to Gem A and must not be passed downstream.
+A PASS claim must match actual package evidence. Product/caption/commercial/source/reference/Character-document/package defects belong to Gem A and must not be passed downstream.

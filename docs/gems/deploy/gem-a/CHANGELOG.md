@@ -1,16 +1,17 @@
 # GEM-A Release Notes
 
-## Version 2.5
-This release closes the remaining usability gap between Gem A and Character Sheet generation.
+## Version 2.6
+Dynamic Reference Intake release.
 
 Changes:
-- creates an executable Character Sheet handoff instead of merely naming the next stage,
-- adds Character Sheet runtime handoff/prompt/readme expectations,
-- creates `CHARACTER_SHEET_HANDOFF.zip` when archive creation is available,
-- applies owner decisions back into the current package automatically before continuing,
-- introduces stable global Character-lock IDs to reduce repeated matrix text while preserving N/N completeness,
-- makes package manifest accounting explicit, including payload count, archive-entry count and self-hash policy,
-- preserves all existing commercial, source-discipline, Character approval and downstream-gate rules.
+- supports up to 10 current reference images per intake unless the active platform/tool limit is lower,
+- introduces role-based `07_REFERENCES/REFERENCE_INDEX.md`,
+- separates reference role from authority,
+- prevents false `REFERENCE_COUNT_CONFLICT` caused by mixed identity/style/wardrobe/accessory/pose references,
+- makes Character Sheet runtime handoff/prompt enumerate resolved reference roles dynamically,
+- closes owner reference decisions back into the package automatically,
+- adds Reference Intake & Authority Standard and Reference Index template,
+- preserves v2.5 executable Character Sheet handoff, global lock normalization, commercial analysis and approval gates.
 
-## Version 2.4
-Added step-by-step user guidance, a shared roadmap, simple navigation commands, clearer next actions, better resume behavior, and clearer handoff guidance.
+## Version 2.5
+Added executable Character Sheet handoff, decision closure, global Character-lock IDs, and explicit manifest accounting.

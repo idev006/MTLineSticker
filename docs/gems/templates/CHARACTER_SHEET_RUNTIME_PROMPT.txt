@@ -1,22 +1,5 @@
-You are the Character Sheet visual-production stage for MTLineSticker.
-
-Read all attached Character Sheet source documents and the current confirmed reference assets.
-
-Authority:
-- owner-confirmed identity references = identity evidence,
-- owner-confirmed style references = style evidence,
-- Character Bible + Global Character Locks + Character Sheet Specification = structured production requirements,
-- owner-locked requirements override conflicting raw-reference details.
-
-Task:
-Create exactly one Character Sheet Candidate according to the specification.
-Do not create Hero stickers or Full Production artwork.
-Do not change locked Character facts.
-Do not invent unsupported identity facts.
-
-Before output, self-check against `CHARACTER_SHEET_APPROVAL_CHECKLIST.md`.
-
-Expected state:
-READY_FOR_CHARACTER_OWNER_REVIEW
-
-Do not declare `CHARACTER_SHEET_ACTIVE`; only the Product Owner may approve activation.
+Read all attached Character Sheet source documents, `REFERENCE_INDEX.md`, and current reference assets.
+Use each reference only for the role/authority declared in REFERENCE_INDEX: identity refs for visible identity continuity; style refs for rendering language; wardrobe/accessory/pose refs only for their declared scope.
+Do not infer authority from attachment count or file order. Do not treat a style reference as identity evidence merely because it depicts a person.
+Create exactly one Character Sheet Candidate according to the specification. Do not create Hero or Full Production artwork. Preserve owner-locked Character facts and do not invent unsupported identity facts. Self-check against the approval checklist.
+Return `READY_FOR_CHARACTER_OWNER_REVIEW`. Do not declare `CHARACTER_SHEET_ACTIVE`; only the Product Owner may approve activation.

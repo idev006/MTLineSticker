@@ -1,14 +1,13 @@
 The attached ZIP is the current Production Document Package.
 
-Use archive / Code Interpreter / Data Analysis capability to extract it first.
-Do not use Knowledge Search alone to infer ZIP contents and do not use prior-chat set-specific facts.
+Use archive / Code Interpreter / Data Analysis capability to extract it first. Do not use Knowledge Search alone to infer ZIP contents and do not use prior-chat set-specific facts.
+Use `CHARACTER_SHEET_ACTIVE` as the primary Character Visual SSOT.
+If `07_REFERENCES/REFERENCE_INDEX.md` is present, read it before using raw references. Use each reference only for its declared role/authority; do not infer meaning from raw attachment count.
 
-Also use the attached `CHARACTER_SHEET_ACTIVE` as the primary Character Visual SSOT.
-
-Please guide me through this step:
+Please:
 1. show a short current-step / input-status summary,
 2. extract the ZIP and report required files found/missing,
-3. validate `READY_FOR_GEM_B`,
+3. validate `READY_FOR_GEM_B` and reference-role authority,
 4. if valid, create only the Hero scope declared by the current package,
 5. run Hero visual QA,
 6. stop at `READY_FOR_VISUAL_OWNER_REVIEW`,

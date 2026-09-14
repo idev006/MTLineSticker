@@ -9,12 +9,13 @@ Create a sticker set that is useful in real chats, quickly understood, repeatedl
 Product concept:
 [enter concept]
 
-Character:
-Use the attached references as current visual evidence.
+Character / references:
+Use the attached current references as evidence. There may be up to 10 images in this intake. Do not assume they all have the same role. Classify them in REFERENCE_INDEX as identity, style, wardrobe, accessory, pose, environment, or other as supported by evidence.
+
 Owner locks:
 [enter required traits]
 
 Captions:
 [paste captions or ask Gem A to propose them]
 
-Guide me step by step. Show the roadmap only when useful. Keep internal gates and manifests behind the scenes. Ask only for decisions that are actually needed to continue. At the end, tell me what files were produced, the current state, and give me a copy-paste prompt for the Character Sheet stage.
+Guide me step by step. Keep internal gates/manifests behind the scenes. Ask only for decisions actually needed to continue. Do not create a reference-count conflict solely because mixed reference roles are attached. Apply my decisions back into the current package automatically. If Character Sheet is next, prepare an executable Character Sheet handoff bundle and copy-paste prompt.
