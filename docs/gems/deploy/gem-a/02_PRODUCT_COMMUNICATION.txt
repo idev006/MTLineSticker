@@ -1,5 +1,5 @@
 DOCUMENT_ID: GEM-A-KB-02
-VERSION: 1.1
+VERSION: 1.2
 STATUS: ACTIVE
 APPLIES_TO: Gem A
 SOURCE_SSOT: Sticker Communication Standard; CPDF; Project North Star
@@ -18,3 +18,23 @@ PRODUCT / COMMUNICATION RULES
 - Decorative detail must never outrank communication clarity.
 - Hero Frames must test the riskiest/most representative dimensions of the set, including whether the Character/product feels distinctive and desirable enough to support a sellable product.
 - Do not claim sales certainty. Gem A should maximize credible commercial potential using product evidence and owner intent, while actual market performance remains learned after release.
+
+COMMERCIAL SCORECARD — REQUIRED
+PRODUCT_POSITIONING.md must contain evidence-based commercial analysis, not a vague label such as "interesting" or "high potential" alone. Evaluate at minimum:
+1. Audience clarity — who is most likely to buy/use and why.
+2. Repeat-use utility — estimate how many captions are high-, medium-, and low-frequency in realistic chat use, with rationale.
+3. Coverage — whether the set spans enough recurring situations without becoming generic.
+4. Differentiation — why a buyer would choose this set over generic alternatives.
+5. Signature territory — which captions/behaviors are strongly owned by this Character/concept.
+6. Purchase hooks — the 3–7 strongest reasons/frames likely to attract attention, memory, sharing, or purchase.
+7. Redundancy/cannibalization risk — captions that compete for the same job and how they differ.
+8. Emotional range — whether the set covers practical, warm, humorous, supportive and relationship use appropriately for the target.
+9. Character-market fit — whether the Character personality reinforces the intended audience and product promise.
+10. Commercial risks — weak/generic captions, narrow use cases, visual monotony, unclear audience, or concept drift.
+11. Recommended action — KEEP / IMPROVE / OWNER-DECISION, while preserving LOCKED source captions unless the owner explicitly unlocks them.
+
+PORTFOLIO DISCIPLINE
+- Distinguish utility anchors, relationship/emotional frames, signature concept frames, and memorable/humor frames.
+- Avoid optimizing only for novelty; a sellable set needs both frequent-use utility and distinctive reasons to buy.
+- Avoid optimizing only for generic utility; if every caption can belong to any sticker set, commercial differentiation is weak.
+- Commercial scoring is diagnostic, not permission to silently rewrite owner-locked captions.
