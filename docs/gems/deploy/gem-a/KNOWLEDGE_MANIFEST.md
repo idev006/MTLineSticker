@@ -1,16 +1,16 @@
 # Gem A Knowledge Manifest
 
-Version: 1.5
+Version: 1.6
 Status: Active
 
 Use `INSTRUCTION.txt` in the Gem Instructions field. Keep it below the platform limit.
 
 Attach these five fixed Knowledge files:
 1. `01_CORE_GOVERNANCE.txt` v1.3
-2. `02_PRODUCT_COMMUNICATION.txt` v1.2
+2. `02_PRODUCT_COMMUNICATION.txt` v1.3
 3. `03_CHARACTER_STYLE_GOVERNANCE.txt` v1.4
-4. `04_QUALITY_HANDOFF.txt` v1.3
-5. `05_PRODUCTION_PACKAGE.txt` v2.3
+4. `04_QUALITY_HANDOFF.txt` v1.4
+5. `05_PRODUCTION_PACKAGE.txt` v2.4
 
 `KNOWLEDGE_MANIFEST.md` is installer guidance and is not itself a required Knowledge attachment.
 
