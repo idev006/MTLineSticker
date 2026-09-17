@@ -10,8 +10,9 @@ Status: **ACTIVE / CHARACTER LOCKED / HERO PRE-PRODUCTION**
 5. `CHARACTER-SHEET-SPECIFICATION-v1.0.md`
 6. `CHARACTER-SHEET-GENERATION-PROMPT-v1.0.md`
 7. `CHARACTER-SHEET-NEGATIVE-CONSTRAINTS-v1.0.md`
-8. `HERO-STICKER-PLAN-v1.0.md`
-9. `FULL-STICKER-LIST-DRAFT-v0.1.md`
+8. **`CAPTION-PRODUCTION-TABLE-v1.0.md` — active 40-caption production specification**
+9. `HERO-STICKER-PLAN-v1.0.md`
+10. `FULL-STICKER-LIST-DRAFT-v0.1.md` — historical draft only; subordinate to `CAPTION-PRODUCTION-TABLE-v1.0.md`
 
 ## CHARACTER_SHEET_ACTIVE — OWNER APPROVED
 The owner explicitly approved the **latest Character Design Sheet generated in the working conversation on 2026-09-17** as the visual reference for the entire sticker set.
@@ -30,7 +31,7 @@ The original real-person photographs remain secondary fidelity references. They 
 
 ## Owner-Locked Requirements
 - Concept: **ผู้ใหญ่ใจดี เกษียณแล้วก็ยังเท่**
-- Quantity target: 40 stickers
+- Quantity target: **40 stickers**
 - Communication tone: สุภาพ อบอุ่น เป็นกันเอง
 - Main outfit: plain grey sporty tracksuit/jacket with white stripe direction from the approved visual sheet
 - **No logo, badge, emblem, patch or insignia on the tracksuit**
@@ -43,13 +44,27 @@ The original real-person photographs remain secondary fidelity references. They 
 - Character likeness must remain recognizable while being sticker-friendly
 - Final sticker art should preserve the approved clean, slightly cartooned, polished LINE-sticker illustration language
 
+## Caption / Production Lock
+`CAPTION-PRODUCTION-TABLE-v1.0.md` is the active production source for the 40 captions and their pose/expression/prop direction.
+
+Owner-requested captions explicitly included in the active list:
+- **ดูแลตัวเองด้วยครับ**
+- **อย่าลืมออกกำลังกายครับ**
+- **สวัสดีตอนเช้าครับ** (do not replace with “อรุณสวัสดิ์ครับ”)
+- **ขอให้พบเจอแต่สิ่งดีๆครับ**
+
+Any caption change after v1.0 requires owner approval before final art production.
+
 ## Production Consistency Rule
 Every generated sticker must be compared against `CHARACTER_SHEET_ACTIVE` before acceptance. A sticker fails visual QA if there is material drift in face/head shape, hairstyle, body build, perceived age, outfit, or overall illustration style.
+
+Every sticker must also follow `CAPTION-PRODUCTION-TABLE-v1.0.md` for caption intent, pose direction, expression, and supporting visual elements unless the owner explicitly approves a variant.
 
 ## Gates
 - Gate C1: Character Bible approved — **PASS**
 - Gate C2: Character Sheet Candidate reviewed and approved as `CHARACTER_SHEET_ACTIVE` — **PASS (2026-09-17)**
+- Caption Production Table v1.0 — **ACTIVE**
 - Gate H: Hero Sticker Set approved — **OPEN / NEXT**
 - Gate P40: Full 40 production may begin only after Gate H passes
 
-Any later document that conflicts with the owner-locked requirements or `CHARACTER_SHEET_ACTIVE` is subordinate unless explicitly approved by the owner as a new SSOT version.
+Any later document that conflicts with the owner-locked requirements, `CHARACTER_SHEET_ACTIVE`, or `CAPTION-PRODUCTION-TABLE-v1.0.md` is subordinate unless explicitly approved by the owner as a new SSOT version.
