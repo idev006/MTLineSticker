@@ -22,6 +22,18 @@
 - [ ] readable at small size
 - [ ] text not cropped
 
+## Sticker-First Composition
+- [ ] character is the primary focal point
+- [ ] face/expression reads before decoration
+- [ ] prop is secondary and supports meaning
+- [ ] no unnecessary scenic background
+- [ ] no greeting-poster composition
+- [ ] no landscape / garden / temple / room scene unless specifically approved
+- [ ] no cluttered object clusters
+- [ ] sufficient negative space
+- [ ] decorative accents do not obscure silhouette or caption
+- [ ] sticker still reads clearly when reduced to chat size
+
 ## Communication
 - [ ] pose matches caption
 - [ ] prop supports meaning
