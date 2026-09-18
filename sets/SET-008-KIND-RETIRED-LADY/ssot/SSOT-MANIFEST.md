@@ -15,6 +15,7 @@ Status: Draft for Product Owner approval
 - PRODUCTION-SPEC-v1.0.md
 - QA-CHECKLIST-v1.0.md
 - SOURCE-REFERENCE-REGISTER-v1.0.md
+- SUCCESS-DESIGN-GUIDELINES-v1.0.md
 
 ## Decision Rules
 - หาก prompt ขัดกับ Character Bible ให้ยึด Character Bible
