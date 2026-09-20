@@ -41,7 +41,7 @@ Current sets:
 - SET-005-OFFICE-LIFE (planned)
 - SET-006-HOUSEHUSBAND-HOUSEWORK (documentation complete / ready for hero production)
 - SET-007-KIND-RETIRED-GENTLEMAN (in development)
-- SET-008-PONGSATHORN — พงศธร (active design / gesture-first no-text concept)
+- SET-008-PONGSATHORN — พงศธร (**documentation complete / ready for Character Sheet Candidate**)
 
 Primary existing character family: Phi Prom (พี่พร้อม), torn-paper administrative police mascot.
 
