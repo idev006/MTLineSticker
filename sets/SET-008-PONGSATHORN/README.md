@@ -1,20 +1,22 @@
 # SET-008 — พงศธร
 
-ชื่อชุด: **พงศธร**
+ชื่อชุด: **พงศธร**  
+รหัสชุด: `SET-008-PONGSATHORN`  
+สถานะ: **DOCUMENTATION COMPLETE / READY FOR CHARACTER SHEET CANDIDATE**
 
 LINE Sticker ชุดนี้ออกแบบจากบุคคลอ้างอิงของเจ้าของงาน โดยมีวัตถุประสงค์หลักเพื่อใช้สื่อสารในบริบทการทำงานกับผู้ใต้บังคับบัญชา เพื่อนร่วมงาน และผู้บังคับบัญชา
 
 ## Core Direction
-- บุคลิกหลัก: ผู้บังคับบัญชาระดับสูง สุขุม นิ่ง มั่นคง สุภาพ และมีอำนาจโดยไม่ต้องแสดงออกเกินจริง
-- ชุดหลัก: แจ็กเก็ตกีฬาโทนเทาเข้ม มีแถบขาวที่แขน เสื้อด้านในสีดำ ตามภาพอ้างอิงล่าสุด
-- ไม่ใช้เครื่องแบบตำรวจเป็นลุคหลักของชุดนี้
+- Positioning: **ผู้นำสุขุม — สื่อสารด้วยท่าทาง**
+- บุคลิก: ผู้บังคับบัญชาระดับสูง สุขุม นิ่ง มั่นคง สุภาพ และมีอำนาจโดยไม่ก้าวร้าว
+- ชุดหลัก: แจ็กเก็ตกีฬาเทาเข้ม มีแถบขาวที่แขน เสื้อด้านในสีดำ ตามภาพอ้างอิงล่าสุด
+- ไม่ใช้เครื่องแบบตำรวจเป็นลุคหลัก
 - ไม่มีเนื้อหาเกี่ยวกับแบดมินตัน
-- แนวทางหลักคือ **No-text / Gesture-first**: สื่อสารด้วยสีหน้า ท่าทาง มือ และอารมณ์ มากกว่าคำพูด
-- Expression ต้องอ่านง่ายเมื่อย่อเป็น LINE Sticker แต่ไม่ exaggerated แบบการ์ตูนเด็ก
-- Style: semi-realistic cartoon / LINE Sticker friendly, หน้าคล้ายต้นแบบและรักษา character consistency
+- แนวทางหลัก: **No-text / Gesture-first**
+- Style: polished semi-realistic cartoon / LINE Sticker friendly
+- เป้าหมาย: 40 stickers ที่ intent ไม่ซ้ำหรือใกล้กันเกินไป
 
-## Required Core Expressions
-ท่าทาง/อารมณ์ที่ล็อกว่าต้องมีอย่างน้อย 16 แบบ:
+## Owner-Locked Core 16
 1. ทักทาย
 2. กลัว
 3. ตกใจ
@@ -32,8 +34,28 @@ LINE Sticker ชุดนี้ออกแบบจากบุคคลอ้�
 15. กำลังยุ่ง
 16. ประชุมอยู่
 
-## Production Gate
-ให้สร้าง Character Sheet / Expression Sheet ก่อน แล้วตรวจความเหมือน บุคลิก ชุด และ gesture ให้ผ่านก่อนขยายไปสู่ Hero Set และ Full 40 Stickers
+รายละเอียดเต็มอยู่ใน `ssot/CORE-EXPRESSION-LIST-v1.0.md`
 
-## SSOT
-อ่าน `ssot/SSOT-MANIFEST.md` ก่อนเอกสารอื่นในชุดนี้
+## Active Documentation
+เอกสาร production พร้อมแล้วใน `ssot/` ได้แก่:
+- `SSOT-MANIFEST.md`
+- `SET-008-PRODUCT-SSOT-v1.0.md`
+- `PROJECT-CREATIVE-BRIEF-v1.0.md`
+- `CHARACTER-BIBLE-v1.0.md`
+- `CORE-EXPRESSION-LIST-v1.0.md`
+- `CHARACTER-SHEET-SPECIFICATION-v1.0.md`
+- `CHARACTER-SHEET-GENERATION-PROMPT-v1.0.md`
+- `CHARACTER-SHEET-NEGATIVE-CONSTRAINTS-v1.0.md`
+- `FULL-STICKER-PRODUCTION-TABLE-v1.0.md`
+- `HERO-STICKER-PLAN-v1.0.md`
+- `PRODUCTION-SPEC-v1.0.md`
+- `QA-CHECKLIST-v1.0.md`
+
+อ่าน `ssot/SSOT-MANIFEST.md` ก่อนเอกสารอื่นเสมอ
+
+## Current Production Gate
+Documentation Gate ผ่านแล้ว ขั้นตอนถัดไปคือ:
+
+**Character Sheet Candidate → owner review → lock as `CHARACTER_SHEET_ACTIVE` → Hero 12 → Full 40**
+
+ห้ามข้าม Character Sheet หรือ Hero approval gate
