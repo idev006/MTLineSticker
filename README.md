@@ -40,7 +40,9 @@ Current sets:
 - SET-004-DOCUMENT (planned)
 - SET-005-OFFICE-LIFE (planned)
 - SET-006-HOUSEHUSBAND-HOUSEWORK (documentation complete / ready for hero production)
+- SET-007-KIND-RETIRED-GENTLEMAN (in development)
+- SET-008-PONGSATHORN — พงศธร (active design / gesture-first no-text concept)
 
 Primary existing character family: Phi Prom (พี่พร้อม), torn-paper administrative police mascot.
 
-Additional character IP in development: พ่อบ้านสายวินัย / Disciplined Househusband.
+Additional character IP in development: พ่อบ้านสายวินัย / Disciplined Househusband, ผู้ใหญ่ใจดีหลังเกษียณ, และ พงศธร.
