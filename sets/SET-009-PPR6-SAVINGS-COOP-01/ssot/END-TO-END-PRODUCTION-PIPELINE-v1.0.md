@@ -10,19 +10,43 @@
 
 ---
 
+## Normative Reference — Sticker Sheet Production Spec
+เอกสาร `PRODUCTION-SPEC-v1.0.md` เป็น **Normative / Mandatory Reference** สำหรับทุกขั้นตอนที่เกี่ยวข้องกับ Sticker Sheet, Frame, Layout, White Backing, Die-cut Base, Transparency, Margin, Padding และ Frame Border
+
+### Mandatory Rule
+- สมาชิกทีมทุกคนที่เกี่ยวข้องกับ Visual Production, Layout, Prepress, QC และ Final Export ต้องอ่าน `PRODUCTION-SPEC-v1.0.md` ก่อนเริ่มงาน
+- ห้ามใช้ความเข้าใจจากความจำหรือคำอธิบายปากเปล่าแทนเอกสาร Production Spec
+- หากข้อความใน workflow นี้ขัดกับ `PRODUCTION-SPEC-v1.0.md` ให้ยึด `PRODUCTION-SPEC-v1.0.md` เป็นข้อกำหนดหลักด้าน Sticker Sheet/Frame
+- หาก Production Spec มีเวอร์ชันใหม่ที่ Owner อนุมัติ ต้อง update reference ใน pipeline และใช้เวอร์ชันใหม่ทันที
+
+### Canonical Terminology
+คำต่อไปนี้ให้ใช้ตามนิยามใน `PRODUCTION-SPEC-v1.0.md` เท่านั้น:
+- **Sticker Sheet** = ไฟล์ PNG หนึ่งไฟล์ที่รวมสติ๊กเกอร์หลายตัวในรูปแบบกริด
+- **Frame** = เซลล์แต่ละช่องของกริดใน Sticker Sheet
+- **White Backing / Die-cut Base** = พื้นสีขาวทึบเต็มรูปทรงรองรับ artwork สำหรับไดคัท ไม่ใช่เพียงเส้น outline
+- **Frame Border** = เส้นกรอบสี่เหลี่ยมมุมฉากที่แบ่งแต่ละ Frame
+- **Margin / Padding** = ระยะเว้นตามค่าที่ล็อกใน Production Spec
+
+### Mandatory Pre-production Check
+ก่อนสร้าง Hero Sheet, Full Sticker Sheet หรือ Revision Sheet ทีมต้องเปิดตรวจ `PRODUCTION-SPEC-v1.0.md` และยืนยันว่าเข้าใจนิยามและ Acceptance/Rejection Criteria ล่าสุดแล้ว
+
+---
+
 ## STAGE 0 — Project Initialization
 ### Owner / Project Lead
 - ยืนยันชื่อชุด รหัสชุด วัตถุประสงค์ กลุ่มเป้าหมาย และช่องทางใช้งาน
 - ยืนยัน repository และโฟลเดอร์ SSOT
 - กำหนด Character Sheet ที่เป็น Visual SSOT
+- ยืนยัน Production Spec ที่ active สำหรับชุดนี้
 
 ### Required Artifacts
 - `SET-009-PRODUCT-SSOT-v1.0.md`
 - `PROJECT-CREATIVE-BRIEF-v1.0.md`
 - `CHARACTER-BIBLE-v1.0.md`
+- `PRODUCTION-SPEC-v1.0.md`
 
 ### Gate 0 — Project Lock
-ผ่านเมื่อ Product Owner ยืนยัน scope และ character direction
+ผ่านเมื่อ Product Owner ยืนยัน scope, character direction และ active Production Spec
 
 ---
 
@@ -62,6 +86,8 @@
 - Camera / Composition
 - Merchandise suitability
 - QA note
+
+ทุกการวางองค์ประกอบต้องเผื่อข้อจำกัดจาก `PRODUCTION-SPEC-v1.0.md` ตั้งแต่ขั้นออกแบบ เช่น พื้นที่ปลอดภัย, padding, white backing และการไม่ชน Frame Border
 
 ### Required Artifact
 - `FULL-STICKER-PRODUCTION-TABLE-v1.0.md`
@@ -115,6 +141,8 @@ Caption ที่ไม่ผ่านการตรวจภาษาไทย
 
 ## STAGE 6 — Hero Calibration
 ### Visual Production Team
+ก่อนเริ่มสร้าง Hero ต้องอ่าน `PRODUCTION-SPEC-v1.0.md` อีกครั้ง และใช้เป็น checklist ระหว่างสร้างภาพ
+
 ผลิต Hero 6–12 เฟรมเพื่อทดสอบ:
 - Character fidelity
 - สีและ lighting
@@ -124,6 +152,7 @@ Caption ที่ไม่ผ่านการตรวจภาษาไทย
 - Prop scale
 - White backing quality
 - Sticker Sheet geometry
+- ความถูกต้องตามนิยาม Sticker Sheet / Frame / White Backing
 
 ### Gate 4 — Hero Approval
 Product Owner ต้องอนุมัติ Hero ก่อน Full 40
@@ -139,12 +168,13 @@ Product Owner ต้องอนุมัติ Hero ก่อน Full 40
 - ไม่เปลี่ยน pose / prop / intent โดยไม่มี change note
 - ยึด Character Sheet เป็น Visual SSOT
 - ทุกเฟรมต้องพร้อมสำหรับ white backing และ die-cut
+- ต้องออกแบบให้อยู่ภายใน safe area ตาม Frame/Margin/Padding ใน `PRODUCTION-SPEC-v1.0.md`
 
 ---
 
 ## STAGE 8 — Sticker Sheet Assembly
 ### Production / Layout Team
-Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
+**ต้องเปิดและ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง ห้ามทำจากความจำ**
 
 ### Mandatory Sheet Spec
 - PNG
@@ -165,10 +195,15 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 - ขอบขาวรอบ artwork ≈ 5 px
 - ห้ามตีความเป็นเพียง white outline
 
+### Required Layout Sign-off
+ก่อนส่ง Image QC ผู้จัดทำ Sticker Sheet ต้องตรวจ checklist จาก `PRODUCTION-SPEC-v1.0.md` ครบทุกข้อ และยืนยันว่าไม่มี requirement ใดถูกตีความเองนอกเอกสาร
+
 ---
 
 ## STAGE 9 — Image QC
 ### Graphic QA
+QC ต้องใช้ `PRODUCTION-SPEC-v1.0.md` เป็น reference หลักด้าน geometry และ technical acceptance
+
 ตรวจอย่างน้อย:
 - Character consistency
 - Pose ตรง Production Table
@@ -179,9 +214,13 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 - Sticker ไม่ชน frame
 - Sheet background transparent จริง
 - White backing solid 100%
+- Frame 512 × 512 px
+- Margin/Padding ถูกต้อง
+- Frame border ถูกต้อง
+- ไม่มีหมายเลขกำกับ
 
 ### Gate 5 — Visual QC
-พบ defect ใด ๆ ต้อง REJECT และแก้ก่อนขั้นถัดไป
+พบ defect ใด ๆ หรือผิด Rejection Criteria ใน `PRODUCTION-SPEC-v1.0.md` ต้อง REJECT และแก้ก่อนขั้นถัดไป
 
 ---
 
@@ -212,7 +251,7 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 - ภาพลักษณ์องค์กร
 - Hero consistency
 - Caption accuracy
-- Sticker Sheet spec
+- Sticker Sheet spec โดยอ้างอิง `PRODUCTION-SPEC-v1.0.md`
 
 ### Gate 7 — Owner Approval
 ต้องมี Owner approval ก่อน Final Export
@@ -221,6 +260,8 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 
 ## STAGE 12 — Final Export
 ### Production Team
+ก่อน export ต้องตรวจ active Production Spec version อีกครั้ง
+
 จัดเตรียม:
 - Final Sticker Sheets
 - Individual frames (ถ้าต้องใช้)
@@ -236,6 +277,7 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 ### Project Lead
 เก็บ:
 - SSOT documents
+- Active `PRODUCTION-SPEC` version ที่ใช้ผลิต
 - Approved Production Table
 - QC reports
 - Approved Hero reference
@@ -254,7 +296,8 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 3. ประเมินผลกระทบ
 4. QC เฉพาะส่วนที่กระทบและ regression check ส่วนที่เกี่ยวข้อง
 5. Update SSOT version
-6. Product Owner อนุมัติใหม่
+6. หากเปลี่ยน Production Spec ต้องตรวจ Hero/Full Sheet ที่เกี่ยวข้องใหม่ตาม requirement ที่เปลี่ยน
+7. Product Owner อนุมัติใหม่
 
 ---
 
@@ -265,7 +308,7 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 - **Thai Copy Team** — caption correctness and naturalness
 - **Senior Graphic Designer** — character, pose, visual language
 - **Production Artist** — artwork execution
-- **Layout / Prepress** — sheet geometry, backing, transparency
+- **Layout / Prepress** — sheet geometry, backing, transparency โดยยึด `PRODUCTION-SPEC-v1.0.md`
 - **QC Team** — content, visual, technical, language checks
 
 ---
@@ -275,6 +318,8 @@ Apply `PRODUCTION-SPEC-v1.0.md` ทุกครั้ง
 - ห้าม white backing มีรูหรือช่องโปร่งใส
 - ห้ามสติ๊กเกอร์ชน frame
 - ห้าม background ของ Sticker Sheet ไม่โปร่งใส
+- ห้ามตีความ Sticker Sheet / Frame / White Backing นอกนิยามของ `PRODUCTION-SPEC-v1.0.md`
+- ห้ามสร้าง Sticker Sheet โดยไม่อ่าน active Production Spec
 - ห้ามข้าม Content QC
 - ห้ามข้าม Hero Approval
 - ห้ามข้าม Thai Text QC หลัง render
