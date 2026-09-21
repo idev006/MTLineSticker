@@ -3,6 +3,30 @@
 ## Purpose
 กำหนด workflow สำหรับทีมงานตั้งแต่ต้นน้ำจนปลายน้ำของชุด **สหกรณ์ออมทรัพย์ตำรวจภูธรภาค 6 หมายเลข 1** เพื่อให้ทุกคนใช้ขั้นตอนเดียวกัน มีจุดตรวจ (gate) ชัดเจน และลดความผิดพลาดด้านคอนเทนต์ ภาพ ภาษาไทย และสเปกการผลิต
 
+เอกสารนี้มีวัตถุประสงค์เชิงปฏิบัติว่า **ไม่ว่าใครจะเข้ามารับช่วงงานในอนาคต หากอ่าน Pipeline นี้และเอกสารอ้างอิงบังคับที่ระบุไว้ จะต้องสามารถสร้าง ตรวจ และส่งมอบสติ๊กเกอร์ได้ตามมาตรฐานเดียวกัน โดยไม่ต้องอาศัยความรู้ที่อยู่ในตัวบุคคล ความทรงจำ คำบอกเล่า หรือบริบทจากแชตเดิม**
+
+ดังนั้น Pipeline ต้องทำหน้าที่เป็นทั้ง:
+- ลำดับขั้นตอนการทำงานตั้งแต่ต้นน้ำถึงปลายน้ำ
+- แผนที่ชี้ไปยัง SSOT ที่ต้องอ่านในแต่ละขั้น
+- นิยาม Gate / Acceptance / Rejection ที่ใช้ตัดสินงาน
+- คู่มือส่งต่องานให้บุคคลหรือทีมใหม่
+- กลไกป้องกันความรู้สูญหายเมื่อเปลี่ยนคนทำงาน
+
+### Self-Sufficient Execution Standard
+ผู้ปฏิบัติงานที่ไม่เคยเห็นโครงการนี้มาก่อนต้องสามารถตอบคำถามต่อไปนี้จากเอกสารได้โดยไม่ต้องถามเจ้าของงาน:
+1. กำลังผลิตอะไร เพื่อใคร และใช้ในบริบทใด
+2. Character ที่ถูกต้องต้องหน้าตาและมีบุคลิกอย่างไร
+3. 40 เฟรมต้องใช้ Caption / Intent / Pose / Expression / Prop ใด
+4. Caption ภาษาไทยฉบับอนุมัติคือข้อความใดแบบตัวอักษรต่อตัวอักษร
+5. Sticker Sheet, Frame, White Backing, Margin, Padding และ Frame Border หมายถึงอะไร
+6. ขนาดและรูปแบบไฟล์ที่ต้องผลิตคืออะไร
+7. จุดใดถือว่า PASS / REJECT / REWORK
+8. ต้อง QC อะไรก่อนส่งต่อขั้นถัดไป
+9. Artifact ใดคือฉบับ Active/Approved และห้ามใช้ Draft ใด
+10. เมื่อมีการเปลี่ยนแปลงต้องบันทึกและอนุมัติอย่างไร
+
+หากเอกสารใดไม่สามารถตอบคำถามที่จำเป็นต่อการผลิตได้ ให้ถือว่า documentation ยังไม่สมบูรณ์และต้องแก้เอกสารก่อนผลิตต่อ
+
 ## Core Principle
 **Document First → Design → Review → Produce → QC → Approve → Export → Archive**
 
@@ -29,6 +53,21 @@
 
 ### Mandatory Pre-production Check
 ก่อนสร้าง Hero Sheet, Full Sticker Sheet หรือ Revision Sheet ทีมต้องเปิดตรวจ `PRODUCTION-SPEC-v1.0.md` และยืนยันว่าเข้าใจนิยามและ Acceptance/Rejection Criteria ล่าสุดแล้ว
+
+---
+
+## Mandatory Reading Order for New Team Members
+ผู้ที่เข้ามารับงานใหม่ต้องอ่านตามลำดับนี้ก่อนเริ่มผลิต:
+1. `END-TO-END-PRODUCTION-PIPELINE-v1.0.md`
+2. `SET-009-PRODUCT-SSOT-v1.0.md`
+3. `PROJECT-CREATIVE-BRIEF-v1.0.md`
+4. `CHARACTER-BIBLE-v1.0.md` และ Character Sheet ที่ Owner ยืนยันเป็น Visual SSOT
+5. `FULL-STICKER-PRODUCTION-TABLE-v1.0.md`
+6. `CONTENT-QC-PROTOCOL-v1.0.md` และ `CONTENT-QC-REPORT-v1.0.md`
+7. `PRODUCTION-SPEC-v1.0.md`
+8. Approved Hero reference และ revision/change notes ล่าสุดถ้ามี
+
+ห้ามเริ่มผลิตหากเอกสารที่ Pipeline ระบุว่า Required/Active สูญหาย ไม่ชัดเจน หรือมีหลายเวอร์ชันโดยไม่รู้ว่าเวอร์ชันใดเป็นฉบับใช้งาน
 
 ---
 
@@ -324,6 +363,7 @@ QC ต้องใช้ `PRODUCTION-SPEC-v1.0.md` เป็น reference หล
 - ห้ามข้าม Hero Approval
 - ห้ามข้าม Thai Text QC หลัง render
 - ห้ามใช้ caption / pose ที่ไม่ได้มาจาก Production SSOT
+- ห้ามพึ่งพาความรู้จากบุคคลหรือแชตแทน SSOT; ถ้าข้อมูลจำเป็นไม่มีในเอกสาร ต้องแก้เอกสารก่อนเดินงานต่อ
 
 ## Production Status Flow
 `DRAFT → CONTENT REVIEW → CONTENT LOCK → HERO → HERO APPROVED → FULL PRODUCTION → IMAGE QC → THAI TEXT QC → OWNER REVIEW → FINAL APPROVED → RELEASED`
