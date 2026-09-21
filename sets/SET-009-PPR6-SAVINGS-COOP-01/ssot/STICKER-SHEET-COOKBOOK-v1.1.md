@@ -15,10 +15,11 @@ Execution cookbook สำหรับมนุษย์หรือ AI ที่
 3. `FULL-STICKER-PRODUCTION-TABLE-v1.0.md`
 4. `THAI-CAPTION-RENDERING-PROTOCOL-v1.0.md`
 5. `PRODUCTION-SPEC-v1.0.md`
-6. `CONTENT-QC-PROTOCOL-v1.0.md`
-7. `END-TO-END-PRODUCTION-PIPELINE-v1.0.md`
+6. `FRAME-GEOMETRY-ADDENDUM-v1.0.md`
+7. `CONTENT-QC-PROTOCOL-v1.0.md`
+8. `END-TO-END-PRODUCTION-PIPELINE-v1.0.md`
 
-หากข้อกำหนดด้าน Sticker Sheet geometry / Frame / transparency / backing / margin / padding / border ขัดกัน ให้ยึด `PRODUCTION-SPEC-v1.0.md`
+หากข้อกำหนดด้าน Sticker Sheet geometry / Frame / transparency / backing / margin / padding / border ขัดกัน ให้ยึด `PRODUCTION-SPEC-v1.0.md` ร่วมกับ `FRAME-GEOMETRY-ADDENDUM-v1.0.md` โดย Addendum ใช้ขยายความเรื่อง border/margin/padding/downstream extraction
 
 หากข้อกำหนดด้าน caption / Thai text / mapping ขัดกัน ให้ยึด `THAI-CAPTION-RENDERING-PROTOCOL-v1.0.md` และ active Production Table
 
@@ -29,6 +30,9 @@ Execution cookbook สำหรับมนุษย์หรือ AI ที่
 - **Frame** = cell แต่ละช่องใน grid
 - **Sticker Artwork** = character + caption + props + effects
 - **White Backing / Die-cut Base** = พื้นขาวทึบ 100% รอง artwork ตาม silhouette และไม่มีรูภายใน
+- **Frame Border** = เส้นกรอบสี่เหลี่ยมมุมฉากประมาณ 3 px; default เป็นสีดำเข้มหรือ near-black เพื่อช่วยแยก Frame ชัดเจน
+- **Padding** = safe area ภายใน Frame ประมาณ 20 px จาก Frame Border เข้าหา artwork
+- **Margin** = spacing/clearance ประมาณ 20 px ที่ช่วยให้อ่านขอบเขต Frame และตัดแยกได้ง่าย โดยห้ามทำให้ effective Frame 512 × 512 px เปลี่ยนไป
 - **Downstream Extractor** = โปรแกรมปลายทางที่ตัด Frame ออกจาก sheet ตาม geometry ที่กำหนด
 - **Canonical Caption Manifest** = รายการ caption 01–40 ที่ copy จาก active Production Table แบบ exact string
 
@@ -51,6 +55,7 @@ Sticker Sheet ต้องผ่านพร้อมกัน 5 ด้าน:
 - active Character SSOT
 - active Production Table
 - active Production Spec
+- active Frame Geometry Addendum
 - active Thai Caption Rendering Protocol
 - grid dimensions
 - output version
@@ -114,12 +119,16 @@ Sticker Sheet ต้องผ่านพร้อมกัน 5 ด้าน:
 - Frame = 512 × 512 px
 - background = transparent
 - Frame border ≈ 3 px
-- margin = 20 px
-- padding = 20 px
-- square corners
+- Frame border color = dark black / near-black by default
+- margin ≈ 20 px
+- padding ≈ 20 px
+- square / 90-degree corners
 - no frame number on artwork
+- sticker artwork และ white backing ห้ามแตะ Frame Border
 
-ห้าม resize Frame เพื่อให้พอดี canvas
+**Frame geometry นี้เป็น machine-handoff contract ไม่ใช่ decoration**
+
+ห้าม resize Frame เพื่อให้พอดี canvas และห้ามใช้ rounded border, glow border หรือ decorative border ที่ทำให้ขอบ Frame กำกวม
 
 ---
 
@@ -144,10 +153,14 @@ White backing ไม่ใช่แค่ stroke
 - [ ] Pose/Expression/Prop ตรง Production Table
 - [ ] Grid 5×8
 - [ ] Frame 512×512
-- [ ] Margin/Padding 20 px
+- [ ] Border ≈ 3 px ทุก Frame
+- [ ] Border เป็น dark black / near-black และมองเห็นชัด
+- [ ] Margin/Padding ≈ 20 px
+- [ ] 90-degree corners
 - [ ] White backing rule เข้าใจชัด
 - [ ] Background transparent
 - [ ] ไม่มีเลข Frame บน artwork
+- [ ] Artwork/White Backing ไม่ชน Border
 
 ---
 
@@ -163,7 +176,17 @@ White backing ไม่ใช่แค่ stroke
 ภาษาไทยถูกแต่ไปอยู่ผิด Frame = REJECT FRAME
 
 ### C. Technical QC
-ตรวจ PNG, alpha, dimensions, Frame geometry, white backing, safe area
+ตรวจอย่างน้อย:
+- PNG + alpha
+- dimensions
+- Frame 512 × 512 px ทุกช่อง
+- border ≈ 3 px และสม่ำเสมอ
+- border dark black / near-black
+- square corners
+- margin/padding ≈ 20 px
+- white backing solid
+- safe area
+- deterministic crop compatibility
 
 ---
 
@@ -178,6 +201,8 @@ White backing ไม่ใช่แค่ stroke
 - regenerate whole sheet จาก canonical manifest เดิม
 - ห้ามแก้ source captions ให้เข้ากับภาพผิด
 
+หาก border/margin/padding geometry ผิดหลาย Frame ให้ reassemble sheet ใหม่จาก artwork ที่ผ่านแล้ว แทนการบิดหรือ resize ทั้ง sheet
+
 ---
 
 ## Recipe 10 — Machine Handoff Contract
@@ -190,6 +215,10 @@ columns: 5
 rows: 8
 frame_width: 512
 frame_height: 512
+frame_border_px_nominal: 3
+frame_border_color: near-black
+margin_px_nominal: 20
+padding_px_nominal: 20
 ordering: row-major
 background: transparent
 format: PNG
@@ -199,9 +228,10 @@ white_backing_internal_holes_allowed: false
 caption_source: FULL-STICKER-PRODUCTION-TABLE-v1.0.md
 caption_protocol: THAI-CAPTION-RENDERING-PROTOCOL-v1.0.md
 production_spec: PRODUCTION-SPEC-v1.0.md
+frame_geometry_addendum: FRAME-GEOMETRY-ADDENDUM-v1.0.md
 ```
 
-Downstream extractor ต้องสามารถคำนวณ crop rectangles จาก metadata/grid โดยไม่ใช้ OCR และไม่แก้ pixel content ภายใน Frame
+Downstream extractor ต้องสามารถคำนวณ crop rectangles จาก metadata/grid โดยไม่ใช้ OCR ไม่เดาขอบจาก content และไม่แก้ pixel content ภายใน Frame
 
 ---
 
@@ -212,6 +242,7 @@ Downstream extractor ต้องสามารถคำนวณ crop rectangl
 - [ ] Visual QC PASS
 - [ ] Thai Text QC PASS
 - [ ] Technical QC PASS
+- [ ] Frame Geometry Addendum PASS
 - [ ] Production Spec PASS
 - [ ] Downstream handoff test PASS
 - [ ] Owner Approval
@@ -219,14 +250,14 @@ Downstream extractor ต้องสามารถคำนวณ crop rectangl
 ---
 
 ## AI Execution Directive
-AI ที่ได้รับเอกสารนี้ต้องถือว่า Caption เป็น immutable data ไม่ใช่ creative text และต้องแยกงาน `visual generation` ออกจาก `text correctness` ในเชิงตรรกะ แม้ระบบจะ generate พร้อมกันได้ก็ตาม
+AI ที่ได้รับเอกสารนี้ต้องถือว่า Caption เป็น immutable data ไม่ใช่ creative text และต้องถือ Frame geometry เป็น machine contract ไม่ใช่ visual suggestion
 
 ลำดับที่ต้องทำ:
-`READ SSOT → BUILD CAPTION MANIFEST → MAP 01–40 → PLAN VISUALS → GENERATE → VERIFY THAI EXACTLY → VERIFY GEOMETRY → REPAIR FAILURES → RELEASE`
+`READ SSOT → BUILD CAPTION MANIFEST → MAP 01–40 → PLAN VISUALS → GENERATE → VERIFY THAI EXACTLY → VERIFY FRAME/BORDER/MARGIN/PADDING → REPAIR FAILURES → HANDOFF TEST → RELEASE`
 
 หากมี uncertainty ใน blocking requirement ให้หยุดที่ QC และห้ามส่งต่อ downstream
 
 ---
 
 ## Status
-**ACTIVE — v1.1**
+**ACTIVE — v1.1 + FRAME-GEOMETRY-ADDENDUM-v1.0**
