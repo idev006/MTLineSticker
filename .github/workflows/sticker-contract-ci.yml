@@ -1,0 +1,35 @@
+name: Sticker Contract CI
+
+on:
+  push:
+    paths:
+      - "contracts/sticker-handoff/**"
+      - "tests/contracts/**"
+      - ".github/workflows/sticker-contract-ci.yml"
+  pull_request:
+    paths:
+      - "contracts/sticker-handoff/**"
+      - "tests/contracts/**"
+      - ".github/workflows/sticker-contract-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract-unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate schema parses
+        run: python -m json.tool contracts/sticker-handoff/v1/handoff.schema.json > /dev/null
+      - name: Compile validators
+        run: python -m py_compile contracts/sticker-handoff/v1/validator.py contracts/sticker-handoff/v1/validator_v11.py
+      - name: Run handoff contract tests
+        run: python -m unittest discover -s tests/contracts -p 'test_*.py' -v
