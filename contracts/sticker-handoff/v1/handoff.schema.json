@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MTLineSticker Handoff v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "set_id",
+    "run_id",
+    "status",
+    "source_commit",
+    "package_manifest_sha256",
+    "character",
+    "frames",
+    "sheets",
+    "hero_ids",
+    "blocking_issues"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.0.0"
+    },
+    "set_id": {
+      "type": "string",
+      "pattern": "^SET-[A-Z0-9-]+$"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "NOT_READY",
+        "READY_FOR_GEM_B",
+        "READY_FOR_VISUAL_OWNER_REVIEW",
+        "FULL_PRODUCTION_UNLOCKED",
+        "READY_FOR_ENGINE"
+      ]
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{40}$"
+    },
+    "package_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "character": {
+      "type": "object",
+      "required": [
+        "asset_path",
+        "sha256",
+        "state",
+        "approval"
+      ],
+      "properties": {
+        "asset_path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "state": {
+          "enum": [
+            "CANDIDATE",
+            "CHARACTER_SHEET_ACTIVE"
+          ]
+        },
+        "approval": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "approval_id",
+            "role",
+            "asset_sha256",
+            "approved"
+          ],
+          "properties": {
+            "approval_id": {
+              "type": "string"
+            },
+            "role": {
+              "const": "PRODUCT_OWNER"
+            },
+            "asset_sha256": {
+              "type": "string",
+              "pattern": "^[a-fA-F0-9]{64}$"
+            },
+            "approved": {
+              "const": true
+            }
+          }
+        }
+      }
+    },
+    "frames": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^F[0-9]{2,3}$"
+      }
+    },
+    "sheets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "frame_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "frame_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^F[0-9]{2,3}$"
+            }
+          }
+        }
+      }
+    },
+    "hero_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^F[0-9]{2,3}$"
+      }
+    },
+    "hero_approval": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
