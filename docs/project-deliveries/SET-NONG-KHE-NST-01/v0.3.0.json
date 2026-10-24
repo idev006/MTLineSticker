@@ -1,0 +1,59 @@
+{
+  "set_id": "SET-NONG-KHE-NST-01",
+  "revision": "0.3.0",
+  "plugin_version": "0.5.0",
+  "delivery_commit": "b31eba41318aa8f886022b47169c87e7d89579ea",
+  "package_path": "sets/SET-NONG-KHE-NST-01",
+  "required_documents": 26,
+  "required_structured_files": 5,
+  "total_package_files": 37,
+  "includes_binary_reference": true,
+  "reference_git_blob_sha": "5bae1ea7e8a40d04fe2ac1fc7b46a9f432a577f4",
+  "validation": {
+    "validator_version": "1.0.0",
+    "set_id": "SET-NONG-KHE-NST-01",
+    "required_file_count": 31,
+    "payload_file_count": 36,
+    "document_complete": true,
+    "ready_for_gem_b": false,
+    "errors": [],
+    "readiness_blockers": [
+      "CHARACTER_APPROVAL_REQUIRED",
+      "DEPENDENCY_OPEN:DEP-001",
+      "DEPENDENCY_OPEN:DEP-002",
+      "DEPENDENCY_OPEN:DEP-003"
+    ],
+    "semantic_review": "NOT_CERTIFIED",
+    "image_pixel_qa": "NOT_RUN",
+    "legacy_contract_compatibility": "NOT_CERTIFIED"
+  },
+  "remote_verification": {
+    "status": "PASS",
+    "files": 37,
+    "method": "Recursive Git tree blob identity checked against local byte hashes; CSV newline mismatch corrected, changed CSV/checksum/manifest read back at final commit; key documents independently read back."
+  },
+  "content_review": {
+    "reviewer": "GEM A author; no independent team claimed",
+    "frame_count": 40,
+    "unique_ids": 40,
+    "caption_proposals_preserved": 40,
+    "explicit_frame_mapping": 40,
+    "character_authority": "Owner-authorized REF01 head identity; human body and police cadet student wardrobe",
+    "character_image_approved": false,
+    "known_dependencies": [
+      "DEP-001 Character image owner approval",
+      "DEP-002 uniform insignia source/owner decision",
+      "DEP-003 legacy contract integration compatibility"
+    ],
+    "not_run": [
+      "New Character candidate rendering",
+      "Hero rendering",
+      "Full sheet rendering",
+      "Pixel QA",
+      "Cutter export",
+      "Current LINE platform requirements"
+    ]
+  },
+  "next_action": "Generate/revise Character Sheet using committed 02_CHARACTER documents and REF01; show owner exact image; record scoped approval and hash before Gate A.",
+  "note": "This receipt is outside package to avoid manifest self-reference. It does not unlock batch production."
+}
