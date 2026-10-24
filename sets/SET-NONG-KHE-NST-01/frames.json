@@ -1,0 +1,1456 @@
+[
+  {
+    "id": "F01",
+    "caption": "หวัดดีค้าบ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ทักทาย",
+    "chat_situation": "เริ่มแชททักเพื่อนหรือคนคุย",
+    "tone": "เป็นกันเอง",
+    "expression": "ยิ้มอ่อน ตาปรือ คิ้วยกข้างเดียว",
+    "pose": "ยกมือทัก ยิ้มเอียงคอ",
+    "props": [],
+    "composition": "มือที่ทักอยู่ข้างแก้ม ไม่บังปาก",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ทักแบบกวนอย่างสุภาพ",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 1,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F02",
+    "caption": "รับทราบครับ!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "รับคำสั่ง",
+    "chat_situation": "ตอบรับข้อความแจ้งงานหรือเพื่อนนัด",
+    "tone": "กระตือรือร้นปนลน",
+    "expression": "ตาเบิก ปากปิดตรง เหงื่อหนึ่งหยด",
+    "pose": "ยืนตรงทันที เหงื่อแตก",
+    "props": [
+      "เหงื่อหยดเล็ก"
+    ],
+    "composition": "ยืนตรงเต็มตัว แขนแนบลำตัว",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "รับเรื่องแล้ว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 1,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F03",
+    "caption": "ขอบคุณค้าบ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ขอบคุณ",
+    "chat_situation": "ได้รับความช่วยเหลือหรือคำชม",
+    "tone": "อบอุ่น",
+    "expression": "ยิ้มตาหยี ก้มคอเล็กน้อย",
+    "pose": "ไหว้ ยิ้มตาหยี",
+    "props": [],
+    "composition": "ครึ่งตัว ไหว้ระดับอก มือไม่ทับปาก",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ขอบคุณอย่างจริงใจ",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 1,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F04",
+    "caption": "ขอโทษค้าบ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ขอโทษ",
+    "chat_situation": "มาสายหรือตอบช้าจนเพื่อนรอ",
+    "tone": "สำนึกผิดแบบน่าเอ็นดู",
+    "expression": "หลบตา ปากหุบ คางลด",
+    "pose": "หัวหด กุมมือ",
+    "props": [],
+    "composition": "กุมมือหน้าท้อง ไหล่ห่อ",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ขอโทษด้วยความเกรงใจ",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 1,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F05",
+    "caption": "ได้เลยเพื่อน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ตกลง",
+    "chat_situation": "รับปากช่วยเพื่อนเรื่องเล็กๆ",
+    "tone": "มั่นใจ",
+    "expression": "ยิ้มเปิดมุมปาก มองตรง",
+    "pose": "ชูนิ้วโป้ง ยิ้ม",
+    "props": [],
+    "composition": "ชูโป้งระดับอก นิ้วครบ",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ตกลงช่วยได้",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 2,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F06",
+    "caption": "จัดไป!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "พร้อมลงมือ",
+    "chat_situation": "เพื่อนชวนลงมือหรือออกเดินทาง",
+    "tone": "ฮึกเหิม",
+    "expression": "คิ้วแน่ว ยิ้มมุมปาก",
+    "pose": "กำหมัด ยืนก้าวหน้า ทำหน้ามั่นใจ",
+    "props": [],
+    "composition": "กำหมัดหนึ่งข้าง ยืนก้าวหน้า แทนพับแขนเสื้อสั้น",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "พร้อมลงมือเดี๋ยวนี้",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 2,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F07",
+    "caption": "รอแป๊บ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ขอเวลา",
+    "chat_situation": "กำลังแต่งตัวก่อนออกไปพบเพื่อน",
+    "tone": "เร่งรีบ",
+    "expression": "ตาลน ปากแง้ม",
+    "pose": "มือห้าม อีกมือใส่รองเท้า",
+    "props": [
+      "รองเท้าดำ"
+    ],
+    "composition": "นั่งใส่รองเท้า อีกมือห้าม นิ้วไม่พันกัน",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "รออีกนิด",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 2,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F08",
+    "caption": "ไปก่อนนะ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ลา",
+    "chat_situation": "ขอตัวออกจากแชทหรือจากกลุ่ม",
+    "tone": "สบายๆ",
+    "expression": "ยิ้มกว้างแบบเป็นมิตร",
+    "pose": "สะพายกระเป๋า โบกมือ",
+    "props": [
+      "กระเป๋าผ้าสีเข้ม"
+    ],
+    "composition": "โบกมือเหนือไหล่ กระเป๋าอยู่ข้างสะโพก",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ขอตัวก่อน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S01",
+    "row": 2,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F09",
+    "caption": "วันนี้ขอหล่อ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "อวดหล่อ",
+    "chat_situation": "ก่อนออกไปพบสาวหรือถ่ายรูป",
+    "tone": "เก๊กมั่นใจ",
+    "expression": "เชิดคาง ตาปรือ ยิ้มเจ้าเล่ห์",
+    "pose": "จัดปกเสื้อ เชิดคาง",
+    "props": [],
+    "composition": "จัดปกเสื้อ อกผาย ร่างคนเห็นครึ่งตัวขึ้นไป",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ขออวดหล่อหนึ่งวัน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 1,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F10",
+    "caption": "ทรงได้อยู่",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "มั่นใจตัวเอง",
+    "chat_situation": "ส่งเซลฟีแล้วชื่นชมตัวเอง",
+    "tone": "หลงตัวเองขำๆ",
+    "expression": "หรี่ตาประเมินตน ยิ้มพอใจ",
+    "pose": "ส่องกระจก ยิ้มพอใจ",
+    "props": [
+      "กระจกมือถือ"
+    ],
+    "composition": "ถือกระจกเล็กต่ำกว่าระดับตา",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ดูดีอยู่นะ",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 1,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F11",
+    "caption": "เผลอ ๆ ก็เท่",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "เก๊กเผลอ",
+    "chat_situation": "แกล้งโพสเผลอให้คนสนใจ",
+    "tone": "เก๊กเนียน",
+    "expression": "สายตาเหล่มาที่คนดู ปากยิ้มข้างเดียว",
+    "pose": "แกล้งมองไกล เหล่มองกล้อง",
+    "props": [],
+    "composition": "ตัวหันสามส่วน แขนกอดอกหลวม",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "แอบโพสเท่",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 1,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F12",
+    "caption": "มองเราเหรอ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ชวนคุย",
+    "chat_situation": "มีคนส่งสัญญาณสนใจในแชท",
+    "tone": "หยอกล้อ",
+    "expression": "ตาเบิกนิดหนึ่ง คิ้วยก หน้าแดงบาง",
+    "pose": "ชี้ตัวเอง คิ้วยก",
+    "props": [],
+    "composition": "ชี้นิ้วเข้าหน้าอก ไม่ชี้ปืนใส่ผู้รับ",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ชวนให้สนใจเรา",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 1,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F13",
+    "caption": "คนนี้มีใจ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "บอกชอบ",
+    "chat_situation": "ต้องการบอกชอบโดยไม่รุกมาก",
+    "tone": "อ่อนโยนแต่เก๊ก",
+    "expression": "ปากยิ้มสงบ แก้มแดงเล็กน้อย",
+    "pose": "ยื่นหัวใจเล็ก ทำหน้าขรึม",
+    "props": [
+      "หัวใจหนึ่งดวง"
+    ],
+    "composition": "ยื่นหัวใจเล็กหนึ่งดวงใกล้อก",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ส่งใจให้",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 2,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F14",
+    "caption": "จีบได้ ยังโสด",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "อ่อยขำๆ",
+    "chat_situation": "แนะนำสถานะโสดแบบขำๆ",
+    "tone": "ขี้เล่น",
+    "expression": "ตาปรือ ยิ้มมุมปาก",
+    "pose": "พิงเสาเล็ก ยิ้มมุมปาก",
+    "props": [
+      "เสาเรียบส่วนสั้น"
+    ],
+    "composition": "พิงเสาเรียบเล็ก ตัวเอนเล็กน้อย ไม่มีท่าชี้คุกคาม",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "เปิดให้เข้ามาคุย",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 2,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F15",
+    "caption": "คิดถึงค้าบ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "คิดถึง",
+    "chat_situation": "บอกคนคุยว่าอยากเจอ",
+    "tone": "คิดถึง",
+    "expression": "ตาอ่อน ปากยิ้มเศร้านิดๆ",
+    "pose": "กอดหมอน หน้าแดง",
+    "props": [
+      "หมอนเรียบ"
+    ],
+    "composition": "กอดหมอนแน่น หัวเอียงหาคนดู",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "คิดถึงแบบอ้อน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 2,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F16",
+    "caption": "ฝันดีนะ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "บอกฝันดี",
+    "chat_situation": "ปิดบทสนทนาก่อนนอน",
+    "tone": "อ่อนโยน",
+    "expression": "ตาปรือสงบ ยิ้มบาง",
+    "pose": "ห่มผ้า กอดหัวใจ",
+    "props": [
+      "ผ้าห่มและหัวใจ"
+    ],
+    "composition": "ห่มผ้าบนไหล่ กอดหัวใจเล็ก เสื้อชุดนักเรียนเห็นช่วงปกเป็นสัญลักษณ์",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "บอกฝันดี",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S02",
+    "row": 2,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F17",
+    "caption": "สาวมา!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "เตือนเพื่อน",
+    "chat_situation": "เตือนเพื่อนว่าเจอคนที่ชอบ",
+    "tone": "ตื่นเต้น",
+    "expression": "ตาโต ปากแง้มเบา",
+    "pose": "สะกิดเพื่อน ตาโต",
+    "props": [
+      "แขนเพื่อนประกอบ"
+    ],
+    "composition": "สะกิดเพียงไหล่หรือแขนเพื่อนที่เข้ามาริมภาพ",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "สะกิดให้รู้ตัว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 1,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F18",
+    "caption": "เก๊กก่อน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "สร้างภาพเท่แต่กลัวเสียทรง",
+    "chat_situation": "ตั้งตัวให้เท่ก่อนพบคนคุย",
+    "tone": "เก๊กปนลน",
+    "expression": "ตาปรือยิ้ม แต่เหงื่อเม็ดหนึ่งและมือสั่น",
+    "pose": "จัดปกเสื้อ อกผาย มือสั่นเมื่อเห็นเงาครูฝึก",
+    "props": [
+      "เงาครูฝึกหนึ่งรูปขนาดรอง"
+    ],
+    "composition": "ครึ่งถึงเต็มตัวจัดปกเสื้อ มีเงาครูฝึกเล็กข้างหลัง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ทำเท่แต่กลัวเสียทรง",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": true,
+    "sheet_id": "S03",
+    "row": 1,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F19",
+    "caption": "หล่อยังเพื่อน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ขอความเห็น",
+    "chat_situation": "ขอให้เพื่อนดูความเรียบร้อย",
+    "tone": "ขอความมั่นใจ",
+    "expression": "คิ้วยก สายตาถาม",
+    "pose": "หันข้าง ชี้เสื้อให้เพื่อนตรวจ",
+    "props": [],
+    "composition": "หันข้างเล็กน้อย มือชี้ปกเสื้อตัวเอง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ช่วยดูให้หน่อย",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 1,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F20",
+    "caption": "อย่าเพิ่งแฉ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ห้ามแซว",
+    "chat_situation": "เพื่อนกำลังเล่าเรื่องหน้าแตก",
+    "tone": "ลนแบบตลก",
+    "expression": "ตาเหลือก ยิ้มแห้ง",
+    "pose": "ยกฝ่ามือห้ามเพื่อนอย่างขำๆ ตาลน",
+    "props": [
+      "ไหล่เพื่อนประกอบ"
+    ],
+    "composition": "ฝ่ามือห้ามตรงหน้าอกเพื่อน ไม่จับปิดปากจริง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "อย่าเพิ่งแฉเรา",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 1,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F21",
+    "caption": "เขายิ้มให้!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ดีใจ",
+    "chat_situation": "ดีใจที่คิดว่าคนที่ชอบยิ้มให้",
+    "tone": "ปลื้มใจ",
+    "expression": "ตาเป็นประกาย ปากยิ้มกว้าง",
+    "pose": "ตัวลอย ตาเป็นประกาย หัวใจสองดวง",
+    "props": [
+      "หัวใจสองดวง"
+    ],
+    "composition": "ยกส้นเท้าดีใจ หัวใจสองดวงอยู่ใกล้หัว",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "เขาสนใจเราหรือเปล่า",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 2,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F22",
+    "caption": "อ้าว…ยิ้มให้เพื่อน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "หน้าแตก",
+    "chat_situation": "เพิ่งรู้ว่าคนที่ชอบมองคนอื่น",
+    "tone": "หน้าแตก",
+    "expression": "ตาค้าง ปากตรง แก้มซีดลง",
+    "pose": "ยืนค้าง หัวใจแฟบ",
+    "props": [
+      "หัวใจแฟบหนึ่งดวง"
+    ],
+    "composition": "ยืนชะงัก หัวใจแฟบข้างอก",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "เข้าใจผิดเอง",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 2,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F23",
+    "caption": "ใจเย็นไอ้เข้",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ระงับความเขิน",
+    "chat_situation": "พยายามตั้งสติหลังโดนชม",
+    "tone": "เขินมาก",
+    "expression": "แก้มแดง คิ้วโค้ง ตาหลบ",
+    "pose": "จับอกตัวเอง หน้าแดงจัด",
+    "props": [],
+    "composition": "มือทาบอก หายใจเข้า ไม่ตีกระแทกตัวเอง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "เตือนตัวเองให้ใจเย็น",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 2,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F24",
+    "caption": "เสียทรงเลย",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "กลบเกลื่อน",
+    "chat_situation": "โดนแซวจนความเท่หาย",
+    "tone": "ขำเขิน",
+    "expression": "ยิ้มแห้ง ตาหลุบ",
+    "pose": "ยิ้มแห้ง ปกเสื้อยับ",
+    "props": [],
+    "composition": "ไหล่ห่อ ปกเสื้อยับเล็กน้อย มือเกาท้ายหัว",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "หลุดเก๊กแล้ว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S03",
+    "row": 2,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F25",
+    "caption": "ครูฝึกมา!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ตกใจ",
+    "chat_situation": "เตือนเพื่อนให้กลับมามีระเบียบ",
+    "tone": "ตกใจ",
+    "expression": "ตาเบิก คิ้วสูง ปากเม้ม",
+    "pose": "ยืนตรง ตาเหลือก",
+    "props": [
+      "เส้นตกใจสองเส้น"
+    ],
+    "composition": "ยืนตรงฉับพลัน มือแนบตัว",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ครูฝึกใกล้เข้ามา",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 1,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F26",
+    "caption": "ผมพร้อมครับ!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "รวบรวมความกล้า",
+    "chat_situation": "ตอบรับภารกิจแม้แอบกลัว",
+    "tone": "ฮึดสู้",
+    "expression": "ตาแน่ว ปากยิ้มฝืน",
+    "pose": "ยืนฮึด ขาสั่น",
+    "props": [
+      "เส้นสั่นสองเส้น"
+    ],
+    "composition": "อกตั้ง ยืนตรง เข่าสั่นเล็กน้อย",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ใจพร้อมรับหน้าที่",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 1,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F27",
+    "caption": "พร้อมแต่ใจ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "เหนื่อยแต่ใจสู้",
+    "chat_situation": "เพื่อนชวนทำสิ่งที่เหนื่อยมาก",
+    "tone": "เหนื่อยแต่ใจสู้",
+    "expression": "ตาปรือ ยิ้มมุมปากแห้ง",
+    "pose": "นั่งหมดแรง ยกมือสู้",
+    "props": [],
+    "composition": "นั่งกอง ยกหมัดเล็กที่ระดับไหล่",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "อยากสู้แต่แรงหมด",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 1,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F28",
+    "caption": "อีกกี่รอบครับ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ถามอย่างเหนื่อย",
+    "chat_situation": "ถามว่างานหรือการฝึกเหลือเท่าไร",
+    "tone": "เหนื่อยขำๆ",
+    "expression": "ตาเหลือบหลัง ลิ้นออกเล็กน้อย",
+    "pose": "วิ่งลิ้นห้อย เหลียวหลัง",
+    "props": [
+      "เหงื่อสองหยด"
+    ],
+    "composition": "วิ่งช้า แขนแกว่ง มีเหงื่อสองหยด",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "เหลืออีกมากไหม",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 1,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F29",
+    "caption": "ขอพักหายใจ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ขอพัก",
+    "chat_situation": "ขอหยุดพักจากกิจกรรมหนัก",
+    "tone": "อ่อนแรง",
+    "expression": "ตาปิดครึ่ง ปากแง้ม",
+    "pose": "ก้มจับเข่า เหงื่อท่วม",
+    "props": [
+      "เหงื่อสามหยด"
+    ],
+    "composition": "ก้มจับเข่า ลำตัวเอนอยู่ในเฟรม",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ขอหายใจสักครู่",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 2,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F30",
+    "caption": "ยังไหว…มั้ง",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ฝืนสู้",
+    "chat_situation": "บอกว่ายังสู้แม้เกือบหมดแรง",
+    "tone": "ฝืนแบบตลก",
+    "expression": "ตาปรือเกือบปิด ยิ้มแห้ง",
+    "pose": "นอนแผ่ ชูนิ้วโป้ง",
+    "props": [],
+    "composition": "นอนหงายสั้นๆ ชูโป้งให้เห็นชัด ไม่เป็นท่าบาดเจ็บ",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ยังพอไหว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 2,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F31",
+    "caption": "ตั้งใจเรียนอยู่",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "แก้ง่วง",
+    "chat_situation": "เพื่อนถามว่าอ่านหนังสืออยู่ไหม",
+    "tone": "แกล้งขยัน",
+    "expression": "ตาปรือหรี่ลง คิ้วฝืนตั้ง",
+    "pose": "ถือหนังสือกลับหัว ตาปรือ",
+    "props": [
+      "หนังสือปกเรียบ"
+    ],
+    "composition": "ถือหนังสือกลับหัว ข้อความบนสติกเกอร์ยังอ่านตรง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "กำลังพยายามเรียน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 2,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F32",
+    "caption": "ตาจะปิดแล้ว",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ง่วงมาก",
+    "chat_situation": "เรียนหรืออ่านจนง่วงมาก",
+    "tone": "ง่วง",
+    "expression": "เปลือกตาหนัก ปากหาว",
+    "pose": "พยายามเบิกตาหนังสือเปิด",
+    "props": [
+      "หนังสือเปิด"
+    ],
+    "composition": "หนังสือเปิดต่ำกว่าอก มือพยุงคาง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ใกล้หลับแล้ว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S04",
+    "row": 2,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F33",
+    "caption": "หิวแล้วค้าบ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "หิว",
+    "chat_situation": "ถึงเวลาอาหารหรือชวนไปกิน",
+    "tone": "กระตือรือร้น",
+    "expression": "ตาเป็นประกาย ยิ้มกว้าง",
+    "pose": "ถือถาดอาหาร ตาเป็นประกาย",
+    "props": [
+      "ถาดข้าว"
+    ],
+    "composition": "ถือถาดใกล้เอว ถาดไม่บังชุดทั้งหมด",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "หิวแล้ว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 1,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F34",
+    "caption": "เติมพลังแป๊บ",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "พักกินข้าว",
+    "chat_situation": "พักบทสนทนาเพื่อกินข้าว",
+    "tone": "อิ่มเอม",
+    "expression": "แก้มตุ่ย ตายิ้ม",
+    "pose": "กินข้าวแก้มตุ่ย",
+    "props": [
+      "ช้อนและจานข้าว"
+    ],
+    "composition": "ยกช้อนใกล้ปาก ถาดอยู่ด้านล่าง",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ขอกินก่อน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 1,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F35",
+    "caption": "วันปล่อยแล้ว!",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ดีใจได้ออกนอกโรงเรียน",
+    "chat_situation": "ได้หยุดหรือได้ออกนอกโรงเรียน",
+    "tone": "ดีใจสุดๆ",
+    "expression": "ตาโต ยิ้มกว้าง",
+    "pose": "กระโดดดีใจ ถือกระเป๋า",
+    "props": [
+      "กระเป๋าผ้าสีเข้ม"
+    ],
+    "composition": "กระโดดหนึ่งขา อีกมือยกกระเป๋า รองเท้าไม่หลุดเฟรม",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ดีใจที่ได้ออกไปพัก",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 1,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F36",
+    "caption": "กลับเข้าโรงเรียน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "อาลัยวันหยุด",
+    "chat_situation": "หมดวันหยุดต้องกลับไปเรียน",
+    "tone": "อาลัยแบบขำๆ",
+    "expression": "ตาตก ยิ้มเศร้า ปากห้อยนิด",
+    "pose": "ลากกระเป๋า ไหล่ตก",
+    "props": [
+      "กระเป๋าลากเล็ก"
+    ],
+    "composition": "ลากกระเป๋า ไหล่ตก หลังห่อเล็กน้อย",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ต้องกลับไปแล้ว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 1,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F37",
+    "caption": "เพื่อนรัก",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "มิตรภาพ",
+    "chat_situation": "ส่งขอบคุณเพื่อนสนิท",
+    "tone": "อบอุ่น",
+    "expression": "ยิ้มจริงใจ ตาอ่อน",
+    "pose": "กอดคอเพื่อน ยิ้ม",
+    "props": [
+      "เพื่อนประกอบหนึ่งคน"
+    ],
+    "composition": "กอดไหล่เพื่อนข้างเดียว เพื่อนเห็นเพียงหัวด้านข้างและไหล่",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "รักเพื่อนนะ",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 2,
+    "column": 1,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F38",
+    "caption": "อย่าทิ้งกัน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ขออยู่ด้วย",
+    "chat_situation": "อยากให้เพื่อนรอหรืออยู่ด้วย",
+    "tone": "อ้อน",
+    "expression": "ตาอ้อน คิ้วโค้ง",
+    "pose": "เกาะแขนเพื่อน ตาอ้อน",
+    "props": [
+      "แขนเพื่อนประกอบ"
+    ],
+    "composition": "เกาะแขนเพื่อนเบาๆ ไม่ดึงล้ม",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "อย่าปล่อยเราไว้คนเดียว",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 2,
+    "column": 2,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F39",
+    "caption": "สู้ไปด้วยกัน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ให้กำลังใจ",
+    "chat_situation": "ส่งแรงใจให้คนที่กำลังฝึกหรือเรียน",
+    "tone": "มุ่งมั่น",
+    "expression": "ยิ้มหนักแน่น สบตา",
+    "pose": "ชนหมัดเพื่อน มองอย่างมุ่งมั่น",
+    "props": [
+      "หมัดเพื่อนประกอบ"
+    ],
+    "composition": "ชนหมัดเพื่อนบริเวณกลางภาพ มือไม่ซ้อนผิดนิ้ว",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "เราสู้ไปด้วยกัน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 2,
+    "column": 3,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  },
+  {
+    "id": "F40",
+    "caption": "จบไปด้วยกัน",
+    "caption_policy": "CAPTION",
+    "caption_lock": "PROPOSED",
+    "intent": "ตั้งเป้าเรียนจบด้วยกัน",
+    "chat_situation": "ให้กำลังใจกันจนเรียนสำเร็จ",
+    "tone": "ภูมิใจ",
+    "expression": "ยิ้มกว้าง ตาอ่อน",
+    "pose": "กอดคอเพื่อน ยิ้มภูมิใจ ยังอยู่ชุดนักเรียน",
+    "props": [
+      "เพื่อนประกอบหนึ่งคน"
+    ],
+    "composition": "กอดคอเพื่อนชี้มองข้างหน้า ยังสวมชุดนักเรียนไม่มีปริญญาหรือยศ",
+    "forbidden_distractions": [
+      "ห้ามหางหรือมือสัตว์",
+      "ห้ามเพิ่มยศ/ตราที่ไม่มีหลักฐาน",
+      "ห้ามฉากร้านและโลโก้",
+      "ไม่เพิ่มตัวละครเต็มตัวแย่งตัวหลัก"
+    ],
+    "one_second_expectation": "ตั้งใจเรียนให้จบด้วยกัน",
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "hero": false,
+    "sheet_id": "S05",
+    "row": 2,
+    "column": 4,
+    "wardrobe": "cadet_student",
+    "segmentation_notes": "รวมตัวละคร ข้อความ อุปกรณ์และเอฟเฟกต์ใน mask ไดคัท แต่ละองค์ประกอบลอยต้องมีไดคัทครบและไม่ชน safe zone"
+  }
+]

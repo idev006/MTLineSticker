@@ -2,16 +2,21 @@
   "decisions": [
     {
       "id": "OWNER-01",
-      "quote": "ดำเนินการต่อ ตามหน้าที่ของปลั๊กอินตัวนี้",
-      "scope": "authorize GEM A planning using attached reference; not approval of unseen Character/Hero"
+      "evidence": "ดำเนินการต่อ ตามหน้าที่ของปลั๊กอินตัวนี้",
+      "scope": "อนุญาตจัดทำงาน GEM A ไม่ใช่อนุมัติภาพที่ยังไม่เห็น"
     },
     {
       "id": "OWNER-02",
-      "quote": "เอกสารต่างๆเก็บไว้ที่ GitHub โดยสร้างเป็นโฟลเดอร์ของสติ๊กเกอร์ชุดนี้ เพื่อใช้เป็น ssot สื่อสารกันระหว่าง gem a และ gem b. ตัวละครแต่งชุดนักเรียนนายสิบตำรวจหัวเป็นจระเข้ตามภาพที่ผมส่งให้",
-      "scope": "GitHub SSOT authorized; human body in police cadet student uniform, crocodile head matching REF01; supersedes prior animal-body/three-outfit proposal; unseen images not approved"
+      "evidence": "เอกสารต่างๆเก็บไว้ที่ GitHub โดยสร้างเป็นโฟลเดอร์ของสติ๊กเกอร์ชุดนี้ เพื่อใช้เป็น ssot สื่อสารกันระหว่าง gem a และ gem b. ตัวละครแต่งชุดนักเรียนนายสิบตำรวจหัวเป็นจระเข้ตามภาพที่ผมส่งให้",
+      "scope": "ใช้ GitHub เป็น SSOT และชุดนักเรียน ร่างคน หัวจระเข้"
+    },
+    {
+      "id": "OWNER-03",
+      "evidence": "ใช้ความสามารถของปลั๊กอินตัวนี้ในการสร้างสติ๊กเกอร์ตามที่ผมได้แจ้งข้อมูลไปแล้ว โดยใช้ตัวการ์ตูนในภาพที่ 1 เป็นนายแบบของสติ๊กเกอร์ทั้งชุด เก็บเอกสารโครงการไว้ในgothub",
+      "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.5.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
     }
   ],
-  "character_image_approval": null,
-  "hero_approval": null,
-  "release_approval": null
+  "character": null,
+  "hero": null,
+  "release": null
 }

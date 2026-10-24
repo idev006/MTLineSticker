@@ -1,18 +1,11 @@
 {
+  "revision": "0.3.0",
   "frame_count": 40,
   "unique_ids": 40,
-  "unique_captions": 40,
   "sheet_count": 5,
-  "frames_per_sheet": 8,
-  "mapping": "PASS",
-  "reference_sha256": "c1bed82e835987089fb342a861aba632f36adb7fefa75d3bfda6e9cce69f5057",
-  "pixel_checks": "NOT_RUN",
+  "reference_bytes": "PACKAGED",
   "character_approval": "PENDING",
-  "schema_compatibility": "CONTRACT_MISMATCH",
-  "revision": "0.2.0",
-  "wardrobe_consistency": "PASS: 40/40 cadet_student",
-  "human_body_no_tail": "SPEC_UPDATED; VISUAL_NOT_RUN",
-  "reference_in_github": false,
-  "uniform_detail": "PENDING_SOURCE",
-  "git_commit_policy": "resolve published commit at read time"
+  "pixel_checks": "NOT_RUN",
+  "legacy_schema_compatibility": "CONTRACT_MISMATCH",
+  "document_validation": "Run bundled v0.5.0 validator; authoritative result is external delivery receipt"
 }
