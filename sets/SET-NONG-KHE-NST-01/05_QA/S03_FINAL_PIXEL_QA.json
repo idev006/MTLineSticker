@@ -1,0 +1,711 @@
+{
+  "sheet_id": "S03",
+  "qa": {
+    "set_id": "SET-NONG-KHE-NST-01",
+    "sheet_id": "S03",
+    "source_revision": "0.6.0",
+    "source_commit": "d454a36734dd7c183f01efee84e7c5e8072a5120",
+    "contract_version": "1.3.0",
+    "scope": "OWNER_AUTHORIZED_S02_THROUGH_S05",
+    "layout": "4x2 canonical production mapping F17,F18,F19,F20,F21,F22,F23,F24",
+    "sheet_size": [
+      2413,
+      1039
+    ],
+    "sheet_mode": "RGBA",
+    "sheet_sha256": "dcfa2144bdb117e7b62347f83a6e13b924dbc432797cbea0825853a3a8e46bb1",
+    "frame_size": [
+      592,
+      512
+    ],
+    "border_px": 3,
+    "gutter_px": 15,
+    "safe_zone_nominal_px": 20,
+    "diecut_px": 3,
+    "caption_policy": "black text on shaped white backing",
+    "transparent_pixels": 1079000,
+    "opaque_pixels": 1428107,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "gutter_full_scan": "PASS",
+    "empty_background_full_scan": "PASS",
+    "geometry": "PASS",
+    "source_mask_semantic_quality": "REVIEW_REQUIRED",
+    "cutter_integration": "NOT_RUN",
+    "release": "PENDING_OWNER_REVIEW",
+    "hero_owner_approval": "APPROVED_BY_OWNER_IN_CHAT",
+    "sheet_owner_approval": "PENDING",
+    "frames": [
+      {
+        "id": "F17",
+        "caption": "สาวมา!",
+        "source_sha256": "172915c20d5eef8f760829cf51ce320d15f3f14d428eed1995833e1d4e5b5a39",
+        "frame_sha256": "83a3bc08546775af08a97952a3678a9fea3056dec949b227518cba774ce6be85",
+        "frame_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          454,
+          386
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 47207,
+        "content_bbox": [
+          23,
+          23,
+          569,
+          488
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          20,
+          20,
+          21
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 9950,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 295,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F18",
+        "caption": "เก๊กก่อน",
+        "source_sha256": "bb839cd700b4f8d31f30e4717ab27d19b37dfcaed845e2bb580e32878cebd37b",
+        "frame_sha256": "707363192a3f210a09b0742ef7887e1c9869505dd9de6d47667e86c3cb69aff5",
+        "frame_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          459,
+          396
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 54299,
+        "content_bbox": [
+          26,
+          27,
+          565,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          23,
+          24,
+          24,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 9969,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 480,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F19",
+        "caption": "หล่อยังเพื่อน",
+        "source_sha256": "989bc7ece4601fa500af29ab5f2996a92013c9b8362651590c5d18cd499d57ce",
+        "frame_sha256": "91ae7359e175fba25dee1e73dad42db5c96e025d57fbf8faaa953c8e4ff5d341",
+        "frame_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          457,
+          388
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 70232,
+        "content_bbox": [
+          23,
+          24,
+          569,
+          488
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          21,
+          20,
+          21
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 8177,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 405,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F20",
+        "caption": "อย่าเพิ่งแฉ",
+        "source_sha256": "a55b6effe6f8688abdb10673d1facc6ca4c526a6ccae952084c1b674fe2b606d",
+        "frame_sha256": "ea370e4b10e4d2165b1f0a9ce133427b0da7f212f4d2150a273898112551bb30",
+        "frame_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          474,
+          387
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 55302,
+        "content_bbox": [
+          23,
+          33,
+          569,
+          479
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          30,
+          20,
+          30
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 12044,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F21",
+        "caption": "เขายิ้มให้!",
+        "source_sha256": "46371695cf6d9938135f787e5b87e395c5304172be4490620cb7e7e7fb452cec",
+        "frame_sha256": "1175e08d6401bb25f8d9f1c5242008730466d31c142247bbc7b5ca332a0b0458",
+        "frame_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          443,
+          398
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 51739,
+        "content_bbox": [
+          36,
+          23,
+          555,
+          488
+        ],
+        "inner_clearance_LTRB_px": [
+          33,
+          20,
+          34,
+          21
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 10363,
+        "matte_fringe_pixels_corrected": 3,
+        "caption_navy_to_black_pixels": 466,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F22",
+        "caption": "อ้าว…ยิ้มให้เพื่อน",
+        "source_sha256": "2e94d7816b2a43fa8f04fd830a0d78776eba7ee321e47f13d5cb677dadc82583",
+        "frame_sha256": "fbe01b4b4e307136d8288a2b362f3ee98bacbe03dd27ea0275b1cdc8fbc94bce",
+        "frame_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          466,
+          372
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 68027,
+        "content_bbox": [
+          23,
+          37,
+          569,
+          474
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          34,
+          20,
+          35
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 9840,
+        "matte_fringe_pixels_corrected": 9,
+        "caption_navy_to_black_pixels": 314,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F23",
+        "caption": "ใจเย็นไอ้เข้",
+        "source_sha256": "d674f765e39618b71f860b3af522db00598dff47aedf1e30404df5027029a3a2",
+        "frame_sha256": "642417baf55b56d79c91a7664dd0e5f4e19fcda4a3ca1bca78e0726892348d7c",
+        "frame_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          420,
+          375
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 46323,
+        "content_bbox": [
+          35,
+          23,
+          557,
+          488
+        ],
+        "inner_clearance_LTRB_px": [
+          32,
+          20,
+          32,
+          21
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 7739,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 475,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F24",
+        "caption": "เสียทรงเลย",
+        "source_sha256": "df10b8f9ae514713ea57f37dd5b859023eeddbe34e38ee42b971389c70d0e498",
+        "frame_sha256": "2bceebab2f03c482fbe5ab67db6466b2b00c785734aa9669484543c3ecf66376",
+        "frame_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          462,
+          381
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 50486,
+        "content_bbox": [
+          23,
+          30,
+          569,
+          481
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          27,
+          20,
+          28
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 9942,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 728,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      }
+    ]
+  },
+  "segmentation": {
+    "source_path": "/workspace/scratch/161e83d87f67/generated_images/exec-00c4e618-3746-4b2a-8f7b-69ad63cc2f4b.png",
+    "source_sha256": "d8d2954f3f324396e89742269011a55f5db9746ca34475ec3c0d0feb0a092923",
+    "source_size": [
+      1916,
+      821
+    ],
+    "source_mode": "RGBA",
+    "method": "route complete alpha>=32 connected components by nominal 4x2 centroid; no straight cut through props",
+    "major_components": [
+      {
+        "label": 1,
+        "area": 126467,
+        "frame": "F18",
+        "bbox": [
+          485,
+          5,
+          944,
+          401
+        ]
+      },
+      {
+        "label": 2,
+        "area": 107084,
+        "frame": "F19",
+        "bbox": [
+          970,
+          8,
+          1427,
+          396
+        ]
+      },
+      {
+        "label": 3,
+        "area": 126649,
+        "frame": "F20",
+        "bbox": [
+          1442,
+          9,
+          1916,
+          396
+        ]
+      },
+      {
+        "label": 4,
+        "area": 126432,
+        "frame": "F17",
+        "bbox": [
+          0,
+          14,
+          454,
+          400
+        ]
+      },
+      {
+        "label": 5,
+        "area": 826,
+        "frame": "F17",
+        "bbox": [
+          190,
+          21,
+          226,
+          59
+        ]
+      },
+      {
+        "label": 6,
+        "area": 740,
+        "frame": "F20",
+        "bbox": [
+          1706,
+          25,
+          1739,
+          61
+        ]
+      },
+      {
+        "label": 7,
+        "area": 779,
+        "frame": "F17",
+        "bbox": [
+          171,
+          51,
+          213,
+          76
+        ]
+      },
+      {
+        "label": 8,
+        "area": 747,
+        "frame": "F20",
+        "bbox": [
+          1722,
+          51,
+          1763,
+          76
+        ]
+      },
+      {
+        "label": 9,
+        "area": 998,
+        "frame": "F18",
+        "bbox": [
+          892,
+          121,
+          929,
+          164
+        ]
+      },
+      {
+        "label": 10,
+        "area": 118281,
+        "frame": "F21",
+        "bbox": [
+          13,
+          413,
+          456,
+          811
+        ]
+      },
+      {
+        "label": 11,
+        "area": 123033,
+        "frame": "F24",
+        "bbox": [
+          1447,
+          421,
+          1909,
+          802
+        ]
+      },
+      {
+        "label": 12,
+        "area": 100836,
+        "frame": "F22",
+        "bbox": [
+          489,
+          424,
+          955,
+          796
+        ]
+      },
+      {
+        "label": 13,
+        "area": 111177,
+        "frame": "F23",
+        "bbox": [
+          983,
+          428,
+          1403,
+          803
+        ]
+      },
+      {
+        "label": 14,
+        "area": 2503,
+        "frame": "F24",
+        "bbox": [
+          1806,
+          435,
+          1863,
+          499
+        ]
+      },
+      {
+        "label": 15,
+        "area": 3669,
+        "frame": "F21",
+        "bbox": [
+          51,
+          440,
+          126,
+          509
+        ]
+      },
+      {
+        "label": 16,
+        "area": 2623,
+        "frame": "F21",
+        "bbox": [
+          373,
+          494,
+          435,
+          552
+        ]
+      },
+      {
+        "label": 17,
+        "area": 4489,
+        "frame": "F22",
+        "bbox": [
+          806,
+          547,
+          892,
+          620
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "id": "F17",
+        "caption": "สาวมา!",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F17_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          0,
+          14,
+          454,
+          400
+        ],
+        "component_labels": [
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "id": "F18",
+        "caption": "เก๊กก่อน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F18_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          485,
+          5,
+          944,
+          401
+        ],
+        "component_labels": [
+          1,
+          9
+        ]
+      },
+      {
+        "id": "F19",
+        "caption": "หล่อยังเพื่อน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F19_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          970,
+          8,
+          1427,
+          396
+        ],
+        "component_labels": [
+          2
+        ]
+      },
+      {
+        "id": "F20",
+        "caption": "อย่าเพิ่งแฉ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F20_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1442,
+          9,
+          1916,
+          396
+        ],
+        "component_labels": [
+          3,
+          6,
+          8
+        ]
+      },
+      {
+        "id": "F21",
+        "caption": "เขายิ้มให้!",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F21_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          13,
+          413,
+          456,
+          811
+        ],
+        "component_labels": [
+          10,
+          15,
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "id": "F22",
+        "caption": "อ้าว…ยิ้มให้เพื่อน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F22_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          489,
+          424,
+          955,
+          796
+        ],
+        "component_labels": [
+          12,
+          17
+        ]
+      },
+      {
+        "id": "F23",
+        "caption": "ใจเย็นไอ้เข้",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F23_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          983,
+          428,
+          1403,
+          803
+        ],
+        "component_labels": [
+          13
+        ]
+      },
+      {
+        "id": "F24",
+        "caption": "เสียทรงเลย",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S03/F24_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1447,
+          421,
+          1909,
+          802
+        ],
+        "component_labels": [
+          11,
+          14
+        ]
+      }
+    ]
+  }
+}
