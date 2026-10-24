@@ -1,0 +1,33 @@
+{
+  "interface": {
+    "category": "Productivity",
+    "displayName": "MT Sticker GEM A",
+    "developerName": "THPPRVI",
+    "shortDescription": "Coordinated LINE sticker production",
+    "defaultPrompt": [
+      "/start-sticker-project ดำเนินการตาม SSOT และ A/B contract v1.1"
+    ],
+    "longDescription": "MT Sticker GEM A coordinated universal production",
+    "capabilities": []
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/start-sticker-project/SKILL.md"
+    }
+  },
+  "name": "mt-sticker-gem-a",
+  "version": "0.5.0",
+  "description": "MT Sticker GEM A coordinated universal production",
+  "author": {
+    "name": "THPPRVI",
+    "email": "thaipoliceregion6@gmail.com"
+  },
+  "keywords": [
+    "line-sticker",
+    "character",
+    "quality-gates",
+    "production"
+  ],
+  "repository": "https://github.com/idev006/MTLineSticker",
+  "skills": "./skills"
+}
