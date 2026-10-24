@@ -1,0 +1,384 @@
+{
+  "set_id": "SET-NONG-KHE-NST-01",
+  "sheet_id": "S01",
+  "source_revision": "0.6.0",
+  "source_commit": "d454a36734dd7c183f01efee84e7c5e8072a5120",
+  "contract_version": "1.3.0",
+  "scope": "OWNER_AUTHORIZED_S01_ONLY",
+  "layout": "4x2 canonical production mapping F01..F08",
+  "sheet_size": [
+    2413,
+    1039
+  ],
+  "sheet_mode": "RGBA",
+  "sheet_sha256": "941745d1167e03ef1a91853cc5d9ee7dfb3dcc999392d85b81a43a0988459c23",
+  "frame_size": [
+    592,
+    512
+  ],
+  "border_px": 3,
+  "gutter_px": 15,
+  "safe_zone_nominal_px": 20,
+  "diecut_px": 3,
+  "caption_policy": "black text on shaped white backing",
+  "transparent_pixels": 1584480,
+  "opaque_pixels": 922627,
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "gutter_full_scan": "PASS",
+  "empty_background_full_scan": "PASS",
+  "geometry": "PASS",
+  "source_mask_semantic_quality": "REVIEW_REQUIRED",
+  "cutter_integration": "NOT_RUN",
+  "S02_to_S05": "NOT_STARTED",
+  "hero_owner_approval": "APPROVED_BY_OWNER_IN_CHAT",
+  "S01_owner_approval": "PENDING",
+  "frames": [
+    {
+      "id": "F01",
+      "caption": "หวัดดีค้าบ",
+      "source_sha256": "9772bda989a3d49768bf0dbf58efa0c2b5e2d0e5c5ef61dedc5f3765224c8869",
+      "frame_sha256": "9e48e021a3f518b5a86bdeff9933077c720d3a305f197fa79bc4e0421accd92e",
+      "frame_xywh": [
+        0,
+        0,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        481,
+        408
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 105299,
+      "content_bbox": [
+        104,
+        23,
+        487,
+        489
+      ],
+      "inner_clearance_LTRB_px": [
+        101,
+        20,
+        102,
+        20
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 9319,
+      "matte_fringe_pixels_corrected": 44,
+      "caption_navy_to_black_pixels": 300,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F02",
+      "caption": "รับทราบครับ!",
+      "source_sha256": "d351d52202d56e953a636b5959dcb6825fc84cb90f44157589da1cf70821cc46",
+      "frame_sha256": "fc5739e159ecdc8acec9ee548abd63a9b33290e28c7858b9edec7aeb90c04ea3",
+      "frame_xywh": [
+        607,
+        0,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        481,
+        408
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 139623,
+      "content_bbox": [
+        120,
+        23,
+        471,
+        489
+      ],
+      "inner_clearance_LTRB_px": [
+        117,
+        20,
+        118,
+        20
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 8190,
+      "matte_fringe_pixels_corrected": 70,
+      "caption_navy_to_black_pixels": 21,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F03",
+      "caption": "ขอบคุณค้าบ",
+      "source_sha256": "b336543f85f2c190b1248b2409d2d4e37a68b2865e167d1fd22cc5cda525c91a",
+      "frame_sha256": "b273d9ca100a2380cf02287c5adea69240fb03fe099b085bccafb701942744bc",
+      "frame_xywh": [
+        1214,
+        0,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        482,
+        408
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 116600,
+      "content_bbox": [
+        124,
+        23,
+        470,
+        489
+      ],
+      "inner_clearance_LTRB_px": [
+        121,
+        20,
+        119,
+        20
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 7956,
+      "matte_fringe_pixels_corrected": 14,
+      "caption_navy_to_black_pixels": 498,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F04",
+      "caption": "ขอโทษค้าบ",
+      "source_sha256": "54677b45f5a2c69f16c676176f17949ad53ccf82e0023cf681cec704e134c5d7",
+      "frame_sha256": "14bf717fe8d5356996e2bae9d7d0c4df375c923eea8c6fb2697bf15848db7970",
+      "frame_xywh": [
+        1821,
+        0,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        481,
+        408
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 119656,
+      "content_bbox": [
+        124,
+        23,
+        468,
+        488
+      ],
+      "inner_clearance_LTRB_px": [
+        121,
+        20,
+        121,
+        21
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 7875,
+      "matte_fringe_pixels_corrected": 51,
+      "caption_navy_to_black_pixels": 1,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F05",
+      "caption": "ได้เลยเพื่อน",
+      "source_sha256": "43d9b2eb6997fe7b35e5ff44cb763eed076535afd86d62335658548b5a6b5faf",
+      "frame_sha256": "de71f6dbd247d4693a516947870e1bbe1d4d22f41b14d92ca4deb44fa6a3a383",
+      "frame_xywh": [
+        0,
+        527,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        481,
+        409
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 106718,
+      "content_bbox": [
+        106,
+        23,
+        486,
+        488
+      ],
+      "inner_clearance_LTRB_px": [
+        103,
+        20,
+        103,
+        21
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 8882,
+      "matte_fringe_pixels_corrected": 122,
+      "caption_navy_to_black_pixels": 0,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F06",
+      "caption": "จัดไป!",
+      "source_sha256": "79286050e180b01d4ff440108c98d24da60cc1b4c47c4ec2ce13b2468a5c1621",
+      "frame_sha256": "3aa07d7fa23b74eda87544d5455915e91f3b49ae0631c3c05378c6b79daee31c",
+      "frame_xywh": [
+        607,
+        527,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        481,
+        409
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 142574,
+      "content_bbox": [
+        126,
+        23,
+        466,
+        489
+      ],
+      "inner_clearance_LTRB_px": [
+        123,
+        20,
+        123,
+        20
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 7956,
+      "matte_fringe_pixels_corrected": 106,
+      "caption_navy_to_black_pixels": 177,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F07",
+      "caption": "รอแป๊บ",
+      "source_sha256": "e09ffed27948dbfafe43c373724d6ca9e1f938c1c9905369cad15493fa07e0d6",
+      "frame_sha256": "21989fc223bb8b0d827c59b2fa5c088b5cb3d1a1216620b8c50c85bf37ae9571",
+      "frame_xywh": [
+        1214,
+        527,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        482,
+        409
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 118183,
+      "content_bbox": [
+        101,
+        23,
+        491,
+        489
+      ],
+      "inner_clearance_LTRB_px": [
+        98,
+        20,
+        98,
+        20
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 9270,
+      "matte_fringe_pixels_corrected": 139,
+      "caption_navy_to_black_pixels": 290,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    },
+    {
+      "id": "F08",
+      "caption": "ไปก่อนนะ",
+      "source_sha256": "6c6cd6b4a343d2332314620a6873e1db9c1fa41d26e4fc8862f2a7a6afe5580b",
+      "frame_sha256": "f212f21e4591139efa11826ae567a4071add20b0fc530292639d12647c93dd6b",
+      "frame_xywh": [
+        1821,
+        527,
+        592,
+        512
+      ],
+      "source_mode": "RGBA",
+      "source_size": [
+        481,
+        409
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_transparent_pixels": 106005,
+      "content_bbox": [
+        97,
+        23,
+        495,
+        489
+      ],
+      "inner_clearance_LTRB_px": [
+        94,
+        20,
+        94,
+        20
+      ],
+      "diecut_radius_px": 3,
+      "white_ring_pixels": 10570,
+      "matte_fringe_pixels_corrected": 105,
+      "caption_navy_to_black_pixels": 4,
+      "diecut_white_alpha_test": "PASS",
+      "frame_border_test": "PASS",
+      "empty_background_test": "PASS",
+      "character_visual": "REVIEW_REQUIRED",
+      "owner_approval": "PENDING"
+    }
+  ]
+}
