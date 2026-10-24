@@ -1,13 +1,13 @@
-# CHARACTER SHEET RUNTIME HANDOFF — น้องเข้ นสต. v0.3.0
+# CHARACTER_SHEET_RUNTIME_HANDOFF — น้องเข้ นสต. v0.4.0
 
 ## Inputs
-ไฟล์จำเป็น: CHARACTER_BIBLE.md, GLOBAL_CHARACTER_LOCKS.md, CHARACTER_SHEET_SPECIFICATION.md, NEGATIVE_CONSTRAINTS.md, APPROVAL_CHECKLIST.md และ REF01 JPEG พร้อม SHA256 ใน references.json ทุกไฟล์รวมอยู่ในแพ็กนี้ ห้ามใช้ต้นแบบจากอีกชุดหรือจากชื่อไฟล์โดยไม่อ่านภาพ
+ใช้REF01 JPEGใน07_REFERENCES/assets พร้อมhashในreferences.json และCharacter Bible/Locks/Specification/prompt revision0.4.0 ห้ามใช้candidate01/02ที่ถูกปฏิเสธแทนreference
 
 ## Instructions
-อ่าน owner decisions ก่อน เปิด REF01 ตรวจภาพบนเพื่อรักษาหัว จากนั้นใช้ GENERATION_PROMPT สร้าง candidate ตามข้อกำหนด หากมี candidate ก่อนหน้าจะใช้เทียบประวัติได้แต่ไม่แทนต้นฉบับ อย่าเปิด Hero/batch ในขั้นนี้ ประเด็นเครื่องหมาย DEP-002 แสดงเป็นสิ่งรอ review แทนการเดา
+อ่านOWNER-04/05/06ก่อน เอกสารนี้คือบรีฟที่ปรับตามคำแก้ล่าสุด Ownerอนุญาตสร้างหลังแก้SSOTแล้ว เปิดREF01ใช้หัวและสัดส่วนตรงภาพบน สร้างชุดขาวแขนยาวไทน้ำเงินเข้มตามคำยืนยัน ไม่ขอภาพชุดใหม่หรือเดายศเพิ่ม
 
 ## Expected outputs
-Character candidate หนึ่งแผ่นครบสี่มุมและสี่อารมณ์ บันทึก prompt/reference/model/tool และ hash ของภาพจริง พร้อมสรุปจุดใกล้และต่างจาก REF01 ถ้าหัวเพี้ยนให้แก้ candidate ก่อนส่งเจ้าของ ไม่บันทึกว่า PASS เพราะเพียงสร้างภาพสำเร็จ
+Character candidate03หนึ่งแผ่น ภาพหลักกางแขนและมุมหน้า/สามส่วน/ข้าง/หลังในชุดเดียวกัน ไม่มีแถวอารมณ์ใหม่ เก็บprompt/tool/hashของผลจริงในreceiptภายนอกแพ็ก แล้วให้เจ้าของตรวจความเหมือน ไม่อ้างapprovedก่อนคำยืนยัน
 
 ## Approval boundary
-ผู้สร้างภาพไม่อนุมัติเอง Owner ต้องเห็นภาพจริงและให้คำสั่งชัดเจน ระหว่างนี้ใช้ HANDOFF_DRAFT หากการอนุมัติมีข้อยกเว้นเช่นยอมรับหัวแต่ยังแก้ชุด ให้แยกบันทึก scope ไม่ปลด Gate A ทั้งภาพ
+DEP-002รายละเอียดชุดRESOLVEDจากOWNER-05; DEP-001ภาพCharacterยังOPEN; DEP-003integrationยังOPEN คงHANDOFF_DRAFTจนผ่านเกณฑ์จริง ภาพที่ไม่ตรงให้คืนแก้identityไม่ปรับBibleตามภาพผิด

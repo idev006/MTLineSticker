@@ -1,5 +1,5 @@
 {
-  "revision": "0.3.0",
+  "revision": "0.4.0",
   "frame_count": 40,
   "unique_ids": 40,
   "sheet_count": 5,
@@ -7,5 +7,8 @@
   "character_approval": "PENDING",
   "pixel_checks": "NOT_RUN",
   "legacy_schema_compatibility": "CONTRACT_MISMATCH",
-  "document_validation": "Run bundled v0.5.0 validator; authoritative result is external delivery receipt"
+  "document_validation": "Run bundled v0.5.0 validator; authoritative result is external delivery receipt",
+  "wardrobe_authority": "OWNER-05",
+  "prior_candidates": "REJECTED",
+  "new_candidate": "PENDING_GENERATION"
 }

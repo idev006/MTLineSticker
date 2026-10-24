@@ -1,4 +1,4 @@
-# RELEASE PLAN — น้องเข้ นสต. v0.3.0
+# RELEASE PLAN — น้องเข้ นสต. v0.4.0
 
 ## Export responsibilities
 GEM Bผลิตmaster5ชีทตามmappingและpixelQA จากนั้นcutterลบกรอบดำเก็บไดคัท ส่งภาพรายชิ้น40ภาพและmain/tabตามข้อกำหนดทางการที่ตรวจณวันส่ง พร้อมรายงานไม่ใช่แค่ZIP ผู้จัดทำเอกสารไม่อ้างว่าตัดสำเร็จเมื่อยังไม่มีmaster

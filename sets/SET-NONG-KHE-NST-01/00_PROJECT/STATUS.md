@@ -1,13 +1,13 @@
-# STATUS — น้องเข้ นสต. v0.3.0
+# STATUS — น้องเข้ นสต. v0.4.0
 
 ## Document completeness
-เอกสาร revision 0.3.0 จัดทำครบหมวดตาม registry และพร้อมตรวจจากไฟล์จริง ผลตรวจอัตโนมัติเป็นรายงานภายนอกแพ็กเพื่อไม่เกิด self-hash การตรวจเนื้อหาโดยผู้จัดทำครอบคลุม caption 40 ข้อและ mapping ไม่กล่าวอ้างทีมตรวจอิสระ
+เอกสารบังคับ31ไฟล์พร้อมreferenceและcompatibility exportsปรับเป็นrevision0.4.0 ตรวจโครงสร้างและhashใหม่หลังการแก้ทุกไฟล์ ผลรันจริงเก็บในdeliveryreceiptภายนอกแพ็ก
 
 ## Character gate
-HANDOFF_DRAFT: REF01 เป็น identity authority ที่เจ้าของกำหนด แต่ไม่มีภาพ Character Sheet ในชุดนักเรียนที่เจ้าของอนุมัติพร้อม hash DEP-001 ยัง OPEN; ตัวอย่างภาพก่อนหน้านี้ไม่มีคำอนุมัติ; DEP-002 เปิดเพื่อตรวจชุดก่อนล็อก
+HANDOFF_DRAFT: candidate01/02ถูกปฏิเสธ รอcandidate03ตามREF01และOWNER-05 DEP-001ยังOPEN; DEP-002RESOLVEDด้วยคำยืนยันชุดล่าสุด ไม่รอภาพชุดใหม่เพื่อเดารายละเอียด
 
 ## Hero gate
-ยังไม่ได้สร้าง Hero ตาม Character ที่อนุมัติ F18 เป็นแผนฮีโร่เท่านั้น การอนุมัติ Character ไม่เปิด full production โดยอัตโนมัติ ต้องมีภาพ Hero จริงและ owner receipt อีกครั้งก่อนผลิต 5 ชีท
+F18ยังเป็นแผน ไม่สร้างHeroก่อนCharacteractive และไม่ปลดbatchอัตโนมัติหลังสร้างsheet ต้องให้ownerอนุมัติภาพจริงที่ผูกhashก่อน
 
 ## Production gate
-Full production LOCKED; alpha/border/diecut/cutter และ platform verification เป็น NOT_RUN เพราะยังไม่มี master ผลิต DEP-003 ยืนยัน compatibility ของ consumer ก่อนใช้อัตโนมัติ เอกสารครบไม่ทำให้ภาพพร้อมปล่อยขาย
+Full productionLOCKED DEP-003compatibilityยังOPEN ภาพpixels/cutter/LINEexportยังNOT_RUN มาตรฐานgeometry1.2.0และdiecut1.3.0ไม่เปลี่ยน

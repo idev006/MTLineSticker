@@ -1,10 +1,10 @@
 {
   "contract_version": "1.3.0",
   "set_id": "SET-NONG-KHE-NST-01",
-  "package_revision": "0.3.0",
+  "package_revision": "0.4.0",
   "run_id": "2026-10-24-GEMA-01",
   "status": "HANDOFF_DRAFT",
-  "git_source_commit": "2110a1ca520e4365ee48cba6ce383322c633bbbd",
+  "git_source_commit": "f4862329b37ea123d29d1578d2e86043e5665558",
   "source_repository": "https://github.com/idev006/MTLineSticker",
   "schema_inspected": {
     "path": "contracts/sticker-handoff/v1/handoff.schema.json",
@@ -26,6 +26,21 @@
       "id": "OWNER-03",
       "evidence": "ใช้ความสามารถของปลั๊กอินตัวนี้ในการสร้างสติ๊กเกอร์ตามที่ผมได้แจ้งข้อมูลไปแล้ว โดยใช้ตัวการ์ตูนในภาพที่ 1 เป็นนายแบบของสติ๊กเกอร์ทั้งชุด เก็บเอกสารโครงการไว้ในgothub",
       "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.5.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
+    },
+    {
+      "id": "OWNER-04",
+      "evidence": "ไม่อนุมัติ เพราะคุณไม่ใช้ต้นแบบตามที่ผมส่งให้ ก่อนสร้าง character ชีส ให้บรีพ ก่อนเพื่อให้ผมพิจารณา",
+      "scope": "Reject prior Character candidates; original REF01 remains primary; require brief before generation"
+    },
+    {
+      "id": "OWNER-05",
+      "evidence": "ถูกต้อง ชุดนักเรียนนายสิบจะเป็นเสื้อเชิ้ตแขนยาว ติดกระดุมจนถึงเม็ดสุดท้าย และผูกเนคไทสีน้ำเงินเข้ม",
+      "scope": "Confirm white long-sleeved shirt described from REF01, all buttons including collar, dark navy tie; retain khaki trousers and black belt"
+    },
+    {
+      "id": "OWNER-06",
+      "evidence": "ปรับปรุงคาแรคเตอร์ไบเบิลและคาแรคเตอร์ชีท ซึ่งเป็น SS OT จากนั้นดำเนินการสร้างภาพของคาแรคเตอร์ชีท",
+      "scope": "Authorize this SSOT revision followed by generating a new Character Sheet candidate; not approval of generated output"
     }
   ],
   "current_character_reference": null,
@@ -35,40 +50,28 @@
       "roles": [
         "IDENTITY",
         "STYLE",
-        "POSE"
+        "POSE",
+        "WARDROBE"
       ],
       "authority": "PRIMARY",
       "authorization_evidence": "เจ้าของแนบภาพ 1000021401.jpg และสั่งใช้ตัวการ์ตูนเป็นนายแบบทั้งชุดในข้อความล่าสุด OWNER-03",
       "availability": "PACKAGED",
       "path": "07_REFERENCES/assets/REF01-1000021401.jpg",
       "sha256": "c1bed82e835987089fb342a861aba632f36adb7fefa75d3bfda6e9cce69f5057",
-      "identity_scope": "หัวจระเข้ทั้งรูปร่าง ปากยาว ตา เกล็ด และรอยยิ้ม อ้างอิงภาพบนเป็นหลัก ภาพล่างช่วยอารมณ์เหนื่อย",
-      "excluded_scope": "เสื้อขาว/ไทดำไม่ใช่อำนาจอ้างอิงเครื่องแบบ; ไม่ใช้โลโก้ร้าน คนด้านหลัง ข้อความ เพื่อน/ผม อุปกรณ์สวน หรือแผล",
-      "commercial_rights_note": "บันทึกการอนุญาตใช้อ้างอิงจากผู้ส่ง ไม่เท่ากับหลักฐานสิทธิ์ลิขสิทธิ์ของมีม; ตรวจสิทธิ์ก่อนเผยแพร่เชิงพาณิชย์"
+      "identity_scope": "หัวจระเข้และร่างคนตามภาพบนของ REF01; คงรูปปาก ตา เปลือกตา เกล็ด มุมยิ้มและความหนาของคอ",
+      "excluded_scope": "โลโก้ร้าน คนอื่น ข้อความในมีม และแผลภาพล่างไม่ใช้; สีเนกไทในภาพไม่เป็นauthorityแทนคำสั่งเนกไทน้ำเงินเข้ม",
+      "commercial_rights_note": "บันทึกการอนุญาตใช้อ้างอิงจากผู้ส่ง ไม่เท่ากับหลักฐานสิทธิ์ลิขสิทธิ์ของมีม; ตรวจสิทธิ์ก่อนเผยแพร่เชิงพาณิชย์",
+      "wardrobe_authority": "REF01 เสื้อต้นฉบับขาวแขนยาว+กางเกงกากี+เข็มขัดดำ; OWNER-05 ล็อกกระดุมบนสุดและเนกไทน้ำเงินเข้ม"
     }
   ],
   "character_locks": {
-    "status": "OWNER_DIRECTED_SPEC; IMAGE_APPROVAL_PENDING",
-    "species": "หัวจระเข้ตามภาพ REF01 ต่อกับร่างกายมนุษย์ชายวัยหนุ่ม นักเรียนนายสิบตำรวจระหว่างศึกษา",
-    "style": "3D กึ่งสมจริง ให้รูปหัวใกล้ภาพอ้างอิง ร่างคนและชุดนักเรียนอ่านชัด",
-    "proportions": "ร่างคน หัวจระเข้ใหญ่พออ่านสีหน้า ห้ามตัวจระเข้หรือหาง สัดส่วนสุดท้ายรอภาพต้นแบบ",
-    "face": "ล็อกรูปหัวจาก REF01: ปากยาวกว้าง โค้งมน ผิวเกล็ดเทาเขียว ตาตำแหน่งสูง เปลือกตาหนา ยิ้มมุมปาก ไม่เปลี่ยนเป็นจระเข้เด็กปากสั้น",
-    "palette": {
-      "skin": "#708260",
-      "belly": "#C7C6A4",
-      "eye": "#B99240"
-    },
-    "wardrobe": {
-      "cadet_student": "ชุดนักเรียนนายสิบตำรวจเป็นชุดหลักทุกเฟรม เสนอเสื้อเชิ้ตแขนสั้นสีกากี กางเกงขายาวกากี เข็มขัดและรองเท้าดำ รายละเอียดเครื่องหมาย/อินทรธนูรอภาพชุดจริงหรือภาพต้นแบบที่เจ้าของยอมรับ ไม่แต่งยศตำรวจสำเร็จการศึกษา ไม่ใช้เสื้อขาวไทดำจากมีมแทนชุดนักเรียน"
-    },
-    "avoid": [
-      "ไม่คัดลอกโลโก้ร้านหรือบุคคลด้านหลัง",
-      "ไม่เพิ่มยศตำรวจสำเร็จการศึกษา",
-      "ไม่มีอาวุธหรือมุกคุกคามสาว",
-      "ไม่มีรอยบาดเจ็บตามมีม",
-      "เพื่อนรองใช้จระเข้สีหม่นกว่า ไม่แย่งตัวหลัก",
-      "ไม่มีหาง มือเท้าเป็นมนุษย์",
-      "ยกเลิกการแบ่ง 3 ชุดเดิม; ชุดฝึก/กีฬาต้องมีคำสั่งเพิ่มก่อนใช้"
+    "status": "OWNER_SPEC_CONFIRMED_IMAGE_APPROVAL_PENDING",
+    "identity": "REF01 upper panel same crocodile head and adult human proportions",
+    "wardrobe": "เสื้อเชิ้ตสีขาวแขนยาว ติดกระดุมครบทุกเม็ดรวมเม็ดบนสุดที่คอ ผูกเนกไทสีน้ำเงินเข้ม กางเกงขายาวสีกากี เข็มขัดสีดำ",
+    "style": "photographic photomontage-like, no cute3D or enlarged head",
+    "rejected_candidates": [
+      "CHARACTER CANDIDATE 01",
+      "CHARACTER CANDIDATE 02 including scar-cleaned version"
     ]
   },
   "frame_count": 40,
@@ -1635,7 +1638,6 @@
   },
   "unresolved_blockers": [
     "DEP-001: ยังไม่มี Character Sheet ที่เจ้าของอนุมัติ ผูกกับ hash จึงไม่ปลด Gate A",
-    "DEP-002: รูปมีมไม่มีชุดนักเรียนนายสิบตำรวจ จึงยังยืนยันรายละเอียดเครื่องหมายบนชุดไม่ได้",
     "DEP-003: validator ส่วนกลางรุ่นเดิมรับ contract 1.0.0 ไม่ตรง envelope 1.3.0 จึงห้ามส่งเข้าระบบนั้นโดยอ้างผ่าน"
   ],
   "qa": {

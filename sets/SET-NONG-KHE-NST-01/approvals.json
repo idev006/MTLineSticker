@@ -14,6 +14,21 @@
       "id": "OWNER-03",
       "evidence": "ใช้ความสามารถของปลั๊กอินตัวนี้ในการสร้างสติ๊กเกอร์ตามที่ผมได้แจ้งข้อมูลไปแล้ว โดยใช้ตัวการ์ตูนในภาพที่ 1 เป็นนายแบบของสติ๊กเกอร์ทั้งชุด เก็บเอกสารโครงการไว้ในgothub",
       "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.5.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
+    },
+    {
+      "id": "OWNER-04",
+      "evidence": "ไม่อนุมัติ เพราะคุณไม่ใช้ต้นแบบตามที่ผมส่งให้ ก่อนสร้าง character ชีส ให้บรีพ ก่อนเพื่อให้ผมพิจารณา",
+      "scope": "Reject prior Character candidates; original REF01 remains primary; require brief before generation"
+    },
+    {
+      "id": "OWNER-05",
+      "evidence": "ถูกต้อง ชุดนักเรียนนายสิบจะเป็นเสื้อเชิ้ตแขนยาว ติดกระดุมจนถึงเม็ดสุดท้าย และผูกเนคไทสีน้ำเงินเข้ม",
+      "scope": "Confirm white long-sleeved shirt described from REF01, all buttons including collar, dark navy tie; retain khaki trousers and black belt"
+    },
+    {
+      "id": "OWNER-06",
+      "evidence": "ปรับปรุงคาแรคเตอร์ไบเบิลและคาแรคเตอร์ชีท ซึ่งเป็น SS OT จากนั้นดำเนินการสร้างภาพของคาแรคเตอร์ชีท",
+      "scope": "Authorize this SSOT revision followed by generating a new Character Sheet candidate; not approval of generated output"
     }
   ],
   "character": null,

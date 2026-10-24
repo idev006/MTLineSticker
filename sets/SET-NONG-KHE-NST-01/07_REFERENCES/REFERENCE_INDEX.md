@@ -1,10 +1,10 @@
-# REFERENCE INDEX — น้องเข้ นสต. v0.3.0
+# REFERENCE_INDEX — น้องเข้ นสต. v0.4.0
 
 ## References
-REF01 — 1000021401.jpg; roles IDENTITY/STYLE/POSE; authority PRIMARY; path07_REFERENCES/assets/REF01-1000021401.jpg; SHA256 c1bed82e835987089fb342a861aba632f36adb7fefa75d3bfda6e9cce69f5057 เจ้าของแนบและสั่งใช้เป็นนายแบบทั้งชุด มีหัวจระเข้ร่างคนสองท่าภายในภาพเดียว ใช้ภาพบนควบคุมรูปร่างหัว
+REF01 1000021401.jpg PRIMARY IDENTITY/STYLE/POSE/WARDROBE ไฟล์07_REFERENCES/assets/REF01-1000021401.jpg SHA256 c1bed82e835987089fb342a861aba632f36adb7fefa75d3bfda6e9cce69f5057 ภาพบนคุมหัวร่างและเสื้อขาวแขนยาว กางเกงกากีและเข็มขัดดำ
 
 ## Authority and exclusions
-คำสั่งชุดนักเรียนนายสิบจาก OWNER-02/03 มีอำนาจเหนือเสื้อขาวไทดำในภาพ REF01ไม่ใช่WARDROBE authority แยกโลโก้ร้าน คนพื้นหลัง ข้อความ อุปกรณ์ และแผลออกจากงาน ไม่ได้ตีความการแนบภาพว่าเจ้าของมีสิทธิ์เชิงพาณิชย์ทั้งหมด ตรวจสิทธิ์ก่อนreleaseโดยไม่ขวางงานเอกสาร
+OWNER-05กำหนดสีไทน้ำเงินเข้มและติดกระดุมถึงคอ มีอำนาจเหนือสีไทที่เห็นในภาพ ห้ามใช้candidateเดิมที่ถูกปฏิเสธ ไม่ใช้โลโก้ร้าน คนด้านหลัง captionในมีม แผลและอุปกรณ์ภาพล่าง
 
 ## Asset availability
-REF01ถูกคัดลอกเข้าแพ็กจริงและคำนวณhashแล้ว จะเขียนไบนารีเข้าGitHubเป็นreferenceให้รันถัดไปใช้ได้ ผลremoteverifyอยู่delivery receipt ภาพCharacterSheetที่สร้างก่อนหน้าเป็นเพียงcandidateไม่อนุมัติ จึงไม่เป็นcurrent_character_referenceในhandoff
+REF01เป็นไฟล์ไบนารีจริงในGitHubและแพ็ก พร้อมตรวจhashก่อนใช้ได้ ข้อความownerยืนยันwardrobeแล้ว มุมใหม่เป็นการอนุมานที่ต้องreview ไม่มีCharacterSheetapprovedให้แทนที่REF01

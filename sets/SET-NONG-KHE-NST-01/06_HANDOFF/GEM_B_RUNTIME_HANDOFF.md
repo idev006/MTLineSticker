@@ -1,7 +1,7 @@
-# GEM B RUNTIME HANDOFF — น้องเข้ นสต. v0.3.0
+# GEM B RUNTIME HANDOFF — น้องเข้ นสต. v0.4.0
 
 ## Source snapshot
-ชุด SET-NONG-KHE-NST-01 revision0.3.0 อ่าน baseline GitHub 2110a1ca520e4365ee48cba6ce383322c633bbbd ก่อนจัดทำแพ็กนี้ ผลส่งมอบจริงจะตรึง commitใน delivery receiptนอกแพ็ก เพื่อหลีกเลี่ยง self-reference ให้ consumerอ่าน canonical revisionและตรวจmanifestก่อนทุกครั้ง
+ชุด SET-NONG-KHE-NST-01 revision0.4.0 อ่าน baseline GitHub 2110a1ca520e4365ee48cba6ce383322c633bbbd ก่อนจัดทำแพ็กนี้ ผลส่งมอบจริงจะตรึง commitใน delivery receiptนอกแพ็ก เพื่อหลีกเลี่ยง self-reference ให้ consumerอ่าน canonical revisionและตรวจmanifestก่อนทุกครั้ง
 
 ## Inputs
 อ่าน README_FIRST, project, frames, references, approvals, Character Bible/Locks และแผนHero/Sheet ไฟล์ REF01 JPEGอยู่ในแพ็กพร้อมhash ให้เปิดภาพตรวจจริงก่อนสร้าง ห้ามยืม Characterจากชุดอื่นหรือเอาภาพcandidateที่ไม่อนุมัติเป็นmaster
@@ -14,3 +14,6 @@
 
 ## Readiness
 HANDOFF_DRAFT ไม่ใช่ READY_FOR_GEM_B เพราะ DEP-001/002/003 ยังOPEN Character/Hero/releaseเป็นnull เอกสารสร้างครบเพื่อreviewและเตรียมงาน การส่งให้Bอ่านเอกสารไม่ใช่การปลดล็อกผลิต ห้ามใช้legacyvalidatorแล้วเปลี่ยนcontractลงเพื่อให้ผ่าน
+
+## Owner wardrobe and identity correction
+OWNER-04/05/06 supersede earlier proposals: เสื้อเชิ้ตสีขาวแขนยาว ติดกระดุมครบทุกเม็ดรวมเม็ดบนสุดที่คอ ผูกเนกไทสีน้ำเงินเข้ม กางเกงขายาวสีกากี เข็มขัดสีดำ หัวและร่างตามREF01 ไม่หัวโต3D ไม่เสื้อกากีแขนสั้น candidateเดิมREJECTED DEP-002RESOLVED รอcandidate03และownerimageapprovalตามDEP-001 ส่วนเนื้อหาที่กล่าวถึงการเปลี่ยนจากเสื้อขาวหรือรอชุดเดิมเป็นประวัติที่ไม่ใช้กำกับการสร้างรอบนี้
