@@ -1,0 +1,23 @@
+{
+  "decisions": [
+    {
+      "id": "OWNER-CHAR04",
+      "evidence": "อนุมัติภาพคาแรคเตอร์ชีทล่าสุด",
+      "scope": "คำอนุมัติอัตลักษณ์ไฟล์CHAR04จากชุดเดิม อ่านจากapprovals.jsonที่commit f4995f5942408d2b2407adbaaa39222c7d38a0e6; ไม่ใช่อนุมัติHeroหรือcaptionชุดใหม่"
+    },
+    {
+      "id": "OWNER-NEW01",
+      "evidence": "@MT Sticker GEM A สร้างสติ๊กเกอร์ชุดต่อไป ชื่อชุดว่า เข้น้อย อยู่ระหว่างฝึก จำนวน 40 สติ๊กเกอร์ แต่ละสติ๊กเกอร์เน้นสีหน้าแววตาท่าทาง โดยเฉพาะครึ่งตัวท่อนบนเป็นหลัก มีแคปชั่นเป็นภาษาไทยขนาดใหญ่",
+      "scope": "ล็อกชื่อ จำนวน40 ครึ่งตัวบน และcaptionไทยใหญ่; reuseคาแรกเตอร์เดิมเป็นการตีความการทำชุดต่อไปของผู้จัดทำ ไม่เปลี่ยนidentityและไม่สร้างapprovalภาพใหม่แทนowner"
+    }
+  ],
+  "character": {
+    "approved": true,
+    "role": "PRODUCT_OWNER",
+    "decision_ref": "OWNER-CHAR04",
+    "asset_path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+    "asset_sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6"
+  },
+  "hero": null,
+  "release": null
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "CHAR04",
+    "roles": [
+      "IDENTITY",
+      "STYLE",
+      "WARDROBE"
+    ],
+    "authority": "PRIMARY",
+    "authorization_evidence": "OWNER-CHAR04 exact approved asset; reused unchanged as continuation, not new Character approval",
+    "availability": "PACKAGED",
+    "path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+    "sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6",
+    "source_set": "SET-NONG-KHE-NST-01",
+    "source_commit": "f4995f5942408d2b2407adbaaa39222c7d38a0e6"
+  }
+]

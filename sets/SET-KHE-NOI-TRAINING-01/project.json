@@ -1,0 +1,28 @@
+{
+  "set_id": "SET-KHE-NOI-TRAINING-01",
+  "set_name_th": "เข้น้อย อยู่ระหว่างฝึก",
+  "package_revision": "0.1.0",
+  "frame_count": 40,
+  "caption_policy": "CAPTION",
+  "hero_ids": [
+    "F01"
+  ],
+  "source_snapshot": {
+    "repository": "idev006/MTLineSticker",
+    "ref": "main",
+    "commit": "f4995f5942408d2b2407adbaaa39222c7d38a0e6"
+  },
+  "dependencies": [],
+  "state": "READY_FOR_GEM_B_HERO_PREFLIGHT",
+  "contract_version": "1.3.0",
+  "global_sheet_spec_version": "1.2.0",
+  "diecut_standard_version": "1.3.0",
+  "composition_policy": "UPPER_BODY_PRIMARY",
+  "caption_policy_detail": "THAI_LARGE_MAX_TWO_LINES",
+  "identity_reuse": {
+    "from_set": "SET-NONG-KHE-NST-01",
+    "basis": "ชุดต่อไปในบริบทตัวละครเดิม ไม่ออกแบบหรือเปลี่ยนidentity",
+    "approval_evidence_scope": "existing unchanged Character04 approval only; new Hero pending"
+  },
+  "legacy_engine_issue": "Not repaired by this project; verify actual alpha/diecut cutter before export"
+}
