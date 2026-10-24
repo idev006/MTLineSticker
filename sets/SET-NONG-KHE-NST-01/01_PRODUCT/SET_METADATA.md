@@ -1,4 +1,4 @@
-# SET METADATA — น้องเข้ นสต. v0.4.0
+# SET METADATA — น้องเข้ นสต. v0.5.0
 
 ## Thai title and description
 ชื่อเสนอ: “น้องเข้ นสต. เก๊กก่อน!”

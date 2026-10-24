@@ -1,6 +1,6 @@
 {
   "set_id": "SET-NONG-KHE-NST-01",
-  "package_revision": "0.4.0",
+  "package_revision": "0.5.0",
   "frame_count": 40,
   "caption_policy": "CAPTION",
   "hero_ids": [
@@ -9,7 +9,7 @@
   "source_snapshot": {
     "repository": "idev006/MTLineSticker",
     "ref": "main",
-    "commit": "f4862329b37ea123d29d1578d2e86043e5665558"
+    "commit": "3c6e35f73219bde87afe3d2d042e2c98fff2d756"
   },
   "dependencies": [
     {
@@ -42,9 +42,15 @@
   "date_local": "2026-10-24",
   "timezone": "Asia/Bangkok",
   "source_snapshot_note": "เป็น baseline ก่อนเขียน revision นี้; delivery receipt นอกแพ็กจะตรึง commit ผลส่งมอบจริง",
-  "wardrobe_lock": "เสื้อเชิ้ตสีขาวแขนยาว ติดกระดุมครบทุกเม็ดรวมเม็ดบนสุดที่คอ ผูกเนกไทสีน้ำเงินเข้ม กางเกงขายาวสีกากี เข็มขัดสีดำ",
+  "wardrobe_lock": "เสื้อเชิ้ตสีขาวแขนยาว ติดกระดุมครบทุกเม็ดรวมเม็ดบนสุดที่คอ ผูกเนกไทสีน้ำเงินเข้ม กางเกงขายาวสี สนว.01 เข็มขัดสีดำ",
   "rejected_candidates": [
     "CHARACTER CANDIDATE 01",
     "CHARACTER CANDIDATE 02 including scar-cleaned version"
-  ]
+  ],
+  "trouser_color_lock": {
+    "designation": "สนว.01",
+    "authority": "OWNER-07",
+    "colorimetric_reference": null,
+    "rendering_note": "Use a deeper medium brown-khaki visual approximation for review, not a certified sRGB/Lab swatch. Owner verifies screen rendition against actual fabric."
+  }
 }

@@ -29,6 +29,11 @@
       "id": "OWNER-06",
       "evidence": "ปรับปรุงคาแรคเตอร์ไบเบิลและคาแรคเตอร์ชีท ซึ่งเป็น SS OT จากนั้นดำเนินการสร้างภาพของคาแรคเตอร์ชีท",
       "scope": "Authorize this SSOT revision followed by generating a new Character Sheet candidate; not approval of generated output"
+    },
+    {
+      "id": "OWNER-07",
+      "evidence": "กางเกงต้องสี  สนว.01; ปรับปรุงคาแรคเตอร์ชีท จากนั้นสร้างภาพคาแรคเตอร์ชีท มาใหม่",
+      "scope": "Lock trousers color designation สนว.01 and authorize a new Character Sheet; no image approval implied"
     }
   ],
   "character": null,

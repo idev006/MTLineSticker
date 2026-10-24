@@ -1,7 +1,7 @@
-# REFERENCE_INDEX — น้องเข้ นสต. v0.4.0
+# REFERENCE_INDEX — น้องเข้ นสต. v0.5.0
 
 ## References
-REF01 1000021401.jpg PRIMARY IDENTITY/STYLE/POSE/WARDROBE ไฟล์07_REFERENCES/assets/REF01-1000021401.jpg SHA256 c1bed82e835987089fb342a861aba632f36adb7fefa75d3bfda6e9cce69f5057 ภาพบนคุมหัวร่างและเสื้อขาวแขนยาว กางเกงกากีและเข็มขัดดำ
+REF01 1000021401.jpg PRIMARY IDENTITY/STYLE/POSE/WARDROBE ไฟล์07_REFERENCES/assets/REF01-1000021401.jpg SHA256 c1bed82e835987089fb342a861aba632f36adb7fefa75d3bfda6e9cce69f5057 ภาพบนคุมหัวร่างและเสื้อขาวแขนยาว กางเกงสี สนว.01และเข็มขัดดำ
 
 ## Authority and exclusions
 OWNER-05กำหนดสีไทน้ำเงินเข้มและติดกระดุมถึงคอ มีอำนาจเหนือสีไทที่เห็นในภาพ ห้ามใช้candidateเดิมที่ถูกปฏิเสธ ไม่ใช้โลโก้ร้าน คนด้านหลัง captionในมีม แผลและอุปกรณ์ภาพล่าง

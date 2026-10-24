@@ -1,4 +1,4 @@
-# FRAME COMMUNICATION MATRIX — น้องเข้ นสต. v0.4.0
+# FRAME COMMUNICATION MATRIX — น้องเข้ นสต. v0.5.0
 
 ## Shared locks
 ใช้ L01–L07 ทุก frame สีหน้าและ props เปลี่ยนได้ตามรายการเท่านั้น แต่หัวและชุดต้องตรง Character ที่ผ่าน owner approval แผนนี้ยังเป็นข้อความผลิต ไม่มีภาพ pixels ที่ผ่าน visual QA
