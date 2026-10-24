@@ -1,0 +1,11 @@
+# Universal Sticker Sheet Geometry v1.2 — Owner Approved, All Sets
+
+- 8 positions in 4 columns x 2 rows; all complete sheets one RGBA PNG each; total sheet count depends on sticker total.
+- Frame nominal 592 x 512 px. Actual pixel dimensions may scale, but frame aspect ratio MUST equal 592/512 exactly (check width*512 == height*592) for every frame. No +/-5% on aspect ratio.
+- Inter-frame clear gutter nominal 15px, tolerated numeric range 14.25..15.75px (+/-5%). At integer pixel resolution the only acceptable value is 15px; no automatic upward rounding of tolerance.
+- Within-frame sticker safe clearance: select nominal 15..30px; preferred target 20px. Accept +/-5% of the chosen nominal on each edge. Example nominal 20 -> 19..21px; nominal 15 -> 14.25..15.75px. Measure from INNER side of frame border to outermost sticker/die-cut/effect pixel. Record selected nominal in manifest.
+- Border: approximately 3px inwards, solid true black #000000, alpha255; sharp 90-degree corners, no shared borders; separate frames. Unless a justified rescaling convention is documented, aim for raster width 3px and QA actual thickness. Avoid gradient/translucent border.
+- Nominal complete sheet (zero exterior margin): 2413x1039 px, but non-nominal accepted pixel sizes depend on actual frame dimensions and accepted gutters. Do NOT treat nominal sheet size as universally exact. For actual fixed integer frame width W and height H and gutters Gx,Gy, sheet dimensions are 4*W+3*Gx and 2*H+Gy. Record/validate actual coordinates for cutter.
+- The inter-frame gutter differs from sticker safe clearance. Background and gutters MUST be fully transparent (alpha0) in PNG RGBA. Opaque border is a production marker removed downstream.
+- QA must check actual image bytes, not rely on image model instructions. Validate all 8 frames, aspect ratio, margins, border, alpha, character visual continuity, caption policy, no cropping. Report NOT_RUN for tests not executed. Cutter compatibility must be established empirically before READY_FOR_ENGINE.
+- Applies to all newly produced master sheets in every sticker set; historical generated sheets are not silently changed. This replaces contract 1.1.0 exact dimensions/gap rule wherever conflicting.
