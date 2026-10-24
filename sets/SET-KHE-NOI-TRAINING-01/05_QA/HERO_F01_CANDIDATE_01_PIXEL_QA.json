@@ -1,0 +1,39 @@
+{
+  "set_id": "SET-KHE-NOI-TRAINING-01",
+  "revision": "0.2.0",
+  "source_snapshot": "cf142f901a9a34732ba18125f6f630817c45400c",
+  "frame_id": "F01",
+  "caption": "อยู่ระหว่างฝึก",
+  "artifact_role": "single Hero review frame, NOT 8-frame sheet master",
+  "file": "KHE_NOI_TRAINING_HERO_F01_REVIEW_RGBA.png",
+  "sha256": "ab133053b943714c5191d9143081effea8635584fc2adbe4954893e8bf8e61ab",
+  "source_sha256": "027ca44ad971a4cdd915319f5597cd1470635420021d77549611ea9bfaa6c961",
+  "mode": "RGBA",
+  "size": [
+    592,
+    512
+  ],
+  "frame_aspect": "PASS",
+  "border_black_opaque_3px_all_four_sides": "PASS",
+  "safe_clearance_LTRB_px": [
+    39,
+    20,
+    40,
+    20
+  ],
+  "diecut_radius_px": 4,
+  "diecut_white_opaque_ring_pixels": 14645,
+  "diecut_white_pixel_test": "PASS",
+  "empty_background_full_scan": "PASS",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "fully_transparent_pixels": 141396,
+  "caption_glyphs_and_character_visual": "PENDING_OWNER_REVIEW",
+  "production_sheet_8_frames": "NOT_RUN_NOT_AUTHORIZED_YET",
+  "production_sheet_gutters": "NOT_APPLICABLE_SINGLE_HERO",
+  "genuine_Work_cutter_integration": "NOT_RUN",
+  "Hero_approval": "PENDING_OWNER",
+  "full_production": "LOCKED"
+}
