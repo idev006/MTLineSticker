@@ -1,0 +1,25 @@
+{
+  "set_id": "SET-KHE-NOI-TRAINING-01",
+  "revision": "0.1.0",
+  "delivery_commit": "1dced4abba96443304231ddb17d77948c171aac8",
+  "required_files": 31,
+  "total_files": 33,
+  "frame_count": 40,
+  "unique_captions": 40,
+  "upper_body_policy": "ALL_FRAMES_PRIMARY",
+  "large_thai_caption": "MAX_TWO_LINES",
+  "checks": {
+    "document_validator": "PASS",
+    "ready_for_gem_b_structural": "PASS",
+    "remote_text_readback": "32/32 PASS",
+    "reference_blob": "9a5e264aab3cf3924006dcee100d00a46eb4d2ac",
+    "approved_source_identity": "CHAR04 unchanged; original receipt scope retained; reuse assumed from continuing-set request",
+    "hero": "NOT_RUN",
+    "batch_visual": "NOT_RUN",
+    "pixel_qa": "NOT_RUN",
+    "cutter": "NOT_RUN"
+  },
+  "next_step": "GEM B Hero F01 อยู่ระหว่างฝึก first, wait new owner Hero approval before 5-sheet batch",
+  "caption_status": "PROPOSED",
+  "legacy_engine": "NOT_FIXED; verify before export"
+}
