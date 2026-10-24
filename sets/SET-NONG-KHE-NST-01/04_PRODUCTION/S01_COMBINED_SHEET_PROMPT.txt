@@ -1,0 +1,19 @@
+Create ONE COMPLETE LINE STICKER SHEET as ONE IMAGE containing EXACTLY EIGHT different stickers in a precise regular MATRIX of FOUR COLUMNS and TWO ROWS. This is a single combined sheet generation, not separate image files. Wide landscape canvas approximately 2413:1039 aspect ratio. Each of the 8 cells has identical width and height, ratio 592:512. Evenly aligned four across and two down, generous clear transparent spacing, no overlap across cell boundaries. Do not draw any black rectangular frames or guide lines: exact production borders/gutters will be added by software.
+
+REFERENCE AUTHORITY: attached OWNER APPROVED Character Sheet 04, use SAME crocodile skull/head, broad flattened skull, long wide rounded snout, natural gray-olive scales, amber eyes with heavy eyelids, pale jaw, short thick neck, NORMAL ADULT HUMAN MALE body proportions and human hands. Keep same head-to-body proportion as reference, do not enlarge head or make chibi/cute mascot. Semi-realistic photographic photomontage style consistent across all eight.
+
+CLOTHING LOCK ALL EIGHT: plain WHITE LONG-SLEEVE dress shirt fully buttoned including TOP COLLAR BUTTON, snug DARK NAVY tie, muted medium brown-khaki Thai สนว.01 trousers matching reference, black belt, plain black shoes where visible. Sleeves DOWN and buttoned at wrists. No badges, epaulettes, stars, rank, names or logos. No tail, reptile hands, extra fingers or limbs.
+
+CAPTIONS: large clear bold solid PURE BLACK Thai text on opaque WHITE shaped backing following letters, at bottom of each sticker; exact captions below, no other text. Sticker body also has narrow opaque WHITE contour backing following its entire silhouette, approximately 3px at nominal 592x512 scale, NOT a white rectangle. All empty canvas/background, between cells, and internal empty spaces outside silhouette must be TRUE TRANSPARENT alpha0. No scenery, studio glow, gradients, ground shadows, gray/white canvas or drawn checkerboard. Each sticker isolated, no unwanted specks. No titles, numbering or frame IDs.
+
+READING ORDER and exact artwork (left-to-right top row then bottom row):
+TOP LEFT cell 1: caption "หวัดดีค้าบ" — friendly subdued smirk, slightly tilted head, one open HUMAN hand waving beside cheek, other hand relaxed. Head to upper thighs.
+TOP cell 2: caption "รับทราบครับ!" — FULL BODY standing to attention, arms down at sides, feet together, eyes slightly wide and mouth closed, ONE tiny sweat drop. Black shoes visible.
+TOP cell 3: caption "ขอบคุณค้าบ" — wai with HUMAN palms together at chest, head slightly bowed, smiling narrowed eyes, hands not covering face. Head to upper thighs.
+TOP RIGHT cell 4: caption "ขอโทษค้าบ" — chin lowered, gaze downward, shoulders hunched, both HUMAN hands clasped over lower stomach, apologetic closed mouth. Head to upper thighs.
+BOTTOM LEFT cell 5: caption "ได้เลยเพื่อน" — confident friendly smile toward viewer, one HUMAN hand giving thumbs-up at chest, correct five fingers, other arm relaxed. Head to upper thighs.
+BOTTOM cell 6: caption "จัดไป!" — FULL BODY, determined smug expression, one HUMAN fist at chest and confident forward step, long sleeves down, black shoes visible. No other prop.
+BOTTOM cell 7: caption "รอแป๊บ" — low seated pose putting on one black shoe with one HUMAN hand, other hand open palm asking to wait, slightly frantic eyes, mouth slightly parted; correct two hands/two feet, whole pose visible.
+BOTTOM RIGHT cell 8: caption "ไปก่อนนะ" — dark plain canvas shoulder bag at side hip, one HUMAN hand waves above shoulder, other hand holds bag strap, friendly smile, bag fully visible. Head to upper thighs.
+
+Every cell contains one main character only, identical identity and costume, eight distinct gestures, one exact matching caption. Keep all elements away from own cell edges for safe deterministic segmentation. Consistent polished lighting. Deliver ONE wide 4x2 eight-sticker sheet on real transparency.
