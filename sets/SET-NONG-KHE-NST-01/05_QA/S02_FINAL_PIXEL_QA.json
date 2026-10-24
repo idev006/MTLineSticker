@@ -1,0 +1,601 @@
+{
+  "sheet_id": "S02",
+  "qa": {
+    "set_id": "SET-NONG-KHE-NST-01",
+    "sheet_id": "S02",
+    "source_revision": "0.6.0",
+    "source_commit": "d454a36734dd7c183f01efee84e7c5e8072a5120",
+    "contract_version": "1.3.0",
+    "scope": "OWNER_AUTHORIZED_S02_THROUGH_S05",
+    "layout": "4x2 canonical production mapping F09,F10,F11,F12,F13,F14,F15,F16",
+    "sheet_size": [
+      2413,
+      1039
+    ],
+    "sheet_mode": "RGBA",
+    "sheet_sha256": "d53ed12d55b4c6faedee4865d8566412f7d240f9bb9fb086c799edaeb853bf52",
+    "frame_size": [
+      592,
+      512
+    ],
+    "border_px": 3,
+    "gutter_px": 15,
+    "safe_zone_nominal_px": 20,
+    "diecut_px": 3,
+    "caption_policy": "black text on shaped white backing",
+    "transparent_pixels": 1153941,
+    "opaque_pixels": 1353166,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "gutter_full_scan": "PASS",
+    "empty_background_full_scan": "PASS",
+    "geometry": "PASS",
+    "source_mask_semantic_quality": "REVIEW_REQUIRED",
+    "cutter_integration": "NOT_RUN",
+    "release": "PENDING_OWNER_REVIEW",
+    "hero_owner_approval": "APPROVED_BY_OWNER_IN_CHAT",
+    "sheet_owner_approval": "PENDING",
+    "frames": [
+      {
+        "id": "F09",
+        "caption": "วันนี้ขอหล่อ",
+        "source_sha256": "bca307064f09d76887883d3a3132676c4a581485f489414e6dc4782ae725d2a7",
+        "frame_sha256": "c82b9132b1e7c3dc0836771e87dab9d0fa93b780f8ac14c8ec25f79c6106c31f",
+        "frame_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          448,
+          387
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 66280,
+        "content_bbox": [
+          27,
+          23,
+          565,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          24,
+          20,
+          24,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 8354,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 339,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F10",
+        "caption": "ทรงได้อยู่",
+        "source_sha256": "6d75723384fa12ad418b276985d4e72686f73ea6a90a056bca743cc5f24e9f31",
+        "frame_sha256": "526dff22b2bad90e50eef742079822875a967606027a2493321d2c7f37c20ef8",
+        "frame_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          410,
+          403
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 51666,
+        "content_bbox": [
+          59,
+          23,
+          533,
+          488
+        ],
+        "inner_clearance_LTRB_px": [
+          56,
+          20,
+          56,
+          21
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 9044,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F11",
+        "caption": "เผลอ ๆ ก็เท่",
+        "source_sha256": "bead47173a3f473546d0b4b329407d5ea33b734fe518937dd4f6dcb8c62463dc",
+        "frame_sha256": "c2ce39b0d547c96f7aac037a059f20e39cbb0b5fc71544ee9fb7fc8839910b3c",
+        "frame_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          377,
+          395
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 46722,
+        "content_bbox": [
+          73,
+          28,
+          518,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          70,
+          25,
+          71,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 8181,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F12",
+        "caption": "มองเราเหรอ",
+        "source_sha256": "4d6d146c6785f42f4282316ea727e335559b60565e2b8edceb8b2034b4afb2a1",
+        "frame_sha256": "4d2e32010a4f933ed4f8052f31511b9ec8b5625771c9d1ca638fc8443a044a6c",
+        "frame_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          431,
+          382
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 59831,
+        "content_bbox": [
+          33,
+          23,
+          558,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          30,
+          20,
+          31,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 8122,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 727,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F13",
+        "caption": "คนนี้มีใจ",
+        "source_sha256": "48aadac3a41c4e3723f3415909ea6b9eb5531f464c8d5fb86898d2df036a25d4",
+        "frame_sha256": "2bb236303c04d07789352d18133d32dfc54b87cbab054d6b0caa4d3a89e84ec1",
+        "frame_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          413,
+          394
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 54922,
+        "content_bbox": [
+          52,
+          23,
+          540,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          49,
+          20,
+          49,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 7835,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F14",
+        "caption": "จีบได้ ยังโสด",
+        "source_sha256": "18f91767bddf3d4a1bf785341f879a8f9683ed1b77e51dd3c4a056defb77fbd3",
+        "frame_sha256": "4d73af5ebd5ed336722effd9f76ab90ce38414d26a920ddd3f9693968e153b0d",
+        "frame_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          474,
+          388
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 50341,
+        "content_bbox": [
+          23,
+          32,
+          569,
+          480
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          29,
+          20,
+          29
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 8344,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F15",
+        "caption": "คิดถึงค้าบ",
+        "source_sha256": "a8e75f98aeef46a54b4c1628b074cd081ec15cb7d2ac6abc1f95a7edc9969b6d",
+        "frame_sha256": "8da27f1cc709faf1b46318a1c967e19aa6b2bd6acea7e88baa136e648524aba1",
+        "frame_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          393,
+          397
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 26108,
+        "content_bbox": [
+          65,
+          23,
+          526,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          62,
+          20,
+          63,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 7093,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F16",
+        "caption": "ฝันดีนะ",
+        "source_sha256": "37cb072d327ccff71334661df9c48cc51320dc5b4683d10e2c468e10d953e4ba",
+        "frame_sha256": "46a2ba3e2d3ff51dda71a36226a5598427405dc7015895e9d9d77be0df2a653c",
+        "frame_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          444,
+          390
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 50714,
+        "content_bbox": [
+          31,
+          23,
+          560,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          28,
+          20,
+          29,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 6715,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 9030,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      }
+    ]
+  },
+  "segmentation": {
+    "source_path": "/workspace/scratch/161e83d87f67/generated_images/exec-b37006b3-e3c8-48ed-8b67-bb22126448d8.png",
+    "source_sha256": "f96b3b6aac7737f3b702a8b5f0f9eb23124a5b3f5c58b071a858e1ce3186c5c0",
+    "source_size": [
+      1910,
+      823
+    ],
+    "source_mode": "RGBA",
+    "method": "route complete alpha>=32 connected components by nominal 4x2 centroid; no straight cut through props",
+    "major_components": [
+      {
+        "label": 1,
+        "area": 102193,
+        "frame": "F11",
+        "bbox": [
+          1007,
+          6,
+          1384,
+          401
+        ]
+      },
+      {
+        "label": 2,
+        "area": 107096,
+        "frame": "F09",
+        "bbox": [
+          23,
+          9,
+          471,
+          396
+        ]
+      },
+      {
+        "label": 3,
+        "area": 113564,
+        "frame": "F10",
+        "bbox": [
+          520,
+          10,
+          930,
+          413
+        ]
+      },
+      {
+        "label": 4,
+        "area": 104811,
+        "frame": "F12",
+        "bbox": [
+          1448,
+          10,
+          1879,
+          392
+        ]
+      },
+      {
+        "label": 5,
+        "area": 129913,
+        "frame": "F15",
+        "bbox": [
+          1014,
+          406,
+          1407,
+          803
+        ]
+      },
+      {
+        "label": 6,
+        "area": 107800,
+        "frame": "F13",
+        "bbox": [
+          36,
+          410,
+          449,
+          804
+        ]
+      },
+      {
+        "label": 7,
+        "area": 122446,
+        "frame": "F16",
+        "bbox": [
+          1450,
+          414,
+          1894,
+          804
+        ]
+      },
+      {
+        "label": 8,
+        "area": 133571,
+        "frame": "F14",
+        "bbox": [
+          493,
+          415,
+          967,
+          803
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "id": "F09",
+        "caption": "วันนี้ขอหล่อ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F09_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          23,
+          9,
+          471,
+          396
+        ],
+        "component_labels": [
+          2
+        ]
+      },
+      {
+        "id": "F10",
+        "caption": "ทรงได้อยู่",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F10_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          520,
+          10,
+          930,
+          413
+        ],
+        "component_labels": [
+          3
+        ]
+      },
+      {
+        "id": "F11",
+        "caption": "เผลอ ๆ ก็เท่",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F11_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1007,
+          6,
+          1384,
+          401
+        ],
+        "component_labels": [
+          1
+        ]
+      },
+      {
+        "id": "F12",
+        "caption": "มองเราเหรอ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F12_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1448,
+          10,
+          1879,
+          392
+        ],
+        "component_labels": [
+          4
+        ]
+      },
+      {
+        "id": "F13",
+        "caption": "คนนี้มีใจ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F13_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          36,
+          410,
+          449,
+          804
+        ],
+        "component_labels": [
+          6
+        ]
+      },
+      {
+        "id": "F14",
+        "caption": "จีบได้ ยังโสด",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F14_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          493,
+          415,
+          967,
+          803
+        ],
+        "component_labels": [
+          8
+        ]
+      },
+      {
+        "id": "F15",
+        "caption": "คิดถึงค้าบ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F15_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1014,
+          406,
+          1407,
+          803
+        ],
+        "component_labels": [
+          5
+        ]
+      },
+      {
+        "id": "F16",
+        "caption": "ฝันดีนะ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S02/F16_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1450,
+          414,
+          1894,
+          804
+        ],
+        "component_labels": [
+          7
+        ]
+      }
+    ]
+  }
+}
