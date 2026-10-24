@@ -1,0 +1,36 @@
+{
+  "plugin_id": "plugins_6ad844f4cd8c8191aa0282099b84bb14",
+  "version": "0.5.0",
+  "release_id": "pluginrel_6adcb6ed61388191940096f7585196ca",
+  "previous_release_id": "pluginrel_6ad87a17cbf4819190ce776e248dcd19",
+  "source_commit": "a283f44a7b8ce93b8fe7088f84c7b0b6fd8d46f0",
+  "scope": "USER",
+  "visibility": "PRIVATE",
+  "change": "Complete director document deliverables and offline integrity validator",
+  "mandatory_project_files": 31,
+  "documents": 26,
+  "structured_files": 5,
+  "plugin_files": 11,
+  "checks": {
+    "skill_syntax": "PASS",
+    "unit_tests": {
+      "passed": 17,
+      "failed": 0,
+      "synthetic_fixtures": true
+    },
+    "old_incomplete_package": "REJECTED_AS_EXPECTED",
+    "source_preservation": "PASS",
+    "deployed_readback": "PASS: 10 files exact bytes; compatibility manifest structurally identical after host JSON serialization",
+    "github_source_readback": "PASS for skill, registry, validator",
+    "offline_workflow_forward_test": "PASS: 31-file inventory; no Character approval invented; HANDOFF_DRAFT retained",
+    "full_host_project_run": "NOT_RUN",
+    "semantic_artistic_quality": "NOT_CERTIFIED"
+  },
+  "limitations": [
+    "Validator must be explicitly executed by the agent; no background server or new MCP integration.",
+    "Structural checks cannot authenticate owner receipts or artistic/semantic quality.",
+    "Existing 1.0.0 repository contract validator remains incompatible with newer envelope; no global engine changes in this release.",
+    "Existing sticker project documents are not automatically migrated by updating this plugin."
+  ],
+  "rollback": "Retrieve prior release pluginrel_6ad87a17cbf4819190ce776e248dcd19 using Plugin Creator and apply through guarded release workflow."
+}
