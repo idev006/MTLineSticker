@@ -1,0 +1,781 @@
+{
+  "sheet_id": "S05",
+  "qa": {
+    "set_id": "SET-NONG-KHE-NST-01",
+    "sheet_id": "S05",
+    "source_revision": "0.6.0",
+    "source_commit": "d454a36734dd7c183f01efee84e7c5e8072a5120",
+    "contract_version": "1.3.0",
+    "scope": "OWNER_AUTHORIZED_S02_THROUGH_S05",
+    "layout": "4x2 canonical production mapping F33,F34,F35,F36,F37,F38,F39,F40",
+    "sheet_size": [
+      2413,
+      1039
+    ],
+    "sheet_mode": "RGBA",
+    "sheet_sha256": "a4aa6456a072b8ee14e043f4a5c4c178f8a3dcecbb8d7b0ab00d8d680518fc15",
+    "frame_size": [
+      592,
+      512
+    ],
+    "border_px": 3,
+    "gutter_px": 15,
+    "safe_zone_nominal_px": 20,
+    "diecut_px": 3,
+    "caption_policy": "black text on shaped white backing",
+    "transparent_pixels": 993188,
+    "opaque_pixels": 1513919,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "gutter_full_scan": "PASS",
+    "empty_background_full_scan": "PASS",
+    "geometry": "PASS",
+    "source_mask_semantic_quality": "REVIEW_REQUIRED",
+    "cutter_integration": "NOT_RUN",
+    "release": "PENDING_OWNER_REVIEW",
+    "hero_owner_approval": "APPROVED_BY_OWNER_IN_CHAT",
+    "sheet_owner_approval": "PENDING",
+    "frames": [
+      {
+        "id": "F33",
+        "caption": "หิวแล้วค้าบ",
+        "source_sha256": "1bccf444b0144ee883d89cad2eeb59d6839fd737060c0f3fcfa6ba4a13449e8a",
+        "frame_sha256": "dcc7e3474aaf7c744a3136d7439b6b01f60971a05df80183f26849dd776c6cb2",
+        "frame_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          443,
+          401
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 53859,
+        "content_bbox": [
+          39,
+          23,
+          553,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          36,
+          20,
+          36,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 10296,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 0,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F34",
+        "caption": "เติมพลังแป๊บ",
+        "source_sha256": "e1d67532374424418c7c61fee75f353dc32de28215f54a8b8c609c8c863f7940",
+        "frame_sha256": "5439bffeffb35ac16b9e333af2178b4402982daf5e633d9e05de633a5cfca352",
+        "frame_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          442,
+          400
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 48003,
+        "content_bbox": [
+          38,
+          23,
+          553,
+          488
+        ],
+        "inner_clearance_LTRB_px": [
+          35,
+          20,
+          36,
+          21
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 10021,
+        "matte_fringe_pixels_corrected": 3,
+        "caption_navy_to_black_pixels": 362,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F35",
+        "caption": "วันปล่อยแล้ว!",
+        "source_sha256": "b66df0740776bbbf92592750f0633d8138a5ce48be156b730359f7ed7b3b4343",
+        "frame_sha256": "ba89b03772d07333a9df0f9fec6f54a565ed10de74c7bdab8a88f91ad000f9dc",
+        "frame_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          502,
+          406
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 59193,
+        "content_bbox": [
+          23,
+          35,
+          569,
+          477
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          32,
+          20,
+          32
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 14933,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 1131,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F36",
+        "caption": "กลับเข้าโรงเรียน",
+        "source_sha256": "72e3afd6d0bcac69d56a527575b0e4acb2c4d4ce8f7c062468b81dcac3938c4c",
+        "frame_sha256": "1fd02019506fc950ea7f7ef8926240fb9a834aa72aa66bad36c6b92ce272647a",
+        "frame_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          427,
+          392
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 55765,
+        "content_bbox": [
+          42,
+          23,
+          549,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          39,
+          20,
+          40,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 10883,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 751,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F37",
+        "caption": "เพื่อนรัก",
+        "source_sha256": "8f4d829945e41fc253c3c12dd1e744a258621e4cda5c8b6c59abaa222e3b18dc",
+        "frame_sha256": "14f7bdadea7287ff4d2ef53249a6d0e9e02ab76c91055195041e3fb8fe49e109",
+        "frame_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          459,
+          392
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 32966,
+        "content_bbox": [
+          24,
+          23,
+          568,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          21,
+          20,
+          21,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 8963,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 2251,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F38",
+        "caption": "อย่าทิ้งกัน",
+        "source_sha256": "64fc3c12f0ee94e750743221a2490302f26cf46a514157f815ea354980bf9397",
+        "frame_sha256": "43c18162e369e1d9798264742a7b59e69ab8d78bbf138a075b2da9c0ca0a3a15",
+        "frame_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          403,
+          394
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 27792,
+        "content_bbox": [
+          58,
+          23,
+          534,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          55,
+          20,
+          55,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 9276,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 86,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F39",
+        "caption": "สู้ไปด้วยกัน",
+        "source_sha256": "32b1aa4d531d1d865bc5a304c67ee57cc7634ea8281f2d4c67f558c29b7786dd",
+        "frame_sha256": "22d106e64c10ad94717809ca65b649d899052d24dd711822aadf77c0fda32b7e",
+        "frame_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          466,
+          395
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 65735,
+        "content_bbox": [
+          23,
+          24,
+          569,
+          487
+        ],
+        "inner_clearance_LTRB_px": [
+          20,
+          21,
+          20,
+          22
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 12131,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 17,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      },
+      {
+        "id": "F40",
+        "caption": "จบไปด้วยกัน",
+        "source_sha256": "e6f793e2aa78a9cd59c441f3cfa9f1204f5600b2c48443b2e4557680057af0f3",
+        "frame_sha256": "f9a6229b401bed21c0b9dd5d1cd1c8af238d4534d0b9ec019143c5f3ca528d87",
+        "frame_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "source_mode": "RGBA",
+        "source_size": [
+          453,
+          387
+        ],
+        "source_alpha_extrema": [
+          0,
+          255
+        ],
+        "source_transparent_pixels": 34054,
+        "content_bbox": [
+          24,
+          23,
+          568,
+          489
+        ],
+        "inner_clearance_LTRB_px": [
+          21,
+          20,
+          21,
+          20
+        ],
+        "diecut_radius_px": 3,
+        "white_ring_pixels": 10539,
+        "matte_fringe_pixels_corrected": 0,
+        "caption_navy_to_black_pixels": 806,
+        "diecut_white_alpha_test": "PASS",
+        "frame_border_test": "PASS",
+        "empty_background_test": "PASS",
+        "character_visual": "REVIEW_REQUIRED",
+        "owner_approval": "PENDING"
+      }
+    ]
+  },
+  "segmentation": {
+    "source_path": "/workspace/scratch/161e83d87f67/generated_images/exec-6bf0ae49-4c6f-437d-8869-5becc34c324b.png",
+    "source_sha256": "cad6ddf6627fbbc24489b5521dece4bc202d4e65c79152cbeb91ec7d9a17a311",
+    "source_size": [
+      1910,
+      823
+    ],
+    "source_mode": "RGBA",
+    "method": "route complete alpha>=32 connected components by nominal 4x2 centroid; no straight cut through props",
+    "major_components": [
+      {
+        "label": 1,
+        "area": 142332,
+        "frame": "F35",
+        "bbox": [
+          972,
+          0,
+          1474,
+          406
+        ]
+      },
+      {
+        "label": 2,
+        "area": 126567,
+        "frame": "F34",
+        "bbox": [
+          499,
+          5,
+          941,
+          405
+        ]
+      },
+      {
+        "label": 3,
+        "area": 121063,
+        "frame": "F33",
+        "bbox": [
+          11,
+          9,
+          454,
+          410
+        ]
+      },
+      {
+        "label": 4,
+        "area": 5040,
+        "frame": "F36",
+        "bbox": [
+          1550,
+          11,
+          1630,
+          101
+        ]
+      },
+      {
+        "label": 5,
+        "area": 1099,
+        "frame": "F33",
+        "bbox": [
+          358,
+          17,
+          394,
+          68
+        ]
+      },
+      {
+        "label": 6,
+        "area": 1265,
+        "frame": "F34",
+        "bbox": [
+          835,
+          19,
+          877,
+          62
+        ]
+      },
+      {
+        "label": 7,
+        "area": 1332,
+        "frame": "F35",
+        "bbox": [
+          1044,
+          25,
+          1092,
+          68
+        ]
+      },
+      {
+        "label": 8,
+        "area": 104196,
+        "frame": "F36",
+        "bbox": [
+          1471,
+          26,
+          1898,
+          403
+        ]
+      },
+      {
+        "label": 9,
+        "area": 953,
+        "frame": "F33",
+        "bbox": [
+          376,
+          44,
+          419,
+          83
+        ]
+      },
+      {
+        "label": 10,
+        "area": 965,
+        "frame": "F34",
+        "bbox": [
+          856,
+          61,
+          892,
+          97
+        ]
+      },
+      {
+        "label": 11,
+        "area": 2383,
+        "frame": "F36",
+        "bbox": [
+          1814,
+          63,
+          1862,
+          138
+        ]
+      },
+      {
+        "label": 12,
+        "area": 955,
+        "frame": "F35",
+        "bbox": [
+          1036,
+          65,
+          1078,
+          97
+        ]
+      },
+      {
+        "label": 13,
+        "area": 669,
+        "frame": "F33",
+        "bbox": [
+          389,
+          82,
+          424,
+          106
+        ]
+      },
+      {
+        "label": 14,
+        "area": 128671,
+        "frame": "F38",
+        "bbox": [
+          508,
+          419,
+          911,
+          813
+        ]
+      },
+      {
+        "label": 15,
+        "area": 137648,
+        "frame": "F40",
+        "bbox": [
+          1448,
+          419,
+          1901,
+          806
+        ]
+      },
+      {
+        "label": 16,
+        "area": 145031,
+        "frame": "F37",
+        "bbox": [
+          10,
+          422,
+          469,
+          814
+        ]
+      },
+      {
+        "label": 17,
+        "area": 115683,
+        "frame": "F39",
+        "bbox": [
+          957,
+          428,
+          1423,
+          823
+        ]
+      },
+      {
+        "label": 18,
+        "area": 1224,
+        "frame": "F38",
+        "bbox": [
+          838,
+          447,
+          880,
+          487
+        ]
+      },
+      {
+        "label": 19,
+        "area": 1139,
+        "frame": "F37",
+        "bbox": [
+          331,
+          450,
+          370,
+          489
+        ]
+      },
+      {
+        "label": 20,
+        "area": 3609,
+        "frame": "F40",
+        "bbox": [
+          1495,
+          450,
+          1563,
+          547
+        ]
+      },
+      {
+        "label": 21,
+        "area": 1095,
+        "frame": "F38",
+        "bbox": [
+          865,
+          483,
+          903,
+          522
+        ]
+      },
+      {
+        "label": 22,
+        "area": 792,
+        "frame": "F37",
+        "bbox": [
+          357,
+          485,
+          390,
+          517
+        ]
+      },
+      {
+        "label": 23,
+        "area": 2652,
+        "frame": "F39",
+        "bbox": [
+          1275,
+          567,
+          1361,
+          623
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "id": "F33",
+        "caption": "หิวแล้วค้าบ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F33_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          11,
+          9,
+          454,
+          410
+        ],
+        "component_labels": [
+          3,
+          5,
+          9,
+          13
+        ]
+      },
+      {
+        "id": "F34",
+        "caption": "เติมพลังแป๊บ",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F34_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          499,
+          5,
+          941,
+          405
+        ],
+        "component_labels": [
+          2,
+          6,
+          10
+        ]
+      },
+      {
+        "id": "F35",
+        "caption": "วันปล่อยแล้ว!",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F35_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          972,
+          0,
+          1474,
+          406
+        ],
+        "component_labels": [
+          1,
+          7,
+          12
+        ]
+      },
+      {
+        "id": "F36",
+        "caption": "กลับเข้าโรงเรียน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F36_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1471,
+          11,
+          1898,
+          403
+        ],
+        "component_labels": [
+          4,
+          8,
+          11
+        ]
+      },
+      {
+        "id": "F37",
+        "caption": "เพื่อนรัก",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F37_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          10,
+          422,
+          469,
+          814
+        ],
+        "component_labels": [
+          16,
+          19,
+          22
+        ]
+      },
+      {
+        "id": "F38",
+        "caption": "อย่าทิ้งกัน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F38_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          508,
+          419,
+          911,
+          813
+        ],
+        "component_labels": [
+          14,
+          18,
+          21
+        ]
+      },
+      {
+        "id": "F39",
+        "caption": "สู้ไปด้วยกัน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F39_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          957,
+          428,
+          1423,
+          823
+        ],
+        "component_labels": [
+          17,
+          23
+        ]
+      },
+      {
+        "id": "F40",
+        "caption": "จบไปด้วยกัน",
+        "path": "/workspace/scratch/161e83d87f67/sheets-02-05/S05/F40_COMBINED_SOURCE.png",
+        "source_crop_xyxy": [
+          1448,
+          419,
+          1901,
+          806
+        ],
+        "component_labels": [
+          15,
+          20
+        ]
+      }
+    ]
+  }
+}
