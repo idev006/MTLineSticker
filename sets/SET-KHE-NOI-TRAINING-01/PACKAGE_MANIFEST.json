@@ -1,9 +1,9 @@
 {
   "standard_version": "1.0.0",
   "set_id": "SET-KHE-NOI-TRAINING-01",
-  "package_revision": "0.1.0",
-  "payload_file_count": 32,
-  "total_archive_entry_count": 33,
+  "package_revision": "0.2.0",
+  "payload_file_count": 33,
+  "total_archive_entry_count": 34,
   "files": [
     {
       "path": "00_PROJECT/DECISION_LOG.md",
@@ -75,15 +75,19 @@
     },
     {
       "path": "04_PRODUCTION/ACCEPTANCE_MATRIX.md",
-      "sha256": "17d5846a2681f1d5e6827e32eb6a15cd8d29bd85d4703fb68bc44cf76b327fd9"
+      "sha256": "296bc9d4450e048f8f7a0d0b8b517e393eedcbeb67a5b9f6a490628f9222c0fa"
     },
     {
       "path": "04_PRODUCTION/HERO_PLAN.md",
       "sha256": "15b1bd6919a512628859cbf286f502fdc36fc1a00307cb364320b52469e99518"
     },
     {
+      "path": "04_PRODUCTION/SHEET_FRAME_SPEC.json",
+      "sha256": "56d9140099aa68aa8430c9f451556f0a512acf813c168e92d05d47187496ef3c"
+    },
+    {
       "path": "04_PRODUCTION/SHEET_PLAN.md",
-      "sha256": "7c5a5dc5f6b5afabf6e844a813133793b8a78920ce318af4a3480803750c0dd4"
+      "sha256": "c280ac775bc9c9ddd270928b177c72296da7e4939796bd8cdbacbdead72ba7ed"
     },
     {
       "path": "05_QA/AUTO_REJECT_RULES.md",
@@ -95,7 +99,7 @@
     },
     {
       "path": "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
-      "sha256": "d0bd9ab45b05b2e8857e343f6f170026e9908ff545df3a667d699ebeed645041"
+      "sha256": "e70cf87b6853e2d1e75d3ad023097394b147bf7329a1a434ce1996668d29dfab"
     },
     {
       "path": "07_REFERENCES/REFERENCE_INDEX.md",
@@ -111,7 +115,7 @@
     },
     {
       "path": "README_FIRST.md",
-      "sha256": "f455791c26d2c8937025cd5b715f21b7a9194486ddc43cb57a21ae24f465e294"
+      "sha256": "8055c7cce59b1106c2997027d1cece4210d42aa033c2861075789a93e226e7aa"
     },
     {
       "path": "approvals.json",
@@ -123,11 +127,11 @@
     },
     {
       "path": "handoff.json",
-      "sha256": "d5c085609321062c61fb570c7bb5fe52815537e5a80fff6ced2cf444938ff733"
+      "sha256": "f2faf2364843760ea3bd90e5e5d595d7c138b6cba9f2cfa079ebc116d23c38e1"
     },
     {
       "path": "project.json",
-      "sha256": "2188e879d1ae802886b5a213d5782fd9c294d530d0f04a95218bed85de9ef81a"
+      "sha256": "9284af5dd79bf8cd76bd1567942a57c56ccd0eaeb282e3a04676a16932975da0"
     },
     {
       "path": "references.json",

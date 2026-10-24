@@ -1,7 +1,7 @@
 {
   "contract_version": "1.3.0",
   "set_id": "SET-KHE-NOI-TRAINING-01",
-  "package_revision": "0.1.0",
+  "package_revision": "0.2.0",
   "git_source_commit": "f4995f5942408d2b2407adbaaa39222c7d38a0e6",
   "run_id": "KHE-NOI-TRAINING-A-01",
   "status": "READY_FOR_GEM_B",
@@ -1510,5 +1510,1365 @@
     "visual": "NOT_RUN",
     "pixels": "NOT_RUN",
     "cutter": "NOT_RUN"
-  }
+  },
+  "sheet_spec": {
+    "set_id": "SET-KHE-NOI-TRAINING-01",
+    "spec_version": "1.0.0",
+    "package_revision": "0.2.0",
+    "contract_version": "1.3.0",
+    "global_sheet_spec_version": "1.2.0",
+    "diecut_standard_version": "1.3.0",
+    "delivery_kind": "CUTTER_MASTER_NOT_LINE_SUBMISSION",
+    "sheet_count": 5,
+    "frames_per_sheet": 8,
+    "grid": {
+      "columns": 4,
+      "rows": 2,
+      "reading_order": "left_to_right_then_top_to_bottom"
+    },
+    "nominal_sheet": {
+      "width": 2413,
+      "height": 1039,
+      "outer_margin": 0,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    "frame": {
+      "width": 592,
+      "height": 512,
+      "aspect_validation": "w*512 == h*592",
+      "border_px": 3,
+      "border_color": "#000000",
+      "border_alpha": 255,
+      "border_direction": "inward",
+      "corner": "square",
+      "shared_borders": false
+    },
+    "gutter": {
+      "nominal_px": 15,
+      "tolerance_percent": 5,
+      "numeric_bounds": [
+        14.25,
+        15.75
+      ],
+      "allowed_integer_px": [
+        15
+      ],
+      "alpha": 0
+    },
+    "safe_zone": {
+      "nominal_px": 20,
+      "tolerance_percent": 5,
+      "nominal_band_width_bounds": [
+        19,
+        21
+      ],
+      "measure_from": "inner edge of black border",
+      "measure_to": "outermost union of art,text,props,FX and white diecut",
+      "minimum_content_clearance_px": 19,
+      "target_content_clearance_px": 20,
+      "extra_composition_whitespace": "Allowed; do not distort artwork to make every bbox edge exactly20px"
+    },
+    "diecut": {
+      "nominal_extension_px": 4,
+      "allowed_extension_px": [
+        3,
+        5
+      ],
+      "color": "#FFFFFF",
+      "alpha": 255,
+      "silhouette": "union of character,caption,props,FX; each disconnected component must have complete white underlay"
+    },
+    "background": {
+      "alpha": 0,
+      "forbidden": [
+        "opaque white rectangular canvas",
+        "RGB-only PNG",
+        "painted checkerboard transparency"
+      ]
+    },
+    "composition": {
+      "crop": "waist_up_or_chest_up_primary",
+      "head_cropping": false,
+      "critical_hand_cropping": false,
+      "character_authority": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+      "text": "exact Thai caption from frames.json",
+      "max_caption_lines": 2,
+      "starting_font_size_px": [
+        60,
+        84
+      ],
+      "font_size_is_design_target_not_automatic_pass": true,
+      "text_must_not_cover": [
+        "eyes",
+        "mouth",
+        "key hand gesture"
+      ],
+      "caption_area_design_target": "lower30–35% of usable composition; adjust without reducing readability",
+      "background_scenery": false
+    },
+    "nominal_geometry": {
+      "frame_origins_x": [
+        0,
+        607,
+        1214,
+        1821
+      ],
+      "frame_origins_y": [
+        0,
+        527
+      ],
+      "transparent_vertical_gutters_half_open": [
+        [
+          592,
+          607
+        ],
+        [
+          1199,
+          1214
+        ],
+        [
+          1806,
+          1821
+        ]
+      ],
+      "transparent_horizontal_gutter_half_open": [
+        512,
+        527
+      ],
+      "content_local_bounds_half_open": [
+        23,
+        23,
+        569,
+        489
+      ]
+    },
+    "scaled_exception": {
+      "allowed": true,
+      "requirements": [
+        "exact ratio592:512 for every actual frame",
+        "record actual frame dimensions and all coordinates",
+        "nominal gutter and safe-zone chosen targets/tolerance remain documented; no silent rounding",
+        "recalculate sheet4W+3Gx by2H+Gy; zero exterior margin",
+        "scale diecut3–5px nominal appropriately and prove cutter compatibility before ready"
+      ],
+      "default": "use nominal geometry; scaled file must be explicitly identified in report"
+    },
+    "required_qa_per_sheet": [
+      "actual saved PNG path and SHA256",
+      "mode RGBA and actual dimensions",
+      "8 unique frame IDs and coordinates",
+      "exact aspect ratio all8",
+      "all independent black rectangular borders including alpha and thickness",
+      "full gutter alpha scan not only sample pixels",
+      "safe-zone bounds including caption/diecut",
+      "white diecut continuity and extension",
+      "visual character/Thai-caption/upper-body review",
+      "cut8 actual outputs preserving diecut and removing black frames"
+    ],
+    "technical_status": "NOT_RUN_UNTIL_ACTUAL_MASTER_EXISTS",
+    "slot_map": [
+      {
+        "sheet_id": "S01",
+        "frame_id": "F01",
+        "row": 1,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "inner_rect_xywh": [
+          3,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          23,
+          569,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F02",
+        "row": 1,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          0,
+          1199,
+          512
+        ],
+        "inner_rect_xywh": [
+          610,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          23,
+          1176,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F03",
+        "row": 1,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          0,
+          1806,
+          512
+        ],
+        "inner_rect_xywh": [
+          1217,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          23,
+          1783,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F04",
+        "row": 1,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          0,
+          2413,
+          512
+        ],
+        "inner_rect_xywh": [
+          1824,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          23,
+          2390,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F05",
+        "row": 2,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          527,
+          592,
+          1039
+        ],
+        "inner_rect_xywh": [
+          3,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          550,
+          569,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F06",
+        "row": 2,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          527,
+          1199,
+          1039
+        ],
+        "inner_rect_xywh": [
+          610,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          550,
+          1176,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F07",
+        "row": 2,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          527,
+          1806,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1217,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          550,
+          1783,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S01",
+        "frame_id": "F08",
+        "row": 2,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          527,
+          2413,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1824,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          550,
+          2390,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F09",
+        "row": 1,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "inner_rect_xywh": [
+          3,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          23,
+          569,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F10",
+        "row": 1,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          0,
+          1199,
+          512
+        ],
+        "inner_rect_xywh": [
+          610,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          23,
+          1176,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F11",
+        "row": 1,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          0,
+          1806,
+          512
+        ],
+        "inner_rect_xywh": [
+          1217,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          23,
+          1783,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F12",
+        "row": 1,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          0,
+          2413,
+          512
+        ],
+        "inner_rect_xywh": [
+          1824,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          23,
+          2390,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F13",
+        "row": 2,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          527,
+          592,
+          1039
+        ],
+        "inner_rect_xywh": [
+          3,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          550,
+          569,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F14",
+        "row": 2,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          527,
+          1199,
+          1039
+        ],
+        "inner_rect_xywh": [
+          610,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          550,
+          1176,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F15",
+        "row": 2,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          527,
+          1806,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1217,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          550,
+          1783,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S02",
+        "frame_id": "F16",
+        "row": 2,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          527,
+          2413,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1824,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          550,
+          2390,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F17",
+        "row": 1,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "inner_rect_xywh": [
+          3,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          23,
+          569,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F18",
+        "row": 1,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          0,
+          1199,
+          512
+        ],
+        "inner_rect_xywh": [
+          610,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          23,
+          1176,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F19",
+        "row": 1,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          0,
+          1806,
+          512
+        ],
+        "inner_rect_xywh": [
+          1217,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          23,
+          1783,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F20",
+        "row": 1,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          0,
+          2413,
+          512
+        ],
+        "inner_rect_xywh": [
+          1824,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          23,
+          2390,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F21",
+        "row": 2,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          527,
+          592,
+          1039
+        ],
+        "inner_rect_xywh": [
+          3,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          550,
+          569,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F22",
+        "row": 2,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          527,
+          1199,
+          1039
+        ],
+        "inner_rect_xywh": [
+          610,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          550,
+          1176,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F23",
+        "row": 2,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          527,
+          1806,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1217,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          550,
+          1783,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S03",
+        "frame_id": "F24",
+        "row": 2,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          527,
+          2413,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1824,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          550,
+          2390,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F25",
+        "row": 1,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "inner_rect_xywh": [
+          3,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          23,
+          569,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F26",
+        "row": 1,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          0,
+          1199,
+          512
+        ],
+        "inner_rect_xywh": [
+          610,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          23,
+          1176,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F27",
+        "row": 1,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          0,
+          1806,
+          512
+        ],
+        "inner_rect_xywh": [
+          1217,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          23,
+          1783,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F28",
+        "row": 1,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          0,
+          2413,
+          512
+        ],
+        "inner_rect_xywh": [
+          1824,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          23,
+          2390,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F29",
+        "row": 2,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          527,
+          592,
+          1039
+        ],
+        "inner_rect_xywh": [
+          3,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          550,
+          569,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F30",
+        "row": 2,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          527,
+          1199,
+          1039
+        ],
+        "inner_rect_xywh": [
+          610,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          550,
+          1176,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F31",
+        "row": 2,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          527,
+          1806,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1217,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          550,
+          1783,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S04",
+        "frame_id": "F32",
+        "row": 2,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          527,
+          2413,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1824,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          550,
+          2390,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F33",
+        "row": 1,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          0,
+          592,
+          512
+        ],
+        "inner_rect_xywh": [
+          3,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          23,
+          569,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F34",
+        "row": 1,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          0,
+          1199,
+          512
+        ],
+        "inner_rect_xywh": [
+          610,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          23,
+          1176,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F35",
+        "row": 1,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          0,
+          1806,
+          512
+        ],
+        "inner_rect_xywh": [
+          1217,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          23,
+          1783,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F36",
+        "row": 1,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          0,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          0,
+          2413,
+          512
+        ],
+        "inner_rect_xywh": [
+          1824,
+          3,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          23,
+          2390,
+          489
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F37",
+        "row": 2,
+        "column": 1,
+        "outer_rect_xywh": [
+          0,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          0,
+          527,
+          592,
+          1039
+        ],
+        "inner_rect_xywh": [
+          3,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          23,
+          550,
+          569,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F38",
+        "row": 2,
+        "column": 2,
+        "outer_rect_xywh": [
+          607,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          607,
+          527,
+          1199,
+          1039
+        ],
+        "inner_rect_xywh": [
+          610,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          630,
+          550,
+          1176,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F39",
+        "row": 2,
+        "column": 3,
+        "outer_rect_xywh": [
+          1214,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1214,
+          527,
+          1806,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1217,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1237,
+          550,
+          1783,
+          1016
+        ]
+      },
+      {
+        "sheet_id": "S05",
+        "frame_id": "F40",
+        "row": 2,
+        "column": 4,
+        "outer_rect_xywh": [
+          1821,
+          527,
+          592,
+          512
+        ],
+        "outer_bounds_half_open": [
+          1821,
+          527,
+          2413,
+          1039
+        ],
+        "inner_rect_xywh": [
+          1824,
+          530,
+          586,
+          506
+        ],
+        "nominal_content_bounds_half_open": [
+          1844,
+          550,
+          2390,
+          1016
+        ]
+      }
+    ]
+  },
+  "sheet_spec_path": "04_PRODUCTION/SHEET_FRAME_SPEC.json"
 }

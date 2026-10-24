@@ -1,7 +1,7 @@
 {
   "set_id": "SET-KHE-NOI-TRAINING-01",
   "set_name_th": "เข้น้อย อยู่ระหว่างฝึก",
-  "package_revision": "0.1.0",
+  "package_revision": "0.2.0",
   "frame_count": 40,
   "caption_policy": "CAPTION",
   "hero_ids": [
@@ -24,5 +24,7 @@
     "basis": "ชุดต่อไปในบริบทตัวละครเดิม ไม่ออกแบบหรือเปลี่ยนidentity",
     "approval_evidence_scope": "existing unchanged Character04 approval only; new Hero pending"
   },
-  "legacy_engine_issue": "Not repaired by this project; verify actual alpha/diecut cutter before export"
+  "legacy_engine_issue": "Not repaired by this project; verify actual alpha/diecut cutter before export",
+  "sheet_frame_spec": "04_PRODUCTION/SHEET_FRAME_SPEC.json",
+  "sheet_frame_spec_version": "1.0.0"
 }
