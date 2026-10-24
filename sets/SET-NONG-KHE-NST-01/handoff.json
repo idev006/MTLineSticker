@@ -1,10 +1,10 @@
 {
   "contract_version": "1.3.0",
   "set_id": "SET-NONG-KHE-NST-01",
-  "package_revision": "0.5.0",
+  "package_revision": "0.6.0",
   "run_id": "2026-10-24-GEMA-01",
-  "status": "HANDOFF_DRAFT",
-  "git_source_commit": "3c6e35f73219bde87afe3d2d042e2c98fff2d756",
+  "status": "READY_FOR_GEM_B",
+  "git_source_commit": "1a83a256b73656af5dd5d42e6970bf5b98471655",
   "source_repository": "https://github.com/idev006/MTLineSticker",
   "schema_inspected": {
     "path": "contracts/sticker-handoff/v1/handoff.schema.json",
@@ -25,7 +25,7 @@
     {
       "id": "OWNER-03",
       "evidence": "ใช้ความสามารถของปลั๊กอินตัวนี้ในการสร้างสติ๊กเกอร์ตามที่ผมได้แจ้งข้อมูลไปแล้ว โดยใช้ตัวการ์ตูนในภาพที่ 1 เป็นนายแบบของสติ๊กเกอร์ทั้งชุด เก็บเอกสารโครงการไว้ในgothub",
-      "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.5.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
+      "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.6.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
     },
     {
       "id": "OWNER-04",
@@ -46,9 +46,26 @@
       "id": "OWNER-07",
       "evidence": "กางเกงต้องสี  สนว.01; ปรับปรุงคาแรคเตอร์ชีท จากนั้นสร้างภาพคาแรคเตอร์ชีท มาใหม่",
       "scope": "Lock trousers color designation สนว.01 and authorize a new Character Sheet; no image approval implied"
+    },
+    {
+      "id": "OWNER-08",
+      "evidence": "อนุมัติภาพคาแรคเตอร์ชีทล่าสุด",
+      "scope": "Approve exact latest Character Sheet Candidate04 including สนว.01 trousers, white long sleeves/navy tie and crocodile identity; does not approve Hero/batch/release"
     }
   ],
-  "current_character_reference": null,
+  "current_character_reference": {
+    "id": "CHAR04",
+    "path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+    "sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6",
+    "state": "CHARACTER_SHEET_ACTIVE",
+    "approval": {
+      "approved": true,
+      "role": "PRODUCT_OWNER",
+      "decision_ref": "OWNER-08",
+      "asset_path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+      "asset_sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6"
+    }
+  },
   "reference_index": [
     {
       "id": "REF01",
@@ -67,6 +84,20 @@
       "excluded_scope": "โลโก้ร้าน คนอื่น ข้อความในมีม และแผลภาพล่างไม่ใช้; สีเนกไทในภาพไม่เป็นauthorityแทนคำสั่งเนกไทน้ำเงินเข้ม",
       "commercial_rights_note": "บันทึกการอนุญาตใช้อ้างอิงจากผู้ส่ง ไม่เท่ากับหลักฐานสิทธิ์ลิขสิทธิ์ของมีม; ตรวจสิทธิ์ก่อนเผยแพร่เชิงพาณิชย์",
       "wardrobe_authority": "REF01 เสื้อต้นฉบับขาวแขนยาว+กางเกงสี สนว.01+เข็มขัดดำ; OWNER-05 ล็อกกระดุมบนสุดและเนกไทน้ำเงินเข้ม"
+    },
+    {
+      "id": "CHAR04",
+      "roles": [
+        "IDENTITY",
+        "STYLE",
+        "WARDROBE"
+      ],
+      "authority": "PRIMARY",
+      "authorization_evidence": "OWNER-08: อนุมัติภาพคาแรคเตอร์ชีทล่าสุด",
+      "availability": "PACKAGED",
+      "path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+      "sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6",
+      "scope": "Active production character authority. REF01 remains original source evidence; CHAR04 controls approved rendering and wardrobe."
     }
   ],
   "character_locks": {
@@ -1637,15 +1668,12 @@
     "cutter_test": "NOT_RUN"
   },
   "gates": {
-    "Gate A": "BLOCKED",
-    "Character": "PENDING_CANDIDATE_AND_OWNER_APPROVAL",
-    "Hero": "NOT_RUN",
-    "Full Production": "LOCKED"
+    "Gate A": "PASS_FOR_GEM_B_HERO",
+    "Character": "CHARACTER_SHEET_ACTIVE",
+    "Hero": "PENDING_OWNER_REVIEW_AFTER_RENDER",
+    "Full Production": "LOCKED_UNTIL_HERO_APPROVAL"
   },
-  "unresolved_blockers": [
-    "DEP-001: ยังไม่มี Character Sheet ที่เจ้าของอนุมัติ ผูกกับ hash จึงไม่ปลด Gate A",
-    "DEP-003: validator ส่วนกลางรุ่นเดิมรับ contract 1.0.0 ไม่ตรง envelope 1.3.0 จึงห้ามส่งเข้าระบบนั้นโดยอ้างผ่าน"
-  ],
+  "unresolved_blockers": [],
   "qa": {
     "frame_ids": "PASS",
     "mapping": "PASS",

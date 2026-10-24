@@ -1,7 +1,7 @@
-# README FIRST — น้องเข้ นสต. v0.5.0
+# README FIRST — น้องเข้ นสต. v0.6.0
 
 ## Project identity
-SET-NONG-KHE-NST-01 — ชื่อทำงาน “น้องเข้ นสต. — เก๊กได้…ครูฝึกอย่าเห็น!” revision 0.5.0 จัดทำตาม GEM A v0.5.0 จำนวน 40 ภาพ ใช้ REF01 ซึ่งเจ้าของแนบล่าสุดเป็นอัตลักษณ์หัวจระเข้ ร่างกายเป็นคนสวมชุดนักเรียนนายสิบตำรวจระหว่างศึกษา ไม่ถือชื่อชุดและ caption ที่ AI เสนอว่าเจ้าของล็อกแล้ว
+SET-NONG-KHE-NST-01 — ชื่อทำงาน “น้องเข้ นสต. — เก๊กได้…ครูฝึกอย่าเห็น!” revision 0.6.0 จัดทำตาม GEM A v0.6.0 จำนวน 40 ภาพ ใช้ REF01 ซึ่งเจ้าของแนบล่าสุดเป็นอัตลักษณ์หัวจระเข้ ร่างกายเป็นคนสวมชุดนักเรียนนายสิบตำรวจระหว่างศึกษา ไม่ถือชื่อชุดและ caption ที่ AI เสนอว่าเจ้าของล็อกแล้ว
 
 ## Read order
 อ่าน project.json และ DECISION_LOG ก่อน ตามด้วย CHARACTER_BIBLE, GLOBAL_CHARACTER_LOCKS, REFERENCE_INDEX, CAPTION_MASTER, FRAME_COMMUNICATION_MATRIX, FRAME_TO_SHEET_MAPPING แล้วจึงอ่าน HERO_PLAN, SHEET_PLAN และ GEM_B_RUNTIME_HANDOFF ข้อมูลทั้งหมดใน revision นี้ต้องใช้ร่วมกัน PACKAGE_MANIFEST ไม่ hash ตัวเองเพื่อหลีกเลี่ยงวงจร; จำนวน archive entries เท่ากับ payload+manifest ไม่มี directory entries; SHA256SUMS.txt ไม่รวมตัวเองและ PACKAGE_MANIFEST เพื่อไม่เกิด hash วงจร ตัว manifest เป็น inventory หลัก
@@ -14,3 +14,6 @@ SET-NONG-KHE-NST-01 — ชื่อทำงาน “น้องเข้ น
 
 ## Owner wardrobe and identity correction
 OWNER-04/05/06 supersede earlier proposals: เสื้อเชิ้ตสีขาวแขนยาว ติดกระดุมครบทุกเม็ดรวมเม็ดบนสุดที่คอ ผูกเนกไทสีน้ำเงินเข้ม กางเกงขายาวสี สนว.01 เข็มขัดสีดำ หัวและร่างตามREF01 ไม่หัวโต3D ไม่เสื้อกากีแขนสั้น candidateเดิมREJECTED DEP-002RESOLVED รอcandidate04และownerimageapprovalตามDEP-001 ส่วนเนื้อหาที่กล่าวถึงการเปลี่ยนจากเสื้อขาวหรือรอชุดเดิมเป็นประวัติที่ไม่ใช้กำกับการสร้างรอบนี้
+
+## Active approval and current handoff — supersedes historical pending statements
+OWNER-08 อนุมัติCharacter Sheet Candidate04ไฟล์ 02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png SHA256 1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6 สถานะCHARACTER_SHEET_ACTIVE; Gate Aพร้อมส่งGEM BทำHero F18เท่านั้น Heroยังไม่อนุมัติและfullproductionยังLOCKED consumer GEM B0.6.0รองรับcontract1.3.0โดยตรง ไม่ใช้legacyvalidator1.0.0 engineเก่ายังไม่ซ่อมและต้องตรวจexportภายหลัง

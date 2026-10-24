@@ -16,5 +16,19 @@
     "excluded_scope": "โลโก้ร้าน คนอื่น ข้อความในมีม และแผลภาพล่างไม่ใช้; สีเนกไทในภาพไม่เป็นauthorityแทนคำสั่งเนกไทน้ำเงินเข้ม",
     "commercial_rights_note": "บันทึกการอนุญาตใช้อ้างอิงจากผู้ส่ง ไม่เท่ากับหลักฐานสิทธิ์ลิขสิทธิ์ของมีม; ตรวจสิทธิ์ก่อนเผยแพร่เชิงพาณิชย์",
     "wardrobe_authority": "REF01 เสื้อต้นฉบับขาวแขนยาว+กางเกงสี สนว.01+เข็มขัดดำ; OWNER-05 ล็อกกระดุมบนสุดและเนกไทน้ำเงินเข้ม"
+  },
+  {
+    "id": "CHAR04",
+    "roles": [
+      "IDENTITY",
+      "STYLE",
+      "WARDROBE"
+    ],
+    "authority": "PRIMARY",
+    "authorization_evidence": "OWNER-08: อนุมัติภาพคาแรคเตอร์ชีทล่าสุด",
+    "availability": "PACKAGED",
+    "path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+    "sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6",
+    "scope": "Active production character authority. REF01 remains original source evidence; CHAR04 controls approved rendering and wardrobe."
   }
 ]

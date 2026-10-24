@@ -1,4 +1,4 @@
-# GLOBAL_CHARACTER_LOCKS — น้องเข้ นสต. v0.5.0
+# GLOBAL_CHARACTER_LOCKS — น้องเข้ นสต. v0.6.0
 
 ## Lock registry
 - L01 ใช้รูปหัวจากภาพบน REF01 เป็นหลัก กะโหลกแบนกว้าง ปากยาวมน ตาสูง เปลือกตาหนา ไม่ออกแบบเป็นจระเข้ตัวใหม่
@@ -17,3 +17,6 @@ REF01 เป็น PRIMARY IDENTITY/STYLE/POSE/WARDROBE ตาม OWNER-03 แ�
 
 ## Trouser color lock
 OWNER-07 ล็อกรหัสสี สนว.01 ทุกมุมของตัวละคร แทนกากีทั่วไปที่เคยเสนอ ห้ามเปลี่ยนเป็นสีเบจอ่อนแบบภาพก่อนหน้า เฉดบนหน้าจอเป็นภาพจำลองรอเจ้าของตรวจเทียบกับผ้าจริง ยังไม่มีค่า sRGB/Lab ที่ยืนยัน จึงไม่แต่งรหัส HEX ว่าเป็นมาตรฐาน
+
+## Active approval and current handoff — supersedes historical pending statements
+OWNER-08 อนุมัติCharacter Sheet Candidate04ไฟล์ 02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png SHA256 1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6 สถานะCHARACTER_SHEET_ACTIVE; Gate Aพร้อมส่งGEM BทำHero F18เท่านั้น Heroยังไม่อนุมัติและfullproductionยังLOCKED consumer GEM B0.6.0รองรับcontract1.3.0โดยตรง ไม่ใช้legacyvalidator1.0.0 engineเก่ายังไม่ซ่อมและต้องตรวจexportภายหลัง

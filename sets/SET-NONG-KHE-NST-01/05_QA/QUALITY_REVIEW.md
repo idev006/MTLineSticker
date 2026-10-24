@@ -1,4 +1,4 @@
-# QUALITY REVIEW — น้องเข้ นสต. v0.5.0
+# QUALITY REVIEW — น้องเข้ นสต. v0.6.0
 
 ## Review lenses
 R01 กระบวนการ: แยกเอกสาร/Character/Hero/batch; R02 สัญญา: envelope1.3.0 พร้อม DEP-003; R03 ข้อมูล: cross-check40/40; R04 อัตลักษณ์: REF01ควบคุมหัว; R05 ศิลป์: มุกภาพอ่านง่ายและpropsน้อย; R06 หลักฐาน: baselinecommit/hash/receipt; R07 release: ยังไม่อ้าง LINE-ready เป็นการทบทวนโดยผู้จัดทำ ไม่ใช่ทีมอิสระที่แอบอ้างว่าทำแล้ว

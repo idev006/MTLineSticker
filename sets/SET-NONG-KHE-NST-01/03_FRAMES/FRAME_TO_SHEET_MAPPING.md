@@ -1,4 +1,4 @@
-# FRAME TO SHEET MAPPING — น้องเข้ นสต. v0.5.0
+# FRAME TO SHEET MAPPING — น้องเข้ นสต. v0.6.0
 
 ## Reading order
 แต่ละชีทอ่านซ้ายไปขวา 4 คอลัมน์แล้วลงแถวล่าง 2 แถว S01–S05 รวม 40 ภาพ ไม่มีช่องว่าง ไม่มี placeholder และไม่มีเลข frame พิมพ์อยู่ใน artwork ที่จะตัดไปใช้

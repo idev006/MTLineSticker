@@ -1,6 +1,6 @@
 {
   "set_id": "SET-NONG-KHE-NST-01",
-  "package_revision": "0.5.0",
+  "package_revision": "0.6.0",
   "frame_count": 40,
   "caption_policy": "CAPTION",
   "hero_ids": [
@@ -9,15 +9,15 @@
   "source_snapshot": {
     "repository": "idev006/MTLineSticker",
     "ref": "main",
-    "commit": "3c6e35f73219bde87afe3d2d042e2c98fff2d756"
+    "commit": "1a83a256b73656af5dd5d42e6970bf5b98471655"
   },
   "dependencies": [
     {
       "id": "DEP-001",
-      "status": "OPEN",
-      "impact": "ยังไม่มี Character Sheet ที่เจ้าของอนุมัติ ผูกกับ hash จึงไม่ปลด Gate A",
+      "status": "RESOLVED",
+      "impact": "OWNER-08อนุมัติCandidate04 ผูกไฟล์และSHA256จริงแล้ว",
       "owner": "Product Owner ร่วมกับผู้สร้าง Character candidate",
-      "next_action": "ใช้เอกสาร 02_CHARACTER สร้าง/แก้ candidate โดยอิง REF01 แล้วให้เจ้าของตรวจภาพและบันทึกการอนุมัติ"
+      "next_action": "GEM Bตรวจไฟล์approvedแล้วสร้างHero F18ก่อนผลิตเต็มชุด"
     },
     {
       "id": "DEP-002",
@@ -28,13 +28,13 @@
     },
     {
       "id": "DEP-003",
-      "status": "OPEN",
-      "impact": "validator ส่วนกลางรุ่นเดิมรับ contract 1.0.0 ไม่ตรง envelope 1.3.0 จึงห้ามส่งเข้าระบบนั้นโดยอ้างผ่าน",
+      "status": "RESOLVED",
+      "impact": "ยืนยันconsumer GEM B v0.6.0 release pluginrel_6ad87afc09108191b95b479dbf6a42f4 รองรับcontract1.3.0โดยตรง จึงส่งHeroด้วยcurrentcontract ไม่เรียกlegacyvalidator1.0.0",
       "owner": "ผู้ดูแล integration A/B",
-      "next_action": "ตรวจ adapter/schema ที่รองรับ 1.3.0 ก่อน machine ingestion; ช่วงนี้รับเอกสารเชิงมนุษย์และเตรียม Character ได้"
+      "next_action": "GEM Bทำpreflightตามcontract1.3.0; legacyenginecompatibilityยังเป็นข้อจำกัดก่อนcutter/export ไม่ถือว่าซ่อมโค้ดเก่าแล้ว"
     }
   ],
-  "state": "HANDOFF_DRAFT",
+  "state": "READY_FOR_GEM_B",
   "document_standard": "1.0.0",
   "contract_version": "1.3.0",
   "global_sheet_spec_version": "1.2.0",
@@ -52,5 +52,6 @@
     "authority": "OWNER-07",
     "colorimetric_reference": null,
     "rendering_note": "Use a deeper medium brown-khaki visual approximation for review, not a certified sRGB/Lab swatch. Owner verifies screen rendition against actual fabric."
-  }
+  },
+  "legacy_engine_issue": "NOT_FIXED; out of Hero handoff scope; verify before engine/export"
 }

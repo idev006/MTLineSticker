@@ -1,4 +1,4 @@
-# ACCEPTANCE MATRIX — น้องเข้ นสต. v0.5.0
+# ACCEPTANCE MATRIX — น้องเข้ นสต. v0.6.0
 
 ## Document checks
 GEM A: registry31ครบ; exact caption40; matrix40; mapping40; unique IDs/slots; references/path/hash; owner decisions; manifest payloadและarchive count ทดสอบด้วย bundled validator พร้อม manual content review ผลจริงเก็บนอกแพ็ก ไม่ให้ checker ทำหน้าที่รับรองความสวย

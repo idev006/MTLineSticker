@@ -1,4 +1,4 @@
-# APPROVAL_CHECKLIST — น้องเข้ นสต. v0.5.0
+# APPROVAL_CHECKLIST — น้องเข้ นสต. v0.6.0
 
 ## Identity checks
 เทียบภาพหลักกับREF01โดยตรง: กะโหลกแบนกว้าง ปากยาวกว้าง เปลือกตาหนา รอยยิ้มมุมปาก เกล็ดและคอ ไม่เปลี่ยนเป็นจระเข้น่ารัก ตรวจสัดส่วนร่างคนไหล่กว้างและมือคน ไม่มีหางหรือหัวโต
@@ -11,3 +11,6 @@
 
 ## Approval evidence
 Character candidate04ยังเป็นCANDIDATEและcharacter=null ต้องให้เจ้าของเห็นไฟล์จริง อนุมัติขอบเขตชัดพร้อมhashก่อนactive ภาพcandidate01/02เป็นREJECTEDตามOWNER-04 การอนุมัติชุดด้วยข้อความไม่แทนอนุมัติภาพ
+
+## Active approval and current handoff — supersedes historical pending statements
+OWNER-08 อนุมัติCharacter Sheet Candidate04ไฟล์ 02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png SHA256 1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6 สถานะCHARACTER_SHEET_ACTIVE; Gate Aพร้อมส่งGEM BทำHero F18เท่านั้น Heroยังไม่อนุมัติและfullproductionยังLOCKED consumer GEM B0.6.0รองรับcontract1.3.0โดยตรง ไม่ใช้legacyvalidator1.0.0 engineเก่ายังไม่ซ่อมและต้องตรวจexportภายหลัง

@@ -13,7 +13,7 @@
     {
       "id": "OWNER-03",
       "evidence": "ใช้ความสามารถของปลั๊กอินตัวนี้ในการสร้างสติ๊กเกอร์ตามที่ผมได้แจ้งข้อมูลไปแล้ว โดยใช้ตัวการ์ตูนในภาพที่ 1 เป็นนายแบบของสติ๊กเกอร์ทั้งชุด เก็บเอกสารโครงการไว้ในgothub",
-      "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.5.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
+      "scope": "ดำเนินงานชุดเดิมตาม GEM A v0.6.0 และตรึง REF01 เป็นแม่แบบอัตลักษณ์; ยังไม่ใช่การอนุมัติภาพ Character candidate ก่อนหน้า"
     },
     {
       "id": "OWNER-04",
@@ -34,9 +34,20 @@
       "id": "OWNER-07",
       "evidence": "กางเกงต้องสี  สนว.01; ปรับปรุงคาแรคเตอร์ชีท จากนั้นสร้างภาพคาแรคเตอร์ชีท มาใหม่",
       "scope": "Lock trousers color designation สนว.01 and authorize a new Character Sheet; no image approval implied"
+    },
+    {
+      "id": "OWNER-08",
+      "evidence": "อนุมัติภาพคาแรคเตอร์ชีทล่าสุด",
+      "scope": "Approve exact latest Character Sheet Candidate04 including สนว.01 trousers, white long sleeves/navy tie and crocodile identity; does not approve Hero/batch/release"
     }
   ],
-  "character": null,
+  "character": {
+    "approved": true,
+    "role": "PRODUCT_OWNER",
+    "decision_ref": "OWNER-08",
+    "asset_path": "02_CHARACTER/assets/CHARACTER_SHEET_APPROVED_04.png",
+    "asset_sha256": "1aa56774a94923cac4c16c69506dc11a18ce754f58b7a51edc003c743853f5c6"
+  },
   "hero": null,
   "release": null
 }
