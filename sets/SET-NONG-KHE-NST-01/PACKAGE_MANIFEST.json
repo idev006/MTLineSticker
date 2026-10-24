@@ -123,7 +123,7 @@
     },
     {
       "path": "SHA256SUMS.txt",
-      "sha256": "73555b283448aa9ef92a0c89327b218517636cde29a4faa2f99f6bcfeaf82c36"
+      "sha256": "6638f760d1afdd89d40c52d0bdaa85013eb383c8a46caa8b4b1083c6fc2a45ec"
     },
     {
       "path": "approvals.json",
@@ -131,7 +131,7 @@
     },
     {
       "path": "frames.csv",
-      "sha256": "274cc5604b22cf1532d31b830b5cc8ef967b761a4b048bd3465a80075e030cc4"
+      "sha256": "fd16947aaa1ac25c7c7a0141a40af9e3b4fe65c20e13e5b7db79cbdf61c65aac"
     },
     {
       "path": "frames.json",
