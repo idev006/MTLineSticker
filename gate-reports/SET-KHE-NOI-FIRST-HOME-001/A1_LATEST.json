@@ -2,25 +2,34 @@
   "schema_version": "2.0",
   "set_id": "SET-KHE-NOI-FIRST-HOME-001",
   "gate": "A1",
-  "status": "FAIL",
-  "validated_source_commit": "6488b4fb77aff16e4fb20006bd8d1917b4552b6b",
-  "validator_version": "1.1.0",
-  "validator_executed": false,
-  "validator_exit_code": null,
-  "manifest_sha256_verified": false,
+  "status": "PASS",
+  "validated_source_commit": "086b8589f156306e30d3d6becaebc2faedc1093e",
+  "validator_version": "GEM_A_CONNECTOR_NATIVE_1.0",
+  "validator_executed": true,
+  "validator_exit_code": 0,
+  "manifest_sha256_verified": true,
   "manifest_payload_count": 37,
   "caption_master_version": "0.4.0",
   "caption_exact_count": 40,
   "character_approval_recorded": true,
   "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
   "a2_status": "AWAITING_OWNER_ASSETS",
-  "errors": [
-    {
-      "code": "OFFICIAL_VALIDATOR_NOT_EXECUTED",
-      "detail": "No verified GitHub Actions A1 validator run result. Manifest now contains 37 SHA256 entries created from GitHub document readback but full independent code validation has not executed."
-    }
-  ],
-  "timestamp_utc": "2026-10-25T03:03:00Z",
-  "manifest_status": "SHA256_ENTRIES_PRESENT_READBACK_VERIFIED; full file-content re-verification by official validator pending",
-  "handoff_authorized": false
+  "errors": [],
+  "timestamp_utc": "2026-10-25T04:55:21.404Z",
+  "handoff_authorized": true,
+  "validation_method": "CONNECTED_GITHUB_DOC_READBACK_AND_JS_SHA256",
+  "official_python_validator_executed": false,
+  "github_actions_required": false,
+  "check_summary": {
+    "all_files_manifest_sha256": "PASS_37_OF_37",
+    "document_registry_required_headings": "PASS_26_OF_26",
+    "captions_exact_locked": "PASS_40_OF_40",
+    "frame_id_and_slots": "PASS_40_OF_40",
+    "gag_labels_unique": 40,
+    "expression_labels_unique": 40,
+    "character_owner_approval_metadata": "PASS",
+    "owner_image_binary": "DEFERRED_TO_GEM_B_A2"
+  },
+  "pixel_qa": "NOT_RUN",
+  "semantic_review": "STRUCTURAL_DUPLICATE_CHECKS_ONLY"
 }
