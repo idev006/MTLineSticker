@@ -5,3 +5,6 @@ Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT a
 OPEN: owner approval for candidate character sheet tied to exact bytes; owner-provided original character and bag photo binaries published into GitHub; automated package validator execution with stored report; GEM B artifact access & readback. Close only after evidence, do not self-certify.
 
 UPDATE 2026-10-25: Owner approval for exact character candidate is now recorded (SHA256 add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c). Remaining blockers are GitHub publication/readback of binary assets, official validator and complete manifest checks. No automatic Gate A PASS.
+
+## Superseding owner policy — image binaries
+The Product Owner explicitly states GitHub will not store pictures or binary assets; they will personally attach all binaries for GEM B. **Remove GitHub binary-upload requirement**. GEM B validates actual runtime attachments upon receipt. Pending: official validator, text-document registry, complete manifest, and runtime asset inspection at GEM B stage. Runtime images are not silently assumed present.

@@ -6,3 +6,6 @@ OWNER-CAPTION-040: approved Caption Master v0.4.0 F01–F40; direct owner approv
 
 ## OWNER-CHAR-20261025
 Owner explicitly approved latest character sheet in chat ("อนุมัติคาแรคเตอร์ชีท"), then agreed to proceed with plan. Exact runtime binary: crocodile_cadet_character_sheet.png. SHA256: add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c. Approval means image identity approved; GitHub binary publication NOT VERIFIED. Do not replace approved asset with newly rendered variation.
+
+## OWNER-BINARY-DELIVERY-20261025
+Direct Product Owner instruction: "ที่ github ไม่ต้องเก็บภาพหรือไบนารี่ไฟล์ ผมจะเป็นคนแนบไบนารี่ไฟล์เหล่านั้นเอง". Authority: GitHub documents only; binary assets are supplied directly by owner to GEM B. This supersedes previous GitHub binary publication blocker; does not waive image fidelity/approval QA.

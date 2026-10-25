@@ -9,10 +9,13 @@
   "frame_count": 40,
   "caption_version": "0.4.0",
   "blockers": [
-    "VISUAL_BINARY_NOT_PUBLISHED_VERIFIED",
     "AUTOMATED_VALIDATOR_NOT_RUN",
-    "COMPLETE_MANIFEST_HASH_AUDIT_NOT_RUN"
+    "COMPLETE_MANIFEST_HASH_AUDIT_NOT_RUN",
+    "RUNTIME_APPROVED_ASSETS_NOT_YET_VERIFIED_BY_GEM_B"
   ],
   "character_sheet_owner_approval": "APPROVED",
-  "character_sheet_sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c"
+  "character_sheet_sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
+  "binary_delivery_policy": "OWNER_RUNTIME_ATTACHMENTS_ONLY",
+  "github_binary_required": false,
+  "runtime_asset_validation_required": true
 }
