@@ -1,0 +1,45 @@
+{
+  "source_commit": "6127d611cb8d5e4078d70683889671104d025c83",
+  "items": [
+    {
+      "path": "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
+      "sha256": "b7a73901107bd60594d39e72e04074c89549637016ebc4c63953d15a2b4db165"
+    },
+    {
+      "path": "07_REFERENCES/REFERENCE_INDEX.md",
+      "sha256": "f0a8bfbfbc32b5339b49242fde5f8284ff8eb99e3f0b56b25c3c60a3f8f3d02f"
+    },
+    {
+      "path": "08_APPROVALS/APPROVAL_REGISTRY.md",
+      "sha256": "7fa7ebf42c3241711d74d55ec0a7cb632d279fd2a70c3c40b8dc87b07fbc2efa"
+    },
+    {
+      "path": "09_RELEASE/RELEASE_PLAN.md",
+      "sha256": "e1ea7246b967a9a891a57cc23e3b7d0fd82e6b7a150fed82c0f6409745d1410f"
+    },
+    {
+      "path": "README_FIRST.md",
+      "sha256": "2a8536a01d400756e671ce002a0414f71dec17a5490c441afba175e9ebd569d3"
+    },
+    {
+      "path": "approvals.json",
+      "sha256": "745bd7a4594dcb6ed94f6bcddf7b4517a4f3b197450961476af8de502a0de518"
+    },
+    {
+      "path": "frames.json",
+      "sha256": "8707c8e8b59a047eb266882c20fd1430eca01554471831c79003e43d12ff0652"
+    },
+    {
+      "path": "handoff.json",
+      "sha256": "5977af4aef7c4b7b54e7b43c5495107f55a05df62ca7d8671764a85ee788afc7"
+    },
+    {
+      "path": "project.json",
+      "sha256": "682a01de4feb26d70f330f7ae79eaed622ad51411bb5d89f1411eb6b0a574114"
+    },
+    {
+      "path": "references.json",
+      "sha256": "e16546519e71ebafb1a9fcba367bd293d5199037a77a6f085ba74c6748e730ba"
+    }
+  ]
+}
