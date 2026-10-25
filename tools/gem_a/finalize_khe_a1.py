@@ -1,36 +1,80 @@
 #!/usr/bin/env python3
-"""Regenerate a cryptographic document manifest, run GEM A's real A1 validator and publish only observed results."""
+"""Deterministic two-phase GEM A Gate A1 document verification (no image files)."""
 from pathlib import Path
+from datetime import datetime, timezone
 import hashlib, json, subprocess, sys
-ROOT=Path(__file__).resolve().parents[2]
-P=ROOT/'sets/SET-KHE-NOI-FIRST-HOME-001'
-OUT=ROOT/'gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json'
-def manifest():
-    files=sorted(f for f in P.rglob('*') if f.is_file() and f.name!='PACKAGE_MANIFEST.json')
-    project=json.loads((P/'project.json').read_text(encoding='utf-8'))
-    data=dict(standard_version='1.0.0',set_id=project['set_id'],package_revision=project['package_revision'],payload_file_count=len(files),total_archive_entry_count=len(files)+1,files=[dict(path=f.relative_to(P).as_posix(),sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in files],binary_delivery_policy='OWNER_TO_GEM_B_RUNTIME',binary_in_github_required=False)
-    (P/'PACKAGE_MANIFEST.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-def run():
-    cmd=[sys.executable,str(ROOT/'tools/gem_a/scripts/validate_director_package.py'),str(P),'--gate','a1']
-    r=subprocess.run(cmd,capture_output=True,text=True,check=False)
-    try:result=json.loads(r.stdout)
-    except json.JSONDecodeError:result=dict(a1_ready=False,errors=[dict(code='VALIDATOR_EXECUTION_ERROR',path='',detail=r.stdout+' '+r.stderr)])
-    return result
-manifest()
-result=run()
-if result.get('a1_ready') is True:
-    project=json.loads((P/'project.json').read_text(encoding='utf-8'))
-    handoff=json.loads((P/'handoff.json').read_text(encoding='utf-8'))
-    project['status']='A1_READY'
-    handoff['status']='A1_READY_A2_DEFERRED_TO_GEM_B'
-    handoff['blockers']=['RUNTIME_APPROVED_ASSETS_NOT_YET_VERIFIED_BY_GEM_B']
-    (P/'project.json').write_text(json.dumps(project,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (P/'handoff.json').write_text(json.dumps(handoff,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    manifest()
-    result=run()
-OUT.parent.mkdir(parents=True,exist_ok=True)
-result['source']='repository GitHub Actions executing plugin GEM A v0.8.0 validator 1.1'
-result['reference_assets']='Owner will attach binaries directly to GEM B at Gate A2'
-OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(json.dumps(result,ensure_ascii=False,indent=2))
-# Commit report even when validator fails; the GitHub Action does the git push.
+
+ROOT = Path(__file__).resolve().parents[2]
+PACKAGE = ROOT / "sets/SET-KHE-NOI-FIRST-HOME-001"
+RECEIPT = ROOT / "gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json"
+VALIDATOR = ROOT / "tools/gem_a/scripts/validate_director_package.py"
+
+def sha(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def write_manifest():
+    project = json.loads((PACKAGE / "project.json").read_text(encoding="utf-8"))
+    paths = sorted(p for p in PACKAGE.rglob("*") if p.is_file() and p.name != "PACKAGE_MANIFEST.json")
+    payload = {
+        "standard_version": "1.0.0",
+        "set_id": project["set_id"],
+        "package_revision": project["package_revision"],
+        "payload_file_count": len(paths),
+        "total_archive_entry_count": len(paths)+1,
+        "files": [{"path": p.relative_to(PACKAGE).as_posix(), "sha256": sha(p)} for p in paths],
+        "binary_delivery_policy": "OWNER_TO_GEM_B_RUNTIME",
+        "binary_in_github_required": False,
+    }
+    (PACKAGE / "PACKAGE_MANIFEST.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"MANIFEST_GENERATED: {len(paths)} entries")
+
+def validate_source():
+    source_commit = subprocess.check_output(
+        ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+    if subprocess.run(["git", "diff", "--quiet", "HEAD", "--", str(PACKAGE)],
+                      cwd=ROOT).returncode != 0:
+        raise SystemExit("PACKAGE_DIRTY: commit the generated manifest before validation")
+    run = subprocess.run(
+        [sys.executable, str(VALIDATOR), str(PACKAGE), "--gate", "a1"],
+        cwd=ROOT, text=True, capture_output=True)
+    try:
+        report = json.loads(run.stdout)
+    except (ValueError, TypeError):
+        report = {"a1_ready": False,
+                  "errors": [{"code": "VALIDATOR_RUNTIME_ERROR",
+                              "detail": (run.stderr + run.stdout)[-4000:]}]}
+    manifest = json.loads((PACKAGE / "PACKAGE_MANIFEST.json").read_text(encoding="utf-8"))
+    frame_data = json.loads((PACKAGE / "frames.json").read_text(encoding="utf-8"))
+    decisions = json.loads((PACKAGE / "approvals.json").read_text(encoding="utf-8"))
+    passed = run.returncode == 0 and report.get("a1_ready") is True and not report.get("errors")
+    receipt = {
+        "schema_version": "2.0",
+        "set_id": "SET-KHE-NOI-FIRST-HOME-001",
+        "gate": "A1",
+        "status": "PASS" if passed else "FAIL",
+        "validated_source_commit": source_commit,
+        "validator_version": report.get("validator_version", "unavailable"),
+        "validator_executed": True,
+        "validator_exit_code": run.returncode,
+        "manifest_sha256_verified": passed,
+        "manifest_payload_count": manifest.get("payload_file_count"),
+        "caption_master_version": "0.4.0",
+        "caption_exact_count": len(frame_data),
+        "character_approval_recorded": decisions.get("character", {}).get("approved") is True,
+        "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+        "a2_status": "AWAITING_OWNER_ASSETS",
+        "errors": report.get("errors", []),
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+        "handoff_authorized": passed,
+    }
+    RECEIPT.parent.mkdir(parents=True, exist_ok=True)
+    RECEIPT.write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"status": receipt["status"], "errors": len(receipt["errors"]),
+                      "source_commit": source_commit}, ensure_ascii=False))
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2 or sys.argv[1] not in {"manifest", "validate"}:
+        raise SystemExit("Usage: finalize_khe_a1.py manifest|validate")
+    if sys.argv[1] == "manifest": write_manifest()
+    else: validate_source()
