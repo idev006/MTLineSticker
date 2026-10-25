@@ -1,0 +1,10 @@
+{
+  "set_id": "SET-KHE-NOI-FIRST-HOME-001",
+  "name_th": "เข้น้อย กลับบ้านครั้งแรก",
+  "package_revision": "0.2.0",
+  "caption_master_version": "0.4.0",
+  "frame_count": 40,
+  "sheet_count": 5,
+  "frames_per_sheet": 8,
+  "status": "HANDOFF_DRAFT"
+}

@@ -1,0 +1,16 @@
+{
+  "character_primary": {
+    "source": "Owner-provided original character sheet in conversation",
+    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED"
+  },
+  "bag_reference": {
+    "source": "Four owner-provided real black rigid police-cadet briefcase photos",
+    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED",
+    "carry_hand": "CHARACTER_LEFT"
+  },
+  "character_candidate": {
+    "source": "Generated character sheet in conversation",
+    "status": "CANDIDATE_UNAPPROVED",
+    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED"
+  }
+}

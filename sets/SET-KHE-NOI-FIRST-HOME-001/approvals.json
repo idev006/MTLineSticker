@@ -1,0 +1,17 @@
+{
+  "caption_master": {
+    "version": "0.4.0",
+    "approved": true,
+    "evidence": "Owner explicitly approved all 40 frames in the project conversation; exact captions in 01_PRODUCT/CAPTION_MASTER.md",
+    "source_type": "owner_conversation"
+  },
+  "new_character_sheet": {
+    "approved": false,
+    "status": "CANDIDATE",
+    "reason": "No explicit owner approval tied to generated image bytes"
+  },
+  "reference_images": {
+    "authorized_for_concept": true,
+    "github_binary_published": false
+  }
+}
