@@ -1,0 +1,41 @@
+{
+  "source_commit": "6127d611cb8d5e4078d70683889671104d025c83",
+  "items": [
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_PROMPT.txt",
+      "sha256": "62ef0f6d3c57881580ea7120074e19ffc8644d27b805db0a7b27fd8e66faecdd"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_SPECIFICATION.md",
+      "sha256": "df20555f01d8a2436dd00de9c0ac6c287a0e55208b00e58bce4f10134cdd3bfb"
+    },
+    {
+      "path": "02_CHARACTER/GENERATION_PROMPT.txt",
+      "sha256": "62ef0f6d3c57881580ea7120074e19ffc8644d27b805db0a7b27fd8e66faecdd"
+    },
+    {
+      "path": "02_CHARACTER/GLOBAL_CHARACTER_LOCKS.md",
+      "sha256": "c1a335df0200e9fbf074fcacb8a66342a758828645a039fc3806906fe168609d"
+    },
+    {
+      "path": "02_CHARACTER/NEGATIVE_CONSTRAINTS.md",
+      "sha256": "855ea7527dab5db92b2a1f452bc5a3d6b553403a08165f1aadd9c9169d97d0a0"
+    },
+    {
+      "path": "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
+      "sha256": "c39f8a08880fb9698e4a30a120cac85a09233f00edd5bbd755a6c5f1882aebed"
+    },
+    {
+      "path": "03_FRAMES/FRAME_TO_SHEET_MAPPING.md",
+      "sha256": "5780537ce67d8263de98df712d5d170090ce3c94d0108f8de23f1cc231ced88c"
+    },
+    {
+      "path": "04_PRODUCTION/ACCEPTANCE_MATRIX.md",
+      "sha256": "6763bbd2d88914f793834c51c132e399ac69a31faeb9eb418097dc7ae8669fde"
+    },
+    {
+      "path": "04_PRODUCTION/HERO_PLAN.md",
+      "sha256": "e7ad8f1e53a5af278ffd9a4e340fbb55db4028d8c45b96eef8b16a9f5babea83"
+    }
+  ]
+}
