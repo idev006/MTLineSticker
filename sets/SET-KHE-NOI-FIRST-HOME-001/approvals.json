@@ -1,24 +1,43 @@
 {
+  "decisions": [
+    {
+      "id": "OWNER-CAPTION-040",
+      "evidence": "Product Owner approved Caption Master v0.4.0 all forty frames",
+      "scope": "caption"
+    },
+    {
+      "id": "OWNER-CHAR-20261025",
+      "evidence": "Owner explicitly approved the latest Character Sheet and approved proceeding",
+      "scope": "character"
+    },
+    {
+      "id": "OWNER-RUNTIME-20261025",
+      "evidence": "Owner stated images/binaries are attached directly to GEM B; GitHub holds only documents",
+      "scope": "binary delivery"
+    }
+  ],
   "caption_master": {
     "version": "0.4.0",
     "approved": true,
-    "evidence": "Owner explicitly approved all 40 frames in the project conversation; exact captions in 01_PRODUCT/CAPTION_MASTER.md",
-    "source_type": "owner_conversation"
+    "evidence": "Owner approval; literal captions in Caption Master"
   },
-  "new_character_sheet": {
+  "character": {
+    "approved": true,
+    "role": "PRODUCT_OWNER",
+    "decision_ref": "OWNER-CHAR-20261025",
+    "asset_sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
+    "asset_path": null,
+    "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+    "runtime_verification": "PENDING_A2"
+  },
+  "hero": {
     "approved": false,
-    "status": "CANDIDATE",
-    "reason": "No explicit owner approval tied to generated image bytes"
+    "role": "PRODUCT_OWNER",
+    "status": "PENDING_ARTWORK"
   },
-  "reference_images": {
-    "authorized_for_concept": true,
-    "github_binary_published": false
-  },
-  "character_sheet": {
-    "status": "OWNER_APPROVED",
-    "sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
-    "asset_name": "crocodile_cadet_character_sheet.png",
-    "evidence": "ผู้ใช้: อนุมัติคาแรคเตอร์ชีท; อนุมัติทุกอย่างตามที่ [ข้อเสนอให้ปิดขั้นตอน Gate A]",
-    "github_published": false
+  "release": {
+    "approved": false,
+    "role": "PRODUCT_OWNER",
+    "status": "NOT_REQUESTED"
   }
 }

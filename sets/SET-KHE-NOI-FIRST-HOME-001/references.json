@@ -1,18 +1,25 @@
-{
-  "character_primary": {
-    "source": "Owner-provided original character sheet in conversation",
-    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED"
-  },
-  "bag_reference": {
-    "source": "Four owner-provided real black rigid police-cadet briefcase photos",
-    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED",
-    "carry_hand": "CHARACTER_LEFT"
-  },
-  "character_candidate": {
-    "source": "Generated character sheet in conversation",
-    "status": "OWNER_APPROVED_BINARY_PENDING_GITHUB",
-    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED",
+[
+  {
+    "id": "CHAR_APPROVED",
+    "roles": [
+      "IDENTITY",
+      "STYLE",
+      "WARDROBE"
+    ],
+    "authority": "PRIMARY",
+    "authorization_evidence": "Product Owner explicit approval 2026-10-25, sha256 add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
+    "availability": "EXTERNAL",
+    "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
     "sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c"
   },
-  "delivery_policy": "Images/binaries provided by Product Owner as runtime attachments to GEM B; not stored in GitHub. GEM B must verify exact identity and applicable approval before Hero."
-}
+  {
+    "id": "BAG_REFERENCE",
+    "roles": [
+      "ACCESSORY"
+    ],
+    "authority": "SECONDARY",
+    "authorization_evidence": "Owner-provided original rigid black bag photo, runtime to GEM B",
+    "availability": "EXTERNAL",
+    "binary_delivery": "OWNER_TO_GEM_B_RUNTIME"
+  }
+]
