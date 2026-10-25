@@ -139,11 +139,11 @@
     },
     {
       "path": "handoff.json",
-      "sha256": "5977af4aef7c4b7b54e7b43c5495107f55a05df62ca7d8671764a85ee788afc7"
+      "sha256": "5aa128c31f6dc1542989fd5124850f8df00359be258acc3bf629e52d583e0078"
     },
     {
       "path": "project.json",
-      "sha256": "682a01de4feb26d70f330f7ae79eaed622ad51411bb5d89f1411eb6b0a574114"
+      "sha256": "ac7dafa59737e6379da9e131f58f181988ebbb54976b8760e9298bc6bbc81ccd"
     },
     {
       "path": "README_FIRST.md",

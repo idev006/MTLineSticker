@@ -5,17 +5,18 @@
   "true_alpha_standard_version": "1.4",
   "set_id": "SET-KHE-NOI-FIRST-HOME-001",
   "package_revision": "0.2.0",
-  "status": "HANDOFF_DRAFT",
+  "status": "GEM_B_A2_INTAKE_AFTER_A1_PASS_RECEIPT",
   "frame_count": 40,
   "caption_version": "0.4.0",
   "blockers": [
-    "AUTOMATED_VALIDATOR_NOT_RUN",
-    "COMPLETE_MANIFEST_HASH_AUDIT_NOT_RUN",
-    "RUNTIME_APPROVED_ASSETS_NOT_YET_VERIFIED_BY_GEM_B"
+    "GEM_B_A2_OWNER_RUNTIME_IMAGES_AWAITING"
   ],
   "character_sheet_owner_approval": "APPROVED",
   "character_sheet_sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
   "binary_delivery_policy": "OWNER_RUNTIME_ATTACHMENTS_ONLY",
   "github_binary_required": false,
-  "runtime_asset_validation_required": true
+  "runtime_asset_validation_required": true,
+  "a1_receipt_path": "gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json",
+  "a1_validation_method": "GEM_A_CONNECTOR_NATIVE_1.0",
+  "handoff_scope": "DOCUMENTS_ONLY_HERO_NOT_AUTHORIZED"
 }
