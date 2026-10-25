@@ -20,6 +20,12 @@ jobs:
         with:
           persist-credentials: true
           ref: main
+      - name: GEM A official validator integration tests (3 cases)
+        run: python tools/gem_a/scripts/test_director_validator.py
+      - name: GEM B receipt contract tests (4 cases)
+        run: python tools/gem_b/scripts/test_handoff_contract.py
+      - name: GEM B PNG regression tests (3 cases)
+        run: python tools/gem_b/scripts/test_image_qa.py
       - name: Generate SHA-256 Manifest
         run: python tools/gem_a/finalize_khe_a1.py manifest
       - name: Commit Manifest (immutable validated source)
