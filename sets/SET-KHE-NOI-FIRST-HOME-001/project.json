@@ -6,5 +6,34 @@
   "frame_count": 40,
   "sheet_count": 5,
   "frames_per_sheet": 8,
-  "status": "HANDOFF_DRAFT"
+  "status": "HANDOFF_DRAFT",
+  "caption_policy": "CAPTION",
+  "hero_ids": [
+    "F09",
+    "F01",
+    "F17",
+    "F29"
+  ],
+  "source_snapshot": {
+    "repo": "idev006/MTLineSticker",
+    "base_commit": "cc2a7286396e3059e2e35e6db6056eb8d7b13a05",
+    "source_of_approval": "Product Owner conversation 2026-10-25"
+  },
+  "dependencies": [
+    {
+      "id": "REF-BINARY",
+      "status": "BLOCKED",
+      "detail": "owner images and character sheet must exist in GitHub or approved permitted runtime exception"
+    },
+    {
+      "id": "VALIDATOR",
+      "status": "NOT_RUN",
+      "detail": "official Director package validator"
+    },
+    {
+      "id": "MANIFEST",
+      "status": "BLOCKED",
+      "detail": "manifest sha256 files verification"
+    }
+  ]
 }

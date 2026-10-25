@@ -3,440 +3,1314 @@
     "id": "F01",
     "caption": "กลับบ้านแล้วโว้ย!",
     "visual_gag": "กระโดดดีใจสุดตัว",
-    "props": "กระเป๋าดำมือซ้าย",
+    "props": [
+      "กระเป๋าดำมือซ้าย"
+    ],
     "sheet_id": "S01",
     "row": 1,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": true
+    "caption_lock": "OWNER_LOCKED",
+    "hero": true,
+    "intent": "กลับบ้านแล้วโว้ย!",
+    "chat_situation": "ส่งข้อความ \"กลับบ้านแล้วโว้ย!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "กระโดดดีใจสุดตัว",
+    "pose": "กระโดดดีใจสุดตัว",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "กลับบ้านแล้วโว้ย!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F02",
     "caption": "หล่อเกินต้าน",
     "visual_gag": "ยืนเชิดหน้าขี้เก๊ก",
-    "props": "แว่นกันแดด",
+    "props": [
+      "แว่นกันแดด"
+    ],
     "sheet_id": "S01",
     "row": 1,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "หล่อเกินต้าน",
+    "chat_situation": "ส่งข้อความ \"หล่อเกินต้าน\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยืนเชิดหน้าขี้เก๊ก",
+    "pose": "ยืนเชิดหน้าขี้เก๊ก",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "หล่อเกินต้าน",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F03",
     "caption": "ใครมองอะ?",
     "visual_gag": "เหล่ตามองข้างอย่างกวน",
-    "props": "ไม่มี",
+    "props": [],
     "sheet_id": "S01",
     "row": 1,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ใครมองอะ?",
+    "chat_situation": "ส่งข้อความ \"ใครมองอะ?\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "เหล่ตามองข้างอย่างกวน",
+    "pose": "เหล่ตามองข้างอย่างกวน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ใครมองอะ?",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F04",
     "caption": "แม่ครับ เปิดประตู!",
     "visual_gag": "เคาะประตู หางแกว่ง",
-    "props": "ประตูบ้าน",
+    "props": [
+      "ประตูบ้าน"
+    ],
     "sheet_id": "S01",
     "row": 1,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "แม่ครับ เปิดประตู!",
+    "chat_situation": "ส่งข้อความ \"แม่ครับ เปิดประตู!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "เคาะประตู หางแกว่ง",
+    "pose": "เคาะประตู หางแกว่ง",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "แม่ครับ เปิดประตู!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F05",
     "caption": "เป๊ะทุกองศา",
     "visual_gag": "จัดเนกไทระเบียบจัด",
-    "props": "เนกไท",
+    "props": [
+      "เนกไท"
+    ],
     "sheet_id": "S01",
     "row": 2,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "เป๊ะทุกองศา",
+    "chat_situation": "ส่งข้อความ \"เป๊ะทุกองศา\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "จัดเนกไทระเบียบจัด",
+    "pose": "จัดเนกไทระเบียบจัด",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "เป๊ะทุกองศา",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F06",
     "caption": "ขอถ่ายรูปก่อน",
     "visual_gag": "โพสท่าเวอร์",
-    "props": "สมาร์ตโฟน",
+    "props": [
+      "สมาร์ตโฟน"
+    ],
     "sheet_id": "S01",
     "row": 2,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ขอถ่ายรูปก่อน",
+    "chat_situation": "ส่งข้อความ \"ขอถ่ายรูปก่อน\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "โพสท่าเวอร์",
+    "pose": "โพสท่าเวอร์",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ขอถ่ายรูปก่อน",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F07",
     "caption": "อย่าขัดจังหวะหล่อ",
     "visual_gag": "กอดอกหน้าขรึม",
-    "props": "ไม่มี",
+    "props": [],
     "sheet_id": "S01",
     "row": 2,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "อย่าขัดจังหวะหล่อ",
+    "chat_situation": "ส่งข้อความ \"อย่าขัดจังหวะหล่อ\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "กอดอกหน้าขรึม",
+    "pose": "กอดอกหน้าขรึม",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "อย่าขัดจังหวะหล่อ",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F08",
     "caption": "มีคนแอบปลื้มแน่เลย",
     "visual_gag": "ยิ้มกรุ้มกริ่มมโนเอง",
-    "props": "หัวใจจินตนาการ",
+    "props": [
+      "หัวใจจินตนาการ"
+    ],
     "sheet_id": "S01",
     "row": 2,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "มีคนแอบปลื้มแน่เลย",
+    "chat_situation": "ส่งข้อความ \"มีคนแอบปลื้มแน่เลย\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยิ้มกรุ้มกริ่มมโนเอง",
+    "pose": "ยิ้มกรุ้มกริ่มมโนเอง",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "มีคนแอบปลื้มแน่เลย",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F09",
     "caption": "รถเมล์ไม่จอด!",
     "visual_gag": "ยืนเก๊กจนรถผ่าน",
-    "props": "ป้ายรถเมล์/กระเป๋าดำ",
+    "props": [
+      "ป้ายรถเมล์/กระเป๋าดำ"
+    ],
     "sheet_id": "S02",
     "row": 1,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": true
+    "caption_lock": "OWNER_LOCKED",
+    "hero": true,
+    "intent": "รถเมล์ไม่จอด!",
+    "chat_situation": "ส่งข้อความ \"รถเมล์ไม่จอด!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยืนเก๊กจนรถผ่าน",
+    "pose": "ยืนเก๊กจนรถผ่าน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "รถเมล์ไม่จอด!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F10",
     "caption": "วิ่งสิครับ!",
     "visual_gag": "วิ่งขาสับเสียฟอร์ม",
-    "props": "กระเป๋าดำ/เส้นสปีด",
+    "props": [
+      "กระเป๋าดำ/เส้นสปีด"
+    ],
     "sheet_id": "S02",
     "row": 1,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "วิ่งสิครับ!",
+    "chat_situation": "ส่งข้อความ \"วิ่งสิครับ!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "วิ่งขาสับเสียฟอร์ม",
+    "pose": "วิ่งขาสับเสียฟอร์ม",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "วิ่งสิครับ!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F11",
     "caption": "หิวจนตาลาย",
     "visual_gag": "ตาลายเห็นไก่ทอด",
-    "props": "ภาพหลอนอาหาร",
+    "props": [
+      "ภาพหลอนอาหาร"
+    ],
     "sheet_id": "S02",
     "row": 1,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "หิวจนตาลาย",
+    "chat_situation": "ส่งข้อความ \"หิวจนตาลาย\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ตาลายเห็นไก่ทอด",
+    "pose": "ตาลายเห็นไก่ทอด",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "หิวจนตาลาย",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F12",
     "caption": "หลับในท่ายืน",
     "visual_gag": "หลับคอตกแต่ขายังตรง",
-    "props": "Zzz",
+    "props": [
+      "Zzz"
+    ],
     "sheet_id": "S02",
     "row": 1,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "หลับในท่ายืน",
+    "chat_situation": "ส่งข้อความ \"หลับในท่ายืน\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "หลับคอตกแต่ขายังตรง",
+    "pose": "หลับคอตกแต่ขายังตรง",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "หลับในท่ายืน",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F13",
     "caption": "มีที่นั่งไหมครับ?",
     "visual_gag": "โดนเบียดแก้มบี้",
-    "props": "ราวจับรถ",
+    "props": [
+      "ราวจับรถ"
+    ],
     "sheet_id": "S02",
     "row": 2,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "มีที่นั่งไหมครับ?",
+    "chat_situation": "ส่งข้อความ \"มีที่นั่งไหมครับ?\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "โดนเบียดแก้มบี้",
+    "pose": "โดนเบียดแก้มบี้",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "มีที่นั่งไหมครับ?",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F14",
     "caption": "อย่าเหยียบรองเท้า!",
     "visual_gag": "ช็อกรองเท้าถูกเหยียบ",
-    "props": "รอยรองเท้า",
+    "props": [
+      "รอยรองเท้า"
+    ],
     "sheet_id": "S02",
     "row": 2,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "อย่าเหยียบรองเท้า!",
+    "chat_situation": "ส่งข้อความ \"อย่าเหยียบรองเท้า!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ช็อกรองเท้าถูกเหยียบ",
+    "pose": "ช็อกรองเท้าถูกเหยียบ",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "อย่าเหยียบรองเท้า!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F15",
     "caption": "ถึงแล้วเหรอ?!",
     "visual_gag": "สะดุ้งตื่นน้ำลายยืด",
-    "props": "หน้าต่างรถ",
+    "props": [
+      "หน้าต่างรถ"
+    ],
     "sheet_id": "S02",
     "row": 2,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ถึงแล้วเหรอ?!",
+    "chat_situation": "ส่งข้อความ \"ถึงแล้วเหรอ?!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "สะดุ้งตื่นน้ำลายยืด",
+    "pose": "สะดุ้งตื่นน้ำลายยืด",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ถึงแล้วเหรอ?!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F16",
     "caption": "เอ๊ะ! ลงผิดป้าย",
     "visual_gag": "ยิ้มเจื่อนเหงื่อแตก",
-    "props": "ป้ายรถเมล์",
+    "props": [
+      "ป้ายรถเมล์"
+    ],
     "sheet_id": "S02",
     "row": 2,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "เอ๊ะ! ลงผิดป้าย",
+    "chat_situation": "ส่งข้อความ \"เอ๊ะ! ลงผิดป้าย\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยิ้มเจื่อนเหงื่อแตก",
+    "pose": "ยิ้มเจื่อนเหงื่อแตก",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "เอ๊ะ! ลงผิดป้าย",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F17",
     "caption": "แม่จ๋าาา!",
     "visual_gag": "วิ่งอ้าแขนน้ำตาไหล",
-    "props": "หัวใจ",
+    "props": [
+      "หัวใจ"
+    ],
     "sheet_id": "S03",
     "row": 1,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": true
+    "caption_lock": "OWNER_LOCKED",
+    "hero": true,
+    "intent": "แม่จ๋าาา!",
+    "chat_situation": "ส่งข้อความ \"แม่จ๋าาา!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "วิ่งอ้าแขนน้ำตาไหล",
+    "pose": "วิ่งอ้าแขนน้ำตาไหล",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "แม่จ๋าาา!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F18",
     "caption": "มีอะไรกินบ้าง?",
     "visual_gag": "ชะโงกครัวน้ำลายสอ",
-    "props": "หม้ออาหาร",
+    "props": [
+      "หม้ออาหาร"
+    ],
     "sheet_id": "S03",
     "row": 1,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "มีอะไรกินบ้าง?",
+    "chat_situation": "ส่งข้อความ \"มีอะไรกินบ้าง?\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ชะโงกครัวน้ำลายสอ",
+    "pose": "ชะโงกครัวน้ำลายสอ",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "มีอะไรกินบ้าง?",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F19",
     "caption": "ขอเติมข้าวอีก!",
     "visual_gag": "ชูจานเปล่าอ้อน",
-    "props": "จานข้าว",
+    "props": [
+      "จานข้าว"
+    ],
     "sheet_id": "S03",
     "row": 1,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ขอเติมข้าวอีก!",
+    "chat_situation": "ส่งข้อความ \"ขอเติมข้าวอีก!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ชูจานเปล่าอ้อน",
+    "pose": "ชูจานเปล่าอ้อน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ขอเติมข้าวอีก!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F20",
     "caption": "อย่าถามเรื่องฝึก!",
     "visual_gag": "สะดุ้งยกมือห้าม",
-    "props": "ฟอง X",
+    "props": [
+      "ฟอง X"
+    ],
     "sheet_id": "S03",
     "row": 1,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "อย่าถามเรื่องฝึก!",
+    "chat_situation": "ส่งข้อความ \"อย่าถามเรื่องฝึก!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "สะดุ้งยกมือห้าม",
+    "pose": "สะดุ้งยกมือห้าม",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "อย่าถามเรื่องฝึก!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F21",
     "caption": "ผมผอมลงไหม?",
     "visual_gag": "แขม่วพุงโชว์หุ่น",
-    "props": "สายวัด",
+    "props": [
+      "สายวัด"
+    ],
     "sheet_id": "S03",
     "row": 2,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ผมผอมลงไหม?",
+    "chat_situation": "ส่งข้อความ \"ผมผอมลงไหม?\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "แขม่วพุงโชว์หุ่น",
+    "pose": "แขม่วพุงโชว์หุ่น",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ผมผอมลงไหม?",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F22",
     "caption": "หลับยาวเลยนะ",
     "visual_gag": "ทิ้งตัวนอนหมดสภาพ",
-    "props": "หมอน",
+    "props": [
+      "หมอน"
+    ],
     "sheet_id": "S03",
     "row": 2,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "หลับยาวเลยนะ",
+    "chat_situation": "ส่งข้อความ \"หลับยาวเลยนะ\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ทิ้งตัวนอนหมดสภาพ",
+    "pose": "ทิ้งตัวนอนหมดสภาพ",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "หลับยาวเลยนะ",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F23",
     "caption": "คิดถึงแฟนจัง",
     "visual_gag": "ส่งจูบตาหวาน",
-    "props": "หัวใจชมพู",
+    "props": [
+      "หัวใจชมพู"
+    ],
     "sheet_id": "S03",
     "row": 2,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "คิดถึงแฟนจัง",
+    "chat_situation": "ส่งข้อความ \"คิดถึงแฟนจัง\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ส่งจูบตาหวาน",
+    "pose": "ส่งจูบตาหวาน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "คิดถึงแฟนจัง",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F24",
     "caption": "บ้านนี้มีความสุข!",
     "visual_gag": "นอนเอนอย่างฟิน",
-    "props": "พัดลม",
+    "props": [
+      "พัดลม"
+    ],
     "sheet_id": "S03",
     "row": 2,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "บ้านนี้มีความสุข!",
+    "chat_situation": "ส่งข้อความ \"บ้านนี้มีความสุข!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "นอนเอนอย่างฟิน",
+    "pose": "นอนเอนอย่างฟิน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "บ้านนี้มีความสุข!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F25",
     "caption": "หมดวันหยุดแล้ว?!",
     "visual_gag": "ช็อกตาถลน",
-    "props": "ปฏิทิน",
+    "props": [
+      "ปฏิทิน"
+    ],
     "sheet_id": "S04",
     "row": 1,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "หมดวันหยุดแล้ว?!",
+    "chat_situation": "ส่งข้อความ \"หมดวันหยุดแล้ว?!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ช็อกตาถลน",
+    "pose": "ช็อกตาถลน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "หมดวันหยุดแล้ว?!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F26",
     "caption": "ขออีกวันเดียว",
     "visual_gag": "คุกเข่าพนมมืออ้อน",
-    "props": "ปฏิทิน +1",
+    "props": [
+      "ปฏิทิน +1"
+    ],
     "sheet_id": "S04",
     "row": 1,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ขออีกวันเดียว",
+    "chat_situation": "ส่งข้อความ \"ขออีกวันเดียว\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "คุกเข่าพนมมืออ้อน",
+    "pose": "คุกเข่าพนมมืออ้อน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ขออีกวันเดียว",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F27",
     "caption": "แกล้งป่วยดีไหม",
     "visual_gag": "แสดงละครทำหน้าป่วย",
-    "props": "ปรอท",
+    "props": [
+      "ปรอท"
+    ],
     "sheet_id": "S04",
     "row": 1,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "แกล้งป่วยดีไหม",
+    "chat_situation": "ส่งข้อความ \"แกล้งป่วยดีไหม\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "แสดงละครทำหน้าป่วย",
+    "pose": "แสดงละครทำหน้าป่วย",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "แกล้งป่วยดีไหม",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F28",
     "caption": "กระเป๋าหนักจัง!",
     "visual_gag": "ตัวเอียงแทบล้ม",
-    "props": "กระเป๋าดำมือซ้าย",
+    "props": [
+      "กระเป๋าดำมือซ้าย"
+    ],
     "sheet_id": "S04",
     "row": 1,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "กระเป๋าหนักจัง!",
+    "chat_situation": "ส่งข้อความ \"กระเป๋าหนักจัง!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ตัวเอียงแทบล้ม",
+    "pose": "ตัวเอียงแทบล้ม",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "กระเป๋าหนักจัง!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F29",
     "caption": "น้ำตาไม่ได้ไหลนะ",
     "visual_gag": "แหงนหน้าเก๊กทั้งน้ำตา",
-    "props": "ผ้าเช็ดหน้า",
+    "props": [
+      "ผ้าเช็ดหน้า"
+    ],
     "sheet_id": "S04",
     "row": 2,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": true
+    "caption_lock": "OWNER_LOCKED",
+    "hero": true,
+    "intent": "น้ำตาไม่ได้ไหลนะ",
+    "chat_situation": "ส่งข้อความ \"น้ำตาไม่ได้ไหลนะ\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "แหงนหน้าเก๊กทั้งน้ำตา",
+    "pose": "แหงนหน้าเก๊กทั้งน้ำตา",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "น้ำตาไม่ได้ไหลนะ",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F30",
     "caption": "กลับไปฝึกต่อ!",
     "visual_gag": "ทำหน้ามุ่งมั่นกำหมัด",
-    "props": "เอฟเฟกต์ไฟ",
+    "props": [
+      "เอฟเฟกต์ไฟ"
+    ],
     "sheet_id": "S04",
     "row": 2,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "กลับไปฝึกต่อ!",
+    "chat_situation": "ส่งข้อความ \"กลับไปฝึกต่อ!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ทำหน้ามุ่งมั่นกำหมัด",
+    "pose": "ทำหน้ามุ่งมั่นกำหมัด",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "กลับไปฝึกต่อ!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F31",
     "caption": "วิ่งกลับทันไหม?",
     "visual_gag": "มองนาฬิกาแล้ววิ่ง",
-    "props": "นาฬิกา",
+    "props": [
+      "นาฬิกา"
+    ],
     "sheet_id": "S04",
     "row": 2,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "วิ่งกลับทันไหม?",
+    "chat_situation": "ส่งข้อความ \"วิ่งกลับทันไหม?\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "มองนาฬิกาแล้ววิ่ง",
+    "pose": "มองนาฬิกาแล้ววิ่ง",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "วิ่งกลับทันไหม?",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F32",
     "caption": "เจอกันรอบหน้า",
     "visual_gag": "โบกมือลาเดินถอยหลัง",
-    "props": "กระเป๋าดำมือซ้าย",
+    "props": [
+      "กระเป๋าดำมือซ้าย"
+    ],
     "sheet_id": "S04",
     "row": 2,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "เจอกันรอบหน้า",
+    "chat_situation": "ส่งข้อความ \"เจอกันรอบหน้า\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "โบกมือลาเดินถอยหลัง",
+    "pose": "โบกมือลาเดินถอยหลัง",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "เจอกันรอบหน้า",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F33",
     "caption": "รับทราบครับ!",
     "visual_gag": "ยืนตรงวันทยหัตถ์",
-    "props": "ไม่มี",
+    "props": [],
     "sheet_id": "S05",
     "row": 1,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "รับทราบครับ!",
+    "chat_situation": "ส่งข้อความ \"รับทราบครับ!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยืนตรงวันทยหัตถ์",
+    "pose": "ยืนตรงวันทยหัตถ์",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "รับทราบครับ!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F34",
     "caption": "จัดไปครับ!",
     "visual_gag": "ทำมือปืนสองข้างอย่างกวน",
-    "props": "ประกายดาว",
+    "props": [
+      "ประกายดาว"
+    ],
     "sheet_id": "S05",
     "row": 1,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "จัดไปครับ!",
+    "chat_situation": "ส่งข้อความ \"จัดไปครับ!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ทำมือปืนสองข้างอย่างกวน",
+    "pose": "ทำมือปืนสองข้างอย่างกวน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "จัดไปครับ!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F35",
     "caption": "ขอบคุณคร้าบ",
     "visual_gag": "ยกมือไหว้ยิ้มทะเล้น",
-    "props": "ประกาย",
+    "props": [
+      "ประกาย"
+    ],
     "sheet_id": "S05",
     "row": 1,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ขอบคุณคร้าบ",
+    "chat_situation": "ส่งข้อความ \"ขอบคุณคร้าบ\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยกมือไหว้ยิ้มทะเล้น",
+    "pose": "ยกมือไหว้ยิ้มทะเล้น",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ขอบคุณคร้าบ",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F36",
     "caption": "ไม่เชื่อหรอก!",
     "visual_gag": "หรี่ตามองอย่างจับผิด",
-    "props": "เครื่องหมายคำถาม",
+    "props": [
+      "เครื่องหมายคำถาม"
+    ],
     "sheet_id": "S05",
     "row": 1,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ไม่เชื่อหรอก!",
+    "chat_situation": "ส่งข้อความ \"ไม่เชื่อหรอก!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "หรี่ตามองอย่างจับผิด",
+    "pose": "หรี่ตามองอย่างจับผิด",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ไม่เชื่อหรอก!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F37",
     "caption": "555555",
     "visual_gag": "หัวเราะตัวงอน้ำตาเล็ด",
-    "props": "HA HA",
+    "props": [
+      "HA HA"
+    ],
     "sheet_id": "S05",
     "row": 2,
     "column": 1,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "555555",
+    "chat_situation": "ส่งข้อความ \"555555\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "หัวเราะตัวงอน้ำตาเล็ด",
+    "pose": "หัวเราะตัวงอน้ำตาเล็ด",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "555555",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F38",
     "caption": "อะไรนะ?!",
     "visual_gag": "ยื่นหน้าตกใจ",
-    "props": "เครื่องหมายตกใจ",
+    "props": [
+      "เครื่องหมายตกใจ"
+    ],
     "sheet_id": "S05",
     "row": 2,
     "column": 2,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "อะไรนะ?!",
+    "chat_situation": "ส่งข้อความ \"อะไรนะ?!\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยื่นหน้าตกใจ",
+    "pose": "ยื่นหน้าตกใจ",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "อะไรนะ?!",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F39",
     "caption": "ฝันดีครับ",
     "visual_gag": "ยิ้มตาปรือหมวกนอน",
-    "props": "หมอน/Zzz",
+    "props": [
+      "หมอน/Zzz"
+    ],
     "sheet_id": "S05",
     "row": 2,
     "column": 3,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "ฝันดีครับ",
+    "chat_situation": "ส่งข้อความ \"ฝันดีครับ\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยิ้มตาปรือหมวกนอน",
+    "pose": "ยิ้มตาปรือหมวกนอน",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "ฝันดีครับ",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   },
   {
     "id": "F40",
     "caption": "สู้ ๆ นะ",
     "visual_gag": "ยื่นกำปั้นให้กำลังใจ",
-    "props": "ดาว",
+    "props": [
+      "ดาว"
+    ],
     "sheet_id": "S05",
     "row": 2,
     "column": 4,
-    "caption_lock": "APPROVED",
-    "hero": false
+    "caption_lock": "OWNER_LOCKED",
+    "hero": false,
+    "intent": "สู้ ๆ นะ",
+    "chat_situation": "ส่งข้อความ \"สู้ ๆ นะ\" ในบริบทสถานการณ์กลับบ้านหรือสนทนาทั่วไป",
+    "tone": "ตลก กวน ขี้เก๊ก",
+    "expression": "ยื่นกำปั้นให้กำลังใจ",
+    "pose": "ยื่นกำปั้นให้กำลังใจ",
+    "composition": "เน้นใบหน้า มือ และพรอพตามมุกภาพ หลีกเลี่ยงการบดบังข้อความ",
+    "one_second_expectation": "สู้ ๆ นะ",
+    "forbidden_distractions": [
+      "ไม่ใส่มุกอื่นที่ขัดกับเฟรม",
+      "ไม่เปลี่ยนคาแรคเตอร์ที่ได้รับอนุมัติ",
+      "ไม่เพิ่มตัวหนังสืออื่น"
+    ],
+    "character_lock_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "caption_policy": "CAPTION"
   }
 ]
