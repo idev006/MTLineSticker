@@ -10,7 +10,8 @@
   },
   "character_candidate": {
     "source": "Generated character sheet in conversation",
-    "status": "CANDIDATE_UNAPPROVED",
-    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED"
+    "status": "OWNER_APPROVED_BINARY_PENDING_GITHUB",
+    "availability": "RUNTIME_ONLY_UNTIL_BINARY_PUBLISHED",
+    "sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c"
   }
 }

@@ -13,5 +13,12 @@
   "reference_images": {
     "authorized_for_concept": true,
     "github_binary_published": false
+  },
+  "character_sheet": {
+    "status": "OWNER_APPROVED",
+    "sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
+    "asset_name": "crocodile_cadet_character_sheet.png",
+    "evidence": "ผู้ใช้: อนุมัติคาแรคเตอร์ชีท; อนุมัติทุกอย่างตามที่ [ข้อเสนอให้ปิดขั้นตอน Gate A]",
+    "github_published": false
   }
 }
