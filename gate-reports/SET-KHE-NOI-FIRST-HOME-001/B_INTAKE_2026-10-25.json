@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "set_id": "SET-KHE-NOI-FIRST-HOME-001",
+  "reviewer": "MT_STICKER_GEM_B",
+  "a1": {
+    "status": "VERIFIED_FOR_A2_INTAKE",
+    "validated_source_commit": "086b8589f156306e30d3d6becaebc2faedc1093e",
+    "receipt_path": "gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json",
+    "receipt_method": "CONNECTED_GITHUB_DOC_READBACK_AND_JS_SHA256",
+    "independent_verification": "READ_BACK_ALL_37_FILES_AND_RECOMPUTE_SHA256",
+    "hash_pass_count": 37,
+    "hash_total": 37,
+    "inventory_exact": true,
+    "frames_40": true,
+    "approved_caption_master_40_exact": true,
+    "unique_sheet_slots_40": true,
+    "five_sheets": true,
+    "hero_ids": [
+      "F01",
+      "F09",
+      "F17",
+      "F29"
+    ],
+    "errors": []
+  },
+  "a2": {
+    "status": "AWAITING_OWNER_RUNTIME_IMAGES",
+    "character_image_received_in_this_chat": false,
+    "bag_image_received_in_this_chat": false,
+    "identity_verified": false,
+    "left_hand_grip_verified": false,
+    "actual_asset_sha256_verified": false,
+    "hero_authorized": false
+  },
+  "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+  "no_github_images_required": true,
+  "production_state": "NOT_AUTHORIZED_A2_PENDING",
+  "notes": "A1 document intake verified independently by GEM B via connected GitHub file readback and SHA-256; not a claim of running Python. User will attach approved Character Sheet and black hard briefcase reference directly in GEM B chat."
+}
