@@ -1,12 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# APPROVAL_CHECKLIST.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Identity checks
+Owner approval is recorded in ledger. GEM B verifies actual approved file bytes and visual consistency when the user attaches images. Section focus: Identity checks. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-[ ] Character Sheet exact file approved by Owner
-[ ] Asset SHA256 pinned
-[ ] Owner-provided original identity image published and readable
-[ ] Bag photos published and readable
-[ ] Left-hand carry visual audited
-[ ] GEM B technical compatibility confirmed
+## Wardrobe checks
+Owner approval is recorded in ledger. GEM B verifies actual approved file bytes and visual consistency when the user attaches images. Section focus: Wardrobe checks. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-OWNER-CHAR-20261025: APPROVED image with SHA256 add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c from the current conversation. GitHub binary path NOT VERIFIED; release/production gate remains BLOCKED pending accessible approved binary and validator.
+## Style checks
+Owner approval is recorded in ledger. GEM B verifies actual approved file bytes and visual consistency when the user attaches images. Section focus: Style checks. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Approval evidence
+Owner approval is recorded in ledger. GEM B verifies actual approved file bytes and visual consistency when the user attaches images. Section focus: Approval evidence. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# STATUS.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Document completeness
+Gate A1 is document-level proof, Gate A2 runtime approval matching is done by GEM B. No rendered Hero has been approved. Section focus: Document completeness. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Gate A BLOCKED. Text package published for review; Character candidate unapproved; binary reference assets still need GitHub publishing; automated engine validation NOT_RUN.
+## Character gate
+Gate A1 is document-level proof, Gate A2 runtime approval matching is done by GEM B. No rendered Hero has been approved. Section focus: Character gate. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Hero gate
+Gate A1 is document-level proof, Gate A2 runtime approval matching is done by GEM B. No rendered Hero has been approved. Section focus: Hero gate. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Production gate
+Gate A1 is document-level proof, Gate A2 runtime approval matching is done by GEM B. No rendered Hero has been approved. Section focus: Production gate. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

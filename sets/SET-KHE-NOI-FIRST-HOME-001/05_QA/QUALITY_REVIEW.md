@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# QUALITY_REVIEW.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Review lenses
+40/40 captions unique exact; semantic gag overlap remains a manual visual audit. Formal validator and rendered PNG QA must not be fabricated. Section focus: Review lenses. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Manual structure audit: 40 unique IDs and exact 40 approved captions; 5x8 mapping. Semantic/visual duplication needs per-frame review; potential clusters mentioned in matrix. Production pixel QA NOT_RUN. Validator NOT_RUN. Do not claim Gate A READY.
+## Evidence
+40/40 captions unique exact; semantic gag overlap remains a manual visual audit. Formal validator and rendered PNG QA must not be fabricated. Section focus: Evidence. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Defects and fixes
+40/40 captions unique exact; semantic gag overlap remains a manual visual audit. Formal validator and rendered PNG QA must not be fabricated. Section focus: Defects and fixes. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Unexecuted checks
+40/40 captions unique exact; semantic gag overlap remains a manual visual audit. Formal validator and rendered PNG QA must not be fabricated. Section focus: Unexecuted checks. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

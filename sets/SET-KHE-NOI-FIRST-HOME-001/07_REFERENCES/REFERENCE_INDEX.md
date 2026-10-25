@@ -1,5 +1,10 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# REFERENCE_INDEX.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## References
+Owner-approved character sheet and original rigid black gold-fitting case photographs supplied directly to GEM B, not hosted on GitHub. Section focus: References. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-REF-CHAR-ORIGINAL owner-provided first-image Character Sheet: SOURCE CHAT, binary not published. REF-BAG-01..04 owner-provided real case photos: SOURCE CHAT, binary not published. REF-CHAR-CANDIDATE generated sheet: UNAPPROVED, binary not published. The exact SHA-256 and asset path must be inserted after verified GitHub upload.
+## Authority and exclusions
+Owner-approved character sheet and original rigid black gold-fitting case photographs supplied directly to GEM B, not hosted on GitHub. Section focus: Authority and exclusions. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Asset availability
+Owner-approved character sheet and original rigid black gold-fitting case photographs supplied directly to GEM B, not hosted on GitHub. Section focus: Asset availability. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

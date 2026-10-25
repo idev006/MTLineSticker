@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# CHARACTER_SHEET_SPECIFICATION.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Views and expressions
+Use owner-approved original character sheet, preserve exact crocodile snout, outfit and proportions; inspect actual source image at GEM B runtime. Section focus: Views and expressions. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Authoritative visual not yet on GitHub. Candidate must be owner-approved with exact asset hash. Require front, 3/4, side, back views and LEFT-hand carry confirmation; same snout and facial geometry across views.
+## Consistency criteria
+Use owner-approved original character sheet, preserve exact crocodile snout, outfit and proportions; inspect actual source image at GEM B runtime. Section focus: Consistency criteria. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Composition
+Use owner-approved original character sheet, preserve exact crocodile snout, outfit and proportions; inspect actual source image at GEM B runtime. Section focus: Composition. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Approval scope
+Use owner-approved original character sheet, preserve exact crocodile snout, outfit and proportions; inspect actual source image at GEM B runtime. Section focus: Approval scope. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

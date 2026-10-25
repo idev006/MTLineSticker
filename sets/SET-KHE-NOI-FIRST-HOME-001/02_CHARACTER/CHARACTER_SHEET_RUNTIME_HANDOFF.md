@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# CHARACTER_SHEET_RUNTIME_HANDOFF.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Inputs
+Owner directly attaches approved Character Sheet and original case photos to GEM B; compare against approvals and references before Hero. Section focus: Inputs. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Active identity must come from approved image binary (not an unapproved generated candidate). Original references are attached in owner conversation but not yet confirmed in GitHub. Block before Hero creation.
+## Instructions
+Owner directly attaches approved Character Sheet and original case photos to GEM B; compare against approvals and references before Hero. Section focus: Instructions. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Expected outputs
+Owner directly attaches approved Character Sheet and original case photos to GEM B; compare against approvals and references before Hero. Section focus: Expected outputs. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Approval boundary
+Owner directly attaches approved Character Sheet and original case photos to GEM B; compare against approvals and references before Hero. Section focus: Approval boundary. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

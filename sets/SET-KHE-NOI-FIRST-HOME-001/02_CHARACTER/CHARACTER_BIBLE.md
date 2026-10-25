@@ -1,5 +1,16 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# CHARACTER_BIBLE.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Identity and anatomy
+Green-grey snouted anthropomorphic crocodile adult male, white dress shirt, navy tie, khaki trousers, black belt and shoes, playful smug personality. Section focus: Identity and anatomy. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Character crocodile head, semi-realistic anthropomorphic adult male human body and hands; serious upright disciplined body posture contrasting silly smug inner character. Wardrobe white long sleeves + navy tie + khaki trousers; black shoes and belt. Keep original head morphology from owner reference. Bag source is real black rigid rectangular police cadet briefcase with gold-tone hardware. Carry in anatomical LEFT hand. NO new character design without approval.
+## Personality and behavior
+Green-grey snouted anthropomorphic crocodile adult male, white dress shirt, navy tie, khaki trousers, black belt and shoes, playful smug personality. Section focus: Personality and behavior. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Style and materials
+Green-grey snouted anthropomorphic crocodile adult male, white dress shirt, navy tie, khaki trousers, black belt and shoes, playful smug personality. Section focus: Style and materials. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Wardrobe and accessories
+Green-grey snouted anthropomorphic crocodile adult male, white dress shirt, navy tie, khaki trousers, black belt and shoes, playful smug personality. Section focus: Wardrobe and accessories. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Forbidden drift
+Green-grey snouted anthropomorphic crocodile adult male, white dress shirt, navy tie, khaki trousers, black belt and shoes, playful smug personality. Section focus: Forbidden drift. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

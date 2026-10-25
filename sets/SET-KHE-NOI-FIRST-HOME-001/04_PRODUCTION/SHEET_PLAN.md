@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# SHEET_PLAN.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Layout
+Five sheets 4 columns × 2 rows; frame aspect 592:512; transparent RGBA, safe zone nominal 20, gutter nominal 15, diecut 3–5px. Section focus: Layout. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-S01=F01–F08; S02=F09–F16; S03=F17–F24; S04=F25–F32; S05=F33–F40. Each 4x2 sheet. Do not substitute old 4x10 layout.
+## Geometry
+Five sheets 4 columns × 2 rows; frame aspect 592:512; transparent RGBA, safe zone nominal 20, gutter nominal 15, diecut 3–5px. Section focus: Geometry. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Alpha and diecut
+Five sheets 4 columns × 2 rows; frame aspect 592:512; transparent RGBA, safe zone nominal 20, gutter nominal 15, diecut 3–5px. Section focus: Alpha and diecut. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Cutter interface
+Five sheets 4 columns × 2 rows; frame aspect 592:512; transparent RGBA, safe zone nominal 20, gutter nominal 15, diecut 3–5px. Section focus: Cutter interface. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

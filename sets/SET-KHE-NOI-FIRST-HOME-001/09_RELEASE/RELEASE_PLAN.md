@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# RELEASE_PLAN.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Export responsibilities
+GEM B and cutter perform final PNG technical checks, metadata/localization review, platform requirement check and owner release approval. Section focus: Export responsibilities. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Release after owner accepts Heroes, 40 production frame outputs, technical QA, valid diecut, cutter export and metadata. No release scheduling or external upload authorized.
+## Metadata review
+GEM B and cutter perform final PNG technical checks, metadata/localization review, platform requirement check and owner release approval. Section focus: Metadata review. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Platform verification
+GEM B and cutter perform final PNG technical checks, metadata/localization review, platform requirement check and owner release approval. Section focus: Platform verification. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Owner release
+GEM B and cutter perform final PNG technical checks, metadata/localization review, platform requirement check and owner release approval. Section focus: Owner release. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

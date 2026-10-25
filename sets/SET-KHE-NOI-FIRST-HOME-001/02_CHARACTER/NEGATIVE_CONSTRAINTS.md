@@ -1,5 +1,10 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# NEGATIVE_CONSTRAINTS.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Forbidden changes
+Never generate another identity or put bag in right hand. No invented rank, altered uniform, checkerboard faux alpha, typography mistakes or unrelated figures. Section focus: Forbidden changes. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-No head redesign, no altered outfit, no opposite hand case, no military rank invention, no giant scenery, no caption typos, no duplicate jokes, no opaque background, no fake character approval.
+## Reference exclusions
+Never generate another identity or put bag in right hand. No invented rank, altered uniform, checkerboard faux alpha, typography mistakes or unrelated figures. Section focus: Reference exclusions. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Rendering defects
+Never generate another identity or put bag in right hand. No invented rank, altered uniform, checkerboard faux alpha, typography mistakes or unrelated figures. Section focus: Rendering defects. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.

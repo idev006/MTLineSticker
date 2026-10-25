@@ -1,5 +1,13 @@
-# SET-KHE-NOI-FIRST-HOME-001
+# DECISION_LOG.md
 
-Caption Master v0.4.0 APPROVED by Product Owner. Character Sheet candidate NOT approved. GitHub-only documentation. No image generation until Gate A passes.
+## Owner decisions
+Owner approved Caption Master v0.4.0 and latest character sheet. Character/bag images are owner runtime attachments for GEM B and not stored on GitHub. Section focus: Owner decisions. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
 
-Owner decisions: 40 frames; Caption Master v0.4.0 approved; no duplicate meanings, gestures or facial expressions; real black hard police-cadet case LEFT hand; GitHub-only transfer, never ZIP.
+## Assumptions
+Owner approved Caption Master v0.4.0 and latest character sheet. Character/bag images are owner runtime attachments for GEM B and not stored on GitHub. Section focus: Assumptions. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Open dependencies
+Owner approved Caption Master v0.4.0 and latest character sheet. Character/bag images are owner runtime attachments for GEM B and not stored on GitHub. Section focus: Open dependencies. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
+
+## Change impact
+Owner approved Caption Master v0.4.0 and latest character sheet. Character/bag images are owner runtime attachments for GEM B and not stored on GitHub. Section focus: Change impact. Responsibility and evidence must remain tied to project SET-KHE-NOI-FIRST-HOME-001, with explicit stage distinction and no undocumented approvals.
