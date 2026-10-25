@@ -8,18 +8,46 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: khe-home-a1-main
+  cancel-in-progress: false
 jobs:
   validate:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Verify Gate A1 and generate SHA-256 Manifest
-        run: python tools/gem_a/finalize_khe_a1.py
-      - name: Publish verified report and updated manifest
+          ref: main
+      - name: Generate SHA-256 Manifest
+        run: python tools/gem_a/finalize_khe_a1.py manifest
+      - name: Commit Manifest (immutable validated source)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sets/SET-KHE-NOI-FIRST-HOME-001/PACKAGE_MANIFEST.json sets/SET-KHE-NOI-FIRST-HOME-001/project.json sets/SET-KHE-NOI-FIRST-HOME-001/handoff.json gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json
-          if ! git diff --cached --quiet; then git commit -m "qa(khe-home): publish executed Gate A1 validator result and document hashes"; git push; fi
+          git add sets/SET-KHE-NOI-FIRST-HOME-001/PACKAGE_MANIFEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m "qa(khe-home): regenerate SHA256 manifest from actual documents"
+            git push origin HEAD:main
+          fi
+      - name: Run official GEM A Gate A1 validator
+        run: python tools/gem_a/finalize_khe_a1.py validate
+      - name: Commit fail-closed A1 receipt
+        run: |
+          git add gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m "qa(khe-home): record executed Gate A1 result and pinned source SHA"
+            git push origin HEAD:main
+          fi
+      - name: Enforce Gate A1 pass
+        run: |
+          python - <<'PY'
+          import json
+          p='gate-reports/SET-KHE-NOI-FIRST-HOME-001/A1_LATEST.json'
+          data=json.load(open(p))
+          assert data['validator_executed'] is True
+          assert data['status']=='PASS', f"Gate A1 failed: {data['errors']}"
+          assert data['validator_exit_code']==0
+          print('GATE_A1_READY',data['validated_source_commit'])
+          PY
