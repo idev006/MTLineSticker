@@ -1,0 +1,41 @@
+{
+  "source_commit": "6127d611cb8d5e4078d70683889671104d025c83",
+  "items": [
+    {
+      "path": "04_PRODUCTION/SHEET_FRAME_SPEC.json",
+      "sha256": "22a9a44f29751c203b50678f89011cf60209ea35a0dfa7155bcf2c7dd55a6fbe"
+    },
+    {
+      "path": "04_PRODUCTION/SHEET_PLAN.md",
+      "sha256": "eb024ed4c7ce060466792defb34fe42da3cd0d824b83cdd4e00eb35a96f7c1af"
+    },
+    {
+      "path": "05_QA/A1_STRUCTURAL_CHECK_2026-10-25.json",
+      "sha256": "24c3c1cc1db7ecc335f5082c4697ae40c3c2a38dc1e070c3ac53b9b3d081d11d"
+    },
+    {
+      "path": "05_QA/AUTO_REJECT_RULES.md",
+      "sha256": "5bfbdb0e531961fcdfcaef445f88c81d2dcb85bb3f5b5aa4dc4bb2e96adc0762"
+    },
+    {
+      "path": "05_QA/GATE_A_AUDIT_2026-10-25.json",
+      "sha256": "d200b8930a566b8930c551f50d415324a3b2b8e53c04e35fdb6c3547d3b0681e"
+    },
+    {
+      "path": "05_QA/PREFLIGHT_SCHEMA_AUDIT_2026-10-25.json",
+      "sha256": "ba385bbae8205c74a239d6eb4712edca5c1ce925cc09639204b0267fcb8198af"
+    },
+    {
+      "path": "05_QA/QUALITY_REVIEW.md",
+      "sha256": "5838391662f7caedeffe9ec4a74d0049ff41b6dfb817b420c74ee0605923c341"
+    },
+    {
+      "path": "06_HANDOFF/CROSS_GEM_PROTOCOL_V2.md",
+      "sha256": "95a26f93d5bf24bc763681d7a0733a3957fb74d89cee82159969b5a0a085d821"
+    },
+    {
+      "path": "06_HANDOFF/GATE_A_BLOCKERS.md",
+      "sha256": "01ee86a4b082f181073cb9fcfdcbd40c81333cd10c9685f1db4f56c3879b6d87"
+    }
+  ]
+}
