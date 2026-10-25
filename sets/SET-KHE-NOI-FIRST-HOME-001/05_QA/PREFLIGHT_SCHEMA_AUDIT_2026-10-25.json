@@ -1,0 +1,49 @@
+{
+  "project_id": "SET-KHE-NOI-FIRST-HOME-001",
+  "checked_commit": "cc2a7286396e3059e2e35e6db6056eb8d7b13a05",
+  "status": "GATE_A_BLOCKED",
+  "checks": {
+    "caption_count": 40,
+    "exact_unique_captions": 40,
+    "project_schema_missing": [
+      "caption_policy",
+      "hero_ids",
+      "source_snapshot",
+      "dependencies"
+    ],
+    "frame_schema_missing": [
+      "intent",
+      "chat_situation",
+      "tone",
+      "expression",
+      "pose",
+      "composition",
+      "one_second_expectation",
+      "forbidden_distractions",
+      "character_lock_ids",
+      "caption_policy"
+    ],
+    "github_binary_assets": "NOT_VERIFIED",
+    "approved_character_sha256": "add58feab6cf287c077e3385f2fc16d8918dbfbde87e9ae5cb0805660d6a9e3c",
+    "official_validator": "NOT_RUN",
+    "manifest_sha256_per_file": "NOT_PRESENT"
+  },
+  "defects": [
+    "project.json missing caption_policy",
+    "project.json missing hero_ids",
+    "project.json missing source_snapshot",
+    "project.json missing dependencies",
+    "frames.json missing intent in one or more rows",
+    "frames.json missing chat_situation in one or more rows",
+    "frames.json missing tone in one or more rows",
+    "frames.json missing expression in one or more rows",
+    "frames.json missing pose in one or more rows",
+    "frames.json missing composition in one or more rows",
+    "frames.json missing one_second_expectation in one or more rows",
+    "frames.json missing forbidden_distractions in one or more rows",
+    "frames.json missing character_lock_ids in one or more rows",
+    "frames.json missing caption_policy in one or more rows"
+  ],
+  "action": "GEM A must complete registry schema, upload authorized image binaries, run official validator; then send pinned commit to GEM B.",
+  "note": "Approvals and 40 captions remain locked. Do not mistake this structural diagnosis for official validator PASS."
+}
