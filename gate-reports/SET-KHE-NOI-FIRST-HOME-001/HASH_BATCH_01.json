@@ -1,0 +1,41 @@
+{
+  "source_commit": "6127d611cb8d5e4078d70683889671104d025c83",
+  "items": [
+    {
+      "path": "00_PROJECT/DECISION_LOG.md",
+      "sha256": "4c4ae6d294e70d34ee60b8bc2e45ebaeb9e21fe00e80e0a3c8475f6fbda5ca29"
+    },
+    {
+      "path": "00_PROJECT/PRODUCT_STRATEGY.md",
+      "sha256": "e6113097b395cd271c53a9b927448af6b601ccf5bbc3d0012c1a347016fecd75"
+    },
+    {
+      "path": "00_PROJECT/PROJECT_BRIEF.md",
+      "sha256": "fa348e621c76a3f7a05bcbed27ba489fd8a6b0116af8e490e98a1b33a58ef2d4"
+    },
+    {
+      "path": "00_PROJECT/STATUS.md",
+      "sha256": "b8d24632ae8adf7749436ec08c9f75bc8f5b9625f265798b3051a355dc5ec975"
+    },
+    {
+      "path": "01_PRODUCT/CAPTION_MASTER.md",
+      "sha256": "e816bfa4585c71f82dc6b275596a24e9c0676011272d62b8787acb4fbb76fcf9"
+    },
+    {
+      "path": "01_PRODUCT/SET_METADATA.md",
+      "sha256": "b84199e0c0c35f0bd92533204d46fc71ddcf76ec3c78b2f7325d7d972bd85aa5"
+    },
+    {
+      "path": "02_CHARACTER/APPROVAL_CHECKLIST.md",
+      "sha256": "342a54d8814bce97e15687a5179408eebba842fe508e7c71e9e840dd0c64ffc5"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_BIBLE.md",
+      "sha256": "381ab68d0d2802c1b63064f6b42dc7c148fce237d6f98b101cd52490a2e91257"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_HANDOFF.md",
+      "sha256": "d6174cf5f1987a68dad876b556e6b9a66d4fd4d5ba302988aeb73152f11a5986"
+    }
+  ]
+}
