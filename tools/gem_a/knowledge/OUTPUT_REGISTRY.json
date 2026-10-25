@@ -1,0 +1,285 @@
+{
+  "standard_version": "1.0.0",
+  "documents": [
+    {
+      "path": "README_FIRST.md",
+      "headings": [
+        "Project identity",
+        "Read order",
+        "Current stage",
+        "Next action"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Entry point with set_id, revision, source authority, current stage and exact next action."
+    },
+    {
+      "path": "00_PROJECT/PROJECT_BRIEF.md",
+      "headings": [
+        "Audience and jobs",
+        "Creative direction",
+        "Scope and exclusions",
+        "Success criteria"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Who uses this set, why in chat, count, caption policy, owner constraints, measurable acceptance."
+    },
+    {
+      "path": "00_PROJECT/PRODUCT_STRATEGY.md",
+      "headings": [
+        "Positioning",
+        "Usage situations",
+        "Differentiation",
+        "Risks and tradeoffs"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Repeat use, signature territory, utility/emotion balance and two evaluated creative alternatives; mark commercial hypotheses."
+    },
+    {
+      "path": "00_PROJECT/DECISION_LOG.md",
+      "headings": [
+        "Owner decisions",
+        "Assumptions",
+        "Open dependencies",
+        "Change impact"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Exact owner evidence with IDs, provisional choices and unresolved dependencies; no fabricated decisions."
+    },
+    {
+      "path": "00_PROJECT/STATUS.md",
+      "headings": [
+        "Document completeness",
+        "Character gate",
+        "Hero gate",
+        "Production gate"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Separate technical document check from image approvals and release; record NOT_RUN where appropriate."
+    },
+    {
+      "path": "01_PRODUCT/SET_METADATA.md",
+      "headings": [
+        "Thai title and description",
+        "English title and description",
+        "Localization checks",
+        "Release verification"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Draft market text and names; do not assert current platform compliance without official verification."
+    },
+    {
+      "path": "01_PRODUCT/CAPTION_MASTER.md",
+      "headings": [
+        "Caption policy",
+        "Frame records"
+      ],
+      "minimum_chars": 120,
+      "purpose": "One concrete heading per Fxx: exact text or explicit NO_CAPTION, caption lock state, localization notes."
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_BIBLE.md",
+      "headings": [
+        "Identity and anatomy",
+        "Personality and behavior",
+        "Style and materials",
+        "Wardrobe and accessories",
+        "Forbidden drift"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Set-specific full anatomy, reference-derived face, proportions, personality, rendering and uniform limits."
+    },
+    {
+      "path": "02_CHARACTER/GLOBAL_CHARACTER_LOCKS.md",
+      "headings": [
+        "Lock registry",
+        "Reference authority",
+        "Exceptions"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Stable lock IDs with specific rules, source reference and exceptions; do not invent uniform insignia."
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_SPECIFICATION.md",
+      "headings": [
+        "Views and expressions",
+        "Consistency criteria",
+        "Composition",
+        "Approval scope"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Specify required turnarounds, expressions, garments, reference roles and image acceptance."
+    },
+    {
+      "path": "02_CHARACTER/GENERATION_PROMPT.txt",
+      "headings": [],
+      "minimum_chars": 80,
+      "purpose": "Ready-to-run complete prompt for Character candidate using role-resolved references, exact character locks and requested views."
+    },
+    {
+      "path": "02_CHARACTER/NEGATIVE_CONSTRAINTS.md",
+      "headings": [
+        "Forbidden changes",
+        "Reference exclusions",
+        "Rendering defects"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Specific unwanted identity/style/garment deviations and excluded source elements."
+    },
+    {
+      "path": "02_CHARACTER/APPROVAL_CHECKLIST.md",
+      "headings": [
+        "Identity checks",
+        "Wardrobe checks",
+        "Style checks",
+        "Approval evidence"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Owner review checklist and pending/approved exact-image evidence, not self-approval."
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_HANDOFF.md",
+      "headings": [
+        "Inputs",
+        "Instructions",
+        "Expected outputs",
+        "Approval boundary"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Portable instructions and exact required sources for the next image-generation stage."
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_PROMPT.txt",
+      "headings": [],
+      "minimum_chars": 80,
+      "purpose": "Copy-ready prompt derived from Character Bible and currently resolvable references, not a generic command."
+    },
+    {
+      "path": "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
+      "headings": [
+        "Shared locks",
+        "Frame records"
+      ],
+      "minimum_chars": 120,
+      "purpose": "One Fxx heading per frame with intent, chat situation, tone, expression, action, props, composition, forbidden distractions, one-second expectation and Hero flag."
+    },
+    {
+      "path": "03_FRAMES/FRAME_TO_SHEET_MAPPING.md",
+      "headings": [
+        "Reading order",
+        "Frame records"
+      ],
+      "minimum_chars": 120,
+      "purpose": "One Fxx heading per frame with sheet, row, column; no range-only mapping."
+    },
+    {
+      "path": "04_PRODUCTION/HERO_PLAN.md",
+      "headings": [
+        "Hero selection",
+        "Pose and expression",
+        "Readability",
+        "Approval criteria"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Exact hero IDs; show recognizability, signature behavior, no unrelated creative additions."
+    },
+    {
+      "path": "04_PRODUCTION/SHEET_PLAN.md",
+      "headings": [
+        "Layout",
+        "Geometry",
+        "Alpha and diecut",
+        "Cutter interface"
+      ],
+      "minimum_chars": 120,
+      "purpose": "4x2 eight-frame sheets, current tolerance geometry, white die-cut and actual cutter obligations. Partial last sheet requires explicit owner policy."
+    },
+    {
+      "path": "04_PRODUCTION/ACCEPTANCE_MATRIX.md",
+      "headings": [
+        "Document checks",
+        "Visual checks",
+        "Pixel checks",
+        "Return conditions"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Check-to-owner/evidence mapping; distinguish A, B, engine and Product Owner checks."
+    },
+    {
+      "path": "05_QA/QUALITY_REVIEW.md",
+      "headings": [
+        "Review lenses",
+        "Evidence",
+        "Defects and fixes",
+        "Unexecuted checks"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Record seven review lenses plus director judgments; label structural/semantic/visual verification separately."
+    },
+    {
+      "path": "05_QA/AUTO_REJECT_RULES.md",
+      "headings": [
+        "Critical failures",
+        "Recovery routing",
+        "Reapproval triggers"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Missing/duplicate ID, mismatch, stale Character, alpha/crop, caption drift, contract mismatch; route originating defects to A/B."
+    },
+    {
+      "path": "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
+      "headings": [
+        "Source snapshot",
+        "Inputs",
+        "Execution sequence",
+        "Return protocol",
+        "Readiness"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Actual A-to-B instructions, current eligibility, exact sources, Hero before batch, RETURN_TO_GEM_A protocol."
+    },
+    {
+      "path": "07_REFERENCES/REFERENCE_INDEX.md",
+      "headings": [
+        "References",
+        "Authority and exclusions",
+        "Asset availability"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Reference IDs, roles, authority, exact paths/hash, authorization evidence and current byte availability."
+    },
+    {
+      "path": "08_APPROVALS/APPROVAL_REGISTRY.md",
+      "headings": [
+        "Decisions",
+        "Character approval",
+        "Hero approval",
+        "Release approval"
+      ],
+      "minimum_chars": 120,
+      "purpose": "Link decision receipts to exact versioned assets; pending states explicit."
+    },
+    {
+      "path": "09_RELEASE/RELEASE_PLAN.md",
+      "headings": [
+        "Export responsibilities",
+        "Metadata review",
+        "Platform verification",
+        "Owner release"
+      ],
+      "minimum_chars": 120,
+      "purpose": "B/cutter export tasks, current official requirement verification responsibility and owner final release."
+    }
+  ],
+  "structured_files": [
+    "project.json",
+    "frames.json",
+    "references.json",
+    "approvals.json",
+    "PACKAGE_MANIFEST.json"
+  ],
+  "frame_documents": [
+    "01_PRODUCT/CAPTION_MASTER.md",
+    "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
+    "03_FRAMES/FRAME_TO_SHEET_MAPPING.md"
+  ]
+}
