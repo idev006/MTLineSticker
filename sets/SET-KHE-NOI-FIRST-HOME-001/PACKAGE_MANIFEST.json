@@ -1,48 +1,160 @@
 {
-  "standard_version": "1.3.0",
+  "standard_version": "1.0.0",
   "set_id": "SET-KHE-NOI-FIRST-HOME-001",
   "package_revision": "0.2.0",
-  "file_count": 35,
+  "payload_file_count": 37,
+  "total_archive_entry_count": 38,
   "files": [
-    "00_PROJECT/DECISION_LOG.md",
-    "00_PROJECT/PRODUCT_STRATEGY.md",
-    "00_PROJECT/PROJECT_BRIEF.md",
-    "00_PROJECT/STATUS.md",
-    "01_PRODUCT/CAPTION_MASTER.md",
-    "01_PRODUCT/SET_METADATA.md",
-    "02_CHARACTER/APPROVAL_CHECKLIST.md",
-    "02_CHARACTER/CHARACTER_BIBLE.md",
-    "02_CHARACTER/CHARACTER_SHEET_RUNTIME_HANDOFF.md",
-    "02_CHARACTER/CHARACTER_SHEET_RUNTIME_PROMPT.txt",
-    "02_CHARACTER/CHARACTER_SHEET_SPECIFICATION.md",
-    "02_CHARACTER/GENERATION_PROMPT.txt",
-    "02_CHARACTER/GLOBAL_CHARACTER_LOCKS.md",
-    "02_CHARACTER/NEGATIVE_CONSTRAINTS.md",
-    "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
-    "03_FRAMES/FRAME_TO_SHEET_MAPPING.md",
-    "04_PRODUCTION/ACCEPTANCE_MATRIX.md",
-    "04_PRODUCTION/HERO_PLAN.md",
-    "04_PRODUCTION/SHEET_FRAME_SPEC.json",
-    "04_PRODUCTION/SHEET_PLAN.md",
-    "05_QA/AUTO_REJECT_RULES.md",
-    "05_QA/GATE_A_AUDIT_2026-10-25.json",
-    "05_QA/QUALITY_REVIEW.md",
-    "06_HANDOFF/GATE_A_BLOCKERS.md",
-    "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
-    "07_REFERENCES/REFERENCE_INDEX.md",
-    "08_APPROVALS/APPROVAL_REGISTRY.md",
-    "09_RELEASE/RELEASE_PLAN.md",
-    "README_FIRST.md",
-    "approvals.json",
-    "frames.json",
-    "handoff.json",
-    "project.json",
-    "references.json"
+    {
+      "path": "00_PROJECT/DECISION_LOG.md",
+      "sha256": "4c4ae6d294e70d34ee60b8bc2e45ebaeb9e21fe00e80e0a3c8475f6fbda5ca29"
+    },
+    {
+      "path": "00_PROJECT/PRODUCT_STRATEGY.md",
+      "sha256": "e6113097b395cd271c53a9b927448af6b601ccf5bbc3d0012c1a347016fecd75"
+    },
+    {
+      "path": "00_PROJECT/PROJECT_BRIEF.md",
+      "sha256": "fa348e621c76a3f7a05bcbed27ba489fd8a6b0116af8e490e98a1b33a58ef2d4"
+    },
+    {
+      "path": "00_PROJECT/STATUS.md",
+      "sha256": "b8d24632ae8adf7749436ec08c9f75bc8f5b9625f265798b3051a355dc5ec975"
+    },
+    {
+      "path": "01_PRODUCT/CAPTION_MASTER.md",
+      "sha256": "e816bfa4585c71f82dc6b275596a24e9c0676011272d62b8787acb4fbb76fcf9"
+    },
+    {
+      "path": "01_PRODUCT/SET_METADATA.md",
+      "sha256": "b84199e0c0c35f0bd92533204d46fc71ddcf76ec3c78b2f7325d7d972bd85aa5"
+    },
+    {
+      "path": "02_CHARACTER/APPROVAL_CHECKLIST.md",
+      "sha256": "342a54d8814bce97e15687a5179408eebba842fe508e7c71e9e840dd0c64ffc5"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_BIBLE.md",
+      "sha256": "381ab68d0d2802c1b63064f6b42dc7c148fce237d6f98b101cd52490a2e91257"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_HANDOFF.md",
+      "sha256": "d6174cf5f1987a68dad876b556e6b9a66d4fd4d5ba302988aeb73152f11a5986"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_PROMPT.txt",
+      "sha256": "62ef0f6d3c57881580ea7120074e19ffc8644d27b805db0a7b27fd8e66faecdd"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_SPECIFICATION.md",
+      "sha256": "df20555f01d8a2436dd00de9c0ac6c287a0e55208b00e58bce4f10134cdd3bfb"
+    },
+    {
+      "path": "02_CHARACTER/GENERATION_PROMPT.txt",
+      "sha256": "62ef0f6d3c57881580ea7120074e19ffc8644d27b805db0a7b27fd8e66faecdd"
+    },
+    {
+      "path": "02_CHARACTER/GLOBAL_CHARACTER_LOCKS.md",
+      "sha256": "c1a335df0200e9fbf074fcacb8a66342a758828645a039fc3806906fe168609d"
+    },
+    {
+      "path": "02_CHARACTER/NEGATIVE_CONSTRAINTS.md",
+      "sha256": "855ea7527dab5db92b2a1f452bc5a3d6b553403a08165f1aadd9c9169d97d0a0"
+    },
+    {
+      "path": "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
+      "sha256": "c39f8a08880fb9698e4a30a120cac85a09233f00edd5bbd755a6c5f1882aebed"
+    },
+    {
+      "path": "03_FRAMES/FRAME_TO_SHEET_MAPPING.md",
+      "sha256": "5780537ce67d8263de98df712d5d170090ce3c94d0108f8de23f1cc231ced88c"
+    },
+    {
+      "path": "04_PRODUCTION/ACCEPTANCE_MATRIX.md",
+      "sha256": "6763bbd2d88914f793834c51c132e399ac69a31faeb9eb418097dc7ae8669fde"
+    },
+    {
+      "path": "04_PRODUCTION/HERO_PLAN.md",
+      "sha256": "e7ad8f1e53a5af278ffd9a4e340fbb55db4028d8c45b96eef8b16a9f5babea83"
+    },
+    {
+      "path": "04_PRODUCTION/SHEET_FRAME_SPEC.json",
+      "sha256": "22a9a44f29751c203b50678f89011cf60209ea35a0dfa7155bcf2c7dd55a6fbe"
+    },
+    {
+      "path": "04_PRODUCTION/SHEET_PLAN.md",
+      "sha256": "eb024ed4c7ce060466792defb34fe42da3cd0d824b83cdd4e00eb35a96f7c1af"
+    },
+    {
+      "path": "05_QA/A1_STRUCTURAL_CHECK_2026-10-25.json",
+      "sha256": "24c3c1cc1db7ecc335f5082c4697ae40c3c2a38dc1e070c3ac53b9b3d081d11d"
+    },
+    {
+      "path": "05_QA/AUTO_REJECT_RULES.md",
+      "sha256": "5bfbdb0e531961fcdfcaef445f88c81d2dcb85bb3f5b5aa4dc4bb2e96adc0762"
+    },
+    {
+      "path": "05_QA/GATE_A_AUDIT_2026-10-25.json",
+      "sha256": "d200b8930a566b8930c551f50d415324a3b2b8e53c04e35fdb6c3547d3b0681e"
+    },
+    {
+      "path": "05_QA/PREFLIGHT_SCHEMA_AUDIT_2026-10-25.json",
+      "sha256": "ba385bbae8205c74a239d6eb4712edca5c1ce925cc09639204b0267fcb8198af"
+    },
+    {
+      "path": "05_QA/QUALITY_REVIEW.md",
+      "sha256": "5838391662f7caedeffe9ec4a74d0049ff41b6dfb817b420c74ee0605923c341"
+    },
+    {
+      "path": "06_HANDOFF/CROSS_GEM_PROTOCOL_V2.md",
+      "sha256": "95a26f93d5bf24bc763681d7a0733a3957fb74d89cee82159969b5a0a085d821"
+    },
+    {
+      "path": "06_HANDOFF/GATE_A_BLOCKERS.md",
+      "sha256": "01ee86a4b082f181073cb9fcfdcbd40c81333cd10c9685f1db4f56c3879b6d87"
+    },
+    {
+      "path": "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
+      "sha256": "b7a73901107bd60594d39e72e04074c89549637016ebc4c63953d15a2b4db165"
+    },
+    {
+      "path": "07_REFERENCES/REFERENCE_INDEX.md",
+      "sha256": "f0a8bfbfbc32b5339b49242fde5f8284ff8eb99e3f0b56b25c3c60a3f8f3d02f"
+    },
+    {
+      "path": "08_APPROVALS/APPROVAL_REGISTRY.md",
+      "sha256": "7fa7ebf42c3241711d74d55ec0a7cb632d279fd2a70c3c40b8dc87b07fbc2efa"
+    },
+    {
+      "path": "09_RELEASE/RELEASE_PLAN.md",
+      "sha256": "e1ea7246b967a9a891a57cc23e3b7d0fd82e6b7a150fed82c0f6409745d1410f"
+    },
+    {
+      "path": "approvals.json",
+      "sha256": "745bd7a4594dcb6ed94f6bcddf7b4517a4f3b197450961476af8de502a0de518"
+    },
+    {
+      "path": "frames.json",
+      "sha256": "8707c8e8b59a047eb266882c20fd1430eca01554471831c79003e43d12ff0652"
+    },
+    {
+      "path": "handoff.json",
+      "sha256": "5977af4aef7c4b7b54e7b43c5495107f55a05df62ca7d8671764a85ee788afc7"
+    },
+    {
+      "path": "project.json",
+      "sha256": "682a01de4feb26d70f330f7ae79eaed622ad51411bb5d89f1411eb6b0a574114"
+    },
+    {
+      "path": "README_FIRST.md",
+      "sha256": "2a8536a01d400756e671ce002a0414f71dec17a5490c441afba175e9ebd569d3"
+    },
+    {
+      "path": "references.json",
+      "sha256": "e16546519e71ebafb1a9fcba367bd293d5199037a77a6f085ba74c6748e730ba"
+    }
   ],
-  "asset_binary_status": "NOT_PUBLISHED",
-  "validator_status": "NOT_RUN",
-  "validation_status": "NOT_RUN_OFFICIAL_VALIDATOR",
-  "sha256_manifest_complete": false,
-  "reference_binaries_published": false,
-  "description": "File listing only; not a cryptographically verified manifest; approval of new character candidate pending."
+  "binary_delivery_policy": "OWNER_TO_GEM_B_RUNTIME",
+  "binary_in_github_required": false,
+  "hash_basis_source_commit": "6127d611cb8d5e4078d70683889671104d025c83"
 }
