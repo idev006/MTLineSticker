@@ -1,0 +1,173 @@
+{
+  "project_id": "SET-KHE-NOI-FIRST-HOME-001",
+  "checked_source_commit": "32adc94143a2be61da62d9af0618c4261ade2aeb",
+  "generated_date": "2026-10-25",
+  "type": "DIRECTOR_A1_INDEPENDENT_STRUCTURAL_PREFLIGHT",
+  "status": "A1_BLOCKED",
+  "tests": {
+    "caption_40": true,
+    "unique_frame_id": true,
+    "unique_caption_literal": true,
+    "mapping_5x8": true,
+    "hero_match": true,
+    "character_owner_approved": true,
+    "reference_runtime_contract": true
+  },
+  "repository_document_inventory": {
+    "count": 36,
+    "paths": [
+      {
+        "path": "00_PROJECT/DECISION_LOG.md",
+        "git_blob_sha1": "03696c9ba080581e68656bbfb8410f8b0df2f399"
+      },
+      {
+        "path": "00_PROJECT/PRODUCT_STRATEGY.md",
+        "git_blob_sha1": "33ec98b7e548727f38469571ffedc23fc4ba8402"
+      },
+      {
+        "path": "00_PROJECT/PROJECT_BRIEF.md",
+        "git_blob_sha1": "a352c9f4f39433aa9029191983f3e7a3b5bc544f"
+      },
+      {
+        "path": "00_PROJECT/STATUS.md",
+        "git_blob_sha1": "af19282ac2410643ebcfbf9639bd01e66a5d88dd"
+      },
+      {
+        "path": "01_PRODUCT/CAPTION_MASTER.md",
+        "git_blob_sha1": "e4a69dd520ac54a8603f7a2e145070172c2831f2"
+      },
+      {
+        "path": "01_PRODUCT/SET_METADATA.md",
+        "git_blob_sha1": "e2890841d162ce7c15a67020606c7f5c4d5b1994"
+      },
+      {
+        "path": "02_CHARACTER/APPROVAL_CHECKLIST.md",
+        "git_blob_sha1": "e3fb61dec2106a28a5cc20af9048f7119b154ed2"
+      },
+      {
+        "path": "02_CHARACTER/CHARACTER_BIBLE.md",
+        "git_blob_sha1": "2d362ad1879d19fcc013df8fb3ad89d95449e9a2"
+      },
+      {
+        "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_HANDOFF.md",
+        "git_blob_sha1": "ddd8a65be4e04594671f53019299eadc423aafdc"
+      },
+      {
+        "path": "02_CHARACTER/CHARACTER_SHEET_RUNTIME_PROMPT.txt",
+        "git_blob_sha1": "42748d1629d779c0d2a3d99bef9cde48d48dceed"
+      },
+      {
+        "path": "02_CHARACTER/CHARACTER_SHEET_SPECIFICATION.md",
+        "git_blob_sha1": "87b417f587b7a48bfa7fc7071c97cd6d3dda260a"
+      },
+      {
+        "path": "02_CHARACTER/GENERATION_PROMPT.txt",
+        "git_blob_sha1": "42748d1629d779c0d2a3d99bef9cde48d48dceed"
+      },
+      {
+        "path": "02_CHARACTER/GLOBAL_CHARACTER_LOCKS.md",
+        "git_blob_sha1": "972041104e6d7e0050c1f39458edeaf2616e065c"
+      },
+      {
+        "path": "02_CHARACTER/NEGATIVE_CONSTRAINTS.md",
+        "git_blob_sha1": "01f029a4bd0bd6a024178dc8d30ed58279166126"
+      },
+      {
+        "path": "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
+        "git_blob_sha1": "9ee18583aedb73c69b5952bbc401211482fde850"
+      },
+      {
+        "path": "03_FRAMES/FRAME_TO_SHEET_MAPPING.md",
+        "git_blob_sha1": "36cfc5f5abfb72fada8ff0961665c68f4e4ada64"
+      },
+      {
+        "path": "04_PRODUCTION/ACCEPTANCE_MATRIX.md",
+        "git_blob_sha1": "cc516c3b8d8d0f3f8ce28e54775a0a56148b7d5f"
+      },
+      {
+        "path": "04_PRODUCTION/HERO_PLAN.md",
+        "git_blob_sha1": "495e771b5fc7c1f3ddab73e9f87c2c44f731ea75"
+      },
+      {
+        "path": "04_PRODUCTION/SHEET_FRAME_SPEC.json",
+        "git_blob_sha1": "ff40c924509a8013174eaa431b47a5f1d1cbb75b"
+      },
+      {
+        "path": "04_PRODUCTION/SHEET_PLAN.md",
+        "git_blob_sha1": "5853e0fcdf3e639a73636ee10cd5313466536850"
+      },
+      {
+        "path": "05_QA/AUTO_REJECT_RULES.md",
+        "git_blob_sha1": "b8accf0def58af343477aca2b459edf6267a058e"
+      },
+      {
+        "path": "05_QA/GATE_A_AUDIT_2026-10-25.json",
+        "git_blob_sha1": "82d0b0c8d45f15d0dd515b2f2ae75874b34c9298"
+      },
+      {
+        "path": "05_QA/PREFLIGHT_SCHEMA_AUDIT_2026-10-25.json",
+        "git_blob_sha1": "ce881b4c9d7dab4697a84cf580dc1e84334bd998"
+      },
+      {
+        "path": "05_QA/QUALITY_REVIEW.md",
+        "git_blob_sha1": "3ee01d0141f49e04c8e85e3f786e39341e4825c3"
+      },
+      {
+        "path": "06_HANDOFF/GATE_A_BLOCKERS.md",
+        "git_blob_sha1": "d5f27407b7865efa754e464dea29d33cd8a3f033"
+      },
+      {
+        "path": "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
+        "git_blob_sha1": "64f0ed6b76b94bbbea8eab43b2a8a23680636f57"
+      },
+      {
+        "path": "07_REFERENCES/REFERENCE_INDEX.md",
+        "git_blob_sha1": "5975df90d403aa153ee8f222180b71faeeb1bee6"
+      },
+      {
+        "path": "08_APPROVALS/APPROVAL_REGISTRY.md",
+        "git_blob_sha1": "f719f52ba8da3b27c1541ac42c94f60d7d5a4410"
+      },
+      {
+        "path": "09_RELEASE/RELEASE_PLAN.md",
+        "git_blob_sha1": "16081190bcbc2ad0bed1d1f2fa0e5a1716fbd5cf"
+      },
+      {
+        "path": "PACKAGE_MANIFEST.json",
+        "git_blob_sha1": "734b9e25775d1afb7cd8e36666ea742432e9f897"
+      },
+      {
+        "path": "README_FIRST.md",
+        "git_blob_sha1": "7a1b2652223ee017b360153376b3ceb817e1372c"
+      },
+      {
+        "path": "approvals.json",
+        "git_blob_sha1": "d6b2dee719a5993bdcaadca2d61ebde754d9525a"
+      },
+      {
+        "path": "frames.json",
+        "git_blob_sha1": "6bd0716e88481a06ed3c004b1434b2daa14731f6"
+      },
+      {
+        "path": "handoff.json",
+        "git_blob_sha1": "0c5caafdeecfbb1701bfed9a0a7fc99f599e2720"
+      },
+      {
+        "path": "project.json",
+        "git_blob_sha1": "604ad1ddf3137ad569b5b51701bc4110beb41f96"
+      },
+      {
+        "path": "references.json",
+        "git_blob_sha1": "e5ee5ce528cb3ddeb036659afb0b8f0ab4b2cf15"
+      }
+    ]
+  },
+  "official_python_validator": "NOT_RUN",
+  "manifest_sha256": "NOT_VERIFIED",
+  "gate_a2": "DEFERRED_TO_GEM_B",
+  "blockers": [
+    "Official director document validator has not run against current saved GitHub package",
+    "Manifest sha256 per-file integrity has not been verified"
+  ],
+  "note": "Git blob sha1 is not substitute for required sha256; runtime user binaries are not A1 blockers."
+}
