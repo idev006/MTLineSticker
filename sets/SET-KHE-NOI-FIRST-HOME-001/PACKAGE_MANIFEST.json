@@ -2,7 +2,7 @@
   "standard_version": "1.3.0",
   "set_id": "SET-KHE-NOI-FIRST-HOME-001",
   "package_revision": "0.2.0",
-  "file_count": 34,
+  "file_count": 35,
   "files": [
     "00_PROJECT/DECISION_LOG.md",
     "00_PROJECT/PRODUCT_STRATEGY.md",
@@ -25,6 +25,7 @@
     "04_PRODUCTION/SHEET_FRAME_SPEC.json",
     "04_PRODUCTION/SHEET_PLAN.md",
     "05_QA/AUTO_REJECT_RULES.md",
+    "05_QA/GATE_A_AUDIT_2026-10-25.json",
     "05_QA/QUALITY_REVIEW.md",
     "06_HANDOFF/GATE_A_BLOCKERS.md",
     "06_HANDOFF/GEM_B_RUNTIME_HANDOFF.md",
@@ -39,5 +40,9 @@
     "references.json"
   ],
   "asset_binary_status": "NOT_PUBLISHED",
-  "validator_status": "NOT_RUN"
+  "validator_status": "NOT_RUN",
+  "validation_status": "NOT_RUN_OFFICIAL_VALIDATOR",
+  "sha256_manifest_complete": false,
+  "reference_binaries_published": false,
+  "description": "File listing only; not a cryptographically verified manifest; approval of new character candidate pending."
 }
