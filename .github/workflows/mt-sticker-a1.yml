@@ -20,6 +20,14 @@ jobs:
         with:
           persist-credentials: true
           ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: tools/gem_b/requirements-ci.txt
+      - name: Install image QA dependencies
+        run: python -m pip install -r tools/gem_b/requirements-ci.txt
       - name: GEM A official validator integration tests (3 cases)
         run: python tools/gem_a/scripts/test_director_validator.py
       - name: GEM B receipt contract tests (4 cases)
