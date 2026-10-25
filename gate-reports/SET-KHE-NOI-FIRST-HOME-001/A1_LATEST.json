@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.0",
+  "set_id": "SET-KHE-NOI-FIRST-HOME-001",
+  "gate": "A1",
+  "status": "FAIL",
+  "validated_source_commit": "6488b4fb77aff16e4fb20006bd8d1917b4552b6b",
+  "validator_version": "1.1.0",
+  "validator_executed": false,
+  "validator_exit_code": null,
+  "manifest_sha256_verified": false,
+  "manifest_payload_count": 37,
+  "caption_master_version": "0.4.0",
+  "caption_exact_count": 40,
+  "character_approval_recorded": true,
+  "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+  "a2_status": "AWAITING_OWNER_ASSETS",
+  "errors": [
+    {
+      "code": "OFFICIAL_VALIDATOR_NOT_EXECUTED",
+      "detail": "No verified GitHub Actions A1 validator run result. Manifest now contains 37 SHA256 entries created from GitHub document readback but full independent code validation has not executed."
+    }
+  ],
+  "timestamp_utc": "2026-10-25T03:03:00Z",
+  "manifest_status": "SHA256_ENTRIES_PRESENT_READBACK_VERIFIED; full file-content re-verification by official validator pending",
+  "handoff_authorized": false
+}
