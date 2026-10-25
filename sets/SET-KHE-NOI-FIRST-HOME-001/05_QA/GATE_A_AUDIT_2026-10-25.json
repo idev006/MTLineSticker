@@ -1,0 +1,25 @@
+{
+  "project_id": "SET-KHE-NOI-FIRST-HOME-001",
+  "run_type": "GEM_A_MANUAL_JS_CROSSFILE_AUDIT",
+  "source_commit": "a48d5834f6e05fe8cfb087e22f2a7d0233644c3c",
+  "checks": {
+    "frame_count_40": true,
+    "unique_ids": true,
+    "sequential_ids": true,
+    "unique_captions": true,
+    "caption_appears_in_master": true,
+    "sheet_layout_complete": true,
+    "heroes_correct": true,
+    "manifest_has_all_declared_34": true
+  },
+  "automated_director_validator": "NOT_RUN",
+  "caption_master_version": "0.4.0",
+  "gate_a": "BLOCKED",
+  "unresolved": [
+    "reference images not verified published to GitHub",
+    "new character sheet has no exact-bytes owner approval",
+    "official plugin document validator not run",
+    "full manifest hash entries absent and GitHub readback incomplete"
+  ],
+  "notes": "Structural and exact caption check only; no claim of semantic uniqueness, image alpha or production rendering QA."
+}
