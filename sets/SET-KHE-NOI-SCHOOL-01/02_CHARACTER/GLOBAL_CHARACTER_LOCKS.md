@@ -1,0 +1,3 @@
+# Global Locks
+
+MUST: approved reference identity exactly once per scene unless script specifies supporting cadets; protagonist always distinct, maintain outfit MT 007, left watch, proportions, shoe model family, grey-gold crocodile head. MUST NOT: change watch to right wrist, replace crocodile with lizard, use different shirt number, police insignia, alter face to arbitrary generic mascot. Clean profile and rear shown in owner reference. Any production image must be compared to actual owner-delivered bytes at GEM B Gate A2. Owner reference provided in conversation but approval hash for this NEW set unrecorded. This is a BLOCKER for Hero authorization, not reason to defer writing documentation.
