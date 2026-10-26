@@ -5,8 +5,10 @@
       "id": "OWNER_CHARACTER_20261026",
       "type": "runtime_image",
       "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
-      "sha256": null,
-      "approved_for_this_set": false
+      "sha256": "5e43078989b88f5eab389080660b13bcf677e2aac411198257c6f6dbafe238a3",
+      "approved_for_this_set": true,
+      "filename": "image(20261026-062323).png",
+      "approval_time_local": "2026-10-26 14:26 Asia/Bangkok"
     },
     {
       "id": "OWNER_TRAINING_GLOSSARY",
