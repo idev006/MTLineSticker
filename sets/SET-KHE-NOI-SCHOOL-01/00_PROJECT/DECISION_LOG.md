@@ -6,3 +6,5 @@
 2026-10-26 RESEARCH: ปล่อยหลอก concerns announced home leave/rest not materializing; treat as contextual rather than formal drill.
 2026-10-26 ASSISTANT PROPOSAL: 40 revised captions remain PROPOSED. Original draft never explicitly owner-approved.
 2026-10-26 USER: authorized GEM A documentation execution, not unconditional approval of exact 40 captions or artwork.
+
+2026-10-26 USER explicit edit: F40 replaces สามัคคีคือพลัง with อย่าแหลม; meaning do not behave differently or stand out from the group. This is authorization of F40 wording only, NOT 40-caption approval.
