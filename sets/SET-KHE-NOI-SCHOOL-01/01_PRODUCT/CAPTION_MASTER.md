@@ -41,4 +41,4 @@ Original draft preserved in 00_DRAFT_BRIEF_AND_CAPTIONS.md. This is a revision f
 37. **F37** — ผ่านมาได้ไงเนี่ย
 38. **F38** — หล่อหลังฝึก
 39. **F39** — พรุ่งนี้เอาใหม่!
-40. **F40** — สามัคคีคือพลัง
+40. **F40** — อย่าแหลม
