@@ -10,3 +10,5 @@
 2026-10-26 USER explicit edit: F40 replaces สามัคคีคือพลัง with อย่าแหลม; meaning do not behave differently or stand out from the group. This is authorization of F40 wording only, NOT 40-caption approval.
 
 2026-10-26 OWNER: F18 changed from requested พุ่งเท้าหลัง! to หุ่นอย่างเป๊ะ. Prior requests F19=ขนมสติ๊ก (carrying LOG), F20=ขนมโดนัท (carrying large tire). All other captions remain pending owner approval. F18 revised pose is a creative proposal, not an owner-approved storyboard.
+
+2026-10-26 OWNER: F03 changed from ขออีก ๕ นาที to ช้าไป 0.1 วิ ถือว่าสาย!; visual intent last-moment late arrival with stopwatch. Specific F03 revision approved as wording instruction, not master approval.
