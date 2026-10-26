@@ -2,7 +2,11 @@
   "set_id": "SET-KHE-NOI-SCHOOL-01",
   "captions": {
     "version": "0.2.0",
-    "status": "PENDING_OWNER_APPROVAL"
+    "status": "APPROVED_LOCKED",
+    "approved_by": "Product Owner",
+    "approval_source": "Explicit user message in current conversation 2026-10-26",
+    "count": 40,
+    "character_approval_separate": true
   },
   "character": {
     "status": "PENDING_EXPLICIT_NEW_SET_APPROVAL"
