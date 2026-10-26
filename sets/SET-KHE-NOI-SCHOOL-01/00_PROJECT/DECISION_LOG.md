@@ -12,3 +12,5 @@
 2026-10-26 OWNER: F18 changed from requested พุ่งเท้าหลัง! to หุ่นอย่างเป๊ะ. Prior requests F19=ขนมสติ๊ก (carrying LOG), F20=ขนมโดนัท (carrying large tire). All other captions remain pending owner approval. F18 revised pose is a creative proposal, not an owner-approved storyboard.
 
 2026-10-26 OWNER: F03 changed from ขออีก ๕ นาที to ช้าไป 0.1 วิ ถือว่าสาย!; visual intent last-moment late arrival with stopwatch. Specific F03 revision approved as wording instruction, not master approval.
+
+2026-10-26 14:26 Asia/Bangkok OWNER expressly approved existing conversation Character Sheet for SET-KHE-NOI-SCHOOL-01. SHA256 of mounted PNG = 5e43078989b88f5eab389080660b13bcf677e2aac411198257c6f6dbafe238a3. Actual runtime PNG remains user-to-GEM-B A2 delivery; A2 has not been executed.
