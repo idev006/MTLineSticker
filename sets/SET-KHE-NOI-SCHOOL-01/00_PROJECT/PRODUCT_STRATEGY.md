@@ -1,0 +1,3 @@
+# Product Strategy
+
+Positioning: funny yet respectful slice-of-life moments from a Thai police cadet training centre. Forty LINE chat stickers across five narrative chapters of eight: morning discipline, physical training, team obstacle tasks, shoe and food routine, brotherhood and hope. Audience: cadets, alumni, police families. Unique strong expressions/gestures; colloquial Thai, punchy readable captions. Distinctive cadet slang: ตู้นะเรา (full genuine effort as user defined), ปล่อยหลอก (false announced leave), สึม (slacking), แบก LOG, แบกยาง. No cruelty, violent hazing or forced deprivation presented as good humor. Preserve exact attached reference character and outfit. Do not treat draft captions as approved.
