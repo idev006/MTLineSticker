@@ -1,0 +1,16 @@
+{
+  "set_id": "SET-KHE-NOI-SCHOOL-01",
+  "captions": {
+    "version": "0.2.0",
+    "status": "PENDING_OWNER_APPROVAL"
+  },
+  "character": {
+    "status": "PENDING_EXPLICIT_NEW_SET_APPROVAL"
+  },
+  "hero": {
+    "status": "NOT_AUTHORIZED"
+  },
+  "release": {
+    "status": "NOT_AUTHORIZED"
+  }
+}
