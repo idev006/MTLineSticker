@@ -1,0 +1,117 @@
+{
+  "standard_version": "2.1",
+  "set_id": "SET-KHE-NOI-SCHOOL-01",
+  "package_revision": "0.2.0",
+  "payload_file_count": 27,
+  "total_archive_entry_count": 28,
+  "files": [
+    {
+      "path": "00_DRAFT_BRIEF_AND_CAPTIONS.md",
+      "sha256": "181c8d548bb2f1966e1869b5fadd223a95be31fe2b7427e4bb9e205ae5245b9a"
+    },
+    {
+      "path": "README_FIRST.md",
+      "sha256": "5eda58a988f34a9879c949b0cf5384cf090314883aa247fb7d090d02ae1fe215"
+    },
+    {
+      "path": "00_PROJECT/PROJECT_BRIEF.md",
+      "sha256": "f62d953b85dc268ae682389f596abe40d46348e330b5eb5c153da6e27322a7b7"
+    },
+    {
+      "path": "00_PROJECT/PRODUCT_STRATEGY.md",
+      "sha256": "c20542572e874e98197b7960946e97cd2eb8dedebc22d7ecdc47ebb527ca9a25"
+    },
+    {
+      "path": "00_PROJECT/DECISION_LOG.md",
+      "sha256": "ffd26d65ad764c0d20f565369e7acf9e8e0c0e2509d834a656642a2dbaef0ee9"
+    },
+    {
+      "path": "01_PRODUCT/CAPTION_MASTER.md",
+      "sha256": "659d25ef5617872b8f711e17deb13d2f1c68c1d0d193ecfdf161d6f33484fc41"
+    },
+    {
+      "path": "01_PRODUCT/SET_METADATA.md",
+      "sha256": "361b0006e0350d745bc095a41d5d81eb3b027ba60ac06436dbc3141b50f7d7a5"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_BIBLE.md",
+      "sha256": "3926d82b628163ec9c4a34bbb4a61d13a38937aa9aca0d1eecca63ce2403fad7"
+    },
+    {
+      "path": "02_CHARACTER/GLOBAL_CHARACTER_LOCKS.md",
+      "sha256": "df0cf679019dc1f0e1b86fd74c5fa6a17b3ca709e059a734aa2f237241691f31"
+    },
+    {
+      "path": "02_CHARACTER/CHARACTER_SHEET_SPECIFICATION.md",
+      "sha256": "7f07c68633a5de35aa88817864f478f5e237063e85998c3128f4fd301059f9d5"
+    },
+    {
+      "path": "02_CHARACTER/GENERATION_PROMPT.txt",
+      "sha256": "65563ecb0d9050f7d009ea69e3c4a5b809167fd5ee9277b27cb809abb0977865"
+    },
+    {
+      "path": "02_CHARACTER/NEGATIVE_CONSTRAINTS.md",
+      "sha256": "3c01d58c3661e512a34ec3e36199008ac9914c31aa8134b1afe60139e2d0b8e1"
+    },
+    {
+      "path": "02_CHARACTER/APPROVAL_CHECKLIST.md",
+      "sha256": "d7770bee809fabbfe985aa747abb7fa59dcab3711d8e23167f7f1a098d9d5e56"
+    },
+    {
+      "path": "03_FRAMES/FRAME_COMMUNICATION_MATRIX.md",
+      "sha256": "9017946f241f339e2982184df6f57c1f7c137f5c370f02280e8f0bd0ffaf3ee6"
+    },
+    {
+      "path": "03_FRAMES/FRAME_TO_SHEET_MAPPING.md",
+      "sha256": "8be62122299f2c7e51d5928349dfb924fc393693cc892c4439af222e5f32f5fc"
+    },
+    {
+      "path": "04_PRODUCTION/PRODUCTION_SPEC.md",
+      "sha256": "892aa16c4d797931463cc7e131cd4f4e1be78d5f3d1716abe76e7171d2422059"
+    },
+    {
+      "path": "04_PRODUCTION/HERO_PLAN.md",
+      "sha256": "efbd733fcd7f9287c4f15fe5f7e99aa1aa0267c5535fccd65891b693c2ac0876"
+    },
+    {
+      "path": "04_PRODUCTION/SHEET_PLAN.md",
+      "sha256": "3409dbe70c921f538cf8938e985070cd64f86471885f565be985df7ef80b527e"
+    },
+    {
+      "path": "05_QA/QUALITY_REVIEW.md",
+      "sha256": "92e0b05f98d85c7199ea4e280428d00af82b97c6eaeae021a2fa1d38103ae058"
+    },
+    {
+      "path": "05_QA/AUTO_REJECT_RULES.md",
+      "sha256": "42c47f2e671fd2321bd921a4b04cd5e566d5d298df1a5c8825baa487bdf2728a"
+    },
+    {
+      "path": "05_QA/ACCEPTANCE_MATRIX.md",
+      "sha256": "ddb2ef73f79a7775d004db9c8934b148136404b19543f2f0e0145d78dc5ef010"
+    },
+    {
+      "path": "05_QA/RELEASE_CHECKLIST.md",
+      "sha256": "0fc8943ef938b3c37bc3483e9f94a04cc77ac80b348926a36dd4af8579c260b7"
+    },
+    {
+      "path": "project.json",
+      "sha256": "6e6ff2438d979b5ca3bb693c0d04a0381e78ec9fc880e9b0d80652d9e493cef9"
+    },
+    {
+      "path": "frames.json",
+      "sha256": "b872ce239ab214299c108feec726bd7e310673539552f381bca60b0c42cfe451"
+    },
+    {
+      "path": "approvals.json",
+      "sha256": "6f666e17afea3f893adf52db4edfb76464d10b2322e799319b27e47513778b76"
+    },
+    {
+      "path": "references.json",
+      "sha256": "b767abe0f4ad70183235b71ad700ee7e43b87efaccaa3226c693ea841500c506"
+    },
+    {
+      "path": "handoff.json",
+      "sha256": "0e7ddbd5d7057784f321b0c5766d0e50a24c1ce2f97166a5d2bde7b8136aab06"
+    }
+  ]
+}
