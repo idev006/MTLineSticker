@@ -3,6 +3,7 @@
   "title_th": "เข้น้อย อยู่โรงเรียน No.01",
   "count": 40,
   "revision": "0.2.0",
-  "status": "DRAFT_OWNER_APPROVAL_PENDING",
-  "sheet_count": 5
+  "status": "CAPTIONS_LOCKED_A1_PENDING",
+  "sheet_count": 5,
+  "caption_status": "APPROVED_LOCKED"
 }
