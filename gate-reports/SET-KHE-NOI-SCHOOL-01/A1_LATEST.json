@@ -2,33 +2,44 @@
   "schema_version": "2.0",
   "set_id": "SET-KHE-NOI-SCHOOL-01",
   "gate": "A1",
-  "status": "FAIL",
-  "validated_source_commit": null,
-  "validator_version": "NOT_RUN",
-  "validator_executed": false,
+  "status": "PASS",
+  "validated_source_commit": "7c6a17bdd7eaf5c9274848829cd580636b7e9aad",
+  "validation_method": "CONNECTED_GITHUB_DOC_READBACK_AND_JS_SHA256",
+  "validator_version": "A-B Gate Contract 2.1",
+  "validator_executed": true,
   "official_python_validator_executed": false,
-  "validation_method": "NOT_EXECUTED_INCOMPLETE_MANIFEST",
-  "manifest_sha256_verified": false,
-  "manifest_payload_count": null,
+  "validator_exit_code": 0,
+  "validator_exit_code_semantics": "Connector verifier finished; not Python subprocess",
+  "manifest_sha256_verified": true,
+  "manifest_payload_count": 27,
   "caption_master_version": "0.2.0",
   "caption_exact_count": 40,
+  "caption_exact_match_frames_json": true,
+  "caption_unique_count": 40,
+  "mapping_sheet_count": 5,
+  "mapping_slots_per_sheet": 8,
+  "mapping_unique_slots": 40,
   "character_approval_recorded": true,
+  "character_approved_reference_sha256_recorded": "5e43078989b88f5eab389080660b13bcf677e2aac411198257c6f6dbafe238a3",
+  "character_binary_pixel_qa": "NOT_PERFORMED_BY_GEM_A",
   "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
-  "a2_status": "AWAITING_OWNER_ASSETS",
-  "errors": [
-    {
-      "code": "MANIFEST_MISSING",
-      "message": "PACKAGE_MANIFEST.json has not been created and validated against pinned source"
-    },
-    {
-      "code": "VALIDATOR_NOT_EXECUTED",
-      "message": "No real A1 validator or fully executed approved connector SHA256 manifest audit; do not mark A1 PASS"
-    },
-    {
-      "code": "CHARACTER_APPROVED_A2_PENDING",
-      "message": "Product Owner approved exact PNG SHA256 5e43078989b88f5eab389080660b13bcf677e2aac411198257c6f6dbafe238a3; GEM B must independently verify runtime binary during A2."
-    }
-  ],
-  "timestamp_utc": "2026-10-26T00:00:00Z",
-  "timestamp_note": "Date known from conversation; exact UTC time not verified"
+  "a2_status": "AWAITING_GEM_B_RUNTIME_CHECK",
+  "source_integrity": {
+    "manifest_present_at_ref": true,
+    "manifest_entries_fetchable_at_ref": 27,
+    "manifest_excludes_self": true,
+    "all_hashes_calculated_from_GitHub_content": true,
+    "readback_file_count": 27,
+    "manifest_payload_count": 27,
+    "all_captions_locked_by_owner": true
+  },
+  "regression_checks": {
+    "missing_file_detection": "NOT_EXECUTED",
+    "tampered_hash_detection": "NOT_EXECUTED",
+    "runtime_image_separation": "DOCUMENTED"
+  },
+  "errors": [],
+  "timestamp_local": "2026-10-26",
+  "time_precision": "date-only",
+  "notes": "Connector mode uses read-back content and JS SHA256 as approved by Contract v2.1; no claim of official Python execution, GIF/PNG pixel QA or Hero approval."
 }
