@@ -9,7 +9,13 @@
     "character_approval_separate": true
   },
   "character": {
-    "status": "PENDING_EXPLICIT_NEW_SET_APPROVAL"
+    "status": "APPROVED_LOCKED",
+    "approved_by": "Product Owner",
+    "approval_source": "Explicit user message 2026-10-26 14:26 Asia/Bangkok",
+    "runtime_filename": "image(20261026-062323).png",
+    "sha256": "5e43078989b88f5eab389080660b13bcf677e2aac411198257c6f6dbafe238a3",
+    "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+    "a2_asset_verification": "DEFERRED_TO_GEM_B"
   },
   "hero": {
     "status": "NOT_AUTHORIZED"
