@@ -1,0 +1,3 @@
+# Editorial QA Review (not production QA)
+
+Preflight: 40 proposed unique caption strings; 5×8 mapping; variety across formation, sprint, push-up, sand/log/tire, food, shoes, rest and team. Potential near duplicates to manually distinguish: F01 vs F06/F07 (arrive vs marching vs halt); F13/F14 (command vs exaggerated effort); F29/F30 (meal vs polish); F35/F36/F40 (aid vs going together vs joint achievement). Owner approval still missing; no claim of formal semantic PASS or image PASS. Unsafe punishment content excluded; sources for terms include user definition of ตู้นะเรา and published cadet anecdote about ปล่อยหลอก, not formal police commands. Research note: ชุดโทรมมากนะ phrase unverified slang; treat as colloquial teasing only.
