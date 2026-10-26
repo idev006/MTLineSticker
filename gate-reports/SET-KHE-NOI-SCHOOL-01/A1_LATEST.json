@@ -1,0 +1,34 @@
+{
+  "schema_version": "2.0",
+  "set_id": "SET-KHE-NOI-SCHOOL-01",
+  "gate": "A1",
+  "status": "FAIL",
+  "validated_source_commit": null,
+  "validator_version": "NOT_RUN",
+  "validator_executed": false,
+  "official_python_validator_executed": false,
+  "validation_method": "NOT_EXECUTED_INCOMPLETE_MANIFEST",
+  "manifest_sha256_verified": false,
+  "manifest_payload_count": null,
+  "caption_master_version": "0.2.0",
+  "caption_exact_count": 40,
+  "character_approval_recorded": false,
+  "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+  "a2_status": "AWAITING_OWNER_ASSETS",
+  "errors": [
+    {
+      "code": "MANIFEST_MISSING",
+      "message": "PACKAGE_MANIFEST.json has not been created and validated against pinned source"
+    },
+    {
+      "code": "VALIDATOR_NOT_EXECUTED",
+      "message": "No real A1 validator or fully executed approved connector SHA256 manifest audit; do not mark A1 PASS"
+    },
+    {
+      "code": "CHARACTER_APPROVAL_PENDING",
+      "message": "Owner approved caption master only; character approval is still separate"
+    }
+  ],
+  "timestamp_utc": "2026-10-26T00:00:00Z",
+  "timestamp_note": "Date known from conversation; exact UTC time not verified"
+}
