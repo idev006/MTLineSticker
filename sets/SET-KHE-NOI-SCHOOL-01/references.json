@@ -1,0 +1,17 @@
+{
+  "set_id": "SET-KHE-NOI-SCHOOL-01",
+  "references": [
+    {
+      "id": "OWNER_CHARACTER_20261026",
+      "type": "runtime_image",
+      "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+      "sha256": null,
+      "approved_for_this_set": false
+    },
+    {
+      "id": "OWNER_TRAINING_GLOSSARY",
+      "type": "conversation_authority",
+      "note": "ตู้นะเรา refers to cadet making a full effort at training or discipline"
+    }
+  ]
+}
