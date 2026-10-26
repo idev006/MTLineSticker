@@ -12,7 +12,7 @@
   "manifest_payload_count": null,
   "caption_master_version": "0.2.0",
   "caption_exact_count": 40,
-  "character_approval_recorded": false,
+  "character_approval_recorded": true,
   "binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
   "a2_status": "AWAITING_OWNER_ASSETS",
   "errors": [
@@ -25,8 +25,8 @@
       "message": "No real A1 validator or fully executed approved connector SHA256 manifest audit; do not mark A1 PASS"
     },
     {
-      "code": "CHARACTER_APPROVAL_PENDING",
-      "message": "Owner approved caption master only; character approval is still separate"
+      "code": "CHARACTER_APPROVED_A2_PENDING",
+      "message": "Product Owner approved exact PNG SHA256 5e43078989b88f5eab389080660b13bcf677e2aac411198257c6f6dbafe238a3; GEM B must independently verify runtime binary during A2."
     }
   ],
   "timestamp_utc": "2026-10-26T00:00:00Z",
