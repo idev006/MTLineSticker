@@ -1,6 +1,6 @@
-# Sticker Table — 40 proposed frames for owner review
+# Sticker Table — 40 OWNER_LOCKED frames v1.0.0
 
-Status: PROPOSED, no captions owner-locked. Table rows are *derived from frames.json* (canonical). Character Sheet: CS-GRANDMA-OUR-001 v0.1, approved local SHA-256 45526a3c7e1fb10ae98ccb7a1817c2e65fb589040a4b68fd5c8dacc9673613f7.
+Status: OWNER_APPROVED / OWNER_LOCKED. Exact captions and frame intent/pose/wardrobe/slot previously approved by Product Owner on 2026-11-05. Table rows are *derived from frames.json* (canonical). Character Sheet: CS-GRANDMA-OUR-001 v0.1, approved local SHA-256 45526a3c7e1fb10ae98ccb7a1817c2e65fb589040a4b68fd5c8dacc9673613f7.
 
 | Frame | Caption | Expression | Pose | Wardrobe | Gemstone | Category | Sheet / Row / Col |
 |---|---|---|---|---|---|---|---|
