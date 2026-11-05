@@ -12,4 +12,4 @@
 - Authority: visual sheet is frozen; do not redraw without new owner approval.
 - Binary delivery: conversation/runtime attachment, NOT GitHub. On a future session without these exact bytes, fail closed and request matching source asset instead of guessing.
 - Technical gate: compare actual image bytes against SHA; verify original approval evidence with the Product Owner source when possible. A registry entry alone does not authorize generation.
-- Hero status: NOT_STARTED; Sticker Table status: PROPOSED.
+- Hero status: PLAN_DRAFT / NO_RENDER; Sticker Table status: OWNER_APPROVED / LOCKED v1.0.0.
