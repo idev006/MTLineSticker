@@ -19,3 +19,9 @@ Source images are not stored in this GitHub repository; actual binary availabili
 | Character Sheet v0.2 — CANDIDATE | **NOT_APPROVED** | See `02_CHARACTER/CHARACTER_SHEET_CANDIDATE_V02.md` | Remains an unapproved draft. |
 
 The uploaded image is the current visual authority, but Caption Master and the 40 owner-locked Sticker Table records stay unchanged. Previous statement that images are not stored in this GitHub repository remains true; the current image binary is stored in the ChatGPT Library, not GitHub.
+
+## 2026-11-06 — Caption Master and Sticker Table owner-approved v1.1.0
+| Scope | Status | Asset / evidence | Limit |
+|---|---|---|---|
+| Sticker Table / Caption Master v1.1.0 | **OWNER_APPROVED / SOURCE_REGRESSION_PASS** | Owner explicitly approved 11 exact substitutions F10, F11, F16, F17, F20, F21, F22, F25, F27, F28 and F32 as proposed in the conversation, and approved retention of F01–F07 seven weekday greetings as intent-duplication exception. New approval ref: `OWNER-2026-11-06-GRANDMA-CAPTION-11-REVISION`. See `09_HISTORY/CAPTION_TABLE/v1.1.0_REGRESSION_REPORT.md`. | All other captions remain unchanged. Source regression 14/14 PASS, but no visual artwork approval. No pose or prop edits authorized/implied. |
+| Original v1.0.0 caption master and sticker table | **ARCHIVED / PRESERVED** | `09_HISTORY/CAPTION_TABLE/v1.0.0/frames.json`, `09_HISTORY/CAPTION_TABLE/v1.0.0/CAPTION_MASTER.md` | Earlier owner approval is retained historically; v1.1.0 is active for text only. |
