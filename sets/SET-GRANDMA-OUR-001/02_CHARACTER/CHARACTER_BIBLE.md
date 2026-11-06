@@ -37,3 +37,13 @@ Status: **OWNER-DIRECTED BIBLE REVISION; NEW VISUAL SHEET CANDIDATE IS NOT YET O
 - Create one A4 **portrait** compact sheet: front, 3/4, side and back turnaround, at least four facial expressions, seven outfit-gem palettes, enlarged jewelry detail and proportion guide. Prioritize large readable visual samples over long AI-rendered Thai explanations.
 - Record asset path, dimensions, SHA-256 and Product Owner approval as a new versioned receipt only after the image is created and inspected. **Artwork candidate does not automatically replace the approved visual source**. The new image must be explicitly approved before use in production.
 - Maintain the existing 40-frame Sticker Table and Caption Master without alteration. Apply the owner's latest natural-occlusion permission over earlier 'pendant must always be visible' wording for this project.
+
+## Revision 0.3 — user-uploaded current image SSOT (2026-11-06, supersedes v0.2 approval state)
+
+**Active approved visual identity and style reference:** `02_CHARACTER/VISUAL_SSOT_CURRENT.md`. Source image SHA-256 `eba90e0f195eadae74d2d295589869e76f15cb38b2b8f64ce2c2e39f325dec4e`, original user upload `image(20261106-084459).png`, preserved in persistent ChatGPT Library at `/MTLineSticker/SET-GRANDMA-OUR-001/SSOT/Grandma_No1_Character_Visual_SSOT_2026-11-06.png`. Product Owner explicitly selected this *image 1* as SSOT. This newer decision supersedes earlier paragraphs asserting Character Sheet v0.1 remains the current reference; the earlier paragraphs remain for audit history only.
+
+Do not transfer the board's illustrative Thai captions to the 40 sticker frames: `frames.json` and `01_PRODUCT/CAPTION_MASTER.md` stay owner-locked and independently authoritative. The image's photo and chibi examples establish appearance and style; original 7-day mapping and locked frame poses/captions remain in project data. The recently authorized natural gem-pendant occlusion remains valid.
+
+**Migration blocker:** 40 owner-locked `frames.json` entries still carry an older `character_reference_sha256`. Before claiming any production QA or image-reference gate PASS, the engine must resolve this newer owner's explicit visual reference approval through a versioned binding/override without mutating the locked Sticker Table records. If the engine does not support that resolution, report BLOCKED_REFERENCE_VERSION_MISMATCH; do not silently substitute the old image.
+
+The supplied image is the approved visual **reference board**, not finished Sticker Sheet S01 approval.
