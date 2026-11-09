@@ -1,0 +1,10 @@
+{
+  "set_id": "PONG-SET-03",
+  "title": "โป้งดูแลครอบครัวตำรวจ",
+  "core_message": "ดูแลความเป็นอยู่กำลังพลและครอบครัว",
+  "artwork_target": 40,
+  "status": "DOCUMENTATION_DRAFT",
+  "caption_version": "v0.1",
+  "reference_binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+  "approval": "PENDING"
+}

@@ -1,0 +1,368 @@
+{
+  "schema_version": "0.1-draft",
+  "set_id": "PONG-SET-03",
+  "count": 40,
+  "approval": "PENDING",
+  "captions": [
+    {
+      "frame_id": "S03-01",
+      "caption": "อยู่ดีมีสุข",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-02",
+      "caption": "ห่วงใยเสมอครับ",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-03",
+      "caption": "เป็นยังไงบ้างครับ",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-04",
+      "caption": "อย่าลืมพักผ่อน",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-05",
+      "caption": "ดูแลสุขภาพกันครับ",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-06",
+      "caption": "มีอะไรบอกกันได้",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-07",
+      "caption": "เราดูแลกันครับ",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-08",
+      "caption": "ไม่ทิ้งกันครับ",
+      "intent": "ห่วงใย",
+      "pose": "มือแตะอก เอียงศีรษะ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-09",
+      "caption": "กินข้าวกันครับ",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-10",
+      "caption": "ถึงเวลาพักแล้ว",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-11",
+      "caption": "อิ่มอร่อยนะครับ",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-12",
+      "caption": "พักเที่ยงกันครับ",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-13",
+      "caption": "กินให้อิ่มนะ",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-14",
+      "caption": "พักให้เต็มที่ครับ",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-15",
+      "caption": "ชวนกันมาทานข้าว",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-16",
+      "caption": "เติมพลังก่อนครับ",
+      "intent": "อาหารและพัก",
+      "pose": "ชวนกินข้าว ถือจาน",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-17",
+      "caption": "ฝากความคิดถึงถึงบ้าน",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-18",
+      "caption": "ครอบครัวสำคัญเสมอ",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-19",
+      "caption": "ขอให้บ้านอบอุ่น",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-20",
+      "caption": "ยินดีกับลูกหลานครับ",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-21",
+      "caption": "เรียนเก่งนะครับ",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-22",
+      "caption": "เป็นกำลังใจให้ครอบครัว",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-23",
+      "caption": "ขอให้ทุกคนสุขภาพดี",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-24",
+      "caption": "ขอบคุณคนที่บ้าน",
+      "intent": "ครอบครัว",
+      "pose": "ยิ้ม ยินดี",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-25",
+      "caption": "ออกกำลังกันครับ",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-26",
+      "caption": "สุขภาพต้องมาก่อน",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-27",
+      "caption": "ขยับร่างกายหน่อย",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-28",
+      "caption": "ยืดเส้นกันครับ",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-29",
+      "caption": "กีฬาเชื่อมใจ",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-30",
+      "caption": "พักผ่อนให้พอ",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-31",
+      "caption": "อย่าหักโหมนะครับ",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-32",
+      "caption": "ดูแลกันทั้งทีม",
+      "intent": "กีฬาและสุขภาพ",
+      "pose": "ยืดแขน ออกกำลังกาย",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-33",
+      "caption": "เหนื่อยก็พักได้นะ",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-34",
+      "caption": "ขอบคุณความเสียสละ",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-35",
+      "caption": "คุณสำคัญกับทีม",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-36",
+      "caption": "มีผมเป็นกำลังใจ",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-37",
+      "caption": "เราผ่านไปด้วยกัน",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-38",
+      "caption": "ยิ้มไว้ครับ",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-39",
+      "caption": "ร่วมทุกข์ร่วมสุข",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S03-40",
+      "caption": "กำลังใจถึงทุกคน",
+      "intent": "กำลังใจทีม",
+      "pose": "ยื่นมือช่วย จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

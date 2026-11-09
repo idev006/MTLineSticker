@@ -1,0 +1,368 @@
+{
+  "schema_version": "0.1-draft",
+  "set_id": "PONG-SET-01",
+  "count": 40,
+  "approval": "PENDING",
+  "captions": [
+    {
+      "frame_id": "S01-01",
+      "caption": "สวัสดีครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-02",
+      "caption": "อรุณสวัสดิ์ครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-03",
+      "caption": "สวัสดีตอนบ่ายครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-04",
+      "caption": "สวัสดีตอนเย็นครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-05",
+      "caption": "ยินดีที่ได้พบครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-06",
+      "caption": "ทักทายครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-07",
+      "caption": "วันนี้เป็นไงบ้างครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-08",
+      "caption": "สบายดีไหมครับ",
+      "intent": "ทักทาย",
+      "pose": "ไหว้ ยิ้ม โบกมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-09",
+      "caption": "รับทราบครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-10",
+      "caption": "เข้าใจแล้วครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-11",
+      "caption": "กำลังฟังครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-12",
+      "caption": "รับฟังอยู่ครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-13",
+      "caption": "บอกได้เลยครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-14",
+      "caption": "ขอรายละเอียดอีกนิดครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-15",
+      "caption": "เห็นข้อความแล้วครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-16",
+      "caption": "ขอรับเรื่องไว้ครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้า ตั้งใจฟัง",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-17",
+      "caption": "ขอบคุณครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-18",
+      "caption": "ขอบคุณมากครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-19",
+      "caption": "ขอบคุณจากใจครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-20",
+      "caption": "ขอบคุณที่ช่วยกัน",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-21",
+      "caption": "ซาบซึ้งใจครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-22",
+      "caption": "ดีใจที่ได้พบครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-23",
+      "caption": "ดีใจที่ได้ช่วยครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-24",
+      "caption": "ด้วยความยินดีครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ ขอบคุณ ยิ้ม",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-25",
+      "caption": "ยินดีช่วยเหลือครับ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-26",
+      "caption": "ให้ช่วยอะไรดีครับ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-27",
+      "caption": "ติดต่อมาได้ครับ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-28",
+      "caption": "พร้อมช่วยประสานครับ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-29",
+      "caption": "เดี๋ยวช่วยดูให้นะ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-30",
+      "caption": "เรามาช่วยกันครับ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-31",
+      "caption": "ขอเป็นกำลังใจให้",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-32",
+      "caption": "ผมพร้อมรับฟังครับ",
+      "intent": "บริการ",
+      "pose": "ผายมือ ช่วยเหลือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-33",
+      "caption": "รักษาสุขภาพด้วยครับ",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-34",
+      "caption": "ขอให้มีความสุข",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-35",
+      "caption": "โชคดีครับ",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-36",
+      "caption": "ไว้พบกันครับ",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-37",
+      "caption": "ฝันดีครับ",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-38",
+      "caption": "ขอให้วันราบรื่น",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-39",
+      "caption": "เป็นกำลังใจให้นะ",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S01-40",
+      "caption": "ดูแลตัวเองด้วยครับ",
+      "intent": "ส่งท้าย",
+      "pose": "โบกมือลา ยิ้มส่งใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

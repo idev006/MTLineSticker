@@ -1,0 +1,368 @@
+{
+  "schema_version": "0.1-draft",
+  "set_id": "PONG-SET-08",
+  "count": 40,
+  "approval": "PENDING",
+  "captions": [
+    {
+      "frame_id": "S08-01",
+      "caption": "เยี่ยมมากครับ",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-02",
+      "caption": "ขอชื่นชมครับ",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-03",
+      "caption": "สุดยอดครับ",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-04",
+      "caption": "เก่งมากครับ",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-05",
+      "caption": "ทำได้ดีครับ",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-06",
+      "caption": "น่าชื่นชมจริง ๆ",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-07",
+      "caption": "ผลงานยอดเยี่ยม",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-08",
+      "caption": "ความดีมีคุณค่า",
+      "intent": "ชื่นชม",
+      "pose": "ปรบมือ ยกนิ้ว",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-09",
+      "caption": "ขอบคุณที่ทุ่มเท",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-10",
+      "caption": "ขอบคุณจากใจ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-11",
+      "caption": "ขอบคุณทีมงาน",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-12",
+      "caption": "ขอบคุณในความตั้งใจ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-13",
+      "caption": "ขอบคุณที่ไม่ยอมแพ้",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-14",
+      "caption": "เห็นความพยายามนะ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-15",
+      "caption": "ขอบคุณที่ช่วยเหลือ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-16",
+      "caption": "ขอบคุณทุกคนครับ",
+      "intent": "ขอบคุณ",
+      "pose": "ไหว้ มือแตะอก",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-17",
+      "caption": "ยินดีด้วยครับ",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-18",
+      "caption": "ดีใจด้วยจริง ๆ",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-19",
+      "caption": "ขอแสดงความยินดี",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-20",
+      "caption": "สมควรได้รับคำชม",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-21",
+      "caption": "ภูมิใจแทนครับ",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-22",
+      "caption": "ขอปรบมือให้",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-23",
+      "caption": "สำเร็จแล้วครับ",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-24",
+      "caption": "วันนี้วันของคุณ",
+      "intent": "ยินดี",
+      "pose": "ยิ้ม ส่งดอกไม้",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-25",
+      "caption": "ภูมิใจในทีมครับ",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-26",
+      "caption": "ทีมเราทำได้",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-27",
+      "caption": "ร่วมแรงร่วมใจกัน",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-28",
+      "caption": "ทุกคนเก่งมาก",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-29",
+      "caption": "ผลงานของทุกคน",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-30",
+      "caption": "ขอส่งเสียงปรบมือ",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-31",
+      "caption": "ขอบคุณพลังทีม",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-32",
+      "caption": "ความสำเร็จร่วมกัน",
+      "intent": "ทีมดี",
+      "pose": "ชี้เพื่อนร่วมทีม จับมือ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-33",
+      "caption": "ทำดีต่อไปนะ",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-34",
+      "caption": "ดีแล้วทำต่อครับ",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-35",
+      "caption": "อย่าหยุดทำความดี",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-36",
+      "caption": "เป็นตัวอย่างที่ดี",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-37",
+      "caption": "ร่วมกันสร้างสิ่งดี",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-38",
+      "caption": "ความดีเริ่มที่เรา",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-39",
+      "caption": "กำลังใจเต็มที่",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S08-40",
+      "caption": "ทำดีมีรางวัล",
+      "intent": "ทำดีต่อ",
+      "pose": "กำหมัด ให้กำลังใจ",
+      "caption_type": "CREATIVE_OR_DERIVED_CANDIDATE",
+      "source_evidence": "USER_DRIVE_DRAFT",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

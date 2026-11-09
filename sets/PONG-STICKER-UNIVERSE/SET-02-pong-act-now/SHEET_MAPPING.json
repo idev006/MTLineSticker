@@ -1,0 +1,191 @@
+{
+  "layout": "4x2",
+  "frame_ratio": "592:512",
+  "sheets": [
+    {
+      "sheet_no": 1,
+      "slots": [
+        {
+          "position": 1,
+          "frame_id": "S02-01"
+        },
+        {
+          "position": 2,
+          "frame_id": "S02-02"
+        },
+        {
+          "position": 3,
+          "frame_id": "S02-03"
+        },
+        {
+          "position": 4,
+          "frame_id": "S02-04"
+        },
+        {
+          "position": 5,
+          "frame_id": "S02-05"
+        },
+        {
+          "position": 6,
+          "frame_id": "S02-06"
+        },
+        {
+          "position": 7,
+          "frame_id": "S02-07"
+        },
+        {
+          "position": 8,
+          "frame_id": "S02-08"
+        }
+      ]
+    },
+    {
+      "sheet_no": 2,
+      "slots": [
+        {
+          "position": 1,
+          "frame_id": "S02-09"
+        },
+        {
+          "position": 2,
+          "frame_id": "S02-10"
+        },
+        {
+          "position": 3,
+          "frame_id": "S02-11"
+        },
+        {
+          "position": 4,
+          "frame_id": "S02-12"
+        },
+        {
+          "position": 5,
+          "frame_id": "S02-13"
+        },
+        {
+          "position": 6,
+          "frame_id": "S02-14"
+        },
+        {
+          "position": 7,
+          "frame_id": "S02-15"
+        },
+        {
+          "position": 8,
+          "frame_id": "S02-16"
+        }
+      ]
+    },
+    {
+      "sheet_no": 3,
+      "slots": [
+        {
+          "position": 1,
+          "frame_id": "S02-17"
+        },
+        {
+          "position": 2,
+          "frame_id": "S02-18"
+        },
+        {
+          "position": 3,
+          "frame_id": "S02-19"
+        },
+        {
+          "position": 4,
+          "frame_id": "S02-20"
+        },
+        {
+          "position": 5,
+          "frame_id": "S02-21"
+        },
+        {
+          "position": 6,
+          "frame_id": "S02-22"
+        },
+        {
+          "position": 7,
+          "frame_id": "S02-23"
+        },
+        {
+          "position": 8,
+          "frame_id": "S02-24"
+        }
+      ]
+    },
+    {
+      "sheet_no": 4,
+      "slots": [
+        {
+          "position": 1,
+          "frame_id": "S02-25"
+        },
+        {
+          "position": 2,
+          "frame_id": "S02-26"
+        },
+        {
+          "position": 3,
+          "frame_id": "S02-27"
+        },
+        {
+          "position": 4,
+          "frame_id": "S02-28"
+        },
+        {
+          "position": 5,
+          "frame_id": "S02-29"
+        },
+        {
+          "position": 6,
+          "frame_id": "S02-30"
+        },
+        {
+          "position": 7,
+          "frame_id": "S02-31"
+        },
+        {
+          "position": 8,
+          "frame_id": "S02-32"
+        }
+      ]
+    },
+    {
+      "sheet_no": 5,
+      "slots": [
+        {
+          "position": 1,
+          "frame_id": "S02-33"
+        },
+        {
+          "position": 2,
+          "frame_id": "S02-34"
+        },
+        {
+          "position": 3,
+          "frame_id": "S02-35"
+        },
+        {
+          "position": 4,
+          "frame_id": "S02-36"
+        },
+        {
+          "position": 5,
+          "frame_id": "S02-37"
+        },
+        {
+          "position": 6,
+          "frame_id": "S02-38"
+        },
+        {
+          "position": 7,
+          "frame_id": "S02-39"
+        },
+        {
+          "position": 8,
+          "frame_id": "S02-40"
+        }
+      ]
+    }
+  ]
+}

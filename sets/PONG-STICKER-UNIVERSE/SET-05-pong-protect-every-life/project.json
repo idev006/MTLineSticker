@@ -1,0 +1,10 @@
+{
+  "set_id": "PONG-SET-05",
+  "title": "โป้งพิทักษ์ทุกชีวิต",
+  "core_message": "จราจรปลอดภัยและการบริการ",
+  "artwork_target": 40,
+  "status": "DOCUMENTATION_DRAFT",
+  "caption_version": "v0.1",
+  "reference_binary_delivery": "OWNER_TO_GEM_B_RUNTIME",
+  "approval": "PENDING"
+}

@@ -1,0 +1,6 @@
+{
+  "set_id": "PONG-SET-01",
+  "sha256_manifest_status": "NOT_GENERATED",
+  "reason": "SHA256 of final pinned snapshot and official registry not yet validated",
+  "a1_ready": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.1-draft",
+  "set_id": "PONG-SET-02",
+  "status": "BLOCKED",
+  "gate_a1": "NOT_VALIDATED",
+  "gate_a2": "AWAITING_OWNER_ASSETS",
+  "hero_authorized": false,
+  "blockers": [
+    "G2 collection owner approval",
+    "G3 caption lock",
+    "G4 character approval",
+    "registry/method validation"
+  ],
+  "source_commit": null
+}

@@ -1,0 +1,7 @@
+# Product Strategy — โป้งทักทาย เคียงข้างประชาชน
+
+**Key Message:** เข้าถึงง่าย รับฟัง พร้อมช่วยเหลือ
+
+Five conversational intent clusters mirror the 40-frame draft groups. Creative usability must be reviewed; never assert the commander literally spoke everyday captions. Distinguish this collection from other sets by audience and emotional effect. P.O.N.G. does not need to tag every frame.
+
+**Quality:** Avoid same joke/gesture throughout; check long Thai text on actual rendered samples; preserve dignity and consent.
