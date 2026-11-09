@@ -4,7 +4,7 @@ frame_id,caption,intent,pose,caption_type,source_evidence,approval_status
 "S11-03","ขอบคุณที่แนะนำ","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S11-04","รับข้อเสนอแนะครับ","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S11-05","ความคิดเห็นมีคุณค่า","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
-"S11-06","แลกเปลี่ยนกันครับ","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
+"S11-06","รับฟังความเห็นต่าง","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S11-07","ยินดีรับฟังเพิ่มเติม","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S11-08","ฟังกันให้ครบ","รับฟัง","พยักหน้าถือแฟ้ม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S11-09","ขอตรวจสอบข้อมูล","ตรวจข่าว","ดูหน้าจอสื่อ","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"

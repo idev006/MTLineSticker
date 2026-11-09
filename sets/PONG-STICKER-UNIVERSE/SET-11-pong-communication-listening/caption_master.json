@@ -50,7 +50,7 @@
     },
     {
       "frame_id": "S11-06",
-      "caption": "แลกเปลี่ยนกันครับ",
+      "caption": "รับฟังความเห็นต่าง",
       "intent": "รับฟัง",
       "pose": "พยักหน้าถือแฟ้ม",
       "caption_type": "C1_CREATIVE_CANDIDATE",

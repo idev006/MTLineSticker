@@ -122,7 +122,7 @@
     },
     {
       "frame_id": "S09-14",
-      "caption": "ตรวจความเรียบร้อย",
+      "caption": "ตรวจมาตรฐานให้ครบ",
       "intent": "วินัย",
       "pose": "ยืนตรงถือเช็กลิสต์",
       "caption_type": "C1_CREATIVE_CANDIDATE",

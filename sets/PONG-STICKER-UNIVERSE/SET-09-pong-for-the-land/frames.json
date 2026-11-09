@@ -226,7 +226,7 @@
       "set_id": "PONG-SET-09",
       "frame_id": "S09-14",
       "slot": 14,
-      "caption": "ตรวจความเรียบร้อย",
+      "caption": "ตรวจมาตรฐานให้ครบ",
       "intent": "วินัย",
       "pose": "ยืนตรงถือเช็กลิสต์",
       "expression": "context-specific / pending visual design",

@@ -77,7 +77,7 @@
     },
     {
       "frame_id": "S13-09",
-      "caption": "เปิดใจรับฟัง",
+      "caption": "ประชาชนต้องมาก่อน",
       "intent": "Open Mind",
       "pose": "เปิดใจ/หลอดไฟไอเดีย",
       "caption_type": "C1_CREATIVE_CANDIDATE",
@@ -122,7 +122,7 @@
     },
     {
       "frame_id": "S13-14",
-      "caption": "เรียนรู้จากกัน",
+      "caption": "แบ่งปันมุมมองใหม่",
       "intent": "Open Mind",
       "pose": "เปิดใจ/หลอดไฟไอเดีย",
       "caption_type": "C1_CREATIVE_CANDIDATE",

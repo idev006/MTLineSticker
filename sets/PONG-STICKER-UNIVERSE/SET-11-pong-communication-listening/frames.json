@@ -90,7 +90,7 @@
       "set_id": "PONG-SET-11",
       "frame_id": "S11-06",
       "slot": 6,
-      "caption": "แลกเปลี่ยนกันครับ",
+      "caption": "รับฟังความเห็นต่าง",
       "intent": "รับฟัง",
       "pose": "พยักหน้าถือแฟ้ม",
       "expression": "context-specific / pending visual design",

@@ -5,7 +5,7 @@ frame_id,caption,intent,pose,caption_type,source_evidence,approval_status
 "S12-04","เชื่อมพลังกัน","ประสาน","จับมือภาคี","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S12-05","ยินดีประสานต่อ","ประสาน","จับมือภาคี","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S12-06","ติดต่อประสานได้","ประสาน","จับมือภาคี","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
-"S12-07","ร่วมแรงร่วมใจกัน","ประสาน","จับมือภาคี","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
+"S12-07","ผนึกกำลังทุกฝ่าย","ประสาน","จับมือภาคี","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S12-08","เราคือทีมเดียวกัน","ประสาน","จับมือภาคี","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S12-09","นัดหารือกันครับ","ประชุมร่วม","ชี้แผนร่วม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S12-10","ขอความเห็นทุกฝ่าย","ประชุมร่วม","ชี้แผนร่วม","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"

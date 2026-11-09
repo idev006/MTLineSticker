@@ -1,42 +1,42 @@
-# Frame Matrix — โป้ง P.O.N.G.
+# Frame Matrix — PONG-SET-13 (updated candidate captions)
 
-- S13-01 **ประชาชนเป็นศูนย์กลาง** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-02 **ใส่ใจประชาชน** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-03 **รับฟังทุกเสียง** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-04 **เพื่อความสุขของประชาชน** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-05 **พร้อมดูแลครับ** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-06 **การบริการสำคัญ** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-07 **ช่วยกันดูแลชุมชน** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-08 **ฟังเสียงประชาชน** — People; รับฟังประชาชน; quote attribution: NOT APPROVED
-- S13-09 **เปิดใจรับฟัง** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-10 **พร้อมรับแนวคิดใหม่** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-11 **คิดสร้างสรรค์กัน** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-12 **กล้าคิดสิ่งใหม่** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-13 **แก้ไขสิ่งที่ผิด** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-14 **เรียนรู้จากกัน** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-15 **เปิดรับความคิดเห็น** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-16 **คิดใหม่อย่างมีเหตุผล** — Open Mind; เปิดใจ/หลอดไฟไอเดีย; quote attribution: NOT APPROVED
-- S13-17 **สร้างเครือข่าย** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-18 **รวมพลังทุกภาคส่วน** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-19 **ร่วมมือแก้ปัญหา** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-20 **ประสานทุกเครือข่าย** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-21 **ต่อยอดความร่วมมือ** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-22 **ช่วยกันครับ** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-23 **เชื่อมโยงชุมชน** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-24 **หนึ่งพลังหลายภาคส่วน** — Networking; จับมือเครือข่าย; quote attribution: NOT APPROVED
-- S13-25 **ยึดหลักธรรมาภิบาล** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-26 **ถูกต้องโปร่งใส** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-27 **ตรวจสอบได้** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-28 **รับผิดชอบหน้าที่** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-29 **คิดดี พูดดี ทำดี** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-30 **ทำสิ่งที่ถูกต้อง** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-31 **ชี้แจงอย่างตรงไปตรงมา** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-32 **เป็นแบบอย่างที่ดีครับ** — Good Governance; ถือเช็กลิสต์โปร่งใส; quote attribution: NOT APPROVED
-- S13-33 **P.O.N.G.** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-34 **People** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-35 **Open Mind** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-36 **Networking** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-37 **Good Governance** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-38 **P.O.N.G. เพื่อประชาชน** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-39 **P.O.N.G. ร่วมพัฒนา** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
-- S13-40 **P.O.N.G. ทำเพื่อส่วนรวม** — P.O.N.G. ร่วม; แสดง 4 แนวคิด; quote attribution: NOT APPROVED
+- **S13-01** “ประชาชนเป็นศูนย์กลาง” | People | รับฟังประชาชน | G3 PENDING
+- **S13-02** “ใส่ใจประชาชน” | People | รับฟังประชาชน | G3 PENDING
+- **S13-03** “รับฟังทุกเสียง” | People | รับฟังประชาชน | G3 PENDING
+- **S13-04** “เพื่อความสุขของประชาชน” | People | รับฟังประชาชน | G3 PENDING
+- **S13-05** “พร้อมดูแลครับ” | People | รับฟังประชาชน | G3 PENDING
+- **S13-06** “การบริการสำคัญ” | People | รับฟังประชาชน | G3 PENDING
+- **S13-07** “ช่วยกันดูแลชุมชน” | People | รับฟังประชาชน | G3 PENDING
+- **S13-08** “ฟังเสียงประชาชน” | People | รับฟังประชาชน | G3 PENDING
+- **S13-09** “ประชาชนต้องมาก่อน” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-10** “พร้อมรับแนวคิดใหม่” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-11** “คิดสร้างสรรค์กัน” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-12** “กล้าคิดสิ่งใหม่” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-13** “แก้ไขสิ่งที่ผิด” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-14** “แบ่งปันมุมมองใหม่” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-15** “เปิดรับความคิดเห็น” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-16** “คิดใหม่อย่างมีเหตุผล” | Open Mind | เปิดใจ/หลอดไฟไอเดีย | G3 PENDING
+- **S13-17** “สร้างเครือข่าย” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-18** “รวมพลังทุกภาคส่วน” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-19** “ร่วมมือแก้ปัญหา” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-20** “ประสานทุกเครือข่าย” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-21** “ต่อยอดความร่วมมือ” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-22** “ช่วยกันครับ” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-23** “เชื่อมโยงชุมชน” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-24** “หนึ่งพลังหลายภาคส่วน” | Networking | จับมือเครือข่าย | G3 PENDING
+- **S13-25** “ยึดหลักธรรมาภิบาล” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-26** “ถูกต้องโปร่งใส” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-27** “ตรวจสอบได้” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-28** “รับผิดชอบหน้าที่” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-29** “คิดดี พูดดี ทำดี” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-30** “ทำสิ่งที่ถูกต้อง” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-31** “ชี้แจงอย่างตรงไปตรงมา” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-32** “เป็นแบบอย่างที่ดีครับ” | Good Governance | ถือเช็กลิสต์โปร่งใส | G3 PENDING
+- **S13-33** “P.O.N.G.” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-34** “People” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-35** “Open Mind” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-36** “Networking” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-37** “Good Governance” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-38** “P.O.N.G. เพื่อประชาชน” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-39** “P.O.N.G. ร่วมพัฒนา” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING
+- **S13-40** “P.O.N.G. ทำเพื่อส่วนรวม” | P.O.N.G. ร่วม | แสดง 4 แนวคิด | G3 PENDING

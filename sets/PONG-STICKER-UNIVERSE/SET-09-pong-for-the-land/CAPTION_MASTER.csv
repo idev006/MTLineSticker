@@ -12,7 +12,7 @@ frame_id,caption,intent,pose,caption_type,source_evidence,approval_status
 "S09-11","ทำตามระเบียบ","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S09-12","รักษาหน้าที่ครับ","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S09-13","ตรงต่อเวลากัน","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
-"S09-14","ตรวจความเรียบร้อย","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
+"S09-14","ตรวจมาตรฐานให้ครบ","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S09-15","วินัยสร้างความเชื่อมั่น","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S09-16","รับผิดชอบทุกงาน","วินัย","ยืนตรงถือเช็กลิสต์","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
 "S09-17","ยึดความถูกต้อง","สุจริต","ถือแฟ้มโปร่งใส","C1_CREATIVE_CANDIDATE","EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW","PENDING"
