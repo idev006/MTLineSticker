@@ -1,0 +1,9 @@
+{
+  "set_id": "PONG-SET-09",
+  "title": "โป้งเพื่อแผ่นดิน",
+  "key_message": "ปณิธาน วินัย ความรับผิดชอบ",
+  "frame_target": 40,
+  "status": "DOCUMENTATION_DRAFT",
+  "artifact_approval": false,
+  "binary_delivery": "OWNER_TO_GEM_B_RUNTIME"
+}

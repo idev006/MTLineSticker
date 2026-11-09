@@ -1,0 +1,42 @@
+# Frame Matrix — โป้งสื่อสารรับฟัง
+
+- S11-01 **เปิดใจรับฟัง** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-02 **รับฟังทุกความคิดเห็น** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-03 **ขอบคุณที่แนะนำ** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-04 **รับข้อเสนอแนะครับ** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-05 **ความคิดเห็นมีคุณค่า** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-06 **แลกเปลี่ยนกันครับ** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-07 **ยินดีรับฟังเพิ่มเติม** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-08 **ฟังกันให้ครบ** — รับฟัง; พยักหน้าถือแฟ้ม; quote attribution: NOT APPROVED
+- S11-09 **ขอตรวจสอบข้อมูล** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-10 **เช็กแหล่งข่าวก่อน** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-11 **ยืนยันข้อมูลก่อนแชร์** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-12 **ข่าวต้องชัดเจน** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-13 **ตรวจข้อเท็จจริงก่อน** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-14 **สื่อสารอย่างรับผิดชอบ** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-15 **ไม่ส่งต่อข่าวลือ** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-16 **ขอข้อมูลต้นฉบับ** — ตรวจข่าว; ดูหน้าจอสื่อ; quote attribution: NOT APPROVED
+- S11-17 **รับเรื่องไว้แล้วครับ** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-18 **ขอบคุณที่แจ้ง** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-19 **อยู่ระหว่างตรวจสอบ** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-20 **จะแจ้งผลเมื่อมีข้อมูล** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-21 **รับทราบข้อกังวล** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-22 **พร้อมประสานตรวจสอบ** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-23 **มีรายละเอียดเพิ่มไหมครับ** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-24 **แจ้งสถานะตามจริง** — ตอบเรื่อง; ถือโทรศัพท์; quote attribution: NOT APPROVED
+- S11-25 **สื่อสารให้ชัดเจน** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-26 **แจ้งข่าวสารครับ** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-27 **ขอชี้แจงครับ** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-28 **ข้อมูลนี้ตรวจสอบแล้ว** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-29 **มีรายละเอียดเพิ่มเติม** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-30 **ติดตามข่าวทางการ** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-31 **ขอบคุณสื่อทุกท่าน** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-32 **ขอความร่วมมือครับ** — เผยแพร่; ถือไมโครโฟน; quote attribution: NOT APPROVED
+- S11-33 **รับไปปรับปรุงครับ** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-34 **เรียนรู้จากคำติชม** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-35 **แก้ไขข้อมูลที่คลาดเคลื่อน** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-36 **ทบทวนอีกครั้งครับ** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-37 **ยินดีเปิดรับแนวคิด** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-38 **พร้อมพัฒนาต่อ** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-39 **ช่วยกันสื่อสารดี ๆ** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED
+- S11-40 **สื่อสารด้วยความเข้าใจ** — ปรับปรุง; บันทึกข้อเสนอ; quote attribution: NOT APPROVED

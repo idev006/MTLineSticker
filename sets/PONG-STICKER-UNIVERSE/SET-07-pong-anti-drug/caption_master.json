@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-07",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S07-01",
+      "caption": "รวมพลังต้านยาเสพติด",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-02",
+      "caption": "ป้องกันตั้งแต่ต้น",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-03",
+      "caption": "รู้เท่าทันยาเสพติด",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-04",
+      "caption": "ช่วยกันดูแลลูกหลาน",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-05",
+      "caption": "เรียนรู้พิษภัยกัน",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-06",
+      "caption": "สร้างภูมิคุ้มกัน",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-07",
+      "caption": "เตือนกันด้วยความห่วงใย",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-08",
+      "caption": "เริ่มจากครอบครัว",
+      "intent": "ป้องกัน",
+      "pose": "ชี้สื่อความรู้",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-09",
+      "caption": "ชุมชนเข้มแข็ง",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-10",
+      "caption": "ร่วมปกป้องชุมชน",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-11",
+      "caption": "เป็นหูเป็นตากัน",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-12",
+      "caption": "พูดคุยกันครับ",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-13",
+      "caption": "ร่วมกันสร้างทางเลือก",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-14",
+      "caption": "สร้างพื้นที่ปลอดภัย",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-15",
+      "caption": "ห่วงใยเยาวชน",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-16",
+      "caption": "ช่วยกันสร้างโอกาส",
+      "intent": "ชุมชน",
+      "pose": "ประชุมกับชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-17",
+      "caption": "ยึดหลักกฎหมาย",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-18",
+      "caption": "ทำตามขั้นตอน",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-19",
+      "caption": "ตรวจสอบข้อเท็จจริง",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-20",
+      "caption": "ทำงานอย่างรอบคอบ",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-21",
+      "caption": "ปกป้องสิทธิทุกคน",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-22",
+      "caption": "ไม่ละเลยหน้าที่",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-23",
+      "caption": "ประสานงานตามกฎหมาย",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-24",
+      "caption": "ปฏิบัติอย่างเป็นธรรม",
+      "intent": "กฎหมาย",
+      "pose": "ถือแฟ้มข้อกฎหมาย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-25",
+      "caption": "ให้โอกาสกลับตัว",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-26",
+      "caption": "ไม่ทอดทิ้งกัน",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-27",
+      "caption": "ร่วมกันฟื้นฟู",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-28",
+      "caption": "กำลังใจสำคัญ",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-29",
+      "caption": "เริ่มต้นใหม่ได้",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-30",
+      "caption": "ดูแลกันต่อเนื่อง",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-31",
+      "caption": "ขอให้ก้าวต่อไป",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-32",
+      "caption": "ช่วยเหลืออย่างเข้าใจ",
+      "intent": "ฟื้นฟู",
+      "pose": "ยื่นมือช่วย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-33",
+      "caption": "ร่วมต้านภัยยาเสพติด",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-34",
+      "caption": "ประสานทุกภาคส่วน",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-35",
+      "caption": "สร้างความเข้าใจร่วมกัน",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-36",
+      "caption": "เดินหน้าอย่างต่อเนื่อง",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-37",
+      "caption": "ดูแลสังคมด้วยกัน",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-38",
+      "caption": "ครอบครัวคือพลัง",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-39",
+      "caption": "ทำดีเพื่อชุมชน",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S07-40",
+      "caption": "มุ่งมั่นเพื่อความปลอดภัย",
+      "intent": "รวมพลัง",
+      "pose": "ทีมยืนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

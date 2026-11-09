@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-13",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S13-01",
+      "caption": "ประชาชนเป็นศูนย์กลาง",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-02",
+      "caption": "ใส่ใจประชาชน",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-03",
+      "caption": "รับฟังทุกเสียง",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-04",
+      "caption": "เพื่อความสุขของประชาชน",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-05",
+      "caption": "พร้อมดูแลครับ",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-06",
+      "caption": "การบริการสำคัญ",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-07",
+      "caption": "ช่วยกันดูแลชุมชน",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-08",
+      "caption": "ฟังเสียงประชาชน",
+      "intent": "People",
+      "pose": "รับฟังประชาชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-09",
+      "caption": "เปิดใจรับฟัง",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-10",
+      "caption": "พร้อมรับแนวคิดใหม่",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-11",
+      "caption": "คิดสร้างสรรค์กัน",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-12",
+      "caption": "กล้าคิดสิ่งใหม่",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-13",
+      "caption": "แก้ไขสิ่งที่ผิด",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-14",
+      "caption": "เรียนรู้จากกัน",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-15",
+      "caption": "เปิดรับความคิดเห็น",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-16",
+      "caption": "คิดใหม่อย่างมีเหตุผล",
+      "intent": "Open Mind",
+      "pose": "เปิดใจ/หลอดไฟไอเดีย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-17",
+      "caption": "สร้างเครือข่าย",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-18",
+      "caption": "รวมพลังทุกภาคส่วน",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-19",
+      "caption": "ร่วมมือแก้ปัญหา",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-20",
+      "caption": "ประสานทุกเครือข่าย",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-21",
+      "caption": "ต่อยอดความร่วมมือ",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-22",
+      "caption": "ช่วยกันครับ",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-23",
+      "caption": "เชื่อมโยงชุมชน",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-24",
+      "caption": "หนึ่งพลังหลายภาคส่วน",
+      "intent": "Networking",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-25",
+      "caption": "ยึดหลักธรรมาภิบาล",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-26",
+      "caption": "ถูกต้องโปร่งใส",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-27",
+      "caption": "ตรวจสอบได้",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-28",
+      "caption": "รับผิดชอบหน้าที่",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-29",
+      "caption": "คิดดี พูดดี ทำดี",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-30",
+      "caption": "ทำสิ่งที่ถูกต้อง",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-31",
+      "caption": "ชี้แจงอย่างตรงไปตรงมา",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-32",
+      "caption": "เป็นแบบอย่างที่ดีครับ",
+      "intent": "Good Governance",
+      "pose": "ถือเช็กลิสต์โปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-33",
+      "caption": "P.O.N.G.",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-34",
+      "caption": "People",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-35",
+      "caption": "Open Mind",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-36",
+      "caption": "Networking",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-37",
+      "caption": "Good Governance",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-38",
+      "caption": "P.O.N.G. เพื่อประชาชน",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-39",
+      "caption": "P.O.N.G. ร่วมพัฒนา",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S13-40",
+      "caption": "P.O.N.G. ทำเพื่อส่วนรวม",
+      "intent": "P.O.N.G. ร่วม",
+      "pose": "แสดง 4 แนวคิด",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

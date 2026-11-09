@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-11",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S11-01",
+      "caption": "เปิดใจรับฟัง",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-02",
+      "caption": "รับฟังทุกความคิดเห็น",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-03",
+      "caption": "ขอบคุณที่แนะนำ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-04",
+      "caption": "รับข้อเสนอแนะครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-05",
+      "caption": "ความคิดเห็นมีคุณค่า",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-06",
+      "caption": "แลกเปลี่ยนกันครับ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-07",
+      "caption": "ยินดีรับฟังเพิ่มเติม",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-08",
+      "caption": "ฟังกันให้ครบ",
+      "intent": "รับฟัง",
+      "pose": "พยักหน้าถือแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-09",
+      "caption": "ขอตรวจสอบข้อมูล",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-10",
+      "caption": "เช็กแหล่งข่าวก่อน",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-11",
+      "caption": "ยืนยันข้อมูลก่อนแชร์",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-12",
+      "caption": "ข่าวต้องชัดเจน",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-13",
+      "caption": "ตรวจข้อเท็จจริงก่อน",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-14",
+      "caption": "สื่อสารอย่างรับผิดชอบ",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-15",
+      "caption": "ไม่ส่งต่อข่าวลือ",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-16",
+      "caption": "ขอข้อมูลต้นฉบับ",
+      "intent": "ตรวจข่าว",
+      "pose": "ดูหน้าจอสื่อ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-17",
+      "caption": "รับเรื่องไว้แล้วครับ",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-18",
+      "caption": "ขอบคุณที่แจ้ง",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-19",
+      "caption": "อยู่ระหว่างตรวจสอบ",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-20",
+      "caption": "จะแจ้งผลเมื่อมีข้อมูล",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-21",
+      "caption": "รับทราบข้อกังวล",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-22",
+      "caption": "พร้อมประสานตรวจสอบ",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-23",
+      "caption": "มีรายละเอียดเพิ่มไหมครับ",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-24",
+      "caption": "แจ้งสถานะตามจริง",
+      "intent": "ตอบเรื่อง",
+      "pose": "ถือโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-25",
+      "caption": "สื่อสารให้ชัดเจน",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-26",
+      "caption": "แจ้งข่าวสารครับ",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-27",
+      "caption": "ขอชี้แจงครับ",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-28",
+      "caption": "ข้อมูลนี้ตรวจสอบแล้ว",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-29",
+      "caption": "มีรายละเอียดเพิ่มเติม",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-30",
+      "caption": "ติดตามข่าวทางการ",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-31",
+      "caption": "ขอบคุณสื่อทุกท่าน",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-32",
+      "caption": "ขอความร่วมมือครับ",
+      "intent": "เผยแพร่",
+      "pose": "ถือไมโครโฟน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-33",
+      "caption": "รับไปปรับปรุงครับ",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-34",
+      "caption": "เรียนรู้จากคำติชม",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-35",
+      "caption": "แก้ไขข้อมูลที่คลาดเคลื่อน",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-36",
+      "caption": "ทบทวนอีกครั้งครับ",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-37",
+      "caption": "ยินดีเปิดรับแนวคิด",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-38",
+      "caption": "พร้อมพัฒนาต่อ",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-39",
+      "caption": "ช่วยกันสื่อสารดี ๆ",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S11-40",
+      "caption": "สื่อสารด้วยความเข้าใจ",
+      "intent": "ปรับปรุง",
+      "pose": "บันทึกข้อเสนอ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

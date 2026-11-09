@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-04",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S04-01",
+      "caption": "เรียนรู้กันครับ",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-02",
+      "caption": "เรียนรู้ได้ทุกวัน",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-03",
+      "caption": "วันนี้มาเรียนกัน",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-04",
+      "caption": "เปิดใจรับความรู้",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-05",
+      "caption": "ฝึกคิดให้รอบด้าน",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-06",
+      "caption": "ชวนกันอ่านครับ",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-07",
+      "caption": "ถามเพื่อเข้าใจ",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-08",
+      "caption": "ความรู้แบ่งปันได้",
+      "intent": "เรียนรู้",
+      "pose": "ชี้คู่มือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-09",
+      "caption": "ฝึกให้พร้อม",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-10",
+      "caption": "ลองอีกครั้งครับ",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-11",
+      "caption": "ลงมือฝึกกัน",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-12",
+      "caption": "ทบทวนขั้นตอน",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-13",
+      "caption": "ฝึกซ้ำให้ชำนาญ",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-14",
+      "caption": "ตรวจอุปกรณ์ก่อนฝึก",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-15",
+      "caption": "ทำตามขั้นตอนครับ",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-16",
+      "caption": "ลองทำด้วยกัน",
+      "intent": "ฝึกทักษะ",
+      "pose": "สาธิตฝึก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-17",
+      "caption": "ถามได้เลยครับ",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-18",
+      "caption": "เดี๋ยวช่วยอธิบาย",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-19",
+      "caption": "เรียนรู้จากกัน",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-20",
+      "caption": "แลกเปลี่ยนกันครับ",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-21",
+      "caption": "สอนกันได้ครับ",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-22",
+      "caption": "รับฟังคำแนะนำ",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-23",
+      "caption": "ไม่เข้าใจถามได้",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-24",
+      "caption": "ช่วยกันหาคำตอบ",
+      "intent": "โค้ชทีม",
+      "pose": "ช่วยสอน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-25",
+      "caption": "เก่งขึ้นทุกวัน",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-26",
+      "caption": "ก้าวหน้าอีกขั้น",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-27",
+      "caption": "พัฒนาไม่หยุด",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-28",
+      "caption": "แก้จุดที่พลาด",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-29",
+      "caption": "ฝึกต่อไปครับ",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-30",
+      "caption": "ทำได้ดีขึ้นแล้ว",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-31",
+      "caption": "อย่าเพิ่งท้อครับ",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-32",
+      "caption": "เพิ่มทักษะกันครับ",
+      "intent": "พัฒนาต่อ",
+      "pose": "ชูนิ้วให้กำลังใจ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-33",
+      "caption": "เตรียมตัวให้พร้อม",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-34",
+      "caption": "พร้อมลงสนามฝึก",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-35",
+      "caption": "ตรวจความพร้อมครับ",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-36",
+      "caption": "ประเมินผลกันครับ",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-37",
+      "caption": "เก็บบทเรียนไว้",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-38",
+      "caption": "นำไปใช้จริงครับ",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-39",
+      "caption": "ฝึกเพื่อช่วยชีวิต",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S04-40",
+      "caption": "ฝึกเพื่อรับใช้ประชาชน",
+      "intent": "ความพร้อม",
+      "pose": "ถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

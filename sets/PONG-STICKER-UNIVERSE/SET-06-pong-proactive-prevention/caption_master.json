@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-06",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S06-01",
+      "caption": "ช่วยกันเฝ้าระวัง",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-02",
+      "caption": "สังเกตสิ่งผิดปกติ",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-03",
+      "caption": "เฝ้าดูอย่างรอบคอบ",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-04",
+      "caption": "ระวังภัยรอบตัว",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-05",
+      "caption": "ตรวจสอบก่อนเชื่อ",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-06",
+      "caption": "แจ้งเมื่อพบเหตุ",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-07",
+      "caption": "ป้องกันก่อนเกิดภัย",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-08",
+      "caption": "รู้ทันความเสี่ยง",
+      "intent": "เฝ้าระวัง",
+      "pose": "ดูแผนที่ชุมชน",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-09",
+      "caption": "ร่วมดูแลชุมชน",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-10",
+      "caption": "ช่วยกันป้องกัน",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-11",
+      "caption": "ชุมชนร่วมใจ",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-12",
+      "caption": "ฟังเสียงในพื้นที่",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-13",
+      "caption": "ร่วมแก้ปัญหาครับ",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-14",
+      "caption": "ประสานกันทันที",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-15",
+      "caption": "มีเบาะแสแจ้งได้",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-16",
+      "caption": "ร่วมสร้างความปลอดภัย",
+      "intent": "ร่วมมือ",
+      "pose": "จับมือเครือข่าย",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-17",
+      "caption": "พร้อมดูแลพื้นที่",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-18",
+      "caption": "แจ้งเหตุได้ครับ",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-19",
+      "caption": "รับแจ้งแล้วครับ",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-20",
+      "caption": "ช่วยตรวจสอบให้ครับ",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-21",
+      "caption": "รับฟังข้อมูลครับ",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-22",
+      "caption": "ขอข้อมูลเพิ่มเติม",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-23",
+      "caption": "ยินดีประสานงาน",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-24",
+      "caption": "ช่วยกันดูแลนะครับ",
+      "intent": "บริการ",
+      "pose": "รับโทรศัพท์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-25",
+      "caption": "วางแผนก่อนลงมือ",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-26",
+      "caption": "วิเคราะห์ความเสี่ยง",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-27",
+      "caption": "สำรวจจุดเสี่ยง",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-28",
+      "caption": "ทำงานเป็นทีม",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-29",
+      "caption": "วางมาตรการป้องกัน",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-30",
+      "caption": "ตรวจความพร้อมหน่วย",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-31",
+      "caption": "ติดตามผลครับ",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-32",
+      "caption": "ปรับแผนให้ทันเหตุ",
+      "intent": "ทำงานเชิงรุก",
+      "pose": "ดูเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-33",
+      "caption": "ปลอดภัยไปด้วยกัน",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-34",
+      "caption": "ป้องกันไว้ก่อน",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-35",
+      "caption": "ทุกคนช่วยกันได้",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-36",
+      "caption": "ดูแลเพื่อนบ้านกัน",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-37",
+      "caption": "ใส่ใจความปลอดภัย",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-38",
+      "caption": "ไม่ประมาทนะครับ",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-39",
+      "caption": "ชุมชนปลอดภัยขึ้น",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S06-40",
+      "caption": "ร่วมใจพิทักษ์ภัย",
+      "intent": "สร้างความอุ่นใจ",
+      "pose": "ถือโล่สัญลักษณ์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

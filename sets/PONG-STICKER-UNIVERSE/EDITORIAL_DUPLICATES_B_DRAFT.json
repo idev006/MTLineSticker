@@ -1,0 +1,27 @@
+{
+  "scope": "8 sets / 320 captions",
+  "normalized_exact_duplicates": [
+    [
+      "S07-19",
+      "S10-09",
+      "ตรวจสอบข้อเท็จจริง"
+    ],
+    [
+      "S04-20",
+      "S11-06",
+      "แลกเปลี่ยนกันครับ"
+    ],
+    [
+      "S11-01",
+      "S13-09",
+      "เปิดใจรับฟัง"
+    ],
+    [
+      "S04-19",
+      "S13-14",
+      "เรียนรู้จากกัน"
+    ]
+  ],
+  "semantic_qa": "NOT_RUN",
+  "owner_action": "Review duplicates and approve rewritten captions before G3"
+}

@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-09",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S09-01",
+      "caption": "ตอบแทนคุณแผ่นดิน",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-02",
+      "caption": "เพื่อแผ่นดิน",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-03",
+      "caption": "ทำเพื่อส่วนรวม",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-04",
+      "caption": "ทำหน้าที่ให้ดีที่สุด",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-05",
+      "caption": "ด้วยความภาคภูมิใจ",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-06",
+      "caption": "รักษาคำมั่นครับ",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-07",
+      "caption": "ตั้งใจทำความดี",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-08",
+      "caption": "เพื่อประโยชน์ส่วนรวม",
+      "intent": "ปณิธาน",
+      "pose": "มือแตะอก",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-09",
+      "caption": "มีวินัยกันครับ",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-10",
+      "caption": "เริ่มที่ตัวเรา",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-11",
+      "caption": "ทำตามระเบียบ",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-12",
+      "caption": "รักษาหน้าที่ครับ",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-13",
+      "caption": "ตรงต่อเวลากัน",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-14",
+      "caption": "ตรวจความเรียบร้อย",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-15",
+      "caption": "วินัยสร้างความเชื่อมั่น",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-16",
+      "caption": "รับผิดชอบทุกงาน",
+      "intent": "วินัย",
+      "pose": "ยืนตรงถือเช็กลิสต์",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-17",
+      "caption": "ยึดความถูกต้อง",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-18",
+      "caption": "โปร่งใสตรวจสอบได้",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-19",
+      "caption": "ซื่อตรงต่อหน้าที่",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-20",
+      "caption": "ทำงานอย่างเป็นธรรม",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-21",
+      "caption": "ไม่ละเลยหลักการ",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-22",
+      "caption": "ตรวจสอบได้ครับ",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-23",
+      "caption": "ยืนหยัดสิ่งที่ถูก",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-24",
+      "caption": "เคารพกติกา",
+      "intent": "สุจริต",
+      "pose": "ถือแฟ้มโปร่งใส",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-25",
+      "caption": "พร้อมรับผิดชอบ",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-26",
+      "caption": "ชี้แจงตามข้อเท็จจริง",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-27",
+      "caption": "ลงมือแก้ไขครับ",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-28",
+      "caption": "แก้ไขเมื่อผิดพลาด",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-29",
+      "caption": "รับฟังทุกข้อเสนอ",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-30",
+      "caption": "ยอมรับและปรับปรุง",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-31",
+      "caption": "รักษามาตรฐาน",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-32",
+      "caption": "เป็นแบบอย่างที่ดี",
+      "intent": "รับผิดชอบ",
+      "pose": "ตอบรับแฟ้ม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-33",
+      "caption": "น้ำหนึ่งใจเดียว",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-34",
+      "caption": "มุ่งมั่นทำหน้าที่",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-35",
+      "caption": "ช่วยกันรักษาเกียรติ",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-36",
+      "caption": "ร่วมแรงร่วมใจ",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-37",
+      "caption": "ทำดีเพื่อประชาชน",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-38",
+      "caption": "ยึดมั่นในคำสัตย์",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-39",
+      "caption": "รวมใจทำสิ่งดี",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S09-40",
+      "caption": "หน้าที่มาก่อนเสมอ",
+      "intent": "ร่วมใจ",
+      "pose": "จับมือทีม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "set_id": "PONG-SET-12",
+  "status": "DRAFT",
+  "count": 40,
+  "captions": [
+    {
+      "frame_id": "S12-01",
+      "caption": "ร่วมมือกันครับ",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-02",
+      "caption": "ประสานงานครับ",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-03",
+      "caption": "พร้อมร่วมมือครับ",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-04",
+      "caption": "เชื่อมพลังกัน",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-05",
+      "caption": "ยินดีประสานต่อ",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-06",
+      "caption": "ติดต่อประสานได้",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-07",
+      "caption": "ร่วมแรงร่วมใจกัน",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-08",
+      "caption": "เราคือทีมเดียวกัน",
+      "intent": "ประสาน",
+      "pose": "จับมือภาคี",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-09",
+      "caption": "นัดหารือกันครับ",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-10",
+      "caption": "ขอความเห็นทุกฝ่าย",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-11",
+      "caption": "ร่วมวางแผนกัน",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-12",
+      "caption": "เปิดเวทีรับฟัง",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-13",
+      "caption": "สรุปข้อตกลงครับ",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-14",
+      "caption": "กำหนดงานร่วมกัน",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-15",
+      "caption": "เชื่อมข้อมูลที่จำเป็น",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-16",
+      "caption": "แบ่งหน้าที่ชัดเจน",
+      "intent": "ประชุมร่วม",
+      "pose": "ชี้แผนร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-17",
+      "caption": "พร้อมสนับสนุน",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-18",
+      "caption": "ช่วยกันแก้ปัญหา",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-19",
+      "caption": "ขอบคุณทุกภาคส่วน",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-20",
+      "caption": "ช่วยกันลงมือครับ",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-21",
+      "caption": "แบ่งปันทรัพยากร",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-22",
+      "caption": "ร่วมส่งต่อความช่วยเหลือ",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-23",
+      "caption": "เป็นกำลังใจให้ทีม",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-24",
+      "caption": "เกื้อกูลกันครับ",
+      "intent": "สนับสนุน",
+      "pose": "ยื่นมือช่วยเหลือ",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-25",
+      "caption": "เดินหน้าไปด้วยกัน",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-26",
+      "caption": "ตามแผนร่วมกันครับ",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-27",
+      "caption": "ร่วมติดตามผล",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-28",
+      "caption": "ปัญหาแก้ได้ด้วยกัน",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-29",
+      "caption": "สานต่อความร่วมมือ",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-30",
+      "caption": "มุ่งเป้าหมายเดียวกัน",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-31",
+      "caption": "ไม่ทิ้งใครไว้ข้างหลัง",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-32",
+      "caption": "ส่งต่อข้อมูลให้ทีม",
+      "intent": "เดินหน้า",
+      "pose": "ก้าวเดินเคียงข้าง",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-33",
+      "caption": "ขอบคุณที่ร่วมมือ",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-34",
+      "caption": "ขอบคุณเครือข่ายครับ",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-35",
+      "caption": "ดีใจที่ได้ร่วมงาน",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-36",
+      "caption": "ขอบคุณความไว้วางใจ",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-37",
+      "caption": "ยินดีร่วมภารกิจ",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-38",
+      "caption": "ทำประโยชน์ร่วมกัน",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-39",
+      "caption": "ร่วมใจเพื่อประชาชน",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    },
+    {
+      "frame_id": "S12-40",
+      "caption": "เราทำได้ด้วยกัน",
+      "intent": "ขอบคุณภาคี",
+      "pose": "ไหว้/ยิ้มร่วม",
+      "caption_type": "C1_CREATIVE_CANDIDATE",
+      "source_evidence": "EDITORIAL_DRAFT; POLICY_CONTEXT_NEEDS_REVIEW",
+      "owner_caption_approval": "PENDING"
+    }
+  ]
+}
